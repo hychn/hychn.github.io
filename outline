@@ -1,0 +1,37 @@
+#!/usr/bin/python3
+import sys
+from ytil import ytl
+
+fname = sys.argv[1]
+oname = sys.argv[2]
+L = ytl.writeFileToList(fname)
+
+def coded(key, line):
+    line = line.strip()
+    print( line[:4] , line[-4:] )
+    return (key == line[:4]) or (key ==line[-4:])
+
+
+a = ['PRF:',':QED']
+b = ['CMT:',':CMT']
+structs = [a,b]
+
+G = []
+g = []
+for l in L:
+    if l.startswith('#'):
+        G.append(g)
+        g = []
+    g.append(l)
+G.append(g)
+G.pop(0)
+
+def process(g):
+    _g = []
+    for x in g:
+        if x.strip() != '': _g.append(x)
+    return _g
+
+G = [ process(g)[:2] for g in G ]
+L = sum(G, [])
+ytl.writeListToFile(L, oname)

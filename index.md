@@ -1,9 +1,11 @@
 * ./
 * [A.journal.html](https://hychn.github.io/html/A.journal.html)
+* [A.journalout.html](https://hychn.github.io/html/A.journalout.html)
 * [A.objectives.html](https://hychn.github.io/html/A.objectives.html)
 * [A.study_guide.html](https://hychn.github.io/html/A.study_guide.html)
 * [B.math_log.html](https://hychn.github.io/html/B.math_log.html)
 * [B.se3.html](https://hychn.github.io/html/B.se3.html)
+* [C.alg.html](https://hychn.github.io/html/C.alg.html)
 * [workout.html](https://hychn.github.io/html/workout.html)
 * [Z.scratch.html](https://hychn.github.io/html/Z.scratch.html)
 * ./projects

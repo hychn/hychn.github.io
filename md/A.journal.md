@@ -1,4 +1,5 @@
 # 210824
+
 * When you read you feel flow quite quickly. How can similar thing happen for math?
 * Some ideas?
  
