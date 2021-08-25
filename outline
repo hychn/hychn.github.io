@@ -32,6 +32,6 @@ def process(g):
         if x.strip() != '': _g.append(x)
     return _g
 
-G = [ process(g)[:2] for g in G ]
+G = [ process(g)[:2]+['\n'] for g in G ]
 L = sum(G, [])
 ytl.writeListToFile(L, oname)
