@@ -1,0 +1,150 @@
+#!/usr/bin/python3
+#print('Content-type: text/html')
+
+# TODO: Extend to put placeholder for multiline latex
+# Extend to work for directory crawling
+# Clean code a bit, write diagram of information flow
+
+
+# So we are going to look through all files of *.md and generate *.html
+#  Convert md to html markdown while ignorning latex code and putting it as plain text
+# Things we need to convert are
+# #  <h1>
+# ** <b>
+# * <i>
+# * <ul>
+import markdown2
+from ytil import ytl
+
+#def remove_empty(L):
+    #return [s for s in L if s != ""]
+#
+#idx = 0
+#def build_codex(l,K='CDXLTX:'):
+    #cdxdict = {}
+    #l_ = l.copy()
+#
+    #for i,s in enumerate(l):
+#
+        #if i%2==0:
+            #k = K+str(idx)
+            #cdxdict[k] = s
+            #l_[i] = k
+            #idx += 1
+#
+    #return l_,cdxdict
+#
+#L = ytl.writeFileToList('test.md')
+#L = [remove_empty(l.split('$')) for l in L]
+#LC = [build_codex(l) for l in L]
+#codex = {};[codex.update(c) for l,c in LC]
+#L = [l for l,c in LC]
+#mkdownstr = '\n'.join(L) print( markdown2.markdown(mkdownstr) ) 
+# Extract all latex and store in sequential array and put placeholder text
+# save converted file to temp
+#print( markdown2.markdown_path('test.md') )  # or use `html = markdown_path(PATH)`
+
+import sys
+idx = 0
+
+def toMathJaxStr(s):
+    k = s[0]
+    s = s[1:-1]
+    if k == '$':
+        return "\\("+s+'\\)'
+        
+    elif k == '`':
+        return '$$'+s+'$$'
+
+def ordr(i, MAX=sys.maxsize):
+    if i<0:
+        i = MAX
+    return i
+
+def codexstr():
+    global idx
+    c = 'LTXCD'+str(idx).zfill(5)
+    idx += 1
+    return c
+
+def codify(L):
+    if L =='':
+        return '',{}
+
+    L = L.replace('$$','`')
+    IDX = []
+    a = 0
+    while a < len(L):
+        a = a+min( ordr(L[a:].find('`')), ordr(L[a:].find('$')) )+1
+        IDX.append(a-1)
+        
+
+    codex = {}
+    L_ = []
+    for i in range(len(IDX)-1):
+        a,b = IDX[i], IDX[i+1]
+        if i%2 == 0:
+            c = codexstr()
+            L_.append( c )
+            codex[c] = toMathJaxStr( L[a:b+1] )
+        else:
+            L_.append( L[a+1:b] )
+            
+    A,B = IDX[0], IDX[-1]
+    if 0<A:
+        L_.insert(0, L[0:A] )
+    if B<len(L)-1:
+        L_.append(L[B:])
+    return ''.join(L_), codex
+#IDX.append(len(L))
+import sys
+fname = sys.argv[1]
+dest = sys.argv[2]
+
+print('compiling', fname)
+L = ytl.writeFileToList(fname)
+
+def san_repr(x):
+    x = repr(x)
+    if len(x)>=2:
+        x = x[1:-1]
+    return x
+
+#L = [san_repr(l) for l in L]
+codex = {}
+L_ = []
+for l in L:
+    l,c = codify(l)
+    L_.append(l)
+    codex.update(c)
+
+mkdownstr = '\n'.join(L_)
+L = markdown2.markdown(mkdownstr).split('\n')
+
+def codexify(L, codex):
+    K = sorted( codex.keys() )
+    A = 0
+    for k in K:
+        for i in range(A, len(L)):
+            l = L[i]
+            if k in l:
+                L[i] = L[i].replace(k, codex[k] )
+                break;
+            else:
+                A = i
+    return L
+
+L = codexify(L, codex)
+
+def mathjaxL(L):
+    no_cache_meta = '<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" />'
+    A = '<!DOCTYPE html><html><head><title>Title</title>'+no_cache_meta+'<link rel = "stylesheet" type = "text/css" href = "https://ychnh.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://ychnh.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <button onclick="toggle_show()">Table of Contents</button> <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> <div id="contents">'
+    B = '</div></body> </html>'
+    L.insert(0, A)
+    L.append(B)
+    return L
+
+L = mathjaxL(L)
+
+name = fname[:-3]
+ytl.writeListToFile(L, dest)
