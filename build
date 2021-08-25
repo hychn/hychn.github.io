@@ -7,7 +7,7 @@ import argparse
 
 MD = 'md'
 HTML = 'html'
-WEBROOT = 'https://ychnh.github.io/'
+WEBROOT = 'https://hychn.github.io/'
 
 parser = argparse.ArgumentParser(description='Compile')
 parser.add_argument('--f', metavar='N', type=bool, default=False, help='Force rebuild')
