@@ -1,6 +1,5 @@
 * ./
 * [A.journal.html](https://hychn.github.io/html/A.journal.html)
-* [A.journalout.html](https://hychn.github.io/html/A.journalout.html)
 * [A.objectives.html](https://hychn.github.io/html/A.objectives.html)
 * [A.outline.html](https://hychn.github.io/html/A.outline.html)
 * [A.study_guide.html](https://hychn.github.io/html/A.study_guide.html)
