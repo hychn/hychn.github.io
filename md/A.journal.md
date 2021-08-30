@@ -1,3 +1,14 @@
+# 210830
+
+    It’s  the  practice  of  not  immediately  filling  upspace just because there’s a gap.
+
+    Noticing how we try to avoid it is a way to get intouch  with  basic  groundlessness.  Refraining—nothabitually acting out impulsively—has something todo with giving up entertainment mentality. Throughrefraining,  we  see  that  there’s  something  betweenthe  arising  of  the  craving—or  the  aggression  or  theloneliness  or  whatever  it  might  be—and  whateveraction we take as a result. There’s something there inus that we don’t want to experience, and we never doexperience, because we’re so quick to act.Not Causing Harm43
+
+    Refraining is the method for getting to know thenature of this restlessness and fear. It’s a method forsettling  into  groundlessness.  If  we  immediately  en-tertain ourselves by talking, by acting, by thinking—if there’s never any pause—we will never be able torelax. We will always be speeding through our lives.We’ll  always  be  stuck  with  what  my  grandfathercalled a good case of the jitters. 
+
+    Once there was a young warrior. Her teacher toldher  that  she  had  to  do  battle  with  fear. w canI defeat you?” Fear replied, “My weapons are that Italk fast, and I get very close to your face. Then youget completely unnerved, and you do whatever I say.If you don’t do what I tell you, I have no power. Youcan listen to me, and you can have respect for me.You can even be convinced by me. But if you don’t dowhat I say, I have no power.” In that way, the studentwarrior learned how to defeat fear.
+
+
 # 210824
 
 * When you read you feel flow quite quickly. How can similar thing happen for math?
