@@ -2,9 +2,10 @@
 
 ## What motivates you?
 
-* Showmanship
-* Craftsmanship
-* 
+* Extrinsic motivation
+  * Showmanship
+  * Craftsmanship
+* Instrinsic motivation
 
 ## Filling in the spaces 
 
