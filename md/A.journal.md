@@ -1,3 +1,30 @@
+# 210831
+
+## What motivates you?
+
+* Showmanship
+* Craftsmanship
+* 
+
+## Filling in the spaces 
+
+    B
+    
+    R
+    ASM
+    WIK
+    
+    TN
+    K
+    WH
+    D
+    S
+    
+    I
+    F
+    
+    DOCS
+
 # 210830
 
     It’s  the  practice  of  not  immediately  filling  upspace just because there’s a gap.
