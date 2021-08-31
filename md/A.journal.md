@@ -2,7 +2,7 @@
 
     It’s  the  practice  of  not  immediately  filling  upspace just because there’s a gap.
 
-    Noticing how we try to avoid it is a way to get intouch  with  basic  groundlessness.  Refraining—nothabitually acting out impulsively—has something todo with giving up entertainment mentality. Throughrefraining,  we  see  that  there’s  something  betweenthe  arising  of  the  craving—or  the  aggression  or  theloneliness  or  whatever  it  might  be—and  whateveraction we take as a result. There’s something there inus that we don’t want to experience, and we never doexperience, because we’re so quick to act.Not Causing Harm43
+    Noticing how we try to avoid it is a way to get intouch  with  basic  groundlessness.  Refraining—nothabitually acting out impulsively—has something todo with giving up entertainment mentality. Throughrefraining,  we  see  that  there’s  something  betweenthe  arising  of  the  craving—or  the  aggression  or  theloneliness  or  whatever  it  might  be—and  whateveraction we take as a result. There’s something there inus that we don’t want to experience, and we never doexperience, because we’re so quick to act.
 
     Refraining is the method for getting to know thenature of this restlessness and fear. It’s a method forsettling  into  groundlessness.  If  we  immediately  en-tertain ourselves by talking, by acting, by thinking—if there’s never any pause—we will never be able torelax. We will always be speeding through our lives.We’ll  always  be  stuck  with  what  my  grandfathercalled a good case of the jitters. 
 
