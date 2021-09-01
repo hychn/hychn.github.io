@@ -1,5 +1,6 @@
 # Guiding Questions
 
+* Find a perspective that makes you want to do things instead of having to do them
 * What inspires you to learn, understand?
 * Do we really need to spend time learning this?
 * What are we studying here? Knowledge acquisition and internalization
