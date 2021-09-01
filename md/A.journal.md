@@ -1,3 +1,12 @@
+# 210901
+
+* So we were stuck on permutation
+  * Do we have to learn it?
+  * Can we skip it?
+  * Always question the issues you are dealing with from every angle.
+    * Write about it, talk about it, think about it, feel about it in the hopes the answer will come to you
+
+
 # 210831
 
 ## What motivates you?
@@ -6,6 +15,12 @@
   * Showmanship
   * Craftsmanship
 * Instrinsic motivation
+
+* Environment
+* Unsuitable circumstances
+* Inspiration
+  * Find reasons why it is interesting
+      * I want to see the connections and how it works and understand it :)
 
 ## Filling in the spaces 
 

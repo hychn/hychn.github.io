@@ -1,8 +1,10 @@
 # Guiding Questions
 
+* What inspires you to learn, understand?
+* Do we really need to spend time learning this?
 * What are we studying here? Knowledge acquisition and internalization
 * What are the key themes?
-* What are you qurious about?
+* What are you curious about? 
 * Why is it interesting/significant?
 * What is narrative, progression?
 
@@ -54,6 +56,12 @@
 * (Research) Questions, (Research) Problems
 
 # Motivation
+* Internal vs External Motivation
+* Inspiration
+  * Find reasons why it is interesting
+  * I want to see the connections and how it works and understand it :)
+* Showmanship and Craftsmanship
+  * To take pride in one's work
 * If you want something, you must go after it with all your might and capacity.
 * You musted be obessed. Focused
 * Problems are like training drills. To review your mastery of the material.
@@ -62,3 +70,10 @@
 * Start small 
 * Some progress is better than none
 * If something is worth doing, it is worth doing badly
+
+# STUCK
+* So we were stuck on permutation
+  * Do we have to learn it?
+  * Can we skip it?
+  * Always question the issues you are dealing with from every angle.
+    * Write about it, talk about it, think about it, feel about it in the hopes the answer will come to you
