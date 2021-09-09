@@ -1,5 +1,13 @@
 # Guiding Questions
 
+* Dont feel pride in what you accomplish because that will ruin the fun in the long run
+  * Be content and happy for just exploring. Imagine you are surfing and you take pride in 'oh I surfed that big wave, or oh I'm so better than others', you'll not enjoy the moment...
+
+* When you are thinking and meditating
+  * Try working with the objects in your mind, if you have to write write as least as you can
+  * it must become so simple, so that you can fluidly work with the concepts in your mind, 
+  * Because being hunched over desk is no fun, i must develop my memory
+
 * Find a perspective that makes you want to do things instead of having to do them
 * What inspires you to learn, understand?
 * Do we really need to spend time learning this?
@@ -8,6 +16,11 @@
 * What are you curious about? 
 * Why is it interesting/significant?
 * What is narrative, progression?
+
+* What is a good way to make sure I can understand the old material/theorma I learned quickly?
+  * This is a good question, i think there is no other way but to dig deep.
+
+
 
 
 # Guiding Methods

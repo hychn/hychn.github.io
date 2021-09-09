@@ -1,3 +1,16 @@
+# 210902
+
+* Last night i played 3hr of league and 1hr of dst
+* It did not feel good in the morning and at night
+* The sht in the morning was amazing though
+* Why did i play? Hmm... I felt lonely and was tired of my routine
+
+* had a very strange dream, I met and chted on Lauren
+  * How did it make you feel? I felt terrible
+  * It felt so right at the moment but afterwards the guilt
+  * I dont know why or where you get the idea of being with many women is a good thing but I think for now lets try to make just one fall in lov over and over and over again
+  * Honestly, it doesnt matter what she does. I should focus on being the best I can
+
 # 210901
 
 * So we were stuck on permutation
@@ -6,6 +19,54 @@
   * Always question the issues you are dealing with from every angle.
     * Write about it, talk about it, think about it, feel about it in the hopes the answer will come to you
 
+## Reflections on 9.0
+
+I spent a good bit of time from end of oct to the end of april playing
+First was leveling with chaewon. we had alot of fun, hit 60
+first fight pvp against a 10lvl higher
+Mage school haha
+And the fights in world quests forests and out in the grassy plain beach
+And then I was doing random dungeons and met light
+He showed me horde side and i met onne.
+We did 1v1s and i beat both of them it was really exhilarating
+They showed me how to do mythic keys
+And raiding to get the drag mnt
+Then I would start camping people, do some bgs, it was such an awesome experience.
+I reallyed had alot of fun but chaewon lost interest around this point
+
+9.0 released on novemverish and I took a week to level to 70.
+I started doing unranked 2s and i met Hoch.
+I was also farming callous leather and I made around 1.5 mil which ensured I didnt have to pay for sub for the rest of my journey
+Hoch showed me some things, some basics
+I also met a basic pala who was pretending to be gucci. I eventually outlearned him. there wasn't much to learn. He seem bit butthurt
+I also met dawn sound in tigarde he also pretended. eventually out ranked him and he also seemed butthurt
+He was doing alot of mythics tho later got ilvl 225
+I remember the first time I had a good master is when i 1v2 palas.
+It was really amazing and I felt like i was getting getting stronger
+When rank released i played hard and got to 1450 because my set was broken.
+After some changes, i got set back to 1100 and i started playing with random just to get some xperience
+I also lvl my horde alt and during leveling i could dominate other lvlers due to my pvp experience
+then i got frustrated with ppl i was playing with
+I got better and push to 1400 again on my own
+I met another rg and we pushed really hard with broken strat, double duel and then we made it 1600.
+It was an amazing feeling! It happend in 2 months
+And then I did the same thing on my ally alt just found another random and push to 1600 multiple times
+I had a couple of close pushes to 1800 but what i was lacking was dmg rotation and was being too nervous
+My heart would beat too much
+I started playing rbg more often
+2 big battles come to mind
+1 guy, 'call of the blood' didn't like me so he said rog full. I made my own party with 3 rog and we won
+And we were smacking on him all fight in AV. I met him couple more times in the future. It did not end well for him.
+I ended up making a name for myself.
+I joined some other matches. The other rog in the 3 rog was competing against in diff battles.
+He ended up getting destroyed. just completely outplayed with 6 kidney, bridg sap, 2v1 outplay
+I also met cold. we had alot of fun messing around. doing 2s we eventually played tbc which was a bunch of leveling
+and showing ppl who the top dog was while leveling and ganging and warring.
+And then i kinda got tired of it. I didn't want to do it anymore.
+And i had to leave for military service
+And I wanted to be healthier
+So it stopped
+It was a good journey
 
 # 210831
 
