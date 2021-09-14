@@ -1,3 +1,18 @@
+# 210914
+
+* Men must be taught as if you taught them not And things unknown proposed as things forgot
+* You cannot teach a man anything; you can only help him to find it within himself
+* Be wiser than other people if you can; but do not tell them so.
+* One thing only I know, and that is that I know nothing. 
+
+* There’s magic, positive magic, in such phrases as: "I may be wrong. I frequently am. Let’s examine the facts.
+
+* Few people are logical. Most of us are prejudiced and biased. Most of us are blighted with preconceived notions, with jealousy, suspicion, fear, envy and pride. And most citizens don’t want to change their minds about their religion or their haircut or communism or their favorite movie star
+
+    "I made it a rule,” said Franklin, “to forbear all direct contradiction to the sentiment of others, and all positive assertion of my own, I even forbade myself the use of every word or expression in the language that imported a fix’d opinion, such as ‘certainly,’ ‘undoubtedly,’etc., and I adopted, instead of them, ‘I conceive,’ ‘I apprehend,’ or ‘I imagine’ a thing to be so or so, or ‘it so appears to me at present.’ When another asserted something that I thought an error, I deny’d myself the pleasure of contradicting him abruptly, and of showing immediately some absurdity in his proposition: and in answering I began by observing that in certain cases or circumstances his opinion would be right, but in the present case there appear’d or seem’d to me some difference, etc. I soon found the advantage of this change in my manner; the conversations I engag’d in went on more pleasantly. The modest way in which I propos’d my opinions procur'd them a readier reception and less contradiction; I had less mortification when I was found to be in the wrong, and I more easily prevaile'd with others to give up their mistakes and join with me when I happened to be in the right.
+
+* "He who treads softly goes far."
+
 # 210902
 
 * Last night i played 3hr of league and 1hr of dst
