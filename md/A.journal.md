@@ -1,3 +1,11 @@
+# 210915
+
+    The day is not a bore
+    Filled with many chores
+    It is an opportunity
+    Grasp the moment, sieze it as you will
+    To become who you dream to be
+
 # 210914
 
 * Men must be taught as if you taught them not And things unknown proposed as things forgot
@@ -12,6 +20,9 @@
     "I made it a rule,” said Franklin, “to forbear all direct contradiction to the sentiment of others, and all positive assertion of my own, I even forbade myself the use of every word or expression in the language that imported a fix’d opinion, such as ‘certainly,’ ‘undoubtedly,’etc., and I adopted, instead of them, ‘I conceive,’ ‘I apprehend,’ or ‘I imagine’ a thing to be so or so, or ‘it so appears to me at present.’ When another asserted something that I thought an error, I deny’d myself the pleasure of contradicting him abruptly, and of showing immediately some absurdity in his proposition: and in answering I began by observing that in certain cases or circumstances his opinion would be right, but in the present case there appear’d or seem’d to me some difference, etc. I soon found the advantage of this change in my manner; the conversations I engag’d in went on more pleasantly. The modest way in which I propos’d my opinions procur'd them a readier reception and less contradiction; I had less mortification when I was found to be in the wrong, and I more easily prevaile'd with others to give up their mistakes and join with me when I happened to be in the right.
 
 * "He who treads softly goes far."
+* “All men have fears, but the brave put down their fears and go forward, sometimes to death, but always to victory
+
+* “I consider my ability to arouse enthusiasm among my people,” said Schwab, “the greatest asset I possess, and the way to develop the best that is in a person is by appreciation and encouragement
 
 # 210902
 
