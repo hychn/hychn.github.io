@@ -1,7 +1,17 @@
 # Guiding Questions
 
+* Breathe
+* enjoy the present/process journey, not the destination
+
 * Dont feel pride in what you accomplish because that will ruin the fun in the long run
   * Be content and happy for just exploring. Imagine you are surfing and you take pride in 'oh I surfed that big wave, or oh I'm so better than others', you'll not enjoy the moment...
+  * Men must be taught as if you taught them not And things unknown proposed as things forgot
+  * You cannot teach a man anything; you can only help him to find it within himself
+  * Be wiser than other people if you can; but do not tell them so.
+  * One thing only I know, and that is that I know nothing. 
+  * There’s magic, positive magic, in such phrases as: "I may be wrong. I frequently am. Let’s examine the facts.
+
+
 
 * When you are thinking and meditating
   * Try working with the objects in your mind, if you have to write write as least as you can

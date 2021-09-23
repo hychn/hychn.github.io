@@ -1,3 +1,18 @@
+# LIFT
+
+* Focus on form. Volume-based. The weight will come after.
+* Enjoy the process not the destination
+* Breathe!
+
+* Progression on Pullup
+* Progression on Bench
+* Progression on Squat
+* Learn Deadlift
+
+* Backburn
+  * Row
+  * OHPress
+
 # Math
 
 ## Algebra
@@ -128,12 +143,3 @@
 
 --------------------------------------
 
-# LIFT
-* Focus on form. The weight will come after.
-* Lifts
-	* Bench
-	* Squat
-	* Row
-	* OHPress
-	* Pullup
-	* Deadlift
