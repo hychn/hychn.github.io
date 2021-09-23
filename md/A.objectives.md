@@ -1,14 +1,14 @@
 # LIFT
 
-* Focus on form. Volume-based. The weight will come after.
-* Enjoy the process not the destination
-* Breathe!
-
-* Progression on Pullup
-* Progression on Bench
-* Progression on Squat
-* Learn Deadlift
-
+* Guiding mindset
+  * Focus on form. Volume-based. The weight will come after.
+  * Enjoy the process not the destination
+  * Breathe!
+* Progressions
+  * Progression on Pullup
+  * Progression on Bench
+  * Progression on Squat
+  * Learn Deadlift
 * Backburn
   * Row
   * OHPress
