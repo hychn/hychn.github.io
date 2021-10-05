@@ -1,3 +1,35 @@
+# 20211005
+
+* Am I missing something by only thinking along this particular direction?
+I was working with transpositions and cycles and I began to grasp and explain ideas only in terms of the cycle transposition algebra
+However, I felt like I was missing a deeper picture by not considering thses objects for what they really were, permutation maps
+
+# 20219027
+
+## Hungerford Theorem 1.6.7
+
+A permutation $S_n (n>2)$ cannot be both even and odd
+
+Key question: What property should we start with and look at?
+Since even and odd is defined by the numb of transpositions we should observe the properties of transposition
+
+Then we looked at how transposition affects permutation, it switches the two elements. 
+But it was difficult to see any particular pattern from here
+Is there a simpler example we could look at? Yes, cycles
+Transpositions either add, remove, split cycles such that it reduces the total number by 1
+
+Since, a permutation is a product of disjoint cycles we could see how transpositions affect permutations in a similar way
+
+$P = even /rightarrow P(even)^{-1} = ident$
+$P = odd /rightarrow P(odd)^{-1} = ident$
+
+The identity must be no transpositions remaining, the number must be 0
+P's number from the disjoint cycle is fixed N. and we claim N+(+1-1+1-1...) = N+(+1-1+1-1...) = N+odd = N+even
+
+
+
+
+
 # 20200722
 * Dont giveup keep trying
 * look for small patterns, keep digging, 

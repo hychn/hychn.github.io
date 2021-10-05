@@ -1,4 +1,5 @@
 # LIFT
+* Progression x Proper form (Once the top set starts feeling easy, progress)
 
 * Guiding mindset
   * Focus on form. Volume-based. The weight will come after.

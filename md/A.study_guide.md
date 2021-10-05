@@ -1,7 +1,15 @@
 # Guiding Questions
 
+* Why did I burn out and how can I prevent?
+  * Seek to understand, not to finish
+  * Seek to explore, not to claim
+  * Seek for learning and be humble, do not be prideful
+  * Take your time, do not rush
+  * Be consistent
+
+* Progression? What would you like to become?
 * Breathe
-* enjoy the present/process journey, not the destination
+* Enjoy the present/process journey, not the destination
 
 * Dont feel pride in what you accomplish because that will ruin the fun in the long run
   * Be content and happy for just exploring. Imagine you are surfing and you take pride in 'oh I surfed that big wave, or oh I'm so better than others', you'll not enjoy the moment...
@@ -30,6 +38,9 @@
 * What is a good way to make sure I can understand the old material/theorma I learned quickly?
   * This is a good question, i think there is no other way but to dig deep.
 
+* What is the desired end goal?
+  * Be able to work with ideas and at least keep up with the pace of regular semester in the depth I would like
+  * Be careful of sinkholes
 
 
 
