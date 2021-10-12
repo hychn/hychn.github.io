@@ -1,5 +1,27 @@
 # Guiding Questions
 
+* Most importantly, how to have fun
+  * Schedule the time and work on it as an activity
+  * Work on train of thought and focus
+  * How to progress
+
+* When trying to decide whether something is true or false, work through the possibilities and see if each step contradics the given facts
+  * for example consider the normal sets $ A /delta B /delta G$ is A normal in G?
+  * Well does $gAg^-1$ return to A? $gBg^-1$ returns to B and $bAb^-1$ returns to A. If g in $gAg^-1$ is not in B, there is nothing which stops it from being in $B/A$
+
+* What is interest? It is when I can keep thinking about the idea in my head
+* Make sure you are intrested in the problem. interest, intrinsic
+    * Interest: of importance, to be between (inter) between
+    * Intrinsic: (intra) within
+
+* How can I explore effectively.
+  * What must be true?
+  * Dont assume that this will lead to an answer but do explore
+  * Think simple. Work simple
+  * It is very hard sometimes haha, understand your limitations
+
+* Extrinsic motivation will reduce the intrinsic motivation of the activity
+
 * Why did I burn out and how can I prevent?
   * Seek to understand, not to finish
   * Seek to explore, not to claim
