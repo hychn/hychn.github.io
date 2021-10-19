@@ -12,4 +12,5 @@
 * Try to ride along side of wave
 * Paddle, bend elbow reach under board
 * Paddle slow at start then fast at end.
+    * start with elbow high?
 * Flutter kick at very end
