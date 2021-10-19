@@ -6,6 +6,7 @@
 * [B.math_log.html](https://hychn.github.io/html/B.math_log.html)
 * [B.se3.html](https://hychn.github.io/html/B.se3.html)
 * [C.alg.html](https://hychn.github.io/html/C.alg.html)
+* [surf.html](https://hychn.github.io/html/surf.html)
 * [workout.html](https://hychn.github.io/html/workout.html)
 * [Z.scratch.html](https://hychn.github.io/html/Z.scratch.html)
 * ./projects
