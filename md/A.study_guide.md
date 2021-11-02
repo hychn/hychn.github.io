@@ -1,5 +1,22 @@
 # Guiding Questions
 
+* When I was learning in school, it was quite fun.
+  * Because of community and motivation
+  * Because of exam that is pressuring
+  * How can we recreate a similar experience?
+
+* What gives you interest?
+  * I wanna be cool
+* What happended in your past when you were self-exploring and didn't find much progress?
+  * Lack of a concrete goal, image of who I was going to be
+* When in your life did you find alot of progress?
+  * Focus
+  * Dedication
+* Who do you want to be for real?
+  * A friend of God, Fitness, Mathematics
+* What is the reason why you chose these two?
+  * Can do almost anywhere, independent
+
 * Most importantly, how to have fun
   * Schedule the time and work on it as an activity
   * Work on train of thought and focus
