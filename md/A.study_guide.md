@@ -1,5 +1,7 @@
 # Guiding Questions
 
+* Cozy up to get ready for a good book or movie or a good study? good ideas?
+
 * Psalms 103:15-18 New International Version (NIV)
   * As for man, his days are as grass; As a flower of the field, so he flourisheth. For the wind passeth over it, and it is gone; And the place thereof shall know it no more. But the lovingkindness of Jehovah is from everlasting to everlasting upon them that fear him, And his righteousness unto children’s children; To such as keep his covenant, And to those that remember his precepts to do them.
 
