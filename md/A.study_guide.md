@@ -1,5 +1,12 @@
 # Guiding Questions
 
+* You cannot just passively chase some goal
+  * You must be focused and have a direction
+  * You must rest
+  * You must want it
+  * It wont happen unless you will it
+  * Try your best and relax
+
 * Cozy up to get ready for a good book or movie or a good study? good ideas?
 
 * Psalms 103:15-18 New International Version (NIV)
