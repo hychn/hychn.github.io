@@ -1,3 +1,8 @@
+# Deadlift
+[vid](https://www.youtube.com/watch?v=738YXp9a3iE)
+[reddit](https://www.reddit.com/r/Fitness/comments/3dw1oa/cant_physically_reach_deadlift_bar_with_straight/)
+deadlift can't reach bar with straight back
+
 # Today's menu
 * 5x10, 5x10 pull ohpress
 * light BB row, 5x5 squat, 1x5 dips

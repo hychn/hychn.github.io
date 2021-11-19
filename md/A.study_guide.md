@@ -1,7 +1,19 @@
 # Guiding Questions
 
+* Mapping out the space
+  * How about the converse?
+  * How does this relate to what we already know?
+
+
 * How will the notes I have written help?
   * How are they valuable?
+    * It would be really nice if they were typed up!!!!
+    * Scratch -> Outline -> Type
+  * The importance of going back and reviewing what you have learned
+
+* What happened? How did I get so burnt out? Why am i starting again?
+  * How is this scenario similar to working out?
+  * You gotta be chill and focused
 
 * solving problems, pushing prs, while great, isn't the status quo
   * dont you wish you were back at it solving problems thinking about theorems and implications?
