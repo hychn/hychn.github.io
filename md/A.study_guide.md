@@ -1,5 +1,8 @@
 # Guiding Questions
 
+* How will the notes I have written help?
+  * How are they valuable?
+
 * solving problems, pushing prs, while great, isn't the status quo
   * dont you wish you were back at it solving problems thinking about theorems and implications?
   * What does it mean to be fresh and the map out the area again?
