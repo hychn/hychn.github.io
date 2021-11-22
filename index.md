@@ -1,4 +1,5 @@
 * ./
+* [A.fun.html](https://hychn.github.io/html/A.fun.html)
 * [A.journal.html](https://hychn.github.io/html/A.journal.html)
 * [A.objectives.html](https://hychn.github.io/html/A.objectives.html)
 * [A.outline.html](https://hychn.github.io/html/A.outline.html)

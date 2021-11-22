@@ -1,5 +1,11 @@
 # Guiding Questions
 
+* What is the end goal?
+  * To be able to learn, explore, organize, and communicate them in an effective way
+  * Speed
+  * Strength
+  * Art, Beauty
+
 * Mapping out the space
   * How about the converse?
   * How does this relate to what we already know?
