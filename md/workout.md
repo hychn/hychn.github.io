@@ -1,7 +1,25 @@
+# CNS
+
+* Be relaxed strike when you need to 
+
 # Deadlift
-[vid](https://www.youtube.com/watch?v=738YXp9a3iE)
-[reddit](https://www.reddit.com/r/Fitness/comments/3dw1oa/cant_physically_reach_deadlift_bar_with_straight/)
-deadlift can't reach bar with straight back
+
+* RDL TBH
+
+* [vid](https://www.youtube.com/watch?v=738YXp9a3iE)
+* [reddit](https://www.reddit.com/r/Fitness/comments/3dw1oa/cant_physically_reach_deadlift_bar_with_straight/)
+* deadlift can't reach bar with straight back
+
+* Keep your legs straight and try to get in position for a stiff legged deadlift. If you can't touch the bar, it's a hamstring/glutes/lower back flexibility issue. Do stretches everyday to fix this.
+* Drop into the third world squat position. If you can't touch your quads to your chest, it's a hip mobility issue. In that case, practise third world squats.
+
+
+* practice RDLs. you need to practice your hip hinge starting from the top and hinging down as low as you can go without rounding. over time you'll be able to get lower and lower. (weighted eccentric stretching is extremely effective)
+* if doing your deadlifts from blocks (like throw a plate under the weights, maybe 2") lets you have a flat black, do that until you resolve your issues from the floor. find a height that lets you have a flat back and work to lower it over time. don't be stubborn and keep pulling from the floor (IMO).
+* try different stance widths / sumo (see above)
+* play around with different flexibility/mobility/whatever-you-wana-call-it stuff. dont spend too much time trying something out unless you see results. for me using a barbell to roll out my hamstrings and adductors (trying to loosen up everything close to the insertion at the pelvis) is where the money is at. everything gets really tight at the insertion point to the pelvis. rolling that out is rough but in under 10 minutes it's night and day what it does to my positioning.
+* I can't seem to reach down for the bar while maintaining a flat back at my lumbar.
+* that's one way to setup. you don't have to setup that way. plenty of people reach down rounded, then straighten out when they take the slack out of the bar. IMO it's easier to do the second approach if you're on the stiffer side. really focus on taking the slack out of the bar & your body before starting the pull.
 
 # Today's menu
 * 5x10, 5x10 pull ohpress
