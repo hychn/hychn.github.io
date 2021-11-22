@@ -1,5 +1,8 @@
 # Guiding Questions
 
+* What kinds of things should I look into and are scalable?
+
+* You are a musician with the barbell or the material
 * Even though it is hard, I will do it
 * FOCUS
 * Relax and throw punches, rest and try again
