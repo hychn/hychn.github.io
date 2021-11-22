@@ -1,6 +1,12 @@
 # Guiding Questions
 
+* Even though it is hard, I will do it
+* FOCUS
+* Relax and throw punches, rest and try again
+* Studying is like training
+
 * What is the end goal?
+  * Need some reward 
   * To be able to learn, explore, organize, and communicate them in an effective way
   * Speed
   * Strength
