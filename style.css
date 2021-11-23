@@ -86,9 +86,6 @@ code {
 }
 
 p {
-  line-height: 32px;
-
-  &:not(:last-child)  {
-    margin-bottom: 30px;
-  }
+  line-height: 15px;  
+  margin: 15px 0;
 }
