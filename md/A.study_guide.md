@@ -1,5 +1,10 @@
 # Guiding Questions
 
+* What does this mean? What good properties arise from this
+* Go through the material slowly do not rush it
+* Or finish it as an attempt to check off a list of things or list of facts to learn
+* You need to have the basics down
+
 * What kinds of things should I look into and are scalable?
   * Whichever you learn, make sure to organize the material well so that it can be abstracted and extended
   * ask lots of questions
