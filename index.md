@@ -7,7 +7,6 @@
 * [B.math_log.html](https://hychn.github.io/html/B.math_log.html)
 * [B.se3.html](https://hychn.github.io/html/B.se3.html)
 * [C.alg.html](https://hychn.github.io/html/C.alg.html)
-* [ranalysis.html](https://hychn.github.io/html/ranalysis.html)
 * [surf.html](https://hychn.github.io/html/surf.html)
 * [workout.html](https://hychn.github.io/html/workout.html)
 * [Z.scratch.html](https://hychn.github.io/html/Z.scratch.html)
@@ -17,3 +16,4 @@
   * [books/ranalysis.html](https://hychn.github.io/html/books/ranalysis.html)
 * ./projects
   * [projects/algebra.html](https://hychn.github.io/html/projects/algebra.html)
+  * [projects/ranalysis.html](https://hychn.github.io/html/projects/ranalysis.html)
