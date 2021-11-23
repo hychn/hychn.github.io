@@ -1,6 +1,8 @@
 # Guiding Questions
 
 * What kinds of things should I look into and are scalable?
+  * Whichever you learn, make sure to organize the material well so that it can be abstracted and extended
+  * ask lots of questions
 
 * You are a musician with the barbell or the material
 * Even though it is hard, I will do it
