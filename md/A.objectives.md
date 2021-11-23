@@ -1,19 +1,3 @@
-# LIFT
-* Progression x Proper form (Once the top set starts feeling easy, progress)
-
-* Guiding mindset
-  * Focus on form. Volume-based. The weight will come after.
-  * Enjoy the process not the destination
-  * Breathe!
-* Progressions
-  * Progression on Pullup
-  * Progression on Bench
-  * Progression on Squat
-  * Learn Deadlift
-* Backburn
-  * Row
-  * OHPress
-
 # Math
 
 ## Algebra ----------------------------------------------------------
@@ -34,6 +18,23 @@
 * Determinants
 * Orthogonal Theorems/Fund Thm of Algebra
 
+
+# LIFT
+* Progression x Proper form (Once the top set starts feeling easy, progress)
+
+* Guiding mindset
+  * Focus on form. Volume-based. The weight will come after.
+  * Enjoy the process not the destination
+  * Breathe!
+
+* Weighted Pullup
+* 2 Plates Bench
+* tight core Squat
+* bottomed out Deadlift
+
+* Backburn
+  * Row
+  * OHPress
 
 
 
