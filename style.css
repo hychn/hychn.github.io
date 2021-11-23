@@ -85,3 +85,10 @@ code {
   background: aliceblue;
 }
 
+p {
+  line-height: 32px;
+
+  &:not(:last-child)  {
+    margin-bottom: 30px;
+  }
+}
