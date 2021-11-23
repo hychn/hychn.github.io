@@ -10,5 +10,9 @@
 * [surf.html](https://hychn.github.io/html/surf.html)
 * [workout.html](https://hychn.github.io/html/workout.html)
 * [Z.scratch.html](https://hychn.github.io/html/Z.scratch.html)
+* ./books
+  * [books/alg.html](https://hychn.github.io/html/books/alg.html)
+  * [books/linalg.html](https://hychn.github.io/html/books/linalg.html)
+  * [books/ranalysis.html](https://hychn.github.io/html/books/ranalysis.html)
 * ./projects
   * [projects/algebra.html](https://hychn.github.io/html/projects/algebra.html)
