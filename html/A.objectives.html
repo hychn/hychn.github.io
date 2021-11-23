@@ -26,171 +26,39 @@
 
 <h1>Math</h1>
 
-<h2>Algebra</h2>
-
-<p><strong>Current</strong></p>
+<h2>Algebra ----------------------------------------------------------</h2>
 
 <ul>
-<li>Previous Material
-<ul>
-<li>Semigroups, Monoids, Groups</li>
+<li>Groups</li>
 <li>Homomorphism and Subgroups</li>
 <li>Cyclic groups</li>
-<li>Cosets, Partition of</li>
-</ul></li>
-<li>Normal, Quotient Groups, Homomorphism
-<ul>
-<li>Review/Explore</li>
-<li>Preservation of structure of quotient groups in relation to parent groups</li>
-</ul></li>
-</ul>
-
-<p><strong>Future</strong></p>
-
-<ul>
+<li>Cosets, Normal, Quotient Groups</li>
 <li>Characterization of finite groups</li>
 <li>Galois</li>
 </ul>
 
-<hr />
-
-<h2>Adv Calc</h2>
-
-<p><strong>Current</strong></p>
+<h2>Adv Calc ----------------------------------------------------------</h2>
 
 <ul>
-<li>sequence and characterization of infinity</li>
-</ul>
-
-<p><strong>Future</strong></p>
-
-<ul>
-<li>Derivation of derivative</li>
 <li>Fund Theorem of Calc</li>
 </ul>
 
-<hr />
-
-<h2>Lin Alg</h2>
+<h2>Lin Alg ----------------------------------------------------------</h2>
 
 <ul>
-<li>Review back to Determinants</li>
-<li>Orthogonal Theorems</li>
-<li>Fund Thm of Algebra</li>
+<li>Determinants</li>
+<li>Orthogonal Theorems/Fund Thm of Algebra</li>
 </ul>
-
-<hr />
-
-<h1>PharmCadd</h1>
-
-<h2>Masking?</h2>
-
-<ul>
-<li>Better loss masked categorical cross entropy. Make unavailable values not contribute to loss</li>
-<li>complete<em>structures</em>only:
-<ul>
-<li>Update SCN</li>
-</ul></li>
-<li>thinning:</li>
-</ul>
-
-<h2>Make current one more efficient (Memory)</h2>
-
-<ul>
-<li>Optimization Attention</li>
-<li>Combination of Convolutions?
-<ul>
-<li>How many blocks should we put?</li>
-</ul></li>
-<li>spatial loss? reward more for pairs further apart ( no reduce, mult by guassian further away _| -shaped weights)
-<ul>
-<li>W[i,j] = sqrt(abs(i-j))</li>
-<li>Stack to same shape and mult</li>
-</ul></li>
-<li>Dataloader memory issue with cycle()</li>
-</ul>
-
-<h2>Coordinate Prediction</h2>
-
-<ul>
-<li>trunk_coord module
-<ul>
-<li>MDS differentiable</li>
-</ul></li>
-<li>structure module
-<ul>
-<li>x,coords = SE3Transformer(x,coords)
-<ul>
-<li>x
-<ul>
-<li>x (b i j d) &lt;- output from attention</li>
-<li>x = linear(x)</li>
-<li>various things(Embeddings add)</li>
-<li>x 'b i d'</li>
-</ul></li>
-<li>coords
-<ul>
-<li>coords = trunk<em>to</em>coords[ MDScaling(distm) ]</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li>Loss
-<ul>
-<li>Coordinate
-<ul>
-<li>Centering</li>
-<li>RMSD</li>
-</ul></li>
-<li>Distance Matrix</li>
-</ul></li>
-</ul>
-
-<h2>Coordinate prediction approach guide</h2>
-
-<ul>
-<li>SO3 group
-<ul>
-<li>rotation about x,y,z axis. Right hand rule</li>
-<li>invertible, identity, </li>
-<li>closed under operation
-<ul>
-<li><strong>Euler's Sperical Theorem</strong></li>
-</ul></li>
-</ul></li>
-<li>Group Representation</li>
-<li>Irreducible representation</li>
-<li>Wigner-D matrix</li>
-<li>Clebsch-Gordan matrcies</li>
-<li>Equivarient what is v,y</li>
-<li>General Linear Group</li>
-</ul>
-
-<h2>Is there a way to use persistent homology for shape formation?</h2>
-
-<hr />
 
 <h1>AI</h1>
 
 <h2>RL</h2>
 
 <ul>
-<li><p>Tic Tac Toe</p>
-
-<ul>
-<li>Fix the crash and make it work for larger boards</li>
-</ul></li>
-<li><p>Why is RL important? It generates it's own information.
-  * It is not learning from data</p></li>
-<li>But if you think about it the rules and these things are kinda like 'data'
-  * It learns from them
-  * And uses the learning to explore the data space some more.</li>
+<li>Tic Tac Toe</li>
 </ul>
 
-<hr />
-
 <h2>Face latent space generation</h2>
-
-<hr />
 
 <h2>NLP</h2>
 
@@ -199,10 +67,6 @@
 <li>Chat</li>
 </ul>
 
-<hr />
-
 <h2>Text to image generation</h2>
-
-<hr />
 
 </div></body> </html>
