@@ -9,15 +9,15 @@
 * 8 Cardinal Numbers
 
 # Chapter 1: Groups 
-* 1. Semigroups, Monoids and Groups
-* 2. Homomorphisms and Subgroups.
-* 3. Cyclic Groups 
-* 4. Cosets and Counting
-* 5. Normality, Quotient Groups, and Homomorphisms 
-* 6. Symmetric, Alternating, and Dihedral Groups 
-* 7. Categories: Products, Coproducts, and Free Objects 
-* 8. Direct Products and Direct Sums
-* 9. Free Groups, Free Products, Generators & Relations 
+1. Semigroups, Monoids and Groups
+2. Homomorphisms and Subgroups.
+3. Cyclic Groups 
+4. Cosets and Counting
+5. Normality, Quotient Groups, and Homomorphisms 
+6. Symmetric, Alternating, and Dihedral Groups 
+7. Categories: Products, Coproducts, and Free Objects 
+8. Direct Products and Direct Sums
+9. Free Groups, Free Products, Generators & Relations 
 
 # Chapter II: The Structure of  Groups
 * 1. Free Abelian Groups
