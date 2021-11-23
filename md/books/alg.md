@@ -1,12 +1,12 @@
 # Introduction: Prerequisites and Preliminaries
-* 1. Logic 1 
-* 2. Sets and Classes
-* 3. Functions
-* 4. Relations and  Partitions
-* 5. Products
-* 6. The Integers
-* 7. The Axiom of Choice, Order and Zorn's Lemma
-* 8. Cardinal Numbers
+* 1 Logic 1 
+* 2 Sets and Classes
+* 3 Functions
+* 4 Relations and  Partitions
+* 5 Products
+* 6 The Integers
+* 7 The Axiom of Choice, Order and Zorn's Lemma
+* 8 Cardinal Numbers
 
 # Chapter 1: Groups 
 * 1. Semigroups, Monoids and Groups
