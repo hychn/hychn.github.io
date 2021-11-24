@@ -56,15 +56,14 @@ def toMathJaxStr(s):
     elif k == '`':
         return '$$'+s+'$$'
 
-    '''
     snew = list(s)
     for idx,c in enumerate(s):
         if c == '<':
-            snew[idx] = ' /textless'
+            snew[idx] = ' <pre>&lt</pre> '
         elif c == '>':
-            snew[idx] = ' /testgreater'
+            snew[idx] = ' <pre>&gt</pre> '
+    
     s = ''.join(snew)
-    '''
 
 def ordr(i, MAX=sys.maxsize):
     if i<0:

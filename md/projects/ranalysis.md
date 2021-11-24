@@ -1,6 +1,6 @@
 # 1.1 Sets and Functions
 
-$ \textgreater \textless | $
+$ <  > < <<$
 
 Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
 No, consider $f(x)=x^2$ and $ A = \{ 0 \leq x \leq 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 \leq x \leq 1 \}$. 
