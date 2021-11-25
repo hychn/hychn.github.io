@@ -1,5 +1,9 @@
 # Guiding Questions
 
+* In order to start thinking about something, you need context. What kinds of context do you need?
+  * Also, when writing and recording ideas how can you limit and minize the context?
+  * context/overhead
+
 * Thinking is also like lifting. Before you start, you need proper bracing and have the relevant ideas in place
   * Without this, it is wasted or poorly invested effort. whatever is worth doing is worth doing poorly 
   * (but it is also worth trying to do with the proper form whatever that is)
