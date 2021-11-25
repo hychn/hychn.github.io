@@ -1,5 +1,8 @@
 # Guiding Questions
 
+* Sometimes when I study, i get tired. How can i rest and recover? from a mental fatigue
+  * Is it similar to resting for a workout?
+
 * What does this mean? What good properties arise from this
 * Go through the material slowly do not rush it
 * Or finish it as an attempt to check off a list of things or list of facts to learn
