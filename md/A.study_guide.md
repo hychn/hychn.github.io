@@ -1,5 +1,9 @@
 # Guiding Questions
 
+* Thinking is also like lifting. Before you start, you need proper bracing and have the relevant ideas in place
+  * Without this, it is wasted or poorly invested effort. whatever is worth doing is worth doing poorly 
+  * (but it is also worth trying to do with the proper form whatever that is)
+
 * Sometimes when I study, i get tired. How can i rest and recover? from a mental fatigue
   * Is it similar to resting for a workout?
 
