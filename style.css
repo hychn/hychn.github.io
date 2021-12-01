@@ -37,6 +37,7 @@ a:-webkit-any-link {
      color: blue;
 }
 
+/*
 body {
 	counter-reset: h1n;
 }
@@ -69,6 +70,7 @@ h4::before {
   counter-increment: h4n;
   content: counter(h1n)  "." counter(h2n) "." counter(h3n) "." counter(h4n) " ";
 }
+*/
 
 
 

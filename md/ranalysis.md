@@ -46,7 +46,9 @@ self operation
 * Uniqueness of 1,0, inverse
 * 0*a = 0
 * a*b = 0 means one must be 0
-## 2.1.4 $\sqrt{2} is irrational$
+
+## 2.1.4 $\sqrt{2}$ is irrational
+
 ## Order of $\mathbb{R}$
 * Defined in terms of positive number
 * Relation
@@ -87,9 +89,8 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * $|a_1 + a_2 + ... + a_n| \leq |a_1|+|a_2|+ ... +|a_n|$
 
 ## 2.2.7 E neighborhood
-* e neighborhood of $a \in \mathbb{R}$ is the set $V_e(a) := \{ x s.t. |x-a| < e \} $
+* e neighborhood of $a \in \mathbb{R}$ is the set $V_e(a) := \{ x \mid |x-a| < e \} $
 
 ## 2.2.8 if x is in every e neighborhood of a then x is a
 
 ## 2.2.9
-
