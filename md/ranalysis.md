@@ -55,8 +55,10 @@ self operation
 * if $a>b$ and $c>0$ then $ca>cb$
 * if $a>b$ and $c<0$ then $ca<cb$
 # No smallest positive  number can exist
-# 2.1.9 If $0 \geq a \gt e \forall e \gt 0$ then $a=0$
-# 2.1.10 If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
+# 2.1.9 Thm
+If $0 \geq a \gt e \forall e \gt 0$ then $a=0$
+# 2.1.10 Thm
+If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 
 # Remark: Arithemetic-Geometric mean
 * $\sqrt{ab} \leq \dfrac{1}{2}(a+b)$
@@ -71,7 +73,8 @@ self operation
 * Why are certain properties important?
 * Usually when some property is given in a book, it is there for a reason
 * What are equivalent statements with this new definition?
-# 2.2.3 Triangle Inequality $|a+b| \leq |a|+|b|$
+# 2.2.3 Triangle Inequality 
+* $|a+b| \leq |a|+|b|$
 # 2.2.4 Corallaries of Triangle Inequality
 * $| |a|-|b| |<|a-b|$
 * $|a-b|<|a|+|b|$
