@@ -1,12 +1,12 @@
 * ./
-* [A.fun.html](https://hychn.github.io/html/A.fun.html)
 * [A.journal.html](https://hychn.github.io/html/A.journal.html)
 * [A.objectives.html](https://hychn.github.io/html/A.objectives.html)
 * [A.outline.html](https://hychn.github.io/html/A.outline.html)
 * [A.study_guide.html](https://hychn.github.io/html/A.study_guide.html)
+* [algebra.html](https://hychn.github.io/html/algebra.html)
 * [B.math_log.html](https://hychn.github.io/html/B.math_log.html)
 * [B.se3.html](https://hychn.github.io/html/B.se3.html)
-* [C.alg.html](https://hychn.github.io/html/C.alg.html)
+* [ranalysis.html](https://hychn.github.io/html/ranalysis.html)
 * [surf.html](https://hychn.github.io/html/surf.html)
 * [workout.html](https://hychn.github.io/html/workout.html)
 * [Z.scratch.html](https://hychn.github.io/html/Z.scratch.html)
@@ -14,6 +14,3 @@
   * [books/alg.html](https://hychn.github.io/html/books/alg.html)
   * [books/linalg.html](https://hychn.github.io/html/books/linalg.html)
   * [books/ranalysis.html](https://hychn.github.io/html/books/ranalysis.html)
-* ./projects
-  * [projects/algebra.html](https://hychn.github.io/html/projects/algebra.html)
-  * [projects/ranalysis.html](https://hychn.github.io/html/projects/ranalysis.html)

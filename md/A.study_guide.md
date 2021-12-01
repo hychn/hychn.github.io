@@ -1,5 +1,66 @@
 # Guiding Questions
 
+* You have to be comfortable in your own skin to be able to think freely
+* To be able to relax and not be anxious
+* Breathe
+
+* Goal is how can I become a better navigator of ideas
+  * Why is it important to have collaries and branch out?
+    * To have more interesting perspectives and starting points
+  * When should you return to an idea?
+  * Practice the technique of finding solution. It is easy to forget ideas but if you have technique you can rediscover from a starting point
+    * That's why it's like climbing a mountain, learning to navigate
+    * Not memorizing or ticking off a list
+
+* The more i do this, I realize that it is important skill to be familiar with concepts and ideas that you have learned and picked up
+  and to internalize them
+  * So how can you be better at it?
+
+* I think it is important to note how you are doing and feeling while you are progressing in the activity of studying
+  * So you can adjust patterns and optmize yourself for growth
+
+* I notice that after a prolonged time by brain has difficulty slowly going through and holding ideas my head
+  * And I just want to rush things
+  * What can I do in this case?
+    * Rest relax
+
+* Breathe, blood flow, the brain is organ which has physical requirements
+
+* When a new value with equality is introduced, what set of operations can be used to form it. is it unique?
+
+* Slow down
+* Sometimes you need to warm up 
+
+* FOCUS
+  * What gives you this focus
+  * being able to forgo the other issues worries and fears
+  * Safety in trust of God
+  * Purpose and a goal. Tunnel Visioning
+  * Some times its not good to too narrowly tunnel
+
+* Fun
+  * Why is it that when I play I feel like I am having so much fun?
+  * And that I am drawn to it over and over again?
+  * Some idea of fantasy that you are
+  * Social recognition?
+  * No consequence?
+* Not Fun
+  * Why do you get upset and irritable?
+  * Its not really a comfortable position
+
+* When something is inconvinient can you find a better or more compact representation?
+  * Bijections are difficult to construct every time to show countability, so develop implications or conditions that can extend the countability
+
+* Creating the mood
+  * Do you ever notice, when you clean out place before leaving, you work in a state of frenzy trance calm
+  * Or when preparing before an exam, without the pressure or the stress you study the best
+  * You seem to study well when there is well defined, physical, pressure
+
+* From a new idea, how many more ideas can be formed in combination with existing ideas? 
+  * Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
+  * Equivalence
+  * To facilitate this naturally, when you see each symbol and component, be mindful of it's full definition and what each component interacts with
+
 * In order to start thinking about something, you need context. What kinds of context do you need?
   * Also, when writing and recording ideas how can you limit and minize the context?
   * context/overhead
