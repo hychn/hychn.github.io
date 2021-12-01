@@ -75,15 +75,21 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * Why are certain properties important?
 * Usually when some property is given in a book, it is there for a reason
 * What are equivalent statements with this new definition?
+
 ## 2.2.3 Triangle Inequality 
 * $|a+b| \leq |a|+|b|$
+
 ## 2.2.4 Corallaries of Triangle Inequality
 * $| |a|-|b| |<|a-b|$
 * $|a-b|<|a|+|b|$
+
 ## 2.2.5 Triangle Inequality for N sums 
 * $|a_1 + a_2 + ... + a_n| \leq |a_1|+|a_2|+ ... +|a_n|$
+
 ## 2.2.7 E neighborhood
-* e neighborhood of $a \in \mathbb{R}$ is the set $V_e(a) := \{ x s.t. |x-a|<e \} $
+* e neighborhood of $a \in \mathbb{R}$ is the set $V_e(a) := \{ x s.t. |x-a| < e \} $
+
 ## 2.2.8 if x is in every e neighborhood of a then x is a
+
 ## 2.2.9
 
