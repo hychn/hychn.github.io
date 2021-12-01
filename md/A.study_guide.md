@@ -1,5 +1,17 @@
 # Guiding Questions
 
+* How to objectively track your mental skill?
+  * What indicators can you track?
+    * Time
+    * No of ideas
+    * How familiar these ideas are
+      * New vs Old
+    * Parallel comparison between lifting, weight, rep, sets, form, 
+    * A realization i had with lifting is that the combinations of lifts that you build up, the routine is eventually what will make your physique
+  * How can you improve these areas?
+
+* There is a meaningful meaning why something is the case
+
 * You have to be comfortable in your own skin to be able to think freely
 * To be able to relax and not be anxious
 * Breathe
@@ -58,6 +70,7 @@
 
 * From a new idea, how many more ideas can be formed in combination with existing ideas? 
   * Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
+  * What does each concept interact with?
   * Equivalence
   * To facilitate this naturally, when you see each symbol and component, be mindful of it's full definition and what each component interacts with
 
