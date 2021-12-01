@@ -75,8 +75,10 @@ self operation
 # 2.2.4 Corallaries of Triangle Inequality
 * $| |a|-|b| |<|a-b|$
 * $|a-b|<|a|+|b|$
-# 2.2.5 Triangle Inequality for N sums $|a_1 + a_2 + ... + a_n| \leq |a_1|+|a_2|+ ... +|a_n|$
-# 2.2.7 e neighborhood of $a \in \mathbb{R}$ is the set $V_e(a) := \{ x s.t. |x-a|<e \}$
+# 2.2.5 Triangle Inequality for N sums 
+* $|a_1 + a_2 + ... + a_n| \leq |a_1|+|a_2|+ ... +|a_n|$
+# 2.2.7 E neighborhood
+* e neighborhood of $a \in \mathbb{R}$ is the set V_e(a) := \{ x s.t. |x-a|<e \}$
 # 2.2.8 if x is in every e neighborhood of a then x is a
 # 2.2.9
 
