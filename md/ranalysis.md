@@ -94,3 +94,30 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 ## 2.2.8 if x is in every e neighborhood of a then x is a
 
 ## 2.2.9
+
+# 2.3 Completeness Property
+
+## Def 2.3.1 Bounded above, below, bounded sets
+* Given an subset, $S$, of $\mathbb{R}$ it is bounded if ...
+
+## Def 2.3.2 Suprememum Infimum
+* Supremum least upperbound 
+  * if u is upper bound of $S$, then $sup S \leq u$
+* Infimum greatest lowerbound
+
+## Remark: uniqueness of suprememum infimum
+## Remark: Consider the contrapositive of least upper bound condition of definition of suprememum
+## Lemma 2.3.3
+* What is smaller than supremum is not a upper bound
+  * Why is this lemma here?
+## Lemma 2.3.4
+* Upperbound u is supremum iff $\forall e > 0$ there exists $s_e \in S$ sutch that $u-e < s_e$
+## 2.3.6 Completeness Property of R
+* Every nonempty set of real numbers that has upper bound has a supremum in $\mathbb{R}$
+
+## Lets break down definition supremum
+* $sup S$ is a upper bound of $S$
+* if u is upper bound of $S$, then $sup S \leq u$
+* What are the inputs that define supremum? (S set)
+* What are the output of the definition? (real value)
+* Can anything other than input output influence or server some connection?

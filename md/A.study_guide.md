@@ -1,15 +1,47 @@
 # Guiding Questions
 
+## Lets break down definition supremum
+* $sup S$ is a upper bound of $S$
+* if u is upper bound of $S$, then $sup S \leq u$
+* What are the inputs that define supremum? (S set)
+* What are the output of the definition? (real value)
+* Can anything other than input output influence or server some connection?
+
+
+* In terms of time, right now things are easy
+  * But later on its more difficult you should still set some timeline to make sure you don't slip
+  * And also you need practice for when it is difficult 
+  * It doesn't have to be perfect but some sembalance of mastery is ok
+
+* There is a distinct difference VS
+  * working out a problem loosely in your mind or on scratch
+  * And writing out the formal statement
+  * Make sure you are good on both and not get to focused on one aspect
+
 * When you dont feel motivated... what should you do?
   * Why you feel this way.
   * How can you change the way you feel?
   * I want to have fun
+  * Just stay bored, day dream
 
 * Your routine, will define you who become
   * Do you remember when you used to exercise in the beginning? At DePauw or at Mizzou?
   * You spent a similar amount of time at the gym
     * How are you different then and now?, its the routine, exercise I spend doing.
-  * What kinds of routine or exercise can you do?
+
+* What kinds of routine or exercise can you do?
+  * Manipulating ideas in your mind
+  * Metric: Time, Steps, No of Ideas, No of Connections, Memory/Mindfulness, Familiarity/Recall
+    * Time per task, assess how many effort it took
+    * Go through each new idea and see if you can slowly see the potential connection
+    * Move through the ideas in your head
+    * How can you effectively learn new ideas and become familar with them?
+
+* When you learn a new definition:
+  * Deconstruct it. play with it
+  * Try to form connections to other existing nodes of knowledge
+  * I think this will help to solidify the definition into your memory and mind
+
 
 * How to objectively track your mental skill?
   * What indicators can you track?
