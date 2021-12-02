@@ -1,16 +1,27 @@
 # Guiding Questions
 
+* When you dont feel motivated... what should you do?
+  * Why you feel this way.
+  * How can you change the way you feel?
+  * I want to have fun
+
+* Your routine, will define you who become
+  * Do you remember when you used to exercise in the beginning? At DePauw or at Mizzou?
+  * You spent a similar amount of time at the gym
+    * How are you different then and now?, its the routine, exercise I spend doing.
+  * What kinds of routine or exercise can you do?
+
 * How to objectively track your mental skill?
   * What indicators can you track?
     * Time
-    * No of ideas
-    * How familiar these ideas are
-      * New vs Old
+    * No of ideas, steps
+      * No of interconnected ideas
+    * Familiarity (New vs Old)
     * Parallel comparison between lifting, weight, rep, sets, form, 
     * A realization i had with lifting is that the combinations of lifts that you build up, the routine is eventually what will make your physique
-  * How can you improve these areas?
+  * How can you improve these areas? Practice and continued challenge
 
-* There is a meaningful meaning why something is the case
+* There is a meaningful meaning why something is the case. carefully search for it
 
 * You have to be comfortable in your own skin to be able to think freely
 * To be able to relax and not be anxious
