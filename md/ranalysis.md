@@ -1,5 +1,23 @@
 # 1.1 Sets and Functions
 
+* $A$ a set is a collection of objects
+* $a \in A$ if the element $a$ is in A
+* $A \subset B$ if B contains all the elements of A
+* $A = B$  if they contain the same elements
+
+* $ \union \intersection \setminus $ are binary operations from a set to another set
+* $ \varnothing $
+* $ A \union (B \intersection C) $
+* $ A \intersection (B \union C) $
+* $ ( A \union B )^c $
+* $ ( A \intersection B )^c $
+* $ A \setminus (B \union C)$
+* $ A \setminus (B \intersection C)$
+
+## DEF function
+* Mapping set $A$ to $B$
+* Such that an element of $A$ maps to exactly one element in $B$
+
 Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
 No, consider $f(x)=x^2$ and $ A = \{ 0 < x < 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 < x < 1 \}$. 
 What condition can guarantee that you can always find an inverse?
@@ -29,7 +47,7 @@ self operation
 
 ## DEF denumerable - bijection to N, countable - finite or denum, uncountable - not countable
 
-## THM 1.3.8 $NxN$ is denumerable
+## THM 1.3.8 $N \times N$ is denumerable
 * You have comeup with an interesting function. How to show 
 
 ## THM 1.3.9 $T \subset S$
