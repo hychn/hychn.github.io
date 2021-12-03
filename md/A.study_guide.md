@@ -1,4 +1,4 @@
-# Guiding Questions
+# Free notes
 
 ## Lets break down definition supremum
 * $sup S$ is a upper bound of $S$
@@ -8,93 +8,92 @@
 * Can anything other than input output influence or server some connection?
 
 
-* In terms of time, right now things are easy
-  * But later on its more difficult you should still set some timeline to make sure you don't slip
-  * And also you need practice for when it is difficult 
-  * It doesn't have to be perfect but some sembalance of mastery is ok
+## In terms of time, right now things are easy
+* But later on its more difficult you should still set some timeline to make sure you don't slip
+* And also you need practice for when it is difficult 
+* It doesn't have to be perfect but some sembalance of mastery is ok
 
-* There is a distinct difference VS
-  * working out a problem loosely in your mind or on scratch
-  * And writing out the formal statement
-  * Make sure you are good on both and not get to focused on one aspect
+## There is a distinct difference VS
+* working out a problem loosely in your mind or on scratch
+* And writing out the formal statement
+* Make sure you are good on both and not get to focused on one aspect
 
-* When you dont feel motivated... what should you do?
-  * Why you feel this way.
-  * How can you change the way you feel?
-  * I want to have fun
-  * Just stay bored, day dream
+## When you dont feel motivated... what should you do?
+* Why you feel this way.
+* How can you change the way you feel?
+* I want to have fun
+* Just stay bored, day dream
 
-* Your routine, will define you who become
-  * Do you remember when you used to exercise in the beginning? At DePauw or at Mizzou?
-  * You spent a similar amount of time at the gym
-    * How are you different then and now?, its the routine, exercise I spend doing.
+## Your routine, will define you who become
+* Do you remember when you used to exercise in the beginning? At DePauw or at Mizzou?
+* You spent a similar amount of time at the gym
+  * How are you different then and now?, its the routine, exercise I spend doing.
 
-* What kinds of routine or exercise can you do?
-  * Manipulating ideas in your mind
-  * Metric: Time, Steps, No of Ideas, No of Connections, Memory/Mindfulness, Familiarity/Recall
-    * Time per task, assess how many effort it took
-    * Go through each new idea and see if you can slowly see the potential connection
-    * Move through the ideas in your head
-    * How can you effectively learn new ideas and become familar with them?
+## What kinds of routine or exercise can you do?
+* Manipulating ideas in your mind
+* Metric: Time, Steps, No of Ideas, No of Connections, Memory/Mindfulness, Familiarity/Recall
+  * Time per task, assess how many effort it took
+  * Go through each new idea and see if you can slowly see the potential connection
+  * Move through the ideas in your head
+  * How can you effectively learn new ideas and become familar with them?
 
-* When you learn a new definition:
-  * Deconstruct it. play with it
-  * Try to form connections to other existing nodes of knowledge
-  * I think this will help to solidify the definition into your memory and mind
+## When you learn a new definition:
+* Deconstruct it. play with it
+* Try to form connections to other existing nodes of knowledge
+* I think this will help to solidify the definition into your memory and mind
 
 
-* How to objectively track your mental skill?
-  * What indicators can you track?
-    * Time
-    * No of ideas, steps
-      * No of interconnected ideas
-    * Familiarity (New vs Old)
-    * Parallel comparison between lifting, weight, rep, sets, form, 
-    * A realization i had with lifting is that the combinations of lifts that you build up, the routine is eventually what will make your physique
-  * How can you improve these areas? Practice and continued challenge
+## How to objectively track your mental skill?
+* What indicators can you track?
+  * Time
+  * No of ideas, steps
+    * No of interconnected ideas
+  * Familiarity (New vs Old)
+  * Parallel comparison between lifting, weight, rep, sets, form, 
+  * A realization i had with lifting is that the combinations of lifts that you build up, the routine is eventually what will make your physique
+* How can you improve these areas? Practice and continued challenge
 
-* There is a meaningful meaning why something is the case. carefully search for it
+## There is a meaningful meaning why something is the case. carefully search for it
 
-* You have to be comfortable in your own skin to be able to think freely
+## You have to be comfortable in your own skin to be able to think freely
 * To be able to relax and not be anxious
 * Breathe
 
-* Goal is how can I become a better navigator of ideas
-  * Why is it important to have collaries and branch out?
-    * To have more interesting perspectives and starting points
-  * When should you return to an idea?
-  * Practice the technique of finding solution. It is easy to forget ideas but if you have technique you can rediscover from a starting point
-    * That's why it's like climbing a mountain, learning to navigate
-    * Not memorizing or ticking off a list
+## Goal is how can I become a better navigator of ideas
+* Why is it important to have collaries and branch out?
+  * To have more interesting perspectives and starting points
+* When should you return to an idea?
+* Practice the technique of finding solution. It is easy to forget ideas but if you have technique you can rediscover from a starting point
+  * That's why it's like climbing a mountain, learning to navigate
+  * Not memorizing or ticking off a list
 
-* The more i do this, I realize that it is important skill to be familiar with concepts and ideas that you have learned and picked up
-  and to internalize them
-  * So how can you be better at it?
+## The more i do this, I realize that it is important skill to be familiar with concepts and ideas that you have learned and picked up and to internalize them
+* So how can you be better at it?
 
-* I think it is important to note how you are doing and feeling while you are progressing in the activity of studying
-  * So you can adjust patterns and optmize yourself for growth
+## I think it is important to note how you are doing and feeling while you are progressing in the activity of studying
+* So you can adjust patterns and optmize yourself for growth
 
-* I notice that after a prolonged time by brain has difficulty slowly going through and holding ideas my head
-  * And I just want to rush things
-  * What can I do in this case?
-    * Rest relax
+## I notice that after a prolonged time by brain has difficulty slowly going through and holding ideas my head
+* And I just want to rush things
+* What can I do in this case?
+  * Rest relax
 
-* Breathe, blood flow, the brain is organ which has physical requirements
+## Breathe, blood flow, the brain is organ which has physical requirements
 
-* When a new value with equality is introduced, what set of operations can be used to form it. is it unique?
+## When a new value with equality is introduced, what set of operations can be used to form it. is it unique?
 
-* Slow down
+## Slow down
 * Sometimes you need to warm up 
 
-* FOCUS
-  * What gives you this focus
-  * being able to forgo the other issues worries and fears
-  * Safety in trust of God
-  * Purpose and a goal. Tunnel Visioning
-  * Some times its not good to too narrowly tunnel
+## FOCUS
+* What gives you this focus
+* being able to forgo the other issues worries and fears
+* Safety in trust of God
+* Purpose and a goal. Tunnel Visioning
+* Some times its not good to too narrowly tunnel
 
-* Fun
-  * Why is it that when I play I feel like I am having so much fun?
+## Fun
+* Why is it that when I play I feel like I am having so much fun?
   * And that I am drawn to it over and over again?
   * Some idea of fantasy that you are
   * Social recognition?
@@ -103,57 +102,60 @@
   * Why do you get upset and irritable?
   * Its not really a comfortable position
 
-* When something is inconvinient can you find a better or more compact representation?
-  * Bijections are difficult to construct every time to show countability, so develop implications or conditions that can extend the countability
+## When something is inconvinient can you find a better or more compact representation?
+* Bijections are difficult to construct every time to show countability, so develop implications or conditions that can extend the countability
 
-* Creating the mood
-  * Do you ever notice, when you clean out place before leaving, you work in a state of frenzy trance calm
-  * Or when preparing before an exam, without the pressure or the stress you study the best
-  * You seem to study well when there is well defined, physical, pressure
+## Creating the mood
+* Do you ever notice, when you clean out place before leaving, you work in a state of frenzy trance calm
+* Or when preparing before an exam, without the pressure or the stress you study the best
+* You seem to study well when there is well defined, physical, pressure
 
-* From a new idea, how many more ideas can be formed in combination with existing ideas? 
-  * Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
-  * What does each concept interact with?
-  * Equivalence
-  * To facilitate this naturally, when you see each symbol and component, be mindful of it's full definition and what each component interacts with
+## From a new idea, how many more ideas can be formed in combination with existing ideas? 
+* Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
+* What does each concept interact with?
+* Equivalence
+* To facilitate this naturally, when you see each symbol and component, be mindful of it's full definition and what each component interacts with
 
-* In order to start thinking about something, you need context. What kinds of context do you need?
-  * Also, when writing and recording ideas how can you limit and minize the context?
-  * context/overhead
+## In order to start thinking about something, you need context. What kinds of context do you need?
+* Also, when writing and recording ideas how can you limit and minize the context?
+* context/overhead
 
-* Thinking is also like lifting. Before you start, you need proper bracing and have the relevant ideas in place
-  * Without this, it is wasted or poorly invested effort. whatever is worth doing is worth doing poorly 
-  * (but it is also worth trying to do with the proper form whatever that is)
+## Thinking is also like lifting. Before you start, you need proper bracing and have the relevant ideas in place
+* Without this, it is wasted or poorly invested effort. whatever is worth doing is worth doing poorly 
+* (but it is also worth trying to do with the proper form whatever that is)
 
-* Sometimes when I study, i get tired. How can i rest and recover? from a mental fatigue
-  * Is it similar to resting for a workout?
+## Sometimes when I study, i get tired. How can i rest and recover? from a mental fatigue
+* Is it similar to resting for a workout?
 
-* What does this mean? What good properties arise from this
-* Go through the material slowly do not rush it
+## What does this mean? What good properties arise from this
+## Go through the material slowly do not rush it
 * Or finish it as an attempt to check off a list of things or list of facts to learn
 * You need to have the basics down
 
-* What kinds of things should I look into and are scalable?
+## What kinds of things should I look into and are scalable?
   * Whichever you learn, make sure to organize the material well so that it can be abstracted and extended
   * ask lots of questions
 
+## Mantra
 * You are a musician with the barbell or the material
 * Even though it is hard, I will do it
 * FOCUS
 * Relax and throw punches, rest and try again
 * Studying is like training
 
-* What is the end goal?
-  * Need some reward 
-  * To be able to learn, explore, organize, and communicate them in an effective way
-  * Speed
-  * Strength
-  * Art, Beauty
+## What is the end goal?
+* Need some reward 
+* To be able to learn, explore, organize, and communicate them in an effective way
+* Speed
+* Strength
+* Art, Beauty
 
-* Mapping out the space
-  * How about the converse?
-  * How does this relate to what we already know?
+## Mapping out the space
+* How about the converse?
+* How does this relate to what we already know?
 
+
+# Guiding Questions
 
 * How will the notes I have written help?
   * How are they valuable?
