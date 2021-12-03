@@ -1,5 +1,12 @@
 # Free notes
 
+## Exercise
+* To come up with potential good question that investigate connections.
+  * And the solve these questions
+* To come up with good examples
+* What kind of thing can help with building something like this?
+  * Like a list of definitions and their input and output and descriptions/interactions/behavior and theorems
+
 ## Lets break down definition supremum
 * $sup S$ is a upper bound of $S$
 * if u is upper bound of $S$, then $sup S \leq u$
