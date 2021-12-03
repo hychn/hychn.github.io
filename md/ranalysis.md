@@ -5,14 +5,14 @@
 * $A \subset B$ if B contains all the elements of A
 * $A = B$  if they contain the same elements
 
-* $ \union \intersection \setminus $ are binary operations from a set to another set
+* $ \union \cap \setminus $ are binary operations from a set to another set
 * $ \varnothing $
-* $ A \union (B \intersection C) $
-* $ A \intersection (B \union C) $
+* $ A \union (B \cap C) $
+* $ A \cap (B \union C) $
 * $ ( A \union B )^c $
-* $ ( A \intersection B )^c $
+* $ ( A \cap B )^c $
 * $ A \setminus (B \union C)$
-* $ A \setminus (B \intersection C)$
+* $ A \setminus (B \cap C)$
 
 ## DEF function
 * Mapping set $A$ to $B$
