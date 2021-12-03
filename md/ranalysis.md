@@ -5,13 +5,13 @@
 * $A \subset B$ if B contains all the elements of A
 * $A = B$  if they contain the same elements
 
-* $ \union \cap \setminus $ are binary operations from a set to another set
+* $ \cup \cap \setminus $ are binary operations from a set to another set
 * $ \varnothing $
-* $ A \union (B \cap C) $
-* $ A \cap (B \union C) $
-* $ ( A \union B )^c $
+* $ A \cup (B \cap C) $
+* $ A \cap (B \cup C) $
+* $ ( A \cup B )^c $
 * $ ( A \cap B )^c $
-* $ A \setminus (B \union C)$
+* $ A \setminus (B \cup C)$
 * $ A \setminus (B \cap C)$
 
 ## DEF function
