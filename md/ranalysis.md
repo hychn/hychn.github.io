@@ -1,20 +1,22 @@
 # 1.1 Sets and Functions
 
+## DEF Set
 * $A$ a set is a collection of objects
 * $a \in A$ if the element $a$ is in A
 * $A \subset B$ if B contains all the elements of A
 * $A = B$  if they contain the same elements
-
-* $ \cup \cap \setminus $ are binary operations from a set to another set
+* $ \cup \cap \setminus $ are binary operations  $S \times S \rightarrow S$
 * $ \varnothing $
-* $ A \cup (B \cap C) $
-* $ A \cap (B \cup C) $
-* $ ( A \cup B )^c $
-* $ ( A \cap B )^c $
-* $ A \setminus (B \cup C)$
-* $ A \setminus (B \cap C)$
 
-## DEF function
+## PROPERTIES Set
+* $ A \cup (B \cap C) = (A \cup B) \cap (A \cup C) $
+* $ A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+* $ ( A \cup B )^c = (A^c \cap B^c) $
+* $ ( A \cap B )^c = (A^c \cup B^c) $
+* $ A \setminus (B \cup C) = (A \setminus B) \cap (A \setminus C)$
+* $ A \setminus (B \cap C) = (A \setminus B) \cup (A \setminus C)$
+
+## DEF Function
 * Mapping set $A$ to $B$
 * Such that an element of $A$ maps to exactly one element in $B$
 
