@@ -1,6 +1,10 @@
+.contents {
+  padding-top:20px
+}
+
 .top {
   position: fixed
-
+  top: 0px
 }
 .spoiler {
   display: none;
@@ -19,6 +23,8 @@ h1, h2, h3, h4, div, p, ul, li {
 #toc_frame {
   background-color: yellow;
   display: none;
+  overflow:scroll;
+  height:100px;
 }
 
 h1, h2, h3, h4 {
