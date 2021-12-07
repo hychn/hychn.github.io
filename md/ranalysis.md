@@ -1,3 +1,36 @@
+* Things to look
+  * Examples
+  * All Connections
+  * Write as little as you can to describe the most you wish
+  * Order
+ 
+* Common themes
+  * Operation between two objects
+    * Identity
+    * Associative
+    * Commutative
+  * Relation between two objects
+    * Identity
+    * Reflexive
+    * Transitive
+  * Specific object
+
+Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
+No, consider $f(x)=x^2$ and $ A = \{ 0 < x < 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 < x < 1 \}$. 
+What condition can guarantee that you can always find an inverse?
+From a new idea, how many more ideas can be formed in combination with existing ideas?
+Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
+
+
+# Boolean Logic
+Statements that are True or False
+When we write 
+* $A$, means $A$ is true
+* $\lnot A$ means $A$ is false
+* $A \land B$ means $A$ and $B$ is true
+* $A \lor B$ means $A$ or $B$ is true
+* $A \rightarrow B$ means $\lnot A$ or $B$ is true
+
 # 1.1 Sets and Functions
 
 ## DEF Set
@@ -17,29 +50,20 @@
 * $ A \setminus (B \cap C) = (A \setminus B) \cup (A \setminus C)$
 
 ## DEF Function
-* Mapping set $A$ to $B$
+* Mapping from a set $A$ to $B$
 * Such that an element of $A$ maps to exactly one element in $B$
 
-Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
-No, consider $f(x)=x^2$ and $ A = \{ 0 < x < 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 < x < 1 \}$. 
-What condition can guarantee that you can always find an inverse?
-
-From a new idea, how many more ideas can be formed in combination with existing ideas?
-Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
-
-self operation
-
 # 1.2 Mathematical Induction
+
 
 # 1.3 Finite and Infinite Sets
 
 ## THM 1.3.2 Cardinality of a finite set is unique
 * Given $A \subset B$ it is not possible to form a bijection from B to A
-* The uniqueness forms a partition on the finite numeration
 
 ## THM 1.3.3 $\mathbb{N}$ is infinite set
 ## THM 1.3.4 Cardinality and Set operations
-* Cardinality of finite members are preserved under union and inclusive set difference
+* Cardinality of finite members are preserved under disjoint union and set difference by a subset
 * Cardinality of infinite finite sets 
 * ? inf<x contrapositive to x<fin ?
   * Lets see how to contrapositive flips within the argument
@@ -51,6 +75,15 @@ self operation
 
 ## THM 1.3.8 $N \times N$ is denumerable
 * You have comeup with an interesting function. How to show 
+
+>! N(a,b) = b + sum_prev_diags
+>! diag(a,b) = a+b-1 = d
+>! we know b<=diag(a,b)
+>! if diag is same, then it is clear N is injective
+>! suppose diag is different, let diag2 bigger than diag1 so b1<diag1<diag2
+>! b1+diag0..1 = b2 + diag0..1+diag1..2
+>! b1 = b2 + diag1..2 > diag2 contradiction
+>! b1 cannot make up for the distance btw two diff diagonals
 
 ## THM 1.3.9 $T \subset S$
 * Conclusion (countable/uncountable) drawn about one set from another set based on ordering
@@ -72,12 +105,15 @@ self operation
 ## Order of $\mathbb{R}$
 * Defined in terms of positive number
 * Relation
+ 
 ## 2.1.7 Properties of order on R
 * if $a>b$ and $b>c$ then $a>b>c$ Transitive
 * if $a>b$ then $a+c>b+c$
 * if $a>b$ and $c>0$ then $ca>cb$
 * if $a>b$ and $c<0$ then $ca<cb$
-## No smallest positive  number can exist
+
+## No smallest positive real number can exist
+
 ## 2.1.9 Thm
 If $0 \geq a \gt e \forall e \gt 0$ then $a=0$
 ## 2.1.10 Thm

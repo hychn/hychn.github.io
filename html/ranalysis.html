@@ -1,4 +1,48 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://ychnh.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <button onclick="toggle_show()">Table of Contents</button> <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> <div id="contents">
+<ul>
+<li><p>Things to look</p>
+
+<ul>
+<li>Examples</li>
+<li>All Connections</li>
+<li>Write as little as you can to describe the most you wish</li>
+<li>Order</li>
+</ul></li>
+<li><p>Common themes</p>
+
+<ul>
+<li>Operation between two objects
+<ul>
+<li>Identity</li>
+<li>Associative</li>
+<li>Commutative</li>
+</ul></li>
+<li>Relation between two objects
+<ul>
+<li>Identity</li>
+<li>Reflexive</li>
+<li>Transitive</li>
+</ul></li>
+<li>Specific object</li>
+</ul></li>
+</ul>
+
+<p>Consider \(f\) and \(A\) and \(f(A)\). What is the identity? Can there always be an inverse? 
+No, consider \(f(x)=x^2\) and \( A = \{ 0 < x < 1 \}\). We see that \(f^{-1}(f(A)) = \{ -1 < x < 1 \}\). 
+What condition can guarantee that you can always find an inverse?
+From a new idea, how many more ideas can be formed in combination with existing ideas?
+Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]</p>
+
+<h1>Boolean Logic</h1>
+
+<p>Statements that are True or False
+When we write 
+* \(A\), means \(A\) is true
+* \(\lnot A\) means \(A\) is false
+* \(A \land B\) means \(A\) and \(B\) is true
+* \(A \lor B\) means \(A\) or \(B\) is true
+* \(A \rightarrow B\) means \(\lnot A\) or \(B\) is true</p>
+
 <h1>1.1 Sets and Functions</h1>
 
 <h2>DEF Set</h2>
@@ -26,18 +70,9 @@
 <h2>DEF Function</h2>
 
 <ul>
-<li>Mapping set \(A\) to \(B\)</li>
+<li>Mapping from a set \(A\) to \(B\)</li>
 <li>Such that an element of \(A\) maps to exactly one element in \(B\)</li>
 </ul>
-
-<p>Consider \(f\) and \(A\) and \(f(A)\). What is the identity? Can there always be an inverse? 
-No, consider \(f(x)=x^2\) and \( A = \{ 0 < x < 1 \}\). We see that \(f^{-1}(f(A)) = \{ -1 < x < 1 \}\). 
-What condition can guarantee that you can always find an inverse?</p>
-
-<p>From a new idea, how many more ideas can be formed in combination with existing ideas?
-Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]</p>
-
-<p>self operation</p>
 
 <h1>1.2 Mathematical Induction</h1>
 
@@ -47,7 +82,6 @@ Set of existing ideas = [ identity, inverse, transitive, union, intersection, eq
 
 <ul>
 <li>Given \(A \subset B\) it is not possible to form a bijection from B to A</li>
-<li>The uniqueness forms a partition on the finite numeration</li>
 </ul>
 
 <h2>THM 1.3.3 \(\mathbb{N}\) is infinite set</h2>
@@ -55,7 +89,7 @@ Set of existing ideas = [ identity, inverse, transitive, union, intersection, eq
 <h2>THM 1.3.4 Cardinality and Set operations</h2>
 
 <ul>
-<li>Cardinality of finite members are preserved under union and inclusive set difference</li>
+<li>Cardinality of finite members are preserved under disjoint union and set difference by a subset</li>
 <li>Cardinality of infinite finite sets </li>
 <li>? inf<x contrapositive to x<fin ?
 <ul>
@@ -76,6 +110,17 @@ Set of existing ideas = [ identity, inverse, transitive, union, intersection, eq
 <ul>
 <li>You have comeup with an interesting function. How to show </li>
 </ul>
+
+<blockquote>
+  <p>! N(a,b) = b + sum<em>prev</em>diags
+  ! diag(a,b) = a+b-1 = d
+  ! we know b&lt;=diag(a,b)
+  ! if diag is same, then it is clear N is injective
+  ! suppose diag is different, let diag2 bigger than diag1 so b1<diag1<diag2
+  ! b1+diag0..1 = b2 + diag0..1+diag1..2
+  ! b1 = b2 + diag1..2 &gt; diag2 contradiction
+  ! b1 cannot make up for the distance btw two diff diagonals</p>
+</blockquote>
 
 <h2>THM 1.3.9 \(T \subset S\)</h2>
 
@@ -107,15 +152,19 @@ Set of existing ideas = [ identity, inverse, transitive, union, intersection, eq
 
 <ul>
 <li>Defined in terms of positive number</li>
-<li><p>Relation</p>
+<li>Relation</li>
+</ul>
 
-<h2>2.1.7 Properties of order on R</h2></li>
-<li><p>if \(a>b\) and \(b>c\) then \(a>b>c\) Transitive</p></li>
+<h2>2.1.7 Properties of order on R</h2>
+
+<ul>
+<li>if \(a>b\) and \(b>c\) then \(a>b>c\) Transitive</li>
 <li>if \(a>b\) then \(a+c>b+c\)</li>
 <li>if \(a>b\) and \(c>0\) then \(ca>cb\)</li>
-<li>if \(a>b\) and \(c<0\) then \(ca<cb\)
-<h2>No smallest positive  number can exist</h2></li>
+<li>if \(a>b\) and \(c<0\) then \(ca<cb\)</li>
 </ul>
+
+<h2>No smallest positive real number can exist</h2>
 
 <h2>2.1.9 Thm</h2>
 
