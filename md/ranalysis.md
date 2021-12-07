@@ -1,5 +1,5 @@
 
-> ! test
+> ! test $A-B$
 
 * Things to look
   * Examples

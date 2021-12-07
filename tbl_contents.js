@@ -3,6 +3,18 @@ function scroll_bottom() {
   objDiv.scrollTop = objDiv.scrollHeight;
 }
 
+
+function toggle_show_spoiler() {
+  var x = document.getElementByClassName("spoiler");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+
 function toggle_show() {
   var x = document.getElementById("toc_frame");
   if (x.style.display == "none") {
