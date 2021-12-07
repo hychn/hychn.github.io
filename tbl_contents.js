@@ -5,11 +5,13 @@ function scroll_bottom() {
 
 
 function toggle_show_spoiler() {
-  var x = document.getElementByClassName("spoiler");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+  var x = document.getElementsByClassName("spoiler");
+  for (let i = 0; i < x.length; i++) {
+    if (x[i].style.display == "none") {
+      x[i].style.display = "block";
+    } else {
+      x[i].style.display = "none";
+    }
   }
 }
 
