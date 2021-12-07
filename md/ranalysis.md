@@ -79,13 +79,13 @@ When we write
 ## THM 1.3.8 $N \times N$ is denumerable
 * You have comeup with an interesting function. How to show 
 
->! N(a,b) = b + sum_prev_diags
->! diag(a,b) = a+b-1 = d
->! we know b<=diag(a,b)
+>! $N(a,b) = b + sum_prev_diags$
+>! $diag(a,b) = a+b-1 = d$
+>! we know $b  \leq diag(a,b) $
 >! if diag is same, then it is clear N is injective
->! suppose diag is different, let diag2 bigger than diag1 so b1<diag1<diag2
->! b1+diag0..1 = b2 + diag0..1+diag1..2
->! b1 = b2 + diag1..2 > diag2 contradiction
+>! suppose diag is different, let diag2 bigger than diag1 so $b1 < diag1 < diag2$
+>! $b1+diag0..1 = b2 + diag0..1+diag1..2$
+>! $b1 = b2 + diag1..2 > diag2$ contradiction
 >! b1 cannot make up for the distance btw two diff diagonals
 
 ## THM 1.3.9 $T \subset S$
