@@ -28,6 +28,11 @@ function toggle_show() {
 
 window.onload = function () {
 
+    var x = document.getElementsByClassName("spoiler");
+    for (let i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+
     var x = document.getElementById("toc_frame");
     x.style.display = "none";
 
