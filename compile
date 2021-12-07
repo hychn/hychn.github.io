@@ -128,7 +128,7 @@ for l in L:
     codex.update(c)
 
 mkdownstr = '\n'.join(L_)
-L = markdown2.markdown(mkdownstr).split('\n')
+L = markdown2.markdown(mkdownstr, extras=['spoiler']).split('\n')
 
 def codexify(L, codex):
     K = sorted( codex.keys() )
