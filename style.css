@@ -1,12 +1,15 @@
-.contents {
-  padding-top:20px;
-  margin-top: 20px;
+mjx-container {
+    z-index: -1;
+}
 
+#contents {
+  padding-top:10px;
 }
 
 .top {
   position: fixed;
-  top: 0px
+  top: 0px;
+  right: 0px;
 }
 .spoiler {
   display: none;
@@ -26,7 +29,7 @@ h1, h2, h3, h4, div, p, ul, li {
   background-color: yellow;
   display: none;
   overflow:scroll;
-  height:100px;
+  height:140px;
 }
 
 h1, h2, h3, h4 {
