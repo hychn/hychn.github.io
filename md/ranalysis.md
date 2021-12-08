@@ -1,7 +1,6 @@
 
 
-* $\require{textcomp} \textless $ $\textlptr$ $\textrptr$
-
+*  $\char"10003$
 * Things to look
   * Examples
   * All Connections
