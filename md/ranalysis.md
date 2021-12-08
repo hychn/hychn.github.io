@@ -112,7 +112,7 @@ When we write
 * if $a>b$ and $b>c$ then $a>b>c$ Transitive
 * if $a>b$ then $a+c>b+c$
 * if $a>b$ and $c>0$ then $ca>cb$
-* if $a>b$ and $c<0$ then $ca < cb$
+* if $a>b$ and $c<0$ then $ca<cb$
 
 
 ## No smallest positive real number can exist

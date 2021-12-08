@@ -64,6 +64,7 @@ def toMathJaxStr(s):
             snew[idx] = '  <pre>&gt</pre>  '
     
     s = ''.join(snew)
+    print(s)
 
 def ordr(i, MAX=sys.maxsize):
     if i<0:
