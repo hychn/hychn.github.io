@@ -1,6 +1,6 @@
 
 
-* $\textless $ $\textlptr$ $\textrptr$
+* $\require{textcomp} \textless $ $\textlptr$ $\textrptr$
 
 * Things to look
   * Examples
