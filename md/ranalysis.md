@@ -1,5 +1,4 @@
 
-
 *  $\symbol{"10003}$
 * Things to look
   * Examples
