@@ -50,21 +50,22 @@ idx = 0
 def toMathJaxStr(s):
     k = s[0]
     s = s[1:-1]
+        snew = list(s)
+    for idx,c in enumerate(s):
+        if c == '<':
+            snew[idx] = ' <pre>&lt</pre> '
+        elif c == '>':
+            snew[idx] = ' <pre>&gt</pre> '
+    
+    s = ''.join(snew)
+    #print(s)
     if k == '$':
         return "\\("+s+'\\)'
         
     elif k == '`':
         return '$$'+s+'$$'
 
-    snew = list(s)
-    for idx,c in enumerate(s):
-        if c == '<':
-            snew[idx] = '  <pre>&lt</pre>  '
-        elif c == '>':
-            snew[idx] = '  <pre>&gt</pre>  '
-    
-    s = ''.join(snew)
-    print(s)
+
 
 def ordr(i, MAX=sys.maxsize):
     if i<0:
