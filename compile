@@ -54,9 +54,11 @@ def toMathJaxStr(s):
     snew = list(s)
     for idx,c in enumerate(s):
         if c == '<':
-            snew[idx] = ' <pre>&lt</pre> '
+            snew[idx] = ' < '
+            #snew[idx] = ' <pre>&lt</pre> '
         elif c == '>':
-            snew[idx] = ' <pre>&gt</pre> '
+            #snew[idx] = ' <pre>&gt</pre> '
+            snew[idx] = ' > '
     
     s = ''.join(snew)
     #print(s)
