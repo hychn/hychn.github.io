@@ -1,5 +1,7 @@
 
 
+* $\textless $ $\textlptr$ $\textrptr$
+
 * Things to look
   * Examples
   * All Connections
@@ -113,6 +115,7 @@ When we write
 * if $a>b$ then $a+c>b+c$
 * if $a>b$ and $c>0$ then $ca>cb$
 * if $a>b$ and $c<0$ then $ca<cb$
+
 
 ## No smallest positive real number can exist
 
