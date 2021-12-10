@@ -1,6 +1,5 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
 <ul>
-<li>\(\symbol{"10003}\)</li>
 <li><p>Things to look</p>
 
 <ul>
@@ -26,13 +25,18 @@
 </ul></li>
 <li>Specific object</li>
 </ul></li>
+<li><p>Why are certain properties important?</p></li>
+<li>Usually when some property is given in a book, it is there for a reason</li>
+<li>What are equivalent statements with this new definition?</li>
 </ul>
 
-<p>Consider \(f\) and \(A\) and \(f(A)\). What is the identity? Can there always be an inverse? 
-No, consider \(f(x)=x^2\) and \( A = \{ 0  <  x  <  1 \}\). We see that \(f^{-1}(f(A)) = \{ -1  <  x  <  1 \}\). 
-What condition can guarantee that you can always find an inverse?
-From a new idea, how many more ideas can be formed in combination with existing ideas?
-Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]</p>
+<blockquote class="spoiler">
+  <p>Consider \(f\) and \(A\) and \(f(A)\). What is the identity? Can there always be an inverse? 
+  No, consider \(f(x)=x^2\) and \( A = \{ 0  <  x  <  1 \}\). We see that \(f^{-1}(f(A)) = \{ -1  <  x  <  1 \}\). 
+  What condition can guarantee that you can always find an inverse?
+  From a new idea, how many more ideas can be formed in combination with existing ideas?
+  Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]</p>
+</blockquote>
 
 <h1>Boolean Logic</h1>
 
@@ -91,11 +95,9 @@ When we write
 
 <ul>
 <li>Cardinality of finite members are preserved under disjoint union and set difference by a subset</li>
-<li>Cardinality of infinite finite sets </li>
-<li>? inf<x contrapositive to x<fin ?
-<ul>
-<li>Lets see how to contrapositive flips within the argument</li>
-</ul></li>
+<li>Cardinality of infinite finite sets 
+&gt;! * ? inf<x contrapositive to x<fin ?
+&gt;! * Lets see how to contrapositive flips within the argument</li>
 </ul>
 
 <h2>THM 1.3.5 \(T \subset S\)</h2>
@@ -192,12 +194,9 @@ When we write
 
 <h2>Definition of ABS</h2>
 
-<h2>Properties of ABS</h2>
-
 <ul>
-<li>Why are certain properties important?</li>
-<li>Usually when some property is given in a book, it is there for a reason</li>
-<li>What are equivalent statements with this new definition?</li>
+<li>\(|a|\) is a function from \(\mathbb{R} \rightarrow \mathbb{R}\) such that</li>
+<li>\(a > 0 |a| = a\), \(a < 0 |a| = -a\), \(a=0 |a| = 0\) </li>
 </ul>
 
 <h2>2.2.3 Triangle Inequality</h2>
@@ -209,8 +208,8 @@ When we write
 <h2>2.2.4 Corallaries of Triangle Inequality</h2>
 
 <ul>
-<li>\(| |a|-|b| | < |a-b|\)</li>
-<li>\(|a-b| < |a|+|b|\)</li>
+<li>\(||a|-|b||  <  |a-b|\)</li>
+<li>\(|a-b|  <  |a|+|b|\)</li>
 </ul>
 
 <h2>2.2.5 Triangle Inequality for N sums</h2>
@@ -227,8 +226,6 @@ When we write
 
 <h2>2.2.8 if x is in every e neighborhood of a then x is a</h2>
 
-<h2>2.2.9</h2>
-
 <h1>2.3 Completeness Property</h1>
 
 <h2>Def 2.3.1 Bounded above, below, bounded sets</h2>
@@ -237,7 +234,7 @@ When we write
 <li>Given an subset, \(S\), of \(\mathbb{R}\) it is bounded if ...</li>
 </ul>
 
-<h2>Def 2.3.2 Suprememum Infimum</h2>
+<h2>Def 2.3.2 Supremum Infimum</h2>
 
 <ul>
 <li>Supremum least upperbound 
@@ -247,23 +244,27 @@ When we write
 <li>Infimum greatest lowerbound</li>
 </ul>
 
-<h2>Remark: uniqueness of suprememum infimum</h2>
+<h2>Remark: Uniqueness of suprememum infimum</h2>
 
 <h2>Remark: Consider the contrapositive of least upper bound condition of definition of suprememum</h2>
 
 <h2>Lemma 2.3.3</h2>
 
 <ul>
-<li><p>What is smaller than supremum is not a upper bound</p>
+<li>What is smaller than supremum is not a upper bound</li>
+<li>Contrapositive of definition of Supremum</li>
+</ul>
+
+<h2>Lemma 2.3.4</h2>
 
 <ul>
-<li>Why is this lemma here?
-<h2>Lemma 2.3.4</h2></li>
-</ul></li>
-<li><p>Upperbound u is supremum iff \(\forall e  >  0\) there exists \(s_e \in S\) sutch that \(u-e  <  s_e\)</p>
+<li>Upperbound u is supremum iff \(\forall e  >  0\) there exists \(s_e \in S\) sutch that \(u-e  <  s_e\)</li>
+</ul>
 
-<h2>2.3.6 Completeness Property of R</h2></li>
-<li><p>Every nonempty set of real numbers that has upper bound has a supremum in \(\mathbb{R}\)</p></li>
+<h2>2.3.6 Completeness Property of R</h2>
+
+<ul>
+<li>Every nonempty set of real numbers that has upper bound has a supremum in \(\mathbb{R}\)</li>
 </ul>
 
 <h2>Lets break down definition supremum</h2>
@@ -275,5 +276,101 @@ When we write
 <li>What are the output of the definition? (real value)</li>
 <li>Can anything other than input output influence or server some connection?</li>
 </ul>
+
+<h1>2.4 Application of Supremum</h1>
+
+<h2>2.4.1</h2>
+
+<ul>
+<li>\(a + supS = sup\{ a+s | \forall \ in S \}\)</li>
+<li>Suppose \(a \leq b \forall a b \in A B \). Then \(sup A \leq inf B\)</li>
+</ul>
+
+<h2>2.4.2</h2>
+
+<ul>
+<li>\(f(x) \leq g(x) \forall x \in D\) then \(sup f(D) \leq sup g(D)\)</li>
+<li>This does not guarantee \(sup f(D) \leq inf g(D)\)</li>
+</ul>
+
+<h2>2.4.3 Archemdean Property</h2>
+
+<ul>
+<li>For any \(r \in \mathbb{R}\) there is \(n_r \in \mathbb{N}\) such that \(r \leq n_r\)</li>
+<li>There is no real number larger than all natural numbers</li>
+</ul>
+
+<h2>2.4.4 Corollary</h2>
+
+<ul>
+<li>\(S = \{ \dfrac{1}{n} | n \in \mathbb{N} \}\) then \(inf S = 0\)</li>
+</ul>
+
+<h2>2.4.7 \( \ sqrt{2} is a real number\)</h2>
+
+<p><! * This is a consequence of the Supremum property of \(\mathbb{R}\)
+<! * Can show </p>
+
+<h1>2.5 Intervals</h1>
+
+<h2>DEF Interval</h2>
+
+<ul>
+<li>(a,b) := {x | a &lt; x &lt; b}</li>
+<li>(a,b), (a,b], [a,b), [a,b]</li>
+<li>(-inf,b), (-inf,b], (a,inf), [a,inf), (-inf,inf)</li>
+</ul>
+
+<h2>2.5.1 THM Characterization of Interval</h2>
+
+<ul>
+<li>if \(S\) has the property, then \(S\) is an interval</li>
+<li>property: if \(a,b \in S\) and \(a < b\) then \([ a, b ] \subset S\) </li>
+</ul>
+
+<h2>DEF Nested Intervals</h2>
+
+<ul>
+<li>A sequence of intervals \(I_n, n \in \mathbb{N}\) is nested if \( ... I_3 \subset I_2 \subset I_1\)</li>
+</ul>
+
+<h2>QUESTION</h2>
+
+<ul>
+<li>Why must these intervals be index by N?</li>
+<li>Supremum does not require</li>
+<li>Does any other part require us?</li>
+</ul>
+
+<h2>2.5.2 THM Nested Interval Property</h2>
+
+<ul>
+<li>If \(I_n = [a_n,b_n], n \in \mathbb{N}\) is a sequence of closed bounded intervals, there is \( c \in I_n \forall n \in \mathbb{N}\)</li>
+</ul>
+
+<h2>2.5.3 THM Uniqueness of Common Nested Interval Point</h2>
+
+<ul>
+<li>If \(I_n = [a_n,b_n], n \in \mathbb{N}\) is a sequenc of closed bounded intervals, and \(inf \{b_n - a_n | n \in \mathbb{N} \} = 0\)</li>
+<li>then \( c \in I_n \forall n \in \mathbb{N}\) is unique</li>
+</ul>
+
+<h2>2.5.4 Set of \(\mathbb{R}\) is not countable</h2>
+
+<ul>
+<li>Assume is countable</li>
+<li>\( \{x_1, x_2, ...  \} = S\)</li>
+<li>want to find a number that is not in the set that includes all numbers</li>
+<li>\( c \in \forall I_n \) then make each \(s \in S\) be the negation of \(\in \forall I_n\)</li>
+</ul>
+
+<h2>DEF Binary representation</h2>
+
+<ul>
+<li>A bijection?</li>
+<li>homorphism under addition/sub?</li>
+</ul>
+
+<h2>2.5.5 THM \(\mathbb{R}\) is uncountable</h2>
 
 </div></body> </html>

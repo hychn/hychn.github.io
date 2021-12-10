@@ -1,5 +1,3 @@
-
-*  $\symbol{"10003}$
 * Things to look
   * Examples
   * All Connections
@@ -17,12 +15,15 @@
     * Transitive
   * Specific object
 
-Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
-No, consider $f(x)=x^2$ and $ A = \{ 0 < x < 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 < x < 1 \}$. 
-What condition can guarantee that you can always find an inverse?
-From a new idea, how many more ideas can be formed in combination with existing ideas?
-Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
+* Why are certain properties important?
+* Usually when some property is given in a book, it is there for a reason
+* What are equivalent statements with this new definition?
 
+>! Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
+>! No, consider $f(x)=x^2$ and $ A = \{ 0 < x < 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 < x < 1 \}$. 
+>! What condition can guarantee that you can always find an inverse?
+>! From a new idea, how many more ideas can be formed in combination with existing ideas?
+>! Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
 
 # Boolean Logic
 Statements that are True or False
@@ -67,8 +68,8 @@ When we write
 ## THM 1.3.4 Cardinality and Set operations
 * Cardinality of finite members are preserved under disjoint union and set difference by a subset
 * Cardinality of infinite finite sets 
-* ? inf<x contrapositive to x<fin ?
-  * Lets see how to contrapositive flips within the argument
+>! * ? inf<x contrapositive to x<fin ?
+>! * Lets see how to contrapositive flips within the argument
 
 ## THM 1.3.5 $T \subset S$
 * Conclusion (finite/infinite) drawn about one set from another set based on ordering
@@ -114,11 +115,11 @@ When we write
 * if $a>b$ and $c>0$ then $ca>cb$
 * if $a>b$ and $c<0$ then $ca<cb$
 
-
 ## No smallest positive real number can exist
 
 ## 2.1.9 Thm
 If $0 \geq a \gt e \forall e \gt 0$ then $a=0$
+
 ## 2.1.10 Thm
 If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 
@@ -132,17 +133,15 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 # 2.2 Absolute Value and Real Line
 
 ## Definition of ABS
-## Properties of ABS
-* Why are certain properties important?
-* Usually when some property is given in a book, it is there for a reason
-* What are equivalent statements with this new definition?
+* $|a|$ is a function from $\mathbb{R} \rightarrow \mathbb{R}$ such that
+* $a>0 |a| = a$, $a<0 |a| = -a$, $a=0 |a| = 0$ 
 
 ## 2.2.3 Triangle Inequality 
 * $|a+b| \leq |a|+|b|$
 
 ## 2.2.4 Corallaries of Triangle Inequality
-* $| |a|-|b| |<|a-b|$
-* $|a-b|<|a|+|b|$
+* $||a|-|b|| < |a-b|$
+* $|a-b| < |a|+|b|$
 
 ## 2.2.5 Triangle Inequality for N sums 
 * $|a_1 + a_2 + ... + a_n| \leq |a_1|+|a_2|+ ... +|a_n|$
@@ -152,25 +151,27 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 
 ## 2.2.8 if x is in every e neighborhood of a then x is a
 
-## 2.2.9
 
 # 2.3 Completeness Property
 
 ## Def 2.3.1 Bounded above, below, bounded sets
 * Given an subset, $S$, of $\mathbb{R}$ it is bounded if ...
 
-## Def 2.3.2 Suprememum Infimum
+## Def 2.3.2 Supremum Infimum
 * Supremum least upperbound 
   * if u is upper bound of $S$, then $sup S \leq u$
 * Infimum greatest lowerbound
 
-## Remark: uniqueness of suprememum infimum
+## Remark: Uniqueness of suprememum infimum
 ## Remark: Consider the contrapositive of least upper bound condition of definition of suprememum
+
 ## Lemma 2.3.3
 * What is smaller than supremum is not a upper bound
-  * Why is this lemma here?
+* Contrapositive of definition of Supremum
+
 ## Lemma 2.3.4
 * Upperbound u is supremum iff $\forall e > 0$ there exists $s_e \in S$ sutch that $u-e < s_e$
+
 ## 2.3.6 Completeness Property of R
 * Every nonempty set of real numbers that has upper bound has a supremum in $\mathbb{R}$
 
@@ -180,3 +181,63 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * What are the inputs that define supremum? (S set)
 * What are the output of the definition? (real value)
 * Can anything other than input output influence or server some connection?
+
+# 2.4 Application of Supremum
+
+## 2.4.1 
+* $a + supS = sup\{ a+s | \forall \ in S \}$
+* Suppose $a \leq b \forall a b \in A B $. Then $sup A \leq inf B$
+
+## 2.4.2 
+* $f(x) \leq g(x) \forall x \in D$ then $sup f(D) \leq sup g(D)$
+* This does not guarantee $sup f(D) \leq inf g(D)$
+
+
+## 2.4.3 Archemdean Property
+* For any $r \in \mathbb{R}$ there is $n_r \in \mathbb{N}$ such that $r \leq n_r$
+* There is no real number larger than all natural numbers
+
+## 2.4.4 Corollary
+* $S = \{ \dfrac{1}{n} | n \in \mathbb{N} \}$ then $inf S = 0$
+
+## 2.4.7 $ \ sqrt{2} is a real number$
+<! * This is a consequence of the Supremum property of $\mathbb{R}$
+<! * Can show 
+
+# 2.5 Intervals
+
+## DEF Interval
+* (a,b) := {x | a < x < b}
+* (a,b), (a,b], [a,b), [a,b]
+* (-inf,b), (-inf,b], (a,inf), [a,inf), (-inf,inf)
+
+## 2.5.1 THM Characterization of Interval
+* if $S$ has the property, then $S$ is an interval
+*  property: if $a,b \in S$ and $a<b$ then $[ a, b ] \subset S$ 
+
+## DEF Nested Intervals
+* A sequence of intervals $I_n, n \in \mathbb{N}$ is nested if $ ... I_3 \subset I_2 \subset I_1$
+
+## QUESTION
+* Why must these intervals be index by N?
+* Supremum does not require
+* Does any other part require us?
+
+## 2.5.2 THM Nested Interval Property
+* If $I_n = [a_n,b_n], n \in \mathbb{N}$ is a sequence of closed bounded intervals, there is $ c \in I_n \forall n \in \mathbb{N}$
+
+## 2.5.3 THM Uniqueness of Common Nested Interval Point
+* If $I_n = [a_n,b_n], n \in \mathbb{N}$ is a sequenc of closed bounded intervals, and $inf \{b_n - a_n | n \in \mathbb{N} \} = 0$
+* then $ c \in I_n \forall n \in \mathbb{N}$ is unique
+
+## 2.5.4 Set of $\mathbb{R}$ is not countable
+* Assume is countable
+* $ \{x_1, x_2, ...  \} = S$
+* want to find a number that is not in the set that includes all numbers
+* $ c \in \forall I_n $ then make each $s \in S$ be the negation of $\in \forall I_n$
+
+## DEF Binary representation
+* A bijection?
+* homorphism under addition/sub?
+
+## 2.5.5 THM $\mathbb{R}$ is uncountable

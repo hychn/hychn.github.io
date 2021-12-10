@@ -1,5 +1,24 @@
 # Free notes
 
+## Ok, so I learned some considerable amount of information
+* How can I make them so they become second nature?
+* I feel like I am working through to 'prove' them again from scratch
+* Need to summarize what I learned in a common/natural sense way
+
+
+## Relax. Dont be anxious, its no way to live life.
+* Enjoy the process
+* Inspect each step
+* Take your time and make sure it is spent meaningfully
+
+## Hints are dangerous
+* need a proper reason to arrive at the solution
+* I had assumed $x_1 < x_2 < x_3 ...$ when it was $\{ x_1, x_2, x_3 \}$, leading me towards a wrong solution
+* Consider the most basic facts and lay them out
+* Assumptions are fine as long as you know they are assumptions and are willing to forgo
+
+## Dont aim to learn everything, learn to think and work through, the process
+
 ## Exercise
 * To come up with potential good question that investigate connections.
   * And the solve these questions
