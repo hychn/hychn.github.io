@@ -1,5 +1,27 @@
 # Free notes
 
+## Look carefully at each statement, example, problem
+* And consider the possibilities and variations in it's statement
+* For example $(0,1/n) and (0,\inf)$
+
+
+## Need continued inspiration
+* Faith
+* Motivation
+
+## When introduced with new object $X$
+* $X R X$
+* $X + X$
+  * Special objects in the operation?
+* $X R X \rightarrow X Q X$
+* function?
+
+## Exercises
+* Before I looked at exercises as just something I needed to prove and be done with
+* Now I see them as perspectives, points of view
+* And after one is resolved, I think, what is the implication, consequences of this?
+  * How does this shift the way I can think about the objects
+
 ## Ok, so I learned some considerable amount of information
 * How can I make them so they become second nature?
 * I feel like I am working through to 'prove' them again from scratch

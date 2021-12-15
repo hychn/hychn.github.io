@@ -26,8 +26,8 @@
 >! Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
 
 # Boolean Logic
-Statements that are True or False
-When we write 
+* Statements that are True or False
+* When we write 
 * $A$, means $A$ is true
 * $\lnot A$ means $A$ is false
 * $A \land B$ means $A$ and $B$ is true
@@ -241,3 +241,4 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * homorphism under addition/sub?
 
 ## 2.5.5 THM $\mathbb{R}$ is uncountable
+
