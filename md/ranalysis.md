@@ -58,8 +58,10 @@
 
 # 1.2 Mathematical Induction
 
-
 # 1.3 Finite and Infinite Sets
+
+## DEF 1.3.1 Finite Infinite
+* A set is finite iff there is a bijection between the set and $\{1...n\} n \in \mathbb{N}$
 
 ## THM 1.3.2 Cardinality of a finite set is unique
 * Given $A \subset B$ it is not possible to form a bijection from B to A
@@ -71,10 +73,15 @@
 >! * ? inf<x contrapositive to x<fin ?
 >! * Lets see how to contrapositive flips within the argument
 
-## THM 1.3.5 $T \subset S$
+## THM 1.3.5 $\subset$ and conditions for Finite/Infinite
+* $INF \subset S \rightarrow S$ is infinite
+* $S \subset FIN \rightarrow S$ is finite
 * Conclusion (finite/infinite) drawn about one set from another set based on ordering
 
-## DEF denumerable - bijection to N, countable - finite or denum, uncountable - not countable
+## DEF Denumerable, countable, uncountable
+* A set $S$ is denumerable - bijection from $S$ to $\mathbb{N}$
+* countable - finite or denum
+* uncountable - not countable
 
 ## THM 1.3.8 $N \times N$ is denumerable
 * You have comeup with an interesting function. How to show 
@@ -241,4 +248,17 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * homorphism under addition/sub?
 
 ## 2.5.5 THM $\mathbb{R}$ is uncountable
+
+
+# 3.1 Sequences and Their Limits
+
+## 3.1.1 DEF Sequence
+* Sequence in $S$ is a function from $\mathbb{N} \rightarrow \S$
+* $( s_n | n \in \mathbb{N} )$
+* inductively/recursively defined sequences $x_{n+1} = x_n + 5$
+
+## 3.1.3 DEF Limit of Sequence
+* $L$ is limit of sequence $(s_n)$ if $ \forall e \exists m $ s.t. $  \i> m \rightarrow |L-s_i| < e$
+* If $(s_n)$ has a limit, it is convergent
+* If $(s_n)$ doesn't have limit, it is divergent
 

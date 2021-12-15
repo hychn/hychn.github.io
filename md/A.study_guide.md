@@ -1,5 +1,9 @@
 # Free notes
 
+## If your head hurts, go back and review
+* Update the notes and clean it up while reviewing
+* To make the review a pleasant process, take good notes
+
 ## Look carefully at each statement, example, problem
 * And consider the possibilities and variations in it's statement
 * For example $(0,1/n) and (0,\inf)$
