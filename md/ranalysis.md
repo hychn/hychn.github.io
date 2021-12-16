@@ -258,7 +258,7 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * inductively/recursively defined sequences $x_{n+1} = x_n + 5$
 
 ## 3.1.3 DEF Limit of Sequence
-* $L$ is limit of sequence $(s_n)$ if $ \forall e \exists m $ s.t. $  \i> m \rightarrow |L-s_i| < e$
+
+* $L$ is limit of sequence $(s_n)$ if $ \forall e \: \exists m $ s.t. $i> m \rightarrow |L-s_i| < e$
 * If $(s_n)$ has a limit, it is convergent
 * If $(s_n)$ doesn't have limit, it is divergent
-
