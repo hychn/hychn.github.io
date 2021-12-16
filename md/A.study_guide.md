@@ -1,5 +1,15 @@
 # Free notes
 
+## Stop being results driven 
+* just because you make alot of progress or win, it is not a indicator of how well you are doing
+* because there are too many variables that determine whether you are doing well or not
+
+## Sometimes you want to play
+* I can tell you (math) is one of the purest form of play there is really
+* Theme like space, underwater?
+* Anyone can do this, really. Just be dedicated and focused and persistent
+* Devoted
+
 ## If your head hurts, go back and review
 * Update the notes and clean it up while reviewing
 * To make the review a pleasant process, take good notes

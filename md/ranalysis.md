@@ -258,7 +258,44 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * inductively/recursively defined sequences $x_{n+1} = x_n + 5$
 
 ## 3.1.3 DEF Limit of Sequence
-
-* $L$ is limit of sequence $(s_n)$ if $ \forall e \: \exists m $ s.t. $i> m \rightarrow |L-s_i| < e$
+* $L$ is limit of sequence $(s_n)$ if $ \forall e \: \exists m $ s.t. $m<i \rightarrow |L-s_i| < e$
 * If $(s_n)$ has a limit, it is convergent
 * If $(s_n)$ doesn't have limit, it is divergent
+
+>! * $Lim(s_n+x_n) = s+x$
+>! * Effect of limit on s_x operated on by a constant
+>! * Effect on limit on s_x operated by another sequence
+>! * $s_n < x_n \rightarrow s < x$
+>! * $s_i \in V_e(L)$
+>! * $(s_n) is a ordered set, how about ordered subset?$
+>! * Uniqueness of Limit 
+
+## 3.1.4 Uniqueness of Limit
+$ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A||{2} + \dfrac{|B-A||{2} = |B-A|$
+
+## 3.1.5 Explanation of Convergence of Limits in terms of Neighborhoods
+
+## 3.1.8 DEF Tail of a Sequence
+* Given a sequence, X = (x_1, x_2,...), the m-tail of X is a sequence, (x_m, x_{m+1}, ...)
+* We denote this as X_m
+
+## 3.1.9 THM Tail of a Sequence has same limit as sequence
+* for all epsilon, the tail or the original sequence will give an value that will guarantee $|L-x_i|<e$
+
+## 3.1.10 THM
+* Not a big fan of this thm. I think one can build a more constructive approach (see below)
+* $Lim(k-s_n) = 0 \iff Lim(s_n)=k$
+* $Lim(|s_n|) = | Lim(s_n) |$
+* $s_n \leq t_n \rightarrow  Lim(s_n) \leq Lim(t_n)$
+
+
+
+
+
+## Bounded increasing sequence is convergent
+* Converges to the supremum
+
+## Bounded sequences have convergent subsequence
+* Existence of an increasing or decreasing sequence in a bounded sequence
+
+* 2 dreams, 1 about comp other about lauren
