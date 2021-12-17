@@ -272,6 +272,9 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 
 ## 3.1.4 Uniqueness of Limit
 
+>! I started off with a diagram and realized, hey maybe the distance between the 2 different limits,(A,B), will show that the sequence will have to exist in 2 impossible places 
+>! It came more down to if the sequence is within 1 limit V_e(A), it cannot be in the other V_e(B)
+
 * Let $m$ be the point where $|A-s_m| < e$ and $|B-s_m| < e$ for $e = \dfrac{|B-A|}{2}$
 * $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A|}{2} + \dfrac{|B-A|}{2} = |B-A| $
 
@@ -287,12 +290,50 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 ## 3.1.10 THM
 * Not a big fan of this thm. I think one can build a more constructive approach (see below)
 * $Lim(k-s_n) = 0 \iff Lim(s_n)=k$
-* $Lim(|s_n|) = | Lim(s_n) |$
+* $Lim(|s_n|) = | Lim(s_n) |$ This is not true in general need more specific hypothesis. Maybe need $(s_n)$ convergent
 * $s_n \leq t_n \rightarrow  Lim(s_n) \leq Lim(t_n)$
+
+## 3.2.0 Introduction
+* Develop techniques to expand the collection of convergent sequences
+* Find more examples
+
+## 3.2.1 DEF Bounded sequence
+## 3.2.2 THM Convergent sequence is bounded
+* Suppose $Lim(s_n) = s$
+* $(s_n)$ is bound in $V_e(s)$ for $i > K(e)$ 
+* Clearly we can find a bound for elements $\{ s_1, s_2, ... , s_{K(e)} \}$
+* Merge these two bounds for a bound for all of $(s_n)$.
+  * Let $B1$ be bound for set $A$. Let $B2$ be bound for set $B$.
+  * Merge of $B1$ and $B2$ gives bound for $A \cup B$
+
+## 3.2.3 THM Real number operation on sequences and limit
+* TODO: sum, diff, constant mult
+* div
+
+## 3.2.4 THM if $(x_n) \geq 0$ then $Lim(x_n) \geq 0$
+
+## 3.2.5 THM Inequality is preserved for sequences and their limits
+* $(x_n) \leq (y_n) \rightarrow Lim(x_n) \leq Lim(y_n)$
+* Can show $(x_n) > (y_n)$ is not true if $Lim(x_n) > Lim(y_n)$ because we can select neighborhoods of $x$ and $y$ s.t all elements of the neighborhood will $V_e(x) > V_e(y)$
+
+## 3.2.6 LEMMA 
+* $ (z_n) \leq (x_n) \leq (y_n) \rightarrow Lim(x_n) \leq Lim(x_n) \leq Lim(y_n)$
+ 
+
+## 3.2.7 THM Squeeze Theorem
+* If $(z_n) \leq (x_n) \leq (y_n)$ and $L = Lim(z_n) = Lim(y_n)$ then $Lim(x_n)$ exists and is equal to $L$
+* If $z_n$ and $y_n$ are found within $V_e(L)$ then $x_n$ is also in this neighborhood
+* This means that $for i > min( Ky(e), Kz(e) )$,  $x_i$ will be in the $V_e(L)$
+
+## 3.2.8
+
+
+## 3.2.9
+
 
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
 
 ## Bounded sequences have convergent subsequence
-
 * Existence of an increasing or decreasing sequence in a bounded sequence
+
