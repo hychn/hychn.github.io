@@ -271,13 +271,13 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 >! * Uniqueness of Limit 
 
 ## 3.1.4 Uniqueness of Limit
-$ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A||{2} + \dfrac{|B-A||{2} = |B-A|$
+* $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A||{2} + \dfrac{|B-A||{2} = |B-A| $
 
 ## 3.1.5 Explanation of Convergence of Limits in terms of Neighborhoods
 
 ## 3.1.8 DEF Tail of a Sequence
-* Given a sequence, X = (x_1, x_2,...), the m-tail of X is a sequence, (x_m, x_{m+1}, ...)
-* We denote this as X_m
+* Given a sequence, $X = (x_1, x_2,...)$, the m-tail of X is a sequence, $(x_m, x_{m+1}, ...)$
+* We denote this as $X_m$
 
 ## 3.1.9 THM Tail of a Sequence has same limit as sequence
 * for all epsilon, the tail or the original sequence will give an value that will guarantee $|L-x_i|<e$
