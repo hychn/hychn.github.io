@@ -271,7 +271,7 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 >! * Uniqueness of Limit 
 
 ## 3.1.4 Uniqueness of Limit
-* $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A||{2} + \dfrac{|B-A||{2} = |B-A| $
+* $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A||{2} + \dfrac{|B-A|}{2} = |B-A| $
 
 ## 3.1.5 Explanation of Convergence of Limits in terms of Neighborhoods
 
@@ -288,14 +288,8 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * $Lim(|s_n|) = | Lim(s_n) |$
 * $s_n \leq t_n \rightarrow  Lim(s_n) \leq Lim(t_n)$
 
-
-
-
-
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
 
 ## Bounded sequences have convergent subsequence
 * Existence of an increasing or decreasing sequence in a bounded sequence
-
-* 2 dreams, 1 about comp other about lauren
