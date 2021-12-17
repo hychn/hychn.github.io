@@ -34,6 +34,32 @@
 * $A \lor B$ means $A$ or $B$ is true
 * $A \rightarrow B$ means $\lnot A$ or $B$ is true
 
+## Implication and Contrapositive
+
+>! * A -A  B -B  A->B  C
+>! * F  T  F  T   T    T
+>! * F  T  T  F   T    T
+>! * T  F  F  T   F    F
+>! * T  F  T  F   T    T
+
+>! * A Truth table is a table of the domain and range of statement values
+>! * Two statements are equivalent when they are the same function
+
+>! * The implication is interesting because it *correlates* A and B in a way
+
+* When we write $f(A,B),$ we mean $f(A,B)=true$
+* To prove $f(A,B)=true$, we need to plug in all variables to see if it is constant
+
+* To prove $A \rightarrow B = true$
+  * 1. if $A$ is false $A \rightarrow B = true$
+    * This means we only need to be concerned with the case where $A$ is true.
+  * 2. if $A$ is true $A \rightarrow B = true$ only when $B$ is true, requiring us to show $B$ is true (This links A and B/that B can never be false when A is true)
+    * This also mean when $B$ is false, $A$ must also be false because otherwise $A \rightarrow B = False$
+
+* From this relationship can we draw another implication (which satistfies 1&2)?
+  * To show an implication is true, we only need to be concerned with when hypothesis is true
+  * $!B \rightarrow !A$
+
 # 1.1 Sets and Functions
 
 ## DEF Set
@@ -323,17 +349,14 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 ## 3.2.7 THM Squeeze Theorem
 * If $(z_n) \leq (x_n) \leq (y_n)$ and $L = Lim(z_n) = Lim(y_n)$ then $Lim(x_n)$ exists and is equal to $L$
 * If $z_n$ and $y_n$ are found within $V_e(L)$ then $x_n$ is also in this neighborhood
-* This means that $for i > min( Ky(e), Kz(e) )$,  $x_i$ will be in the $V_e(L)$
+* This means that for $i > min( Ky(e), Kz(e) )$,  $x_i$ will be in the $V_e(L)$
 
 ## 3.2.8
 
-
 ## 3.2.9
-
 
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
 
 ## Bounded sequences have convergent subsequence
 * Existence of an increasing or decreasing sequence in a bounded sequence
-

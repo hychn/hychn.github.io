@@ -50,6 +50,44 @@
 <li>\(A \rightarrow B\) means \(\lnot A\) or \(B\) is true</li>
 </ul>
 
+<h2>Implication and Contrapositive</h2>
+
+<blockquote class="spoiler">
+  <ul>
+  <li>A -A  B -B  A->B  C</li>
+  <li>F  T  F  T   T    T</li>
+  <li>F  T  T  F   T    T</li>
+  <li>T  F  F  T   F    F</li>
+  <li><p>T  F  T  F   T    T</p></li>
+  <li><p>A Truth table is a table of the domain and range of statement values</p></li>
+  <li><p>Two statements are equivalent when they are the same function</p></li>
+  <li><p>The implication is interesting because it <em>correlates</em> A and B in a way</p></li>
+  </ul>
+</blockquote>
+
+<ul>
+<li>When we write \(f(A,B),\) we mean \(f(A,B)=true\)</li>
+<li><p>To prove \(f(A,B)=true\), we need to plug in all variables to see if it is constant</p></li>
+<li><p>To prove \(A \rightarrow B = true\)</p>
+
+<ul>
+<li><ol>
+<li>if \(A\) is false \(A \rightarrow B = true\)</li>
+<li>This means we only need to be concerned with the case where \(A\) is true.</li>
+</ol></li>
+<li><ol>
+<li>if \(A\) is true \(A \rightarrow B = true\) only when \(B\) is true, requiring us to show \(B\) is true (This links A and B/that B can never be false when A is true)</li>
+<li>This also mean when \(B\) is false, \(A\) must also be false because otherwise \(A \rightarrow B = False\)</li>
+</ol></li>
+</ul></li>
+<li><p>From this relationship can we draw another implication (which satistfies 1&amp;2)?</p>
+
+<ul>
+<li>To show an implication is true, we only need to be concerned with when hypothesis is true</li>
+<li>\(!B \rightarrow !A\)</li>
+</ul></li>
+</ul>
+
 <h1>1.1 Sets and Functions</h1>
 
 <h2>DEF Set</h2>
@@ -504,7 +542,7 @@
 <ul>
 <li>If \((z_n) \leq (x_n) \leq (y_n)\) and \(L = Lim(z_n) = Lim(y_n)\) then \(Lim(x_n)\) exists and is equal to \(L\)</li>
 <li>If \(z_n\) and \(y_n\) are found within \(V_e(L)\) then \(x_n\) is also in this neighborhood</li>
-<li>This means that \(for i  >  min( Ky(e), Kz(e) )\),  \(x_i\) will be in the \(V_e(L)\)</li>
+<li>This means that for \(i  >  min( Ky(e), Kz(e) )\),  \(x_i\) will be in the \(V_e(L)\)</li>
 </ul>
 
 <h2>3.2.8</h2>
