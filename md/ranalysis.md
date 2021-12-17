@@ -271,7 +271,7 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 >! * Uniqueness of Limit 
 
 ## 3.1.4 Uniqueness of Limit
-* $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A||{2} + \dfrac{|B-A|}{2} = |B-A| $
+* $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A|}{2} + \dfrac{|B-A|}{2} = |B-A| $
 
 ## 3.1.5 Explanation of Convergence of Limits in terms of Neighborhoods
 
