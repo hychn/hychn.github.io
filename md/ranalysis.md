@@ -292,4 +292,5 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * Converges to the supremum
 
 ## Bounded sequences have convergent subsequence
+
 * Existence of an increasing or decreasing sequence in a bounded sequence
