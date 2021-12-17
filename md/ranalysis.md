@@ -25,6 +25,11 @@
 >! From a new idea, how many more ideas can be formed in combination with existing ideas?
 >! Set of existing ideas = [ identity, inverse, transitive, union, intersection, equality, less than or equal, subset ]
 
+# Language
+
+* Use of language in math
+  * https://assets.press.princeton.edu/chapters/gowers/gowers_I_2.pdf
+
 # Boolean Logic
 * Statements that are True or False
 * When we write 
@@ -51,9 +56,9 @@
 * To prove $f(A,B)=true$, we need to plug in all variables to see if it is constant
 
 * To prove $A \rightarrow B = true$
-  * 1. if $A$ is false $A \rightarrow B = true$
+  * 1 if $A$ is false $A \rightarrow B = true$
     * This means we only need to be concerned with the case where $A$ is true.
-  * 2. if $A$ is true $A \rightarrow B = true$ only when $B$ is true, requiring us to show $B$ is true (This links A and B/that B can never be false when A is true)
+  * 2 if $A$ is true $A \rightarrow B = true$ only when $B$ is true, requiring us to show $B$ is true (This links A and B/that B can never be false when A is true)
     * This also mean when $B$ is false, $A$ must also be false because otherwise $A \rightarrow B = False$
 
 * From this relationship can we draw another implication (which satistfies 1&2)?
@@ -324,7 +329,8 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * Find more examples
 
 ## 3.2.1 DEF Bounded sequence
-## 3.2.2 THM Convergent sequence is bounded
+## 3.2.2 THM Convergent sequence implies bounded
+
 * Suppose $Lim(s_n) = s$
 * $(s_n)$ is bound in $V_e(s)$ for $i > K(e)$ 
 * Clearly we can find a bound for elements $\{ s_1, s_2, ... , s_{K(e)} \}$
@@ -336,7 +342,8 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * TODO: sum, diff, constant mult
 * div
 
-## 3.2.4 THM if $(x_n) \geq 0$ then $Lim(x_n) \geq 0$
+## 3.2.4 THM order on sequence corresponds to order on limit
+* if $(x_n) \geq 0$ then $Lim(x_n) \geq 0$
 
 ## 3.2.5 THM Inequality is preserved for sequences and their limits
 * $(x_n) \leq (y_n) \rightarrow Lim(x_n) \leq Lim(y_n)$
@@ -351,7 +358,9 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * If $z_n$ and $y_n$ are found within $V_e(L)$ then $x_n$ is also in this neighborhood
 * This means that for $i > min( Ky(e), Kz(e) )$,  $x_i$ will be in the $V_e(L)$
 
-## 3.2.8
+## 3.2.8 Examples of non convergent sequences
+* Not bounded
+pg75
 
 ## 3.2.9
 
