@@ -362,7 +362,17 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * Not bounded
 pg75
 
-## 3.2.9
+## 3.2.9 Convergence and abs
+* If $Lim(x_n) = x \rightarrow Lim(|x_n|) = |x|$
+>! | x_i - x|<e
+>! | |x_i| - |x| |<e
+
+|b| = | b - a + a | < |b-a| + |a|
+|b| - |a| < |b-a|
+
+|a| = | a - b + b | < |b-a| + |b|
+|b| - |a| > -|b-a|
+|a| - |b| < |b-a|
 
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
