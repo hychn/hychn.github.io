@@ -569,16 +569,32 @@ pg75</li>
 
 <ul>
 <li>If \(Lim(x_n) = x \rightarrow Lim(|x_n|) = |x|\)
-&gt;! | x<em>i - x|<e
-&gt;! | |x</em>i| - |x| |<e</li>
+&gt;! \( | x_i - x| < e \)
+&gt;! \( | |x_i| - |x| | < e \)
+&gt;! \((\dag)\) Can we show \( | |x_i| - |x| |  <  | x_i - x|\)?
+&gt;! 
+&gt;! I got quite dissatistfied  after looking at this proof and demotivated
+&gt;! I think the reason is it doesn't really explain why or arrive at the solution in a natural/discoverable way
+&gt;! I think when I am not satisfied with a proof or an explanation, I should really dig deeper and analayze it closer
+&gt;! But at the same time not let it get the best of me.
+&gt;! Don't be results driven
+&gt;! 
+&gt;! Below is the aforementioned neat proof from a book
+&gt;! \(|b| = | b - a + a |  <  |b-a| + |a|\)
+&gt;! \(|b| - |a|  <  |b-a|\)
+&gt;! \(|a| = | a - b + b |  <  |b-a| + |b|\)
+&gt;! \(|a| - |b|  <  |b-a|\)
+&gt;! \(|b| - |a|  >  -|b-a|\)
+&gt;! 
+&gt;! Useful Lemmas
+&gt;! Keep in mind these two properties of absolute value. \(|-x| = |x|\) and if \(b < 0 -b = |b|\)
+&gt;! How to show \(a > |b|\) iif \(a > b\) and \(a > -b\)
+&gt;!
+&gt;! Continuing from \((\dag)\)
+&gt;! 1 Consider \(|a-b|\) if \(a\), \(b\) have same sign. Then it is clear \(|a-b| = | |a|-|b| |\)
+&gt;! 2 Suppose they do not have the same sign and let \(b < 0\) then \(|a-b| = | a+|b| | = |a|+|b|\)
+&gt;! \(|a|+|b|  > = |b|-|a|\) and \(|a|+|b|  > = |a|-|b|\) so \(|a-b| = |a|+|b|  >  ||a|-|b||\)</li>
 </ul>
-
-<p>|b| = | b - a + a | &lt; |b-a| + |a|
-|b| - |a| &lt; |b-a|</p>
-
-<p>|a| = | a - b + b | &lt; |b-a| + |b|
-|b| - |a| &gt; -|b-a|
-|a| - |b| &lt; |b-a|</p>
 
 <h2>Bounded increasing sequence is convergent</h2>
 
