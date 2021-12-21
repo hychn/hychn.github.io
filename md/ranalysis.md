@@ -368,28 +368,46 @@ pg75
 >! * $ | x_i - x|<e $
 >! * $ | |x_i| - |x| |<e $
 >! * $(\dag)$ Can we show $ | |x_i| - |x| | < | x_i - x|$?
->! *
+>! * ---------------------
 >! * I got quite dissatistfied  after looking at this proof and demotivated
 >! * I think the reason is it doesn't really explain why or arrive at the solution in a natural/discoverable way
 >! * I think when I am not satisfied with a proof or an explanation, I should really dig deeper and analayze it closer
 >! * But at the same time not let it get the best of me.
 >! * Don't be results driven
->! *
+>! * --------------------------
 >! * Below is the aforementioned neat proof from a book
 >! * $|b| = | b - a + a | < |b-a| + |a|$
 >! * $|b| - |a| < |b-a|$
 >! * $|a| = | a - b + b | < |b-a| + |b|$
 >! * $|a| - |b| < |b-a|$
 >! * $|b| - |a| > -|b-a|$
->! *
+>! * --------------------------
 >! * Useful Lemmas
 >! * Keep in mind these two properties of absolute value. $|-x| = |x|$ and if $b<0 -b = |b|$
 >! * How to show $a>|b|$ iif $a>b$ and $a>-b$
->! *
+>! * --------------------------
 >! * Continuing from $(\dag)$
 >! * 1 Consider $|a-b|$ if $a$, $b$ have same sign. Then it is clear $|a-b| = | |a|-|b| |$
 >! * 2 Suppose they do not have the same sign and let $b<0$ then $|a-b| = | a+|b| | = |a|+|b|$
 >! * $|a|+|b| >= |b|-|a|$ and $|a|+|b| >= |a|-|b|$ so $|a-b| = |a|+|b| > ||a|-|b||$
+
+## 3.2.10 Convergence and sqrt
+* If $(x_n)$ converges to $x$ then $(\sqrt{x_n})$ converges to $\sqrt{x}$
+  * $x_n$ is a positive sequence
+* $e \geq x-x_n = (\sqrt(x)-\sqrt(x_n))(\sqrt(x)+\sqrt(x_n)) \geq (\sqrt(x)-\sqrt(x_n))$
+
+## 3.2.11 Convergence and ratio
+
+* if $Lim(dfrac{x_{n+1}}{x_n}) = r < 1$ and $x_n > 0$ then $Lim(x_n)=0$
+  * $dfrac{x_{n+1}}{x_n}-r <  + e$
+    * choose $e,$ st $r+e < 1$
+  * $dfrac{x_{n+1}}{x_n} < r < r + e < K < 1$
+  * $y_1 = x_{n+1} < K * x_n$
+  * $y_i = x_{n+i} < K^i * x_n$
+  * if we can show Lim(K^n) = 0
+    * $Lim(a*K^n) = a*0 = 0$
+
+>! if a=b x<y then a+x<b+y 
 
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
