@@ -411,7 +411,7 @@ pg75
 >! Show for K<1 Lim(K^n)=0
 >! We note that if $K<1$ then there is $a,b$ s.t $K<\dfrac{a}{b}<1$
 >! Let use try to show $Lim( (a/b)^n ) = 0$
-
+>! 0
 >! pick $0 < 1/r < t/r < e$
 >! $1/r < a/b$
 >! lets forget about a 
@@ -419,12 +419,14 @@ pg75
 >! its basically showing b^x is unbounded for any integer b>0
 >! consider the set of all multiples of b less than M
 >! produce the largest or smallest element, the boundary case right before
-
+>! 0
 >! Lemma: A bounded subset of $mathbb{N}$ is finite
 >! A
 >! Lemma: Consider $S$ bounded subset of $\mathbb{N}$l Then $Sup S \in S$
 >! Proof: let e=1/n Then, $SupS-e \leq s \leq Sup S$ infinite number
 >! A
+>! 0
+>! Suupose e is an upper bound for {b^n}
 
 
 ## Bounded increasing sequence is convergent

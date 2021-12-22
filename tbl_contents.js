@@ -30,7 +30,9 @@ window.onload = function () {
 
     var x = document.getElementsByClassName("spoiler");
     for (let i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+      /*x[i].style.display = "none";*/
+      x[i].style.height = "2px";
+
     }
 
     var x = document.getElementById("toc_frame");

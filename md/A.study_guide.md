@@ -1,5 +1,12 @@
 # Free notes
 
+## Sometimes when I write too much, i get lost in the details.
+* And focus too much on the writing aspect rather than thinking
+* I believe writing has it's merit but it should be done at key points, not detailing the details
+* Try to work in your head as much as possible
+* Also sometimes the latex formatting gets in the way of clearly organizing. 
+  * Do keep the clear notes and later reorganize
+
 ## Stop being results driven 
 * just because you make alot of progress or win, it is not a indicator of how well you are doing
 * because there are too many variables that determine whether you are doing well or not
