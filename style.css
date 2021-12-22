@@ -13,7 +13,7 @@ mjx-container {
 }
 .spoiler {
   background: linen;
-  height: 2px;
+  height: 200px;
   overflow: hidden;
 }
 
