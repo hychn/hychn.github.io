@@ -12,7 +12,11 @@ mjx-container {
   right: 0px;
 }
 .spoiler {
-  background: linen;
+    outline-style: dotted;
+    outline-color: grey;
+    height: 1px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 h1, h2, h3, h4, div, p, ul, li {

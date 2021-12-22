@@ -7,10 +7,10 @@ function scroll_bottom() {
 function toggle_show_spoiler() {
   var x = document.getElementsByClassName("spoiler");
   for (let i = 0; i < x.length; i++) {
-    if (x[i].style.display == "none") {
-      x[i].style.display = "block";
+    if (x[i].style.height == "1px") {
+      x[i].style.height = "auto";
     } else {
-      x[i].style.display = "none";
+      x[i].style.height = "1px";
     }
   }
 }
@@ -31,7 +31,7 @@ window.onload = function () {
     var x = document.getElementsByClassName("spoiler");
     for (let i = 0; i < x.length; i++) {
       /*x[i].style.display = "none";*/
-      x[i].style.height = "200px";
+      x[i].style.height = "1px";
 
     }
 
