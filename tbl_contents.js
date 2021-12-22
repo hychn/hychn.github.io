@@ -30,7 +30,7 @@ function toggle_spoiler(obj) {
   }
 }
 
-function clickspoiler(event) {
+function click_spoiler(event) {
   x = event.target;
   toggle_spoiler(x);
 }

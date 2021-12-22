@@ -2068,7 +2068,7 @@ class Markdown(object):
         bq = self._html_pre_block_re.sub(self._dedent_two_spaces_sub, bq)
 
         if is_spoiler:
-            return '<blockquote class="spoiler">\n%s\n</blockquote>\n\n' % bq
+            return '<blockquote onclick="click_spoiler(event)" class="spoiler">\n%s\n</blockquote>\n\n' % bq
         else:
             return '<blockquote>\n%s\n</blockquote>\n\n' % bq
 
