@@ -7,11 +7,7 @@ function scroll_bottom() {
 function toggle_show_spoiler() {
   var x = document.getElementsByClassName("spoiler");
   for (let i = 0; i < x.length; i++) {
-    if (x[i].style.height == "1px") {
-      x[i].style.height = "auto";
-    } else {
-      x[i].style.height = "1px";
-    }
+    toggle_spoiler(x[i])
   }
 }
 
@@ -26,12 +22,26 @@ function toggle_show() {
   }
 }
 
+function toggle_spoiler(obj) {
+  if (x[i].style.height == "1px") {
+    x[i].style.height = "auto";
+  } else {
+    x[i].style.height = "1px";
+  }
+}
+
+function clickspoiler(event) {
+  x = event.target;
+  toggle_spoiler(x);
+}
+
 window.onload = function () {
 
     var x = document.getElementsByClassName("spoiler");
     for (let i = 0; i < x.length; i++) {
       /*x[i].style.display = "none";*/
       x[i].style.height = "1px";
+      x[i].addEventListener("click", clickspoiler);
 
     }
 

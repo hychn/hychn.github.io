@@ -1,3 +1,4 @@
+
 * Things to look
   * Examples
   * All Connections
@@ -238,9 +239,10 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 ## 2.4.4 Corollary
 * $S = \{ \dfrac{1}{n} | n \in \mathbb{N} \}$ then $inf S = 0$
 
-## 2.4.7 $ \ sqrt{2} is a real number$
-<! * This is a consequence of the Supremum property of $\mathbb{R}$
-<! * Can show 
+## 2.4.7 Sqrt of 2 is real number
+* $ \ sqrt{2}$ is a real number
+>! * This is a consequence of the Supremum property of $\mathbb{R}$
+>! * Can show 
 
 # 2.5 Intervals
 
