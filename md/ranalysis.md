@@ -398,19 +398,38 @@ pg75
 
 ## 3.2.11 Convergence and ratio
 
-* if $Lim(dfrac{x_{n+1}}{x_n}) = r < 1$ and $x_n > 0$ then $Lim(x_n)=0$
-  * $dfrac{x_{n+1}}{x_n}-r <  + e$
+* if $Lim(\dfrac{x_{n+1}}{x_n}) = r < 1$ and $x_n > 0$ then $Lim(x_n)=0$
+  * $\dfrac{x_{n+1}}{x_n}-r <  + e$
     * choose $e,$ st $r+e < 1$
-  * $dfrac{x_{n+1}}{x_n} < r < r + e < K < 1$
+  * $\dfrac{x_{n+1}}{x_n} < r < r + e < K < 1$
   * $y_1 = x_{n+1} < K * x_n$
   * $y_i = x_{n+i} < K^i * x_n$
   * if we can show Lim(K^n) = 0
     * $Lim(a*K^n) = a*0 = 0$
 
 >! if a=b x<y then a+x<b+y 
+>! Show for K<1 Lim(K^n)=0
+>! We note that if $K<1$ then there is $a,b$ s.t $K<\dfrac{a}{b}<1$
+>! Let use try to show $Lim( (a/b)^n ) = 0$
+
+>! pick $0 < 1/r < t/r < e$
+>! $1/r < a/b$
+>! lets forget about a 
+>! why is proving something about the smallest element often involve inspecting the largest element
+>! its basically showing b^x is unbounded for any integer b>0
+>! consider the set of all multiples of b less than M
+>! produce the largest or smallest element, the boundary case right before
+
+>! Lemma: A bounded subset of $mathbb{N}$ is finite
+>! A
+>! Lemma: Consider $S$ bounded subset of $\mathbb{N}$l Then $Sup S \in S$
+>! Proof: let e=1/n Then, $SupS-e \leq s \leq Sup S$ infinite number
+>! A
+
 
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
 
 ## Bounded sequences have convergent subsequence
 * Existence of an increasing or decreasing sequence in a bounded sequence
+* test

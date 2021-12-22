@@ -13,6 +13,7 @@ mjx-container {
 }
 .spoiler {
   display: none;
+  background: linen;
 }
 
 h1, h2, h3, h4, div, p, ul, li {
