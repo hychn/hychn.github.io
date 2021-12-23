@@ -23,10 +23,10 @@ function toggle_show() {
 }
 
 function toggle_spoiler(obj) {
-  if (obj.style.height == "1px") {
+  if (obj.style.height == "10px") {
     obj.style.height = "auto";
   } else {
-    obj.style.height = "1px";
+    obj.style.height = "10px";
   }
 }
 
@@ -39,9 +39,8 @@ window.onload = function () {
 
     var x = document.getElementsByClassName("spoiler");
     for (let i = 0; i < x.length; i++) {
-      x[i].style.height = "1px";
-      x[i].addEventListener("click", clickspoiler );
-
+      x[i].style.height = "10px";
+      /*x[i].addEventListener("click", click_spoiler );*/
     }
 
     var x = document.getElementById("toc_frame");

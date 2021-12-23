@@ -30,7 +30,7 @@
 <li>What are equivalent statements with this new definition?</li>
 </ul>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
+<blockquote class="spoiler">
   <p>Consider \(f\) and \(A\) and \(f(A)\). What is the identity? Can there always be an inverse? 
   No, consider \(f(x)=x^2\) and \( A = \{ 0  <  x  <  1 \}\). We see that \(f^{-1}(f(A)) = \{ -1  <  x  <  1 \}\). 
   What condition can guarantee that you can always find an inverse?
@@ -59,9 +59,16 @@
 <li>\(A \rightarrow B\) means \(\lnot A\) or \(B\) is true</li>
 </ul>
 
+<h1>Negation</h1>
+
+<ul>
+<li>A and !A</li>
+<li>When introduced to a new definition, do consider the negation as part of the elements you must permute to see the connections</li>
+</ul>
+
 <h2>Implication and Contrapositive</h2>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
+<blockquote class="spoiler">
   <ul>
   <li>A -A  B -B  A->B  C</li>
   <li>F  T  F  T   T    T</li>
@@ -177,7 +184,7 @@
 <li>You have comeup with an interesting function. How to show </li>
 </ul>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
+<blockquote class="spoiler">
   <p>\(N(a,b) = b + sum_prev_diags\)
   \(diag(a,b) = a+b-1 = d\)
   we know \(b  \leq diag(a,b) \)
@@ -457,7 +464,7 @@
 <li>If \((s_n)\) doesn't have limit, it is divergent</li>
 </ul>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
+<blockquote class="spoiler">
   <ul>
   <li>\(Lim(s_n+x_n) = s+x\)</li>
   <li>Effect of limit on s_x operated on by a constant</li>
@@ -471,7 +478,7 @@
 
 <h2>3.1.4 Uniqueness of Limit</h2>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
+<blockquote class="spoiler">
   <p>I started off with a diagram and realized, hey maybe the distance between the 2 different limits,(A,B), will show that the sequence will have to exist in 2 impossible places 
   It came more down to if the sequence is within 1 limit V<em>e(A), it cannot be in the other V</em>e(B)</p>
 </blockquote>
@@ -574,7 +581,7 @@ pg75</li>
 <li>If \(Lim(x_n) = x \rightarrow Lim(|x_n|) = |x|\)</li>
 </ul>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
+<blockquote class="spoiler">
   <ul>
   <li>\( | x_i - x| < e \)</li>
   <li>\( | |x_i| - |x| | < e \)</li>
@@ -649,28 +656,41 @@ pg75</li>
 </ul></li>
 </ul>
 
-<blockquote onclick="click_spoiler(event)" class="spoiler">
-  <p>if a=b x<y then a+x<b+y 
-  Show for K&lt;1 Lim(K^n)=0
-  We note that if \(K < 1\) then there is \(a,b\) s.t \(K < \dfrac{a}{b} < 1\)
-  Let use try to show \(Lim( (a/b)^n ) = 0\)
-  0
-  pick \(0  <  1/r  <  t/r  <  e\)
-  \(1/r  <  a/b\)
-  lets forget about a 
-  why is proving something about the smallest element often involve inspecting the largest element
-  its basically showing b^x is unbounded for any integer b>0
-  consider the set of all multiples of b less than M
-  produce the largest or smallest element, the boundary case right before
-  0
-  Lemma: A bounded subset of \(mathbb{N}\) is finite
-  A
-  Lemma: Consider \(S\) bounded subset of \(\mathbb{N}\)l Then \(Sup S \in S\)
-  Proof: let e=1/n Then, \(SupS-e \leq s \leq Sup S\) infinite number
-  A
-  0
-  Suupose e is an upper bound for {b^n}</p>
+<blockquote class="spoiler">
+  <ul>
+  <li>if a=b x<y then a+x<b+y </li>
+  <li>Show for K&lt;1 Lim(K^n)=0</li>
+  <li>We note that if \(K < 1\) then there is \(a,b\) s.t \(K < \dfrac{a}{b} < 1\)</li>
+  <li>Let use try to show \(Lim( (a/b)^n ) = 0\)</li>
+  <li>-</li>
+  <li>pick \(0  <  1/r  <  t/r  <  e\)</li>
+  <li>\(1/r  <  a/b\)</li>
+  <li>lets forget about a </li>
+  <li>why is proving something about the smallest element often involve inspecting the largest element</li>
+  <li>its basically showing b^x is unbounded for any integer b>0</li>
+  <li>consider the set of all multiples of b less than M</li>
+  <li>produce the largest or smallest element, the boundary case right before</li>
+  <li>-</li>
+  <li>Lemma: \((\dfrac{1}{b}^{n})\) for \( n \in \mathb{N}\) converges to 0</li>
+  <li>We will show for all \(E > 0\) there is \(m\) s.t. \(\dfrac{1}{b}^{m}  <  \dfrac{1}{r}  <  E\)</li>
+  <li>1 Suppose this is not the case and there is a lower bound for all elements of \(\{\dfrac{1}{b}^{n}\}\) this is equivalent to the following 2</li>
+  <li>2 Suppose there is an upper bound for \(\{b^n\}\). Then, it has supremum call it \(S\)</li>
+  <li>then there is \(S-e = S/\sqrt{b}  <  b^x  < =S\)</li>
+  <li>This means \(b^{x+1}  >  b*S/\sqrt{b} = \sqrt{b}*S  >  S\) which is a contradiction</li>
+  </ul>
 </blockquote>
+
+<h2>EX 3.2.21</h2>
+
+<ul>
+<li>transitivity property</li>
+<li>a-b<e</li>
+<li>b-c<e</li>
+<li>a-c&lt;2e
+p79</li>
+</ul>
+
+<h2>Difference btw subsequent sequences</h2>
 
 <h2>Bounded increasing sequence is convergent</h2>
 
@@ -682,7 +702,6 @@ pg75</li>
 
 <ul>
 <li>Existence of an increasing or decreasing sequence in a bounded sequence</li>
-<li>test</li>
 </ul>
 
 </div></body> </html>

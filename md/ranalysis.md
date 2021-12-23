@@ -1,3 +1,4 @@
+
 * Things to look
   * Examples
   * All Connections
@@ -19,6 +20,8 @@
 * Usually when some property is given in a book, it is there for a reason
 * What are equivalent statements with this new definition?
 
+
+
 >! Consider $f$ and $A$ and $f(A)$. What is the identity? Can there always be an inverse? 
 >! No, consider $f(x)=x^2$ and $ A = \{ 0 < x < 1 \}$. We see that $f^{-1}(f(A)) = \{ -1 < x < 1 \}$. 
 >! What condition can guarantee that you can always find an inverse?
@@ -38,6 +41,10 @@
 * $A \land B$ means $A$ and $B$ is true
 * $A \lor B$ means $A$ or $B$ is true
 * $A \rightarrow B$ means $\lnot A$ or $B$ is true
+
+# Negation
+* A and !A
+* When introduced to a new definition, do consider the negation as part of the elements you must permute to see the connections
 
 ## Implication and Contrapositive
 
@@ -64,6 +71,7 @@
 * From this relationship can we draw another implication (which satistfies 1&2)?
   * To show an implication is true, we only need to be concerned with when hypothesis is true
   * $!B \rightarrow !A$
+
 
 # 1.1 Sets and Functions
 
@@ -408,31 +416,38 @@ pg75
   * if we can show Lim(K^n) = 0
     * $Lim(a*K^n) = a*0 = 0$
 
->! if a=b x<y then a+x<b+y 
->! Show for K<1 Lim(K^n)=0
->! We note that if $K<1$ then there is $a,b$ s.t $K<\dfrac{a}{b}<1$
->! Let use try to show $Lim( (a/b)^n ) = 0$
->! 0
->! pick $0 < 1/r < t/r < e$
->! $1/r < a/b$
->! lets forget about a 
->! why is proving something about the smallest element often involve inspecting the largest element
->! its basically showing b^x is unbounded for any integer b>0
->! consider the set of all multiples of b less than M
->! produce the largest or smallest element, the boundary case right before
->! 0
->! Lemma: A bounded subset of $mathbb{N}$ is finite
->! A
->! Lemma: Consider $S$ bounded subset of $\mathbb{N}$l Then $Sup S \in S$
->! Proof: let e=1/n Then, $SupS-e \leq s \leq Sup S$ infinite number
->! A
->! 0
->! Suupose e is an upper bound for {b^n}
+>! * if a=b x<y then a+x<b+y 
+>! * Show for K<1 Lim(K^n)=0
+>! * We note that if $K<1$ then there is $a,b$ s.t $K<\dfrac{a}{b}<1$
+>! * Let use try to show $Lim( (a/b)^n ) = 0$
+>! * -
+>! * pick $0 < 1/r < t/r < e$
+>! * $1/r < a/b$
+>! * lets forget about a 
+>! * why is proving something about the smallest element often involve inspecting the largest element
+>! * its basically showing b^x is unbounded for any integer b>0
+>! * consider the set of all multiples of b less than M
+>! * produce the largest or smallest element, the boundary case right before
+>! * -
+>! * Lemma: $(\dfrac{1}{b}^{n})$ for $ n \in \mathb{N}$ converges to 0
+>! * We will show for all $E>0$ there is $m$ s.t. $\dfrac{1}{b}^{m} < \dfrac{1}{r} < E$
+>! * 1 Suppose this is not the case and there is a lower bound for all elements of $\{\dfrac{1}{b}^{n}\}$ this is equivalent to the following 2
+>! * 2 Suppose there is an upper bound for $\{b^n\}$. Then, it has supremum call it $S$
+>! * then there is $S-e = S/\sqrt{b} < b^x <=S$
+>! * This means $b^{x+1} > b*S/\sqrt{b} = \sqrt{b}*S > S$ which is a contradiction
 
 
+
+## EX 3.2.21 
+* transitivity property
+* a-b<e
+* b-c<e
+* a-c<2e
+p79
+
+## Difference btw subsequent sequences
 ## Bounded increasing sequence is convergent
 * Converges to the supremum
 
 ## Bounded sequences have convergent subsequence
 * Existence of an increasing or decreasing sequence in a bounded sequence
-* test

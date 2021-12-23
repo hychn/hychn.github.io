@@ -1,5 +1,12 @@
 # Free notes
 
+## Dont muck your way through thought. It is form
+
+## Why did I get stuck in this area for some time?
+* I think it was fine, the progression of ideas to prove this
+* Just needed to not get lost in the details and keep track of the big steps
+* I did feel overwhelmed and tired after making too many jumps without properly writing down the different steps
+
 ## Sometimes when I write too much, i get lost in the details.
 * And focus too much on the writing aspect rather than thinking
 * I believe writing has it's merit but it should be done at key points, not detailing the details
