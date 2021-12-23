@@ -15,6 +15,7 @@ mjx-container {
     outline-style: dotted;
     outline-color: grey;
     overflow: hidden;
+    height: 5px;
 }
 
 h1, h2, h3, h4, div, p, ul, li {

@@ -38,10 +38,10 @@ function click_spoiler(event) {
 window.onload = function () {
 
     var x = document.getElementsByClassName("spoiler");
+    /*
     for (let i = 0; i < x.length; i++) {
-      x[i].style.height = "5px";
       x[i].addEventListener("click", click_spoiler );
-    }
+    }*/
 
     var x = document.getElementById("toc_frame");
     x.style.display = "none";
