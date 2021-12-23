@@ -14,7 +14,7 @@ mjx-container {
 .spoiler {
     outline-style: dotted;
     outline-color: grey;
-    height: 10px;
+    height: 5px;
     overflow: hidden;
 }
 

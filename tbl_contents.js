@@ -23,15 +23,15 @@ function toggle_show() {
 }
 
 function toggle_spoiler(obj) {
-  if (obj.style.height == "10px") {
-    obj.style.height = "auto";
+  if (obj.style.height == "auto") {
+    obj.style.height = "5px";
   } else {
-    obj.style.height = "10px";
+    obj.style.height = "auto";
   }
 }
 
 function click_spoiler(event) {
-  x = event.target;
+  x = event.currentTarget;
   toggle_spoiler(x);
 }
 
@@ -39,7 +39,7 @@ window.onload = function () {
 
     var x = document.getElementsByClassName("spoiler");
     for (let i = 0; i < x.length; i++) {
-      x[i].style.height = "10px";
+      x[i].style.height = "5px";
       /*x[i].addEventListener("click", click_spoiler );*/
     }
 
