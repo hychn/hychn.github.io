@@ -99,6 +99,7 @@
 
 # 1.3 Finite and Infinite Sets
 
+
 ## DEF 1.3.1 Finite Infinite
 * A set is finite iff there is a bijection between the set and $\{1...n\} n \in \mathbb{N}$
 
@@ -142,7 +143,7 @@
 
 ## THM 1.3.11 Rational numbers are countable
 
-# 2.1 The Real Numbers
+# 2.1 Algebraic and order properties of R
 
 ## 2.1.1-2.1.3 Algebraic properties of field R
 * Uniqueness of 1,0, inverse
@@ -328,10 +329,15 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 * for all epsilon, the tail or the original sequence will give an value that will guarantee $|L-x_i|<e$
 
 ## 3.1.10 THM
-* Not a big fan of this thm. I think one can build a more constructive approach (see below)
-* $Lim(k-s_n) = 0 \iff Lim(s_n)=k$
-* $Lim(|s_n|) = | Lim(s_n) |$ This is not true in general need more specific hypothesis. Maybe need $(s_n)$ convergent
-* $s_n \leq t_n \rightarrow  Lim(s_n) \leq Lim(t_n)$
+* Let $x_n$ be a sequence. If $(a_n)$ converges to $0$ and $|x_n -x| \leq a_n$ then $(x_n)$ converges to $x$
+* Not a big fan of theorem. (using a another sequence to show a sequences converges)
+* I think one can build a more constructive approach with smaller theorems (see below)
+  * With application of Squeeze Theorem
+    * Lim(|x_n-x|)=0
+  * $Lim(|x_n-x|) = 0 \rightarrow Lim(x_n-x)=0 \rightarrow Lim(x_n)=x$
+    * This shows $Lim(x_n)=x$
+
+# 3.2 Limit Theorems
 
 ## 3.2.0 Introduction
 * Develop techniques to expand the collection of convergent sequences
@@ -349,6 +355,13 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 
 ## 3.2.3 THM Real number operation on sequences and limit
 * TODO: sum, diff, constant mult
+* mult: if $(x_n)$ and $(y_n)$ are convergent then $(x_n * y_n)$ converges to $x*y$
+  * $|xy-(x_n)(y_n)| = |xy -(x_n)y + (x_n)y -(x_n)(y_n)| \leq |xy -(x_n)y| + |(x_n)y -(x_n)(y_n)| \leq |y||x - (x_n)| + |x_n||y - (y_n)|$
+  * $|y||x - (x_n)| \leq \dfrac{e |y|}{2}$
+  * $|x_n||y - (y_n)| \leq \dfrac{e (e+|x|)}{2}$
+    * |x_n| - |x| < |x_n - x|< e
+    * |x_n| <  e + |x|
+  * $|y||x - (x_n)| + |x_n||y - (y_n)| \leq e/2+e/2 = e$
 * div
 
 ## 3.2.4 THM order on sequence corresponds to order on limit
@@ -439,15 +452,48 @@ pg75
 
 
 ## EX 3.2.21 
+* if $|x_n - y_n| <e$
 * transitivity property
-* a-b<e
-* b-c<e
-* a-c<2e
-p79
+* $a-b<e$, $b-c<e$, $a-c<2e$
+* $R(a,b) = |a-b| < e$
+  * What properties does this relation have?
+  * reflexive, transitive, identity, 
+  * $R(a,b) = R(a-b,0)$
+  * $R(a,b) + R(0,c) = R(a,b+c) = R(a+c,b)$
 
-## Difference btw subsequent sequences
-## Bounded increasing sequence is convergent
-* Converges to the supremum
+# 3.3 Monotone Sequences
+
+## 3.3.0 Introduction
+* Develop techniques to show sequence is convergent even if the value is not known
+* Evaluate the limit by other methods once it is known
+
+## 3.3.1 DEF monotone sequence
+* Let $(x_n)$ be a sequence
+  * If $i>j$ then x_i\geq x_j$, we say $(x_n)$ is increasing
+  * If $i>j$ then x_i\leq x_j$, we say $(x_n)$ is decreasing
+  * $x_n$ is monotone if it is increasing or decreasing
+
+## 3.3.2 THM Monotone sequence is convergent 
+* increasing sequence is convergent
+  * Converges to the supremum
+* decreasing sequence is convergent
+  * Converges to the infimum
+
+## 3.3.5 Sequence that converges to sqrt 2
+* $x = 2/x \rightarrow x^2 = 2$
+* $x_1=1$ $x_{n+1} = 2/x_{n}$
+* The issue is that this sequence is not monotone
+
+## 3.3.6
+* Euler's number
+* $e_n = (1+1/n)^n$
+* TODO: Look into more detail
+
+# 3.4 Subsequences and Boltzano Weistrauss
+
+## 3.4.1 DEF Subsequence
+* Let (x_n) be a sequence
+* Given $n_1 < n_2 < n_3$ ..., $(x_{n_1} , x_{n_2}, x_{n_3},...)$ is a subsequence of $(x_n)$
 
 ## Bounded sequences have convergent subsequence
 * Existence of an increasing or decreasing sequence in a bounded sequence
