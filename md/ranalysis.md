@@ -495,5 +495,23 @@ pg75
 * Let (x_n) be a sequence
 * Given $n_1 < n_2 < n_3$ ..., $(x_{n_1} , x_{n_2}, x_{n_3},...)$ is a subsequence of $(x_n)$
 
+## 3.4.2 THM Sequence convergence and subsequence convergence
+* If a sequence $(x_n)$ converges to $x$, then any subsequence converges to $x$
+
+## 3.4.4 THM TFAE
+* $(x_n)$ does not converge to $x$
+* There is a $e$ where there always is unending $x_n \not\in V_e(x)$
+  * For all M, there is n>M and P is false
+* There is $e$ and a subsequence that lies outside of $V_e(x)$
+
+## 3.4.5 Divergence Criteria
+* $(x_n)$ has two subsequences whose limits are not equal. Then $(x_n)$ is divergent
+  * All subsequences of convergent sequence must converge to same limit
+* $(x_n)$ bounded
+
+## Monotone Subsequence
+* A sequence has a monotone subsequence
+
 ## Bounded sequences have convergent subsequence
 * Existence of an increasing or decreasing sequence in a bounded sequence
+

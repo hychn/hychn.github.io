@@ -1,5 +1,8 @@
 # Free notes
 
+## Need to make sure I am thinking through the thing I read
+* I can do this by closing the book and recalling it in my memory
+
 ## Dont muck your way through thought. It is form
 
 ## Why did I get stuck in this area for some time?
