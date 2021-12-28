@@ -1,5 +1,13 @@
 # Free notes
 
+## At a point when you feel like you are slowing down.
+* If you need to move ahead, feel free to do so
+* Like working through an exam 
+* what is the catch, that the stuff ahead doesn't depend on the previous material
+* I have mastered all of the material
+  * Think, work, and sweat through every combination of ideas
+  * Of course it is not easy!
+
 ## Need to make sure I am thinking through the thing I read
 * I can do this by closing the book and recalling it in my memory
 

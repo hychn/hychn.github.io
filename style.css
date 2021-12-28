@@ -1,3 +1,9 @@
+strong {
+  color: red
+}
+em {
+  color: red
+}
 mjx-container {
     z-index: -1;
 }

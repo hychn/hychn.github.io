@@ -1,5 +1,4 @@
-
-* Things to look
+* _Things_ to look
   * Examples
   * All Connections
   * Write as little as you can to describe the most you wish
@@ -354,7 +353,7 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
   * Merge of $B1$ and $B2$ gives bound for $A \cup B$
 
 ## 3.2.3 THM Real number operation on sequences and limit
-* TODO: sum, diff, constant mult
+* __TODO__: sum, diff, constant mult
 * mult: if $(x_n)$ and $(y_n)$ are convergent then $(x_n * y_n)$ converges to $x*y$
   * $|xy-(x_n)(y_n)| = |xy -(x_n)y + (x_n)y -(x_n)(y_n)| \leq |xy -(x_n)y| + |(x_n)y -(x_n)(y_n)| \leq |y||x - (x_n)| + |x_n||y - (y_n)|$
   * $|y||x - (x_n)| \leq \dfrac{e |y|}{2}$
@@ -487,12 +486,12 @@ pg75
 ## 3.3.6
 * Euler's number
 * $e_n = (1+1/n)^n$
-* TODO: Look into more detail
+* __TODO__: Look into more detail
 
 # 3.4 Subsequences and Boltzano Weistrauss
 
 ## 3.4.1 DEF Subsequence
-* Let (x_n) be a sequence
+* Let $(x_n)$ be a sequence
 * Given $n_1 < n_2 < n_3$ ..., $(x_{n_1} , x_{n_2}, x_{n_3},...)$ is a subsequence of $(x_n)$
 
 ## 3.4.2 THM Sequence convergence and subsequence convergence
@@ -501,17 +500,29 @@ pg75
 ## 3.4.4 THM TFAE
 * $(x_n)$ does not converge to $x$
 * There is a $e$ where there always is unending $x_n \not\in V_e(x)$
-  * For all M, there is n>M and P is false
+  * For all $M$, there is $n>M$ and $P$ is false
 * There is $e$ and a subsequence that lies outside of $V_e(x)$
 
 ## 3.4.5 Divergence Criteria
 * $(x_n)$ has two subsequences whose limits are not equal. Then $(x_n)$ is divergent
   * All subsequences of convergent sequence must converge to same limit
-* $(x_n)$ bounded
+* $(x_n)$ is not bounded
 
-## Monotone Subsequence
-* A sequence has a monotone subsequence
+## 3.4.6 THM Monotone Subsequence
+* A $(x_n)$ sequence has a monotone subsequence
+* Let $x_a$ be the first element where for all $x_a > x_i$ for $a<i$
+  * And let them be $\{ x_a, x_b, ... \} = S$
+  * If there are no such elements of $S$, we can construct an increasing sequence since for any x_a there is some x_a<x_i
+  * If there are finite elements of $S$, we can work with subsequence which starts with last element of S
+  * If there are infinite elements of $S$, the elements of $S$ a form a decreasing sequence
 
-## Bounded sequences have convergent subsequence
-* Existence of an increasing or decreasing sequence in a bounded sequence
+## 3.4.7 THM Bounded sequences has convergent subsequence
+* Every sequence has a monotone subsequence
+* This monotone subsequence is bounded because the sequence is bounded
+  * Bounded monotone sub sequence is convergent
 
+## 3.4.9 THM  Boltazno Weistrauss
+* Let $(x_n)$ be a bounded sequence. If every convergent subsequence of $(x_n)$ converges to $x$, then $(x_n)$ converges to $x$
+* PF1: Suppose $(x_n)$$ doesn't converge to $x$ then there is $e$ where for all $N$ there is some $x_i \not\in V_e(x)$
+  * These elements has a convergent subsequence and it must converge to x. But all the elements lie outside $V_e(x)$
+* Pf2: Nested Intervals based Theorem?
