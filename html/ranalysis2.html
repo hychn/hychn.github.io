@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<h1>Cauchy</h1>
+
+<h2>3.5.0 Introduction</h2>
+
+<ul>
+<li>Way to show convergence of a limit without knowing the limit</li>
+<li>Our goal is to show a Cauchy sequence is  equivalent Convergent</li>
+</ul>
+
+<h2>3.5.1 DEF Cauchy Sequence</h2>
+
+<ul>
+<li>Sequence \((x_n)\) is a Cauchy sequence if for all \(e\), there is \(H\) such that if \(i,j > H\) then \(|x_i-x_j| < e\)</li>
+</ul>
+
+<h2>3.5.2 THM Convergent Sequence is Cauchy</h2>
+
+<ul>
+<li>\(|x_i-L|  <  e/2\), \(|L-x_j|  <  e/2\)</li>
+<li>\(|x_i-L+L-x_j|  <  |x_i-L|+|L-x_j|  <  e/2+e/2\)</li>
+</ul>
+
+<h2>3.5.3 THM Cauchy sequence is Bounded</h2>
+
+<ul>
+<li>Let \(x_n\) be our sequence, consider e. Then for \(i,H+1 > H\), \(x_i \in V_e(x_{H+1})\)</li>
+<li>So the sequence's bounds can be determined by {x<em>1,...x</em>H, x<em>{H+1}+e, x</em>{H+1}-e }</li>
+</ul>
+
+<h2>3.5.4 THM Cauchy sequence is Convergent</h2>
+
+<ul>
+<li>We have shown cauchy sequence is bounded so it has a convergent subsequence (x<em>{s</em>n}</li>
+<li>Suppose this subsequence converges to L</li>
+<li>Then for any \(e/2\) we can find K such that i>K |L-x<em>{s</em>i}| &lt; e/2</li>
+<li>Also since the sequence is cauchy we can find H such that for i,k>H |x<em>{i}-x</em>{k}|<e/2</li>
+<li>Let X be max(K,H) and both these conditions hold true</li>
+<li>\(|L-x_{k}| < |L-x_{s_i}|+|x_{s_i}-x_{k}| <  e\)</li>
+</ul>
+
+</div></body> </html>

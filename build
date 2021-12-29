@@ -52,7 +52,7 @@ def comp(fp_md, fp_html):
         os.makedirs(dirs)
 
 
-    system('./compile '+fp_md+' '+fp_html)
+    system('python3 compile '+fp_md+' '+fp_html)
 
 def md_link_str(name,link):
     return '['+name+']'+'('+link+')'
