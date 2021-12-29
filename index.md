@@ -7,6 +7,7 @@
 * [B.math_log.html](https://hychn.github.io/html/B.math_log.html)
 * [B.se3.html](https://hychn.github.io/html/B.se3.html)
 * [ranalysis.html](https://hychn.github.io/html/ranalysis.html)
+* [ranalysis2.html](https://hychn.github.io/html/ranalysis2.html)
 * [surf.html](https://hychn.github.io/html/surf.html)
 * [workout.html](https://hychn.github.io/html/workout.html)
 * [Z.scratch.html](https://hychn.github.io/html/Z.scratch.html)
