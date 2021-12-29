@@ -15,10 +15,10 @@
 * So the sequence's bounds can be determined by {x_1,...x_H, x_{H+1}+e, x_{H+1}-e }
 
 ## 3.5.4 THM Cauchy sequence is Convergent
-* We have shown cauchy sequence is bounded so it has a convergent subsequence (x_{s_n}
-* Suppose this subsequence converges to L
-* Then for any $e/2$ we can find K such that i>K |L-x_{s_i}| < e/2
-* Also since the sequence is cauchy we can find H such that for i,k>H |x_{i}-x_{k}|<e/2
+* We have shown cauchy sequence is bounded so it has a convergent subsequence $(x_{s_n})$
+* Suppose this subsequence converges to $L$
+* Then for any $e/2$ we can find $K$ such that $i>K |L-x_{s_i}| < e/2$
+* Also since the sequence is cauchy we can find H such that for $i,k>H$ $|x_{i}-x_{k}|<e/2$
 * Let X be max(K,H) and both these conditions hold true
 * $|L-x_{k}|<|L-x_{s_i}|+|x_{s_i}-x_{k}|< e$
 
