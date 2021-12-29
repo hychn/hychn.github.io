@@ -1,6 +1,6 @@
 #!/bin/bash
 git pull
-./build
+python3 build
 #~/util/build
 git add .
 git commit -m 'update'
