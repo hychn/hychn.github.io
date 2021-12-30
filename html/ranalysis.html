@@ -697,7 +697,7 @@ pg75</li>
   <li>We will show for all \(E > 0\) there is \(m\) s.t. \(\dfrac{1}{b}^{m}  <  \dfrac{1}{r}  <  E\)</li>
   <li>1 Suppose this is not the case and there is a lower bound for all elements of \(\{\dfrac{1}{b}^{n}\}\) this is equivalent to the following 2</li>
   <li>2 Suppose there is an upper bound for \(\{b^n\}\). Then, it has supremum call it \(S\)</li>
-  <li>then there is \(S-e = S/\sqrt{b}  <  b^x  < =S\)</li>
+  <li>choose e such that \(S-e = S/\sqrt{b}  <  b^x  < =S\)</li>
   <li>This means \(b^{x+1}  >  b*S/\sqrt{b} = \sqrt{b}*S  >  S\) which is a contradiction</li>
   </ul>
 </blockquote>
@@ -883,8 +883,83 @@ pg75</li>
 <li>\(|L-x_{k}| < |L-x_{s_i}|+|x_{s_i}-x_{k}| <  e\)</li>
 </ul>
 
-<h2>3.5.5 DEF Contractive Sequence</h2>
+<h2>3.5.7 DEF Contractive Sequence</h2>
 
-<h2>3.5.5 THM Contractive Sequence</h2>
+<ul>
+<li>A sequence \((x_n)\) is contractive if for \(0 < C < 1\) \(|x_{n+2}-x_{n+1}| < C|x_{n+1}-x_{n}|\)</li>
+</ul>
+
+<h2>3.5.8 THM Contractive Sequence is Cauchy</h2>
+
+<ul>
+<li>Consider series \(1/2+1/4+1/8\)</li>
+<li>The distances are \(c+c^2+c^3\)</li>
+<li>This will show that our contractive sequence is bounded
+<ul>
+<li>Why? We know distances converge to zero, so find H where from then on the distance is less than 1</li>
+<li>Then, from H, the sequence must be found in a S neighborhood around X_H, where S is the infinte series of c^n</li>
+</ul></li>
+<li>How about the sequence \(c^n+c^{n+1}+c^{n+2}...\)?
+<ul>
+<li>Does this converge to zero? Yes.</li>
+<li>Let \(S = c^0+c^1+c^{2}+c^{3}...\)?</li>
+<li>Then \(c^n+c^{n+1}+c^{n+2}... = c^n * S\)?</li>
+<li>Lim(c^n)=0 Lim(S)=S so Lim( c^n+c^{n+1}+c^{n+2}...) = 0*S = 0</li>
+</ul></li>
+<li>Then for any \(e\) there is \(H\) such that  for n>H \( c^n+c^{n+1}+c^{n+2}... <  e\)
+<ul>
+<li>for any \(i,j > H\) \(|x_i-x_j|  <  |x_i-x_{i+1}| + ... + |x_{j-1}+x_{j}|  <  <  c^n+c^{n+1}+c^{n+2}... <  e\)
+<ul>
+<li>For \( <  < \)</li>
+<li>Since the distances also converge to zero, we can find i>H2 s.t. d_i&lt;1=e</li>
+<li>Then \(d_2 <  c d_1\), \(d_3 <  c*d_2  <  c^2*d_1  <  c^2\)</li>
+<li>\(d_n <  c*d_{n-1}  <  c^{n-1}*d_1  <  c^{n-1}\)</li>
+</ul></li>
+<li>So our sequence is Cauchy</li>
+</ul></li>
+</ul>
+
+<h2>3.5.9 Estimation of limit based on Contractive</h2>
+
+<ul>
+<li><p>a</p>
+
+<h2>3.5 EXERCISES</h2></li>
+<li><p><em>TODO</em></p></li>
+</ul>
+
+<h1>3.6 Properly Divergent Sequence</h1>
+
+<h2>3.6.1 DEF Divergent Sequence</h2>
+
+<ul>
+<li>\((x_n)\) is divergent to \(\infty\) if for all \(e > 0\), there is \(H\) such that when \(n > H\), \(x_n  >  e\)</li>
+<li><p>\((x_n)\) is divergent to \(-\infty\) if for all \(e < 0\), there is \(H\) such that when \(n > H\), \(x_n  <  e\)</p></li>
+<li><p>What about sum of divergent and convergent sequence (x<em>n) + (s</em>n)</p></li>
+<li>\(M+L-e  <  M+s_n  <  x_n+s_n\)
+<ul>
+<li>\(|L-s_n| < e\)</li>
+<li>\(L-e  <  s_n  <  L+e\)</li>
+</ul></li>
+<li>Since we can freely chose, \(M = N-L+e\), the sum is divergent</li>
+</ul>
+
+<h2>3.6.3 THM</h2>
+
+<p>A monotone sequence is divergent iff it is unbounded</p>
+
+<h2>3.6.4 THM</h2>
+
+<ul>
+<li>\(x_n  <  y_n and x_n\) divergent to \(\infty\) the \(y_n\) divergent</li>
+<li>\(y_n  <  x_n and x_n\) divergent to \(\infty\) the \(y_n\) divergent</li>
+</ul>
+
+<h2>3.6.5 THM</h2>
+
+<ul>
+<li>\( Lim(x_n/y_n) = L\) And suppose x_n is divergent. Then \(y_n\) must also be divergent
+/ and divergence</li>
+</ul>
 
 </div></body> </html>

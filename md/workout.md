@@ -1,3 +1,11 @@
+# FORM
+* Yesterday, 12-29, when you did squat you adjusted the form slightly and your squat blew up with much more stability
+* from 60kg to 80kg
+* Also, you were practicing ques and form for a while and I think it took several key realizations until you finally got it
+  * Had to do alot of research until you found what clicked and made sense (hip hinge)
+  * Femur pointing/opening hips
+* Good job! I am proud of you. Lets try deadlift now
+
 # CNS
 
 * Be relaxed strike when you need to 

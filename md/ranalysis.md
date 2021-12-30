@@ -445,7 +445,7 @@ pg75
 >! * We will show for all $E>0$ there is $m$ s.t. $\dfrac{1}{b}^{m} < \dfrac{1}{r} < E$
 >! * 1 Suppose this is not the case and there is a lower bound for all elements of $\{\dfrac{1}{b}^{n}\}$ this is equivalent to the following 2
 >! * 2 Suppose there is an upper bound for $\{b^n\}$. Then, it has supremum call it $S$
->! * then there is $S-e = S/\sqrt{b} < b^x <=S$
+>! * choose e such that $S-e = S/\sqrt{b} < b^x <=S$
 >! * This means $b^{x+1} > b*S/\sqrt{b} = \sqrt{b}*S > S$ which is a contradiction
 
 
@@ -555,5 +555,52 @@ pg75
 * Let X be max(K,H) and both these conditions hold true
 * $|L-x_{k}|<|L-x_{s_i}|+|x_{s_i}-x_{k}|< e$
 
-## 3.5.5 DEF Contractive Sequence
-## 3.5.5 THM Contractive Sequence
+## 3.5.7 DEF Contractive Sequence
+* A sequence $(x_n)$ is contractive if for $0<C<1$ $|x_{n+2}-x_{n+1}|<C|x_{n+1}-x_{n}|$
+
+## 3.5.8 THM Contractive Sequence is Cauchy
+* Consider series $1/2+1/4+1/8$
+* The distances are $c+c^2+c^3$
+* This will show that our contractive sequence is bounded
+  * Why? We know distances converge to zero, so find H where from then on the distance is less than 1
+  * Then, from H, the sequence must be found in a S neighborhood around X_H, where S is the infinte series of c^n
+* How about the sequence $c^n+c^{n+1}+c^{n+2}...$?
+  * Does this converge to zero? Yes.
+  * Let $S = c^0+c^1+c^{2}+c^{3}...$?
+  * Then $c^n+c^{n+1}+c^{n+2}... = c^n * S$?
+  * Lim(c^n)=0 Lim(S)=S so Lim( c^n+c^{n+1}+c^{n+2}...) = 0*S = 0
+* Then for any $e$ there is $H$ such that  for n>H $ c^n+c^{n+1}+c^{n+2}...< e$
+  * for any $i,j>H$ $|x_i-x_j| < |x_i-x_{i+1}| + ... + |x_{j-1}+x_{j}| << c^n+c^{n+1}+c^{n+2}...< e$
+    * For $<<$
+    * Since the distances also converge to zero, we can find i>H2 s.t. d_i<1=e
+    * Then $d_2< c d_1$, $d_3< c*d_2 < c^2*d_1 < c^2$
+    * $d_n< c*d_{n-1} < c^{n-1}*d_1 < c^{n-1}$
+  * So our sequence is Cauchy
+
+## 3.5.9 Estimation of limit based on Contractive
+* a
+## 3.5 EXERCISES
+* _TODO_
+
+# 3.6 Properly Divergent Sequence
+
+## 3.6.1 DEF Divergent Sequence
+* $(x_n)$ is divergent to $\infty$ if for all $e>0$, there is $H$ such that when $n>H$, $x_n > e$
+* $(x_n)$ is divergent to $-\infty$ if for all $e<0$, there is $H$ such that when $n>H$, $x_n < e$
+
+* What about sum of divergent and convergent sequence (x_n) + (s_n)
+* $M+L-e < M+s_n < x_n+s_n$
+  * $|L-s_n|<e$
+  * $L-e < s_n < L+e$
+* Since we can freely chose, $M = N-L+e$, the sum is divergent
+
+## 3.6.3 THM
+A monotone sequence is divergent iff it is unbounded
+
+## 3.6.4 THM
+* $x_n < y_n and x_n$ divergent to $\infty$ the $y_n$ divergent
+* $y_n < x_n and x_n$ divergent to $\infty$ the $y_n$ divergent
+
+## 3.6.5 THM
+* $ Lim(x_n/y_n) = L$ And suppose x_n is divergent. Then $y_n$ must also be divergent
+/ and divergence
