@@ -358,8 +358,8 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
   * $|xy-(x_n)(y_n)| = |xy -(x_n)y + (x_n)y -(x_n)(y_n)| \leq |xy -(x_n)y| + |(x_n)y -(x_n)(y_n)| \leq |y||x - (x_n)| + |x_n||y - (y_n)|$
   * $|y||x - (x_n)| \leq \dfrac{e |y|}{2}$
   * $|x_n||y - (y_n)| \leq \dfrac{e (e+|x|)}{2}$
-    * |x_n| - |x| < |x_n - x|< e
-    * |x_n| <  e + |x|
+    * $|x_n| - |x| < |x_n - x|< e$
+    * $|x_n| <  e + |x|$
   * $|y||x - (x_n)| + |x_n||y - (y_n)| \leq e/2+e/2 = e$
 * div
 
@@ -468,8 +468,8 @@ pg75
 
 ## 3.3.1 DEF monotone sequence
 * Let $(x_n)$ be a sequence
-  * If $i>j$ then x_i\geq x_j$, we say $(x_n)$ is increasing
-  * If $i>j$ then x_i\leq x_j$, we say $(x_n)$ is decreasing
+  * If $i>j$ then $x_i \geq x_j$, we say $(x_n)$ is increasing
+  * If $i>j$ then $x_i \leq x_j$, we say $(x_n)$ is decreasing
   * $x_n$ is monotone if it is increasing or decreasing
 
 ## 3.3.2 THM Monotone sequence is convergent 
@@ -479,9 +479,11 @@ pg75
   * Converges to the infimum
 
 ## 3.3.5 Sequence that converges to sqrt 2
-* $x = 2/x \rightarrow x^2 = 2$
 * $x_1=1$ $x_{n+1} = 2/x_{n}$
-* The issue is that this sequence is not monotone
+* Then limit of $x_n$ is equal to limit of $x_{n+1}$ (lim of tail of sequence is equal to lim of sequence)
+* $x = 2/x \rightarrow x^2 = 2$
+* The issue is that this sequence is not monotone nor we know it converges
+  * Can you find a monotone bounded sequence, that when limit is taken between the tail and 
 
 ## 3.3.6
 * Euler's number
@@ -518,11 +520,14 @@ pg75
 
 ## 3.4.7 THM Bounded sequences has convergent subsequence
 * Every sequence has a monotone subsequence
-* This monotone subsequence is bounded because the sequence is bounded
+* PF1: This monotone subsequence is bounded because the sequence is bounded
   * Bounded monotone sub sequence is convergent
-
+* PF2: Nested Intervals based Theorem? _TODO_
+  * let sequence be bound from 0 .. M (Since x_n is bounded can easily add a constant to sequence to adjust)
+ 
 ## 3.4.9 THM  Boltazno Weistrauss
 * Let $(x_n)$ be a bounded sequence. If every convergent subsequence of $(x_n)$ converges to $x$, then $(x_n)$ converges to $x$
-* PF1: Suppose $(x_n)$$ doesn't converge to $x$ then there is $e$ where for all $N$ there is some $x_i \not\in V_e(x)$
+* Suppose $(x_n)$$ doesn't converge to $x$ then there is $e$ where for all $N$ there is some $x_i \not\in V_e(x)$
   * These elements has a convergent subsequence and it must converge to x. But all the elements lie outside $V_e(x)$
-* Pf2: Nested Intervals based Theorem?
+
+# 3.5 Cauchy Criterion

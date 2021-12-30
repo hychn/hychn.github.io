@@ -1,5 +1,16 @@
 # Free notes
 
+## Why do I feel rushed. And feel like I am just skipping over details...
+* I feel like the previous days, I have not been working as hard as I should have
+* And to compensate I am trying to work extra hard
+* But you know, as with lifting, such a thing is not possible to achieve without sacrificing quality
+* Keep the quality
+  * And be consistent
+  * Use the feeling to make sure you are more consistent in the future
+* Can't peak, need to be more consistent with your efforts in the long run
+  * As with lifting, heavy sets followed by volume, perfect the form
+
+
 ## At a point when you feel like you are slowing down.
 * If you need to move ahead, feel free to do so
 * Like working through an exam 

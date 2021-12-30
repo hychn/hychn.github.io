@@ -555,8 +555,8 @@
 <li>\(|y||x - (x_n)| \leq \dfrac{e |y|}{2}\)</li>
 <li>\(|x_n||y - (y_n)| \leq \dfrac{e (e+|x|)}{2}\)
 <ul>
-<li>|x<em>n| - |x| &lt; |x</em>n - x|&lt; e</li>
-<li>|x_n| &lt;  e + |x|</li>
+<li>\(|x_n| - |x|  <  |x_n - x| <  e\)</li>
+<li>\(|x_n|  <   e + |x|\)</li>
 </ul></li>
 <li>\(|y||x - (x_n)| + |x_n||y - (y_n)| \leq e/2+e/2 = e\)</li>
 </ul></li>
@@ -731,8 +731,8 @@ pg75</li>
 <ul>
 <li>Let \((x_n)\) be a sequence
 <ul>
-<li>If \(i > j\) then x<em>i\geq x</em>j\(, we say \)(x<em>n)\( is increasin\)</li>
-<li>If \(i > j\) then x<em>i\leq x</em>j\(, we say \)(x</em>n)\( is decreasin\)</li>
+<li>If \(i > j\) then \(x_i \geq x_j\), we say \((x_n)\) is increasing</li>
+<li>If \(i > j\) then \(x_i \leq x_j\), we say \((x_n)\) is decreasing</li>
 <li>\(x_n\) is monotone if it is increasing or decreasing</li>
 </ul></li>
 </ul>
@@ -753,9 +753,13 @@ pg75</li>
 <h2>3.3.5 Sequence that converges to sqrt 2</h2>
 
 <ul>
-<li>\(x = 2/x \rightarrow x^2 = 2\)</li>
 <li>\(x_1=1\) \(x_{n+1} = 2/x_{n}\)</li>
-<li>The issue is that this sequence is not monotone</li>
+<li>Then limit of \(x_n\) is equal to limit of \(x_{n+1}\) (lim of tail of sequence is equal to lim of sequence)</li>
+<li>\(x = 2/x \rightarrow x^2 = 2\)</li>
+<li>The issue is that this sequence is not monotone nor we know it converges
+<ul>
+<li>Can you find a monotone bounded sequence, that when limit is taken between the tail and </li>
+</ul></li>
 </ul>
 
 <h2>3.3.6</h2>
@@ -819,9 +823,13 @@ pg75</li>
 
 <ul>
 <li>Every sequence has a monotone subsequence</li>
-<li>This monotone subsequence is bounded because the sequence is bounded
+<li>PF1: This monotone subsequence is bounded because the sequence is bounded
 <ul>
 <li>Bounded monotone sub sequence is convergent</li>
+</ul></li>
+<li>PF2: Nested Intervals based Theorem? <em>TODO</em>
+<ul>
+<li>let sequence be bound from 0 .. M (Since x_n is bounded can easily add a constant to sequence to adjust)</li>
 </ul></li>
 </ul>
 
@@ -829,11 +837,12 @@ pg75</li>
 
 <ul>
 <li>Let \((x_n)\) be a bounded sequence. If every convergent subsequence of \((x_n)\) converges to \(x\), then \((x_n)\) converges to \(x\)</li>
-<li>PF1: Suppose \((x_n)\) doesn't converge to \(x\) then there is \(e\) where for all \(N\) there is some \(x_i \not\in V_e(x)\)
+<li>Suppose \((x_n)\) doesn't converge to \(x\) then there is \(e\) where for all \(N\) there is some \(x_i \not\in V_e(x)\)
 <ul>
 <li>These elements has a convergent subsequence and it must converge to x. But all the elements lie outside \(V_e(x)\)</li>
 </ul></li>
-<li>Pf2: Nested Intervals based Theorem?</li>
 </ul>
+
+<h1>3.5 Cauchy Criterion</h1>
 
 </div></body> </html>
