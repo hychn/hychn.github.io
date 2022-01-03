@@ -922,10 +922,30 @@ pg75</li>
 <h2>3.5.9 Estimation of limit based on Contractive</h2>
 
 <ul>
-<li><p>a</p>
+<li>a
+what is diff between nth sum of series and infinit series</li>
+<li>S = 1+c+c^2+...</li>
+<li>S-cS = 1</li>
+<li><p>S = 1/(1-c)</p></li>
+<li><p>S_n = 1+c+c^2+...+c^n</p></li>
+<li>S = S_n+c^{n+1}*S</li>
+<li><p>S_n = S(1-c^{n+1}) = (1-c^{n+1})/(1-c)</p></li>
+<li><p>|x<em>{n+1}-x</em>{n+2}| &lt; c^n * |x<em>1-x</em>2|</p></li>
+<li>Contractive sequence converges, to L</li>
+<li>If we find x<em>n how far away is it from L? Since each step has some limitation on it's distance away can we get some estimate based on n?
+<ul>
+<li>|L-x</em>n|</li>
+</ul></li>
+<li>\(x_n\) will converge to \(L\) so if we take the sum of the distances \(|x_1-x_2|+|x_2-x_3|+..\), they should eventually go to L
+<ul>
+<li>\(|L-x_n|  <  e\)  for \(n > H\)</li>
+</ul></li>
+</ul>
 
-<h2>3.5 EXERCISES</h2></li>
-<li><p><em>TODO</em></p></li>
+<h2>3.5 EXERCISES</h2>
+
+<ul>
+<li><em>TODO</em></li>
 </ul>
 
 <h1>3.6 Properly Divergent Sequence</h1>
@@ -960,6 +980,17 @@ pg75</li>
 <ul>
 <li>\( Lim(x_n/y_n) = L\) And suppose x_n is divergent. Then \(y_n\) must also be divergent
 / and divergence</li>
+<li>Interesting view at relationship between 
+&gt;! * Pick any M we want to show that at some point x<em>n is larger/less than M
+&gt;! * Choose H so that y</em>n meets both conditions
+&gt;! * \(M < y\)
+&gt;! * \(|x/y-L| < e \rightarrow L-e  <  x/y  <  L+e\)
+&gt;! * If M is positive
+&gt;!   * \((L-e)*M  <  (L-e)*y  <  x  <  (L+e)*y\)
+&gt;!   * Choose M = M/(L-e)
+&gt;! * \(y < M < 0\)
+&gt;! * \(|x/y-L| < e \rightarrow L-e  <  x/y  <  L+e\)
+&gt;!   * \( (L-e)*M  >  (L-e)*y  >  x  >  (L+e)*y\)</li>
 </ul>
 
 </div></body> </html>

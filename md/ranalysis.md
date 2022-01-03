@@ -579,6 +579,22 @@ pg75
 
 ## 3.5.9 Estimation of limit based on Contractive
 * a
+what is diff between nth sum of series and infinit series
+* S = 1+c+c^2+...
+* S-cS = 1
+* S = 1/(1-c)
+
+* S_n = 1+c+c^2+...+c^n
+* S = S_n+c^{n+1}*S
+* S_n = S(1-c^{n+1}) = (1-c^{n+1})/(1-c)
+
+* |x_{n+1}-x_{n+2}| < c^n * |x_1-x_2|
+* Contractive sequence converges, to L
+* If we find x_n how far away is it from L? Since each step has some limitation on it's distance away can we get some estimate based on n?
+  * |L-x_n|
+* $x_n$ will converge to $L$ so if we take the sum of the distances $|x_1-x_2|+|x_2-x_3|+..$, they should eventually go to L
+  * $|L-x_n| < e$  for $n>H$
+
 ## 3.5 EXERCISES
 * _TODO_
 
@@ -604,3 +620,18 @@ A monotone sequence is divergent iff it is unbounded
 ## 3.6.5 THM
 * $ Lim(x_n/y_n) = L$ And suppose x_n is divergent. Then $y_n$ must also be divergent
 / and divergence
+* Interesting view at relationship between 
+>! * Pick any M we want to show that at some point x_n is larger/less than M
+>! * Choose H so that y_n meets both conditions
+>! * $M<y$
+>! * $|x/y-L|<e \rightarrow L-e < x/y < L+e$
+>! * If M is positive
+>!   * $(L-e)*M < (L-e)*y < x < (L+e)*y$
+>!   * Choose M = M/(L-e)
+>! * $y<M<0$
+>! * $|x/y-L|<e \rightarrow L-e < x/y < L+e$
+>!   * $ (L-e)*M > (L-e)*y > x > (L+e)*y$
+
+
+
+

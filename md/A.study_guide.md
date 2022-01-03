@@ -1,5 +1,21 @@
 # Free notes
 
+## Exploratory Creative Drive
+* Valheim:
+* Progression. I had a clear idea of what I wanted to become
+* Knew Vaguely what I needed and it was right ahead of me
+* Motivated me really well
+* Kepth going and going and absoring all sorts of information
+* Was really simple: I had some idea of what I needed to do
+
+## Competitive Drive
+* Can only compete well for short about of time
+* Simple and Optimize
+
+## To be able to think clearly
+* You must be mindful of the basic elements involved
+* This is very important
+
 ## Why do I feel rushed. And feel like I am just skipping over details...
 * I feel like the previous days, I have not been working as hard as I should have
 * And to compensate I am trying to work extra hard
