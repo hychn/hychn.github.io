@@ -1,5 +1,9 @@
 # Free notes
 
+## You really need to push yourself to grow
+* with thinking
+* gramming
+
 ## Exploratory Creative Drive
 * Valheim:
 * Progression. I had a clear idea of what I wanted to become

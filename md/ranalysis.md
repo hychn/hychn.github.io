@@ -618,6 +618,7 @@ A monotone sequence is divergent iff it is unbounded
 * $y_n < x_n and x_n$ divergent to $\infty$ the $y_n$ divergent
 
 ## 3.6.5 THM
+
 * $ Lim(x_n/y_n) = L$ And suppose x_n is divergent. Then $y_n$ must also be divergent
 / and divergence
 * Interesting view at relationship between 
@@ -632,6 +633,12 @@ A monotone sequence is divergent iff it is unbounded
 >! * $|x/y-L|<e \rightarrow L-e < x/y < L+e$
 >!   * $ (L-e)*M > (L-e)*y > x > (L+e)*y$
 
+## 3.6 Exercises
+* _TODO_
 
 
+# 3.7 Introduction to Series
 
+## 3.7.1 DEF Series
+* If $(x_n)$ is a sequence, let $s_n = x_1 +...+ x_n $ 
+* If $(s_n)$ converges it is called sum of the series, otherwise its called divergent
