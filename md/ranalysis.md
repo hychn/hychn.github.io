@@ -45,6 +45,14 @@
 * A and !A
 * When introduced to a new definition, do consider the negation as part of the elements you must permute to see the connections
 
+## What is proof by contradiction
+* Suppose $A$ is the statement we are trying to prove and we know B and A^B are true
+* Suppose A is false ^(A,B) = F, then we have
+* A B A^B
+* ? T  T
+* F T  F
+* TODO: Continue and finish
+
 ## Implication and Contrapositive
 
 >! * A -A  B -B  A->B  C
@@ -59,7 +67,7 @@
 >! * The implication is interesting because it *correlates* A and B in a way
 
 * When we write $f(A,B),$ we mean $f(A,B)=true$
-* To prove $f(A,B)=true$, we need to plug in all variables to see if it is constant
+* To prove $f(A,B)=true$, we need to plug in all variables to see if it is constant and true in all cases
 
 * To prove $A \rightarrow B = true$
   * 1 if $A$ is false $A \rightarrow B = true$
@@ -642,3 +650,7 @@ A monotone sequence is divergent iff it is unbounded
 ## 3.7.1 DEF Series
 * If $(x_n)$ is a sequence, let $s_n = x_1 +...+ x_n $ 
 * If $(s_n)$ converges it is called sum of the series, otherwise its called divergent
+
+## 3.7.2 EX Geometric Series
+* Series on sequence $r^n$.
+* Is it contractive is r<1?

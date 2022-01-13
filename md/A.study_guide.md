@@ -1,8 +1,15 @@
 # Free notes
 
+## Math study
+* Should think of different ways the objects can interact
+* While studying ask questions on try to branch out in simple areas. what should come next?
+
 ## You really need to push yourself to grow
 * with thinking
-* gramming
+* Who do you wish to become?
+  * How can you grow sharper, simpler, persistent, 
+  * You need to train and rest
+* programming
 
 ## Exploratory Creative Drive
 * Valheim:
