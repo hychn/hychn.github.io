@@ -6,6 +6,7 @@
 * [algebra.html](html/algebra.html)
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
+* [MAPranaly.html](html/MAPranaly.html)
 * [ranalysis.html](html/ranalysis.html)
 * [surf.html](html/surf.html)
 * [workout.html](html/workout.html)
@@ -14,5 +15,3 @@
   * [books/alg.html](html/books/alg.html)
   * [books/linalg.html](html/books/linalg.html)
   * [books/ranalysis.html](html/books/ranalysis.html)
-* ./maps
-  * [maps/ranalysis.html](html/maps/ranalysis.html)
