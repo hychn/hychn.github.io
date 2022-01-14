@@ -1,6 +1,10 @@
 # Free notes
 
+## A new style of note taking
+* Adding a high level view of just definitions and connections
+
 ## Stress
+* Breathe
 * Mental fatigue is caused by stress
 * Stay low, steely and calm
 * Don't be committed or invested or emotional

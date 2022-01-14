@@ -1,3 +1,4 @@
+
 * _Things_ to look
   * Examples
   * All Connections
@@ -646,6 +647,9 @@ A monotone sequence is divergent iff it is unbounded
 
 
 # 3.7 Introduction to Series
+
+## MAP
+* $(s_n)$, series, is a sequence of $s_i = x_1+...+x_i$. with $(x_n)$ a sequence.
 
 ## 3.7.1 DEF Series
 * If $(x_n)$ is a sequence, let $s_n = x_1 +...+ x_n $ 
