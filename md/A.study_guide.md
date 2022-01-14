@@ -1,5 +1,17 @@
 # Free notes
 
+## Stress
+* Mental fatigue is caused by stress
+* Stay low, steely and calm
+* Don't be committed or invested or emotional
+* How can you? Faith in God
+* Thanks and trust
+* Just try and practice
+* Nerves of Steel
+  * Ability to remain calm under pressure or difficult situations
+
+## Dont muck your way through thought. It is form
+
 ## Math study
 * Should think of different ways the objects can interact
 * While studying ask questions on try to branch out in simple areas. what should come next?
@@ -48,8 +60,6 @@
 
 ## Need to make sure I am thinking through the thing I read
 * I can do this by closing the book and recalling it in my memory
-
-## Dont muck your way through thought. It is form
 
 ## Why did I get stuck in this area for some time?
 * I think it was fine, the progression of ideas to prove this
