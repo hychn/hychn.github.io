@@ -1,6 +1,16 @@
+# Muscle Activation
+* You need to really focus  keeping tight tension and understanding which muscles are being activated 
+
+## Deadlift
+* Focus on role and function of hamstring, to rotate the pevlis/extend the femur around hip joint.
+* Tighten it, keep a straight back and lift
+
+## Benchpress
+* Keep a tight chest muscle around shoulder joint and keep shoulder joint locked and stable
+
 # FORM
 * Yesterday, 12-29, when you did squat you adjusted the form slightly and your squat blew up with much more stability
-* from 60kg to 80kg
+* from 60kg to 80kg -> 100
 * Also, you were practicing ques and form for a while and I think it took several key realizations until you finally got it
   * Had to do alot of research until you found what clicked and made sense (hip hinge)
   * Femur pointing/opening hips
