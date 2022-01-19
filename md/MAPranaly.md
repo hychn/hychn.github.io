@@ -26,6 +26,7 @@
 # 2 The Real Number
 
 # 2.1 Algebraic and Order Properties of R
+
 * DEF Operator $+ *$ binary function from, to $\mathbb{R}$
 * PROP $a+b = b+a$
 * PROP $(a+b)+c = a+(b+c)$
@@ -35,7 +36,6 @@
   * $a+-a=0$, $a*\dfrac{1}{a}=1$
 * PROP uniquness of 0,1
 * ---
-
 * DEF Order $a \leq b :=$ b-a is positive or zero 
 * PROP Reflexive $a \leq a$
 * PROP Transitive $a \leq b$ $b \leq c$ $\rightarrow a \leq c$

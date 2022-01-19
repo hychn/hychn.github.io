@@ -1,6 +1,7 @@
 # Free notes
 
 ## A new style of note taking
+* In general, keep the things as simple as possible 
 * Adding a high level view of just definitions and connections
 
 ## Stress
