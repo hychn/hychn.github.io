@@ -1,5 +1,14 @@
 # Free notes
 
+## New style of notetaking 2
+* Kind of feels redundant, I want to separate it out better
+* I dont think I should repeat, maybe keep the oringal notes for 
+  * Examples
+  * Proof
+  * Extended Discussion
+* And keep the second one as just MAP and links of ideas
+* As you work from MAP, you may need to prune some stuff over
+
 ## A new style of note taking
 * In general, keep the things as simple as possible 
 * Adding a high level view of just definitions and connections

@@ -1,4 +1,3 @@
-
 * _Things_ to look
   * Examples
   * All Connections
@@ -658,3 +657,30 @@ A monotone sequence is divergent iff it is unbounded
 ## 3.7.2 EX Geometric Series
 * Series on sequence $r^n$.
 * Is it contractive is r<1?
+
+## EX Natural series
+* _TODO_ $\sum{\dfrac{1}{n}}$ is unbounded
+* _TODO_ $\sum{(\dfrac{1}{n})^2}$ is bounded
+* p series $\sum{(\dfrac{1}{n})^p}$
+* p series is convergent p>1
+* p series is divergent 0<p<=1
+* alternative harmonic series is convergent
+
+## PROP $\sum{x_n}$ convergent $\rightarrow$ $Lim(x_n)=0$
+* It is easy to see this if $x_n$ were all positive because the sum wil be infinite otherwise
+* If a sequence is convergent, the distance between the sequences will converge to zero
+ * This is definition of Cauchy 
+* The book proves it by using $s_{n+1} - s_{n} = x_{n+1}$ = $Lim(s_{n+1} - s_{n}) = Lim(x_{n+1}) = Lim(x_n)$
+ * I think this is a valuable perspective as well
+## PROP Series is convergent $\iff$ series is bounded (if $(x_n)$ is positive)
+* Series is convergent -> series is bounded
+* Series is bounded. Series is monotone -> Series is convergent
+## PROP Series, order and convergence
+* Suppose $0 =< x_n < y_n$. Then the following is true
+ * $\sum{y_n}$ convergent $->$ $\sum{x_n}$ convergent
+ * bounded, monotone
+ * Book proof: use cauchy 
+* $\sum{x_n}$ divergent $->$ $\sum{y_n}$ divergent
+ * $\sum{x_n}$ divergent -> not monotone or not bounded -> not bounded -> $\sum{y_n}$ is also not bounded -> not convergent
+ * Another proof: Is also contrapositive of prior statement
+## PROP Series, ratio and convergence

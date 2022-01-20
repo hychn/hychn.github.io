@@ -1,3 +1,7 @@
+# TODO:
+* Add in new lines to expand the blockquotes b/c i want the md to be condense as possibl
+
+
 # TODO
 * Allow static linking
 	* This means the contents of the table of contents js needs to be placed directly into the html generation script

@@ -118,6 +118,23 @@ dest = sys.argv[2]
 print('compiling', fname)
 L = ytl.writeFileToList(fname)
 
+def newline_add(L):
+    _L = []
+
+    out = True
+    for l in L:
+        blquote_line = (l[:3]=='>! ')
+        if out and blquote_line: 
+            _L.append('')
+            out = False
+        elif not out and blquote_line: 
+            _L.append('')
+            out = True
+        _L.append(l)
+    return _L
+
+L = newline_add(L)
+
 def san_repr(x):
     x = repr(x)
     if len(x)>=2:
