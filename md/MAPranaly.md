@@ -57,31 +57,32 @@
 # 3 Sequences
 
 # 3.1 Sequences and Their Limits
-* DEF Sequence. naturally ordered sequence of elements in $\mathbb{R}$
-* DEF Limit. The limit of sequence $(x_n)$ is $L$ if: for any $e>0$,$\exists k$ s.t. $i>k \rightarrow |x_i-L|<e$
-* PROP Convergent Sequence are Bounded
+* DEF sequence
+* DEF limit
+>! * The limit of sequence $(x_n)$ is $L$ if: for any $e>0$,$\exists k$ s.t. $i>k \rightarrow |x_i-L|<e$
+* PROP convergent sequence are Bounded
 * DEF Negation of convergence to L
 >! $\exists e>0$ s.t. $\forall k \neg (i>k \rightarrow |x_i-L|<e)$
 >! $\exists e>0$ s.t. $\forall k ( \exists i>k) \land |x_i-L|>=e )$
 >! There is an episilon, that no matter how far you go down in the sequence, there is an element in the sequence that lies outside the e neighborhood of L
 
 # 3.2 Limit Theorems
-* Operators on sequences and limits
+* operators on sequences and limits
 
 # 3.3 Monotone Sequences
 * PROP Monotone Bounded Sequences have a limit, the supremum
 
 # 3.4 Subsequences and Bolzano Weierstrass Theorm
 * DEF Subsequence
-* PROP Every sequence has a monotone subsequence
+* PROP Sequence has a monotone subsequence
 
 # 3.5 Cauchy Criterion
-* PROP If a sequence is cauchy iff it is convergent
-* PROP If a sequence is contractive, it cauchy
+* PROP sequence is cauchy <-> it is convergent
+* PROP sequence is contractive -> it cauchy
 
 # 3.6 Properly Divergent Sequences
-* PROP Sequence convergent -> bounded
-* PROP Sequence not bounded -> not convergent
+* PROP sequence convergent -> bounded
+* PROP sequence not bounded -> not convergent
 
 # 3.7 Introduction to Series
 * DEF Series of $(x_n)$ is a sequence $s_n = x_1 + .. + x_n$
