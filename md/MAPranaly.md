@@ -83,7 +83,7 @@
 * PROP Sequence not bounded -> not convergent
 
 # 3.7 Introduction to Series
-* DEF Series of $(x_n)$ is a sequence $s_n=x_1+..+x_n$
+* DEF Series of $(x_n)$ is a sequence $s_n = x_1 + .. + x_n$
 >! * Sum within the sequence, product?
 * PROP $\sum{x_n}$ convergent $\rightarrow$ $Lim(x_n)=0$
 * PROP Series is convergent <-> series is bounded (if $(x_n)$ is positive)
@@ -91,11 +91,6 @@
 >! * Series is bounded. Series is monotone -> Series is convergent
 * PROP Series, order and convergence
 >! * Suppose $0 =< x_n < y_n$. Then the following is true
->!  * $\sum{y_n}$ convergent $->$ $\sum{x_n}$ convergent
->!  * bounded, monotone
->!  * Book proof: use cauchy 
+>! * $\sum{y_n}$ convergent $->$ $\sum{x_n}$ convergent
 >! * $\sum{x_n}$ divergent $->$ $\sum{y_n}$ divergent
->!  * $\sum{x_n}$ divergent -> not monotone or not bounded -> not bounded -> $\sum{y_n}$ is also not bounded -> not convergent
->!  * Another proof: Is also contrapositive of prior statement
 * PROP Series, ratio and convergence
->! a
