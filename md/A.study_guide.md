@@ -1,5 +1,11 @@
 # Free notes
 
+## Stress and mental fatigue
+* There is no such thing as mental tireness
+* It is stress that causes this
+* Remove yourself from the forms of stress
+* Its bad, non-optimal for thinking
+
 ## New style of notetaking 2
 * Kind of feels redundant, I want to separate it out better
 * I dont think I should repeat, maybe keep the oringal notes for 

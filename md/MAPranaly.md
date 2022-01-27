@@ -79,19 +79,14 @@
 * PROP If a sequence is contractive, it cauchy
 
 # 3.6 Properly Divergent Sequences
-* PROP Sequence convergent $\rightarrow$ bounded
-* PROP Sequence not bounded $\rightarrow$ not convergent
+* PROP Sequence convergent -> bounded
+* PROP Sequence not bounded -> not convergent
 
 # 3.7 Introduction to Series
 * DEF Series of $(x_n)$ is a sequence $s_n=x_1+..+x_n$
 >! * Sum within the sequence, product?
 * PROP $\sum{x_n}$ convergent $\rightarrow$ $Lim(x_n)=0$
->! * It is easy to see this if $x_n$ were all positive because the sum wil be infinite otherwise
->! * If a sequence is convergent, the distance between the sequences will converge to zero
->!  * This is definition of Cauchy 
->! * The book proves it by using $s_{n+1} - s_{n} = x_{n+1}$ = $Lim(s_{n+1} - s_{n}) = Lim(x_{n+1}) = Lim(x_n)$
->!  * I think this is a valuable perspective as well
-* PROP Series is convergent $\iff$ series is bounded (if $(x_n)$ is positive)
+* PROP Series is convergent <-> series is bounded (if $(x_n)$ is positive)
 >! * Series is convergent -> series is bounded
 >! * Series is bounded. Series is monotone -> Series is convergent
 * PROP Series, order and convergence
