@@ -1,5 +1,16 @@
 # Free notes
 
+## Notation 
+Use wording or symbolic notation?
+I think wording has much more flexibilty, the symbols are words themselves
+
+## How do I make myself
+feel in good condition?
+ambitious and energetic?
+what drains my energy?
+self-care
+exercise? routine
+
 ## Stress and mental fatigue
 * There is no such thing as mental tireness
 * It is stress that causes this
