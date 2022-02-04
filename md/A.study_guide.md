@@ -1,15 +1,19 @@
 # Free notes
 
+## Intrinsic Motivation
+* Make sure you are careful to not attach too much to the extrinsic motivation
+* The Process is more than the Result
+
 ## Notation 
-Use wording or symbolic notation?
-I think wording has much more flexibilty, the symbols are words themselves
+* Use wording or symbolic notation?
+* I think wording has much more flexibilty, the symbols are words themselves
 
 ## How do I make myself
-feel in good condition?
-ambitious and energetic?
-what drains my energy?
-self-care
-exercise? routine
+* feel in good condition?
+* ambitious and energetic?
+* what drains my energy?
+* self-care
+* exercise? routine
 
 ## Stress and mental fatigue
 * There is no such thing as mental tireness

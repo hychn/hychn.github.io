@@ -134,7 +134,6 @@ def newline_add(L):
     return _L
 
 L = newline_add(L)
-print(L)
 def san_repr(x):
     x = repr(x)
     if len(x)>=2:
