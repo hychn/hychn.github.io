@@ -1,6 +1,5 @@
 # 1 Preliminaries
 
-
 # 1.1 Sets and Functions
 * DEF Function
 * DEF Injective

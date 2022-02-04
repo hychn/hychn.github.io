@@ -1,5 +1,24 @@
 # Free notes
 
+## Problem solving in a RL
+* RL problem solve
+  * Infinite action space (Reduce it)
+  * Reframing statement that is too hard (to an intermediate step)
+* Your notes should be in a format that 
+  * reduces action space
+  * breaks up big statements into smaller steps
+  * clearly reflect this
+
+## Good will
+* Be generous have good will when dealing with people
+* good will - friendly, helpful, cooperation feelings or attitude
+* Be tactful and mericiless when dealing with objects
+
+## Stress
+* Stress is like a heavy glass of water
+* The longer you hold onto it the more heavy it is 
+* Control not being affected by stress, or other things. This is a skill
+
 ## Intrinsic Motivation
 * Make sure you are careful to not attach too much to the extrinsic motivation
 * The Process is more than the Result
