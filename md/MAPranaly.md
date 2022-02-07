@@ -11,7 +11,7 @@ $ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 * DEF: Negation
 * DEF: And
 * DEF: Or
-* DEF: _Implication_ a
+* DEF: Implication
 >! * aVb = V(a,b) = T means a,b can take on the values of V^{-1}(T)
 >! * Two functions are equal if 
 >! * a statement/function is equal to another statement with same domain when all variation of inputs gives same output
