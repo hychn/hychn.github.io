@@ -1,5 +1,11 @@
 # Free notes
 
+## When you are frustrated
+* You often don't see the obvious solution
+* You are training to see the correction solution, so be patient 
+* map out and work through all the possibilities
+* Mathematics is also clerical work (when you get stuck and are branching out)
+
 ## On improving and getting better
 * As long as you can see how you are improving or see some direction in which you can improve, it is good
 * Sometimes you may not see it at all.
