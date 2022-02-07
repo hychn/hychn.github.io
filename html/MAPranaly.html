@@ -1,4 +1,6 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<p>\( \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }\)</p>
+
 <h1>1 Preliminaries</h1>
 
 <h1>1.1 Sets and Functions</h1>
@@ -192,12 +194,26 @@
 <h1>4.1 Limits of Functions</h1>
 
 <ul>
-<li><p>DEF: Limit of a function</p>
+<li>DEF: Limit of a function</li>
+</ul>
 
-<h1>4.2 Limit  Theorems</h1></li>
-<li><p>DEF: Operator on functions</p></li>
-<li>PRP: Operator on functions and their limits
+<blockquote onclick="click_spoiler(event)" class="spoiler">
+  <ul>
+  <li>PRP: TODO \((a_n)\), \((b_n)\) cov to \(x\) then \(Lim(f(a_n)) = Lim(f(b_n))\) given this we can define uniqueness for anyseq</li>
+  <li>DEF: \(Lim_{x \rightarrow a}(f(x)) = Lim( f(x_n) )\) where \(x_n\) is any sequence that conv to x</li>
+  </ul>
+</blockquote>
+
+<h1>4.2 Limit  Theorems</h1>
+
+<ul>
+<li>DEF: Operator on functions</li>
+<li><p>PRP: Operator on functions and their limits</p>
+
 <h1>4.3 Some  Extensions of  the  Limit  Concept</h1></li>
+<li><p>Different types of sequences from left,right</p></li>
+<li>Is there some property regarding the various limits of our function</li>
+<li>\( \lim{x}{a} f(x) = lim f(a) \)</li>
 </ul>
 
 </div></body> </html>

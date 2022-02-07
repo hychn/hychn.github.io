@@ -16,8 +16,19 @@ if (self.position - self.loci).distance() > roam.radius:
 
 def update():
     self.action(actionparams)
-    if mode1:
+    if roam:
         change action/params based on conditions
-    if mode2:
+        go to aggro
+    if aggro:
+        go to reset
+    if reset:
+        return back to center
 
+change plr to chartr
 # tab system
+# right now assume to always have target
+# how about change to target is from cursor if there is no current target
+#
+#
+#
+pathfinding

@@ -1,3 +1,5 @@
+$ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
+
 # 1 Preliminaries
 
 # 1.1 Sets and Functions
@@ -101,12 +103,14 @@
 
 # 4 Limits on Functions
 
-
-
-
 # 4.1 Limits of Functions
 * DEF: Limit of a function
+>! * PRP: TODO $(a_n)$, $(b_n)$ cov to $x$ then $Lim(f(a_n)) = Lim(f(b_n))$ given this we can define uniqueness for anyseq
+>! * DEF: $Lim_{x \rightarrow a}(f(x)) = Lim( f(x_n) )$ where $x_n$ is any sequence that conv to x
 # 4.2 Limit  Theorems
 * DEF: Operator on functions
 * PRP: Operator on functions and their limits
 # 4.3 Some  Extensions of  the  Limit  Concept
+* Different types of sequences from left,right
+* Is there some property regarding the various limits of our function
+* $ \lim{x}{a} f(x) = lim f(a) $
