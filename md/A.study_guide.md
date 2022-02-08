@@ -1,5 +1,12 @@
 # Free notes
 
+## Interesting theorems? Great and beautiful?
+* https://mathoverflow.net/questions/412437/breakthroughs-in-mathematics-in-2021
+
+## Reading it voraciously
+* More efficient way to get at the core of your goal
+* This previous approach is too time consuming
+
 ## When you are frustrated
 * You often don't see the obvious solution
 * You are training to see the correction solution, so be patient 

@@ -113,4 +113,15 @@ $ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 # 4.3 Some  Extensions of  the  Limit  Concept
 * Different types of sequences from left,right
 * Is there some property regarding the various limits of our function
-* $ \lim{x}{a} f(x) = lim f(a) $
+* DEF: Continuos
+>! * $ \lim{x}{a} f(x) = lim f(a) $
+* ???: Why is Continuity important (it allows us to define derivative)
+* DEF: $\lim{x}{\infty} f(x)
+* DEF: $\lim{x}{a} f(x) = \infty$
+
+# 5.1 Continuous  Functions 120
+# 5.2 Combinations  of Continuous  Functions 125
+# 5.3 Continuous  Functions  on Intervals 129
+# 5.4 Uniform  Continuity 136
+# 5.5 Continuity  and Gauges 145
+# 5.6 Monotone  and Inverse Functions 149
