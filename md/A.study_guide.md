@@ -1,5 +1,12 @@
 # Free notes
 
+## I often cannot find myself or find it difficult to stop thinking about the 
+* game emchanics and state and what not, specific examples, different cases, running throught the scenario in my mind
+* How can similar thing be achieved for mathematics?
+* Play. It is just play. What is fun about math? What is interesting about math.
+* You have treated as a means to a goal, like prestiege or tool for AI, understanding etc...
+* But what is fun about math? How can you play math? It is like a game with rules
+
 ## Big part on working and perservering
 * If you believe you can do it, you probably can do it, even when it is difficult
   * Looking at examples really helped me come to a good point with the collision system, ilooked at ap3, push ralph, and simple pusher example
