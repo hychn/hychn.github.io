@@ -107,21 +107,24 @@ $ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 * DEF: Limit of a function
 >! * PRP: TODO $(a_n)$, $(b_n)$ cov to $x$ then $Lim(f(a_n)) = Lim(f(b_n))$ given this we can define uniqueness for anyseq
 >! * DEF: $Lim_{x \rightarrow a}(f(x)) = Lim( f(x_n) )$ where $x_n$ is any sequence that conv to x
+>! * Do we really need the sequence? Can we define it in an alternate way?
 # 4.2 Limit  Theorems
 * DEF: Operator on functions
 * PRP: Operator on functions and their limits
 # 4.3 Some  Extensions of  the  Limit  Concept
 * Different types of sequences from left,right
 * Is there some property regarding the various limits of our function
+* Combination of limits $\lim{x}{a} g(f(x))$
+
 * DEF: Continuos
 >! * $ \lim{x}{a} f(x) = lim f(a) $
 * ???: Why is Continuity important (it allows us to define derivative)
 * DEF: $\lim{x}{\infty} f(x)
 * DEF: $\lim{x}{a} f(x) = \infty$
 
-# 5.1 Continuous  Functions 120
-# 5.2 Combinations  of Continuous  Functions 125
-# 5.3 Continuous  Functions  on Intervals 129
-# 5.4 Uniform  Continuity 136
-# 5.5 Continuity  and Gauges 145
+# 5.1 Continuous Functions 120
+# 5.2 Combinations of Continuous Functions 125
+# 5.3 Continuous Functions on Intervals 129
+# 5.4 Uniform Continuity 136
+# 5.5 Continuity and Gauges 145
 # 5.6 Monotone  and Inverse Functions 149

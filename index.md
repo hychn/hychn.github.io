@@ -1,5 +1,6 @@
 * ./
 * [MAPranaly.html](html/MAPranaly.html)
+* [AI_notes.html](html/AI_notes.html)
 * [B.math_log.html](html/B.math_log.html)
 * [A.journal.html](html/A.journal.html)
 * [A.objectives.html](html/A.objectives.html)

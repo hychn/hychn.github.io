@@ -1,5 +1,23 @@
 # Free notes
 
+## Big part on working and perservering
+* If you believe you can do it, you probably can do it, even when it is difficult
+  * Looking at examples really helped me come to a good point with the collision system, ilooked at ap3, push ralph, and simple pusher example
+  * If you get frustrated, need to manage it better
+* Frustration is difficult to overcome, its a skill
+* Manage your ambition and expectations by setting clear goals and checkpoints and review them
+* Make sure you rest, and get plenty of sleep
+  * Be comfortable when you are working ( This chair is extremely uncomfortable )
+* When developing and trying to make a good system, ask questions not write tasks todo
+* When refactoring, take those questions into consideration and answer all of thsoe questions in a unified system
+* What are the questions we had when we were developing this engine?
+* Whatever your goal is, work hard towards it, with your heart and body and soul and also keep these poitns/questions in mind
+
+
+## Fight or Flight response and heart beating under stress and pressure
+* Focus your mentality and mind and soul
+* Maybe its the voice in your head saying you MUST solve it
+
 ## Interesting theorems? Great and beautiful?
 * https://mathoverflow.net/questions/412437/breakthroughs-in-mathematics-in-2021
 
