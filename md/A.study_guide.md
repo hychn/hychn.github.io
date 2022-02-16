@@ -1,5 +1,8 @@
 # Free notes
 
+## Unhinge yourself from the limitations set by yourself
+* Be realistic, but dont be held back by limitations
+
 ## I often cannot find myself or find it difficult to stop thinking about the 
 * game emchanics and state and what not, specific examples, different cases, running throught the scenario in my mind
 * How can similar thing be achieved for mathematics?
