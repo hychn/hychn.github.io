@@ -1,5 +1,17 @@
 # Free notes
 
+## My lack of ability to remember or organize as strongly as others
+* blind-wandering fool, maybe my lack of strong-memory, tendency to forget is an advantage
+* being able to approach things anew
+* Things of most signifiance strike out at me
+## questions/problems and workflow examples
+* Help to expand and explore the consequences of your definitions
+* Directing your thought towards something specific
+* guide and help to verify your set of rules
+* Even if the set of rules change, the problems are stable. 
+  * And you can try to prove if the property/question remain under the new rules
+* Realized this while setting up different rules/definitions for server
+
 ## Unhinge yourself from the limitations set by yourself
 * Be realistic, but dont be held back by limitations
 
