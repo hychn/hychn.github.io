@@ -1,7 +1,8 @@
 Tips for learning math
 Matthew Romney
 
-# Study at a slow enough pace to internalize what you study. Equally importantly, don’t study passively. Scrutinize each proof! Do you agree with each step being carried out? Can you fill in any missing details? Can the argument be reduced down to a small number of simple, intuitive ideas? Can you apply the same idea in other situations? The premise of pure mathematics is that its results are grounded in rigorous proof. Thus you should get in the habit of making your own judgments of how convincing a given argument is. At the more advanced level, this will be a hugely important skill. At the beginning level, you’re exposed to mainly correct mathematics (although often not completely “rigorous”), but this thought process will help solidify and deepen your understanding.
+# Study at a slow enough pace to internalize what you study. 
+Equally importantly, don’t study passively. Scrutinize each proof! Do you agree with each step being carried out? Can you fill in any missing details? Can the argument be reduced down to a small number of simple, intuitive ideas? Can you apply the same idea in other situations? The premise of pure mathematics is that its results are grounded in rigorous proof. Thus you should get in the habit of making your own judgments of how convincing a given argument is. At the more advanced level, this will be a hugely important skill. At the beginning level, you’re exposed to mainly correct mathematics (although often not completely “rigorous”), but this thought process will help solidify and deepen your understanding.
 
 Don’t be afraid to think at a slower pace than your peers. If a classmate seems to grasp something faster than you, there is a high chance that it’s just because they’ve already encountered a similar idea before. Don’t confuse a slower pace with a lack of intelligence.
 
