@@ -1,13 +1,13 @@
 Tips for learning math
 Matthew Romney
 
-1.  Study at a slow enough pace to internalize what you study. Equally importantly, don’t study passively. Scrutinize each proof! Do you agree with each step being carried out? Can you fill in any missing details? Can the argument be reduced down to a small number of simple, intuitive ideas? Can you apply the same idea in other situations? The premise of pure mathematics is that its results are grounded in rigorous proof. Thus you should get in the habit of making your own judgments of how convincing a given argument is. At the more advanced level, this will be a hugely important skill. At the beginning level, you’re exposed to mainly correct mathematics (although often not completely “rigorous”), but this thought process will help solidify and deepen your understanding.
+# Study at a slow enough pace to internalize what you study. Equally importantly, don’t study passively. Scrutinize each proof! Do you agree with each step being carried out? Can you fill in any missing details? Can the argument be reduced down to a small number of simple, intuitive ideas? Can you apply the same idea in other situations? The premise of pure mathematics is that its results are grounded in rigorous proof. Thus you should get in the habit of making your own judgments of how convincing a given argument is. At the more advanced level, this will be a hugely important skill. At the beginning level, you’re exposed to mainly correct mathematics (although often not completely “rigorous”), but this thought process will help solidify and deepen your understanding.
 
 Don’t be afraid to think at a slower pace than your peers. If a classmate seems to grasp something faster than you, there is a high chance that it’s just because they’ve already encountered a similar idea before. Don’t confuse a slower pace with a lack of intelligence.
 
 I believe that thoroughness is usually more efficient in the long run. Once you master an idea, it becomes easy and automatic when it appears again in a different context. Mathematics consists of a relatively small number of simple ideas, dressed up in formal jargon, that get applied again and again.
 
-2.  Focus on fundamental examples. Many theorems can be viewed in the following way: a certain set of examples represents the general behavior of some abstractly defined class of objects. In the other direction, most theorems require some hypothesis in order for the conclusion to be true. Typically, there is a counterexample to show that the conclusion may fail when the hypothesis is not satisfied. In this way, examples delineate the landscape of mathematical truth.
+# Focus on fundamental examples. Many theorems can be viewed in the following way: a certain set of examples represents the general behavior of some abstractly defined class of objects. In the other direction, most theorems require some hypothesis in order for the conclusion to be true. Typically, there is a counterexample to show that the conclusion may fail when the hypothesis is not satisfied. In this way, examples delineate the landscape of mathematical truth.
 
 When you focus on examples, it makes the material more concrete. This makes it more meaningful and comprehensible. From a psychological point of view, a narrative is a powerful structure.
 Consider how, without having made any deliberate prior effort, you can recall the plot of your favorite movie down to the minor details. In a similar way, examples provide the narrative of mathematics. They are a frame on which you can build the house of your understanding.
@@ -19,7 +19,7 @@ You’ll find that senior mathematicians can reason very quickly and efficiently
 
 Another closely related mental structure is to frame things as a question. The advantage of a good question is that it has a definite answer. It focuses your mental energy and also serves to make the material concrete. It encourages precision in your thinking. And it provides a measuring stick for your understanding.
 
-3.  Don’t get bogged down by abstraction. As a student, you’ll run into many abstract definitions: topological spaces, metric spaces, manifolds, the various structures of abstract algebra, and so on. In
+# Don’t get bogged down by abstraction. As a student, you’ll run into many abstract definitions: topological spaces, metric spaces, manifolds, the various structures of abstract algebra, and so on. In
  
 math, a definition is what it is, no more and no less. While it’s very good to develop an intuition about these various objects, there’s a danger of looking for some deeper meaning that just isn’t there. John von Neumann once said, “In mathematics you don't understand things. You just get used to them.” I don’t advise taking this quote too literally, but I think it reinforces the point of not worrying about understanding everything right away. Be comfortable with an incomplete understanding.
 
@@ -27,9 +27,9 @@ So how should one approach this? Consistent with Tip 2, whenever you encounter a
 
 To really explore the scope of a definition to its limits—to really understand “what is a topological space” or “what is a finite group”, for example—is usually a very non-trivial task. Indeed, really the only way is to become a specialist in that topic and devote years of your life to studying it.
 
-4.  Repetition, repetition, repetition! A passage in the textbook might be incomprehensible the first time you read it. Come back a day later, a week later, a month later. You’ll often find that the topic in question has gone from incomprehensible to obvious. One important qualification: repetition is not the same as rote repetition. Rather, you should emphasize the ideas, intuitions and connections. You should take a proactive approach: with each successive repetition, try to reproduce on your own a larger portion of the material.
+# Repetition, repetition, repetition! A passage in the textbook might be incomprehensible the first time you read it. Come back a day later, a week later, a month later. You’ll often find that the topic in question has gone from incomprehensible to obvious. One important qualification: repetition is not the same as rote repetition. Rather, you should emphasize the ideas, intuitions and connections. You should take a proactive approach: with each successive repetition, try to reproduce on your own a larger portion of the material.
 
-5.  Get the most out of lecture. In my view, your individual study and the lecture serve distinct roles, even if it’s the same material being covered in both. The purpose of the lecture is to focus on the big picture: the main concepts, intuitions, connections. The purpose of individual study is to focus on the details: to really convince yourself that every claim is sound, every line of reasoning works as it should.
+# Get the most out of lecture. In my view, your individual study and the lecture serve distinct roles, even if it’s the same material being covered in both. The purpose of the lecture is to focus on the big picture: the main concepts, intuitions, connections. The purpose of individual study is to focus on the details: to really convince yourself that every claim is sound, every line of reasoning works as it should.
 
 For most people, it is virtually impossible to learn math simply by listening to another person lecture. If you don’t put the work in outside of class, the lecture will be incomprehensible and stay that way.
 
@@ -40,21 +40,21 @@ Consider some analogies. A game of chess can be reduced down to a single paragra
 
 It’s perfectly fine, even expected, that you won’t understand every word uttered in a lecture. The goal is that, through lecture, you learn the skill of technical communication: to listen and respond to another person in real time, to explain technical ideas understandably to others, to use your existing knowledge to fill in gaps in the presentation when possible, to ask for clarification when this is not. These skills will become increasingly important after you have graduated, regardless of the type of employment.
  
-6.  Find the right source for learning a topic and stick to it. This is a sort of corollary to the first point of advice about slowing down. If you want to learn a topic, shop around at first for the best book or other resource to learn it from. If you’re taking a university course, the instructor has presumably done this already and chosen it as the course text. Once you’ve found this book, then slow down and work thoroughly. Every time you switch between books requires an investment of time and energy to learn the new author’s terminology and read through the basics.
+# Find the right source for learning a topic and stick to it. This is a sort of corollary to the first point of advice about slowing down. If you want to learn a topic, shop around at first for the best book or other resource to learn it from. If you’re taking a university course, the instructor has presumably done this already and chosen it as the course text. Once you’ve found this book, then slow down and work thoroughly. Every time you switch between books requires an investment of time and energy to learn the new author’s terminology and read through the basics.
 
 A good rule of thumb is often to choose the most advanced source that you can still understand completely. A book is too advanced if you have to accept many statements on faith, without your own ability to evaluate their correctness (with the help of the author’s explanations, of course).
 
-7.  Math is hard; embrace it. When I was a student, I was no different than any of you. I recall sitting down to read my abstract algebra textbook and barely understanding a word of it. After reading through the relevant sections about ten times over the course of several weeks, I finally got the hang of it. It really is an incredible phenomenon how, with time and training, a topic goes from borderline impossible to “trivial”.
+# Math is hard; embrace it. When I was a student, I was no different than any of you. I recall sitting down to read my abstract algebra textbook and barely understanding a word of it. After reading through the relevant sections about ten times over the course of several weeks, I finally got the hang of it. It really is an incredible phenomenon how, with time and training, a topic goes from borderline impossible to “trivial”.
 
 But, once a topic gets too simple, it’s time to move onto a bigger challenge. You might compare this to a video game whose difficulty adjusts to the skill of the player. From this point of view, math is guaranteed to be hard. Indeed, as you transition from student to researcher, you’ll find that “being stuck” is the normal state of affairs. But simply recognizing this as something normal can be a great source of reassurance. It’s okay to have to put in a big effort. If math wasn’t difficult, if any random Joe could simply do it, then math as a discipline probably wouldn’t exist, or at least wouldn’t be worth doing.
 
-8.  But, if math isn’t interesting, you’re doing something wrong. There are many motivations for why one should learn mathematics. There are practical reasons related to real-world applications of math. You’re probably interested in making a living using your skills with mathematics. However, I believe the immediate motivation for most people doing math is simply that’s it’s interesting. This means that you need to understand what you’re learning and should focus on topics you find personally meaningful.
+# But, if math isn’t interesting, you’re doing something wrong. There are many motivations for why one should learn mathematics. There are practical reasons related to real-world applications of math. You’re probably interested in making a living using your skills with mathematics. However, I believe the immediate motivation for most people doing math is simply that’s it’s interesting. This means that you need to understand what you’re learning and should focus on topics you find personally meaningful.
 
 Tip 6 notwithstanding, math shouldn’t be too hard too much of the time. Yes, it will take some work to learn new concepts. But if you’re completely lost, then you’re not gaining anything from the time you’re investing. In such a case, don’t be afraid to take a step back to something more familiar and go at a slower pace. In some cases, you might change to a different topic.
 
 As you go throughout your mathematical education and career, don’t lose contact with your own natural curiosity. This must be balanced, of course, with course requirements (as a student) and the expectation to produce original work in your chosen field (as a researcher). But I find I am most engaged in my work and most productive when I actively follow my own judgments about what is interesting.
 
-9.  You’ll probably make a living someday by doing one thing better than (almost) anyone else. This is perhaps more in the category of life advice than math advice, but I believe it is a good way to conclude this list. More accurately, “one thing” might be a small set of related skills. But the point is that, whatever you hope to do, you need to invest enough to become an expert in it. Bruce Lee expressed this idea more poetically: “I fear not the man who has practiced 10,000 kicks once, but I fear the man who had practiced one kick 10,000 times.” Or, to paraphrase Oceans 11, “You only have one job!”
+# You’ll probably make a living someday by doing one thing better than (almost) anyone else. This is perhaps more in the category of life advice than math advice, but I believe it is a good way to conclude this list. More accurately, “one thing” might be a small set of related skills. But the point is that, whatever you hope to do, you need to invest enough to become an expert in it. Bruce Lee expressed this idea more poetically: “I fear not the man who has practiced 10,000 kicks once, but I fear the man who had practiced one kick 10,000 times.” Or, to paraphrase Oceans 11, “You only have one job!”
  
 This piece of advice is a bit tricky: as an undergraduate student, you take a wide array of classes meant to give you a broad foundation for the rest of your life academically, professionally and personally. There is value in the breadth of your experience. For many of you, true specialization will come later in graduate school or in the workforce. So certainly one must find the right balance between depth and breadth.
 
@@ -70,3 +70,42 @@ Make your university education work for you. It’s a big world out there, and w
 
 For those reading this who wish to become professional mathematicians, the application of this principle is clear. Your objective as you study isn’t merely to “learn math”, but to eventually master a given specialty. If you can say that you’re better than anyone else on the planet at a certain type of math problem, you’ll likely have a bright future as a mathematician. Of course, this specialization will mostly happen in graduate school. But there’s no need for you to wait to get started. Why not get a head start on the competition? (Some disclaimers: as an undergraduate, it’s healthy to have an idea of the broader field you’ll go into and try your hand at a research project, but be flexible about your specific long-term specialty until you’re well into graduate school. Make sure your focus is on a genuinely deep and interesting area of math; otherwise, your efforts may backfire. It helps to have the guidance of a professor or other mentor.)
 
+
+# Mathematics for a slow learner
+I agree wholeheartedly with the other 11 answers to this question I have seen thus far which all essentially say, “yes!” The intuition here is quite clear; specifically, the definition of a mathematician makes no claims to how quickly someone learns math. However, I think, implicitly, the question is also asking, “can you be a good mathematician even if you are a slow learner?”
+
+I would say the answer is still yes, and there are even some mathematicians I know and deeply respect in the world who would sometimes identify as slow learners. Let me give an example. At one point I was working with one of my research collaborators on understanding a paper neither one of us had read before. Now, this collaborator is an incredibly intelligent man and also a successful mathematician. However, when reading through this paper, he confessed to me that he is pretty slow at reading and understanding new papers, which definitely held true in this case. I was able to work through the paper and understand the relevant details pretty quickly into our session and then I had to explain some aspects to him. However, by the end of our session, I think he walked away with a greater understanding. Let me explain.
+
+By taking his learning process slowly, he was able to digest the paper more thoroughly and really connect the ideas behind it with his prior knowledge. Furthermore, he was able to identify the parts he did not understand and ask intelligent questions about them. So, by the end of our session, he had a much more clear idea how the ideas in the paper fit into our research program and into the field as a whole. Furthermore, he will probably never have to read the paper again because he was able to digest it slowly and thoroughly enough to really understand the motivating ideas.
+
+Someday, I hope I can be as slow of a learner as he is.
+
+# A body builder cannot be a sprinter but he can be fast
+# What kind of bodybuilder(Mathematician) are you trying to be?
+
+
+36 “Teacher, which is the greatest commandment in the Law?”
+37 Jesus replied: “‘Love the Lord your God with all your heart and with all your soul and with all your mind.’[a] 38 This is the first and greatest commandment. 39 And the second is like it: ‘Love your neighbor as yourself.’[b]
+
+* Who are you trying to be? What kind of mathematician are you trying to be?
+* A mathematician who is grounded, and can have reasonable proficiency (sense of fast)
+* What kind of sportsman/soccer player are you trying to be?
+
+* When tracking your ability of speed... at different points of your life, you arrived at variying levels of speed
+* The path it takes to arrive at a reasonable speed is different and you were at varying levels of speed
+  * 17-22 Before, be good at soccer, flashy moves, score goals, be better than Sid, be something (very vague)
+  * 22-26 Become faster with good legs
+  * 26-27 Become stronger... became slower
+  * 27-29 Become stronger, with good base. Powerful musculature and as a result and later powerful musculature in the legs gave you stronger speed
+
+* Notice how you applied powerful musculature to speed and then you got to a level you wanted
+* How about applying powerful grounding to speed?
+  * Build up an arsenal of tools and techniques that help you get there
+    * Powerful musculature was achieved with a set of tools and techniques and understanding
+      * Form, Food, Rest, Efficiency, Focus, Motivation, Timing, Exercise
+    * What kind of set of tools and techniques allow you to be grounded
+      * PATTERN MAPPING, Awareness Loading/Wiping, Questions(problems,exercises)
+      * Concrete Examples, Reading/Notetaking, Time
+
+* You NEED to be ready before going back to school
+* PREPARATION
