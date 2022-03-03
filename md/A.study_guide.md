@@ -1,5 +1,10 @@
 # Free notes
 
+## Who are you?
+* I am a warrior it is a part of me to be strong, brave, courageous
+* I am also weak, afraid
+* It is a core part of my identity
+
 ## My lack of ability to remember or organize as strongly as others
 * blind-wandering fool, maybe my lack of strong-memory, tendency to forget is an advantage
 * being able to approach things anew
