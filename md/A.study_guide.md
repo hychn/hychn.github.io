@@ -1,5 +1,14 @@
 # Free notes
 
+## Tasks to refresh your mind
+* Try different mediums, techniques
+  * Paper, listening, oratory, typing, presenting
+  * Limit cognitive overload
+
+
+## Always seek opportunity to reduce, simplify
+* It helps to clarify the mind
+
 ## Who are you?
 * I am a warrior it is a part of me to be strong, brave, courageous
 * I am also weak, afraid
