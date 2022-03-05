@@ -14,3 +14,10 @@
 * Paddle slow at start then fast at end.
     * start with elbow high?
 * Flutter kick at very end
+
+# popup and catching
+* timing is crucial
+* keeping your speed on shortboard is diffcult. you must not stop paddle
+* You want to controll the speed, not to fast not too slow just right
+  * strong strokes, gradulally lighter faster stroke
+* at the point where your speed is just right and you have not fall down on the wave, popup
