@@ -21,3 +21,4 @@
 * You want to controll the speed, not to fast not too slow just right
   * strong strokes, gradulally lighter faster stroke
 * at the point where your speed is just right and you have not fall down on the wave, popup
+* popup straight perp to the wave
