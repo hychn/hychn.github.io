@@ -22,3 +22,5 @@
   * strong strokes, gradulally lighter faster stroke
 * at the point where your speed is just right and you have not fall down on the wave, popup
 * popup straight perp to the wave
+* chest arced at start and adjust to maintain balance to not fall down the wave
+    * arc back gives less speed, down gives more
