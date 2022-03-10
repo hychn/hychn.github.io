@@ -1,5 +1,16 @@
 # Free notes
 
+## how is math diff from programming
+* math is more about exploring, (sometimes there isn't a goal)
+  * Looking at the consequences of something, defining
+* pgramming has a very specific goal you want to achieve
+  * And the art is identifying/breaking down common workflows into a series
+  * I think you should practice this more ina more abstract workflow sense
+  * Must be aware of performance as well (This is quite big...)
+    * often times I cannot think in the most simple way because of performance considerations
+    * Then what happens is that I end up 
+    * **building a tool that abstracts the thing in a simple away but is implemented in a efficient way **
+
 ## Tasks to refresh your mind
 * Try different mediums, techniques
   * Paper, listening, oratory, typing, presenting
