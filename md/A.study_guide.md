@@ -6,6 +6,12 @@
 * Relax and stop beating yourself up for not knowing or learning the material as fast as you think you should.
 * Accept the fact that you must spend time doing the studying and thank yourself for doing the work.
 * Treat yourself with the same respect, tolerance and acceptance that you would show another person.
+### stress, frustration ?
+* You dont take interest in your subjects.
+* You are setting long targets and at the end u are unable to achieve it, and get frustrated or may be u are not setting your targets.
+* May be,you dont have a sound environment for studies and u get distracted.
+* You think that u can study for long hours(say 4–5) continuously which isnt possible my friend.
+
 
 ## how is math diff from programming
 * math is more about exploring, (sometimes there isn't a goal)
