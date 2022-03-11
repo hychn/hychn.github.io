@@ -12,6 +12,7 @@
 * You are setting long targets and at the end u are unable to achieve it, and get frustrated or may be u are not setting your targets.
 * May be,you dont have a sound environment for studies and u get distracted.
 * You think that u can study for long hours(say 4–5) continuously which isnt possible my friend.
+## **As soon as your head hurts/feels uncomfortable stop**
 
 
 ## how is math diff from programming
