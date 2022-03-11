@@ -6,6 +6,7 @@
 * Relax and stop beating yourself up for not knowing or learning the material as fast as you think you should.
 * Accept the fact that you must spend time doing the studying and thank yourself for doing the work.
 * Treat yourself with the same respect, tolerance and acceptance that you would show another person.
+* I suspect that when you concentrate like that you are unconsciously tensing the muscles in your head and neck leading to a tension headache. These are felt inside your head, thus the feeling that your brain hurt
 ### stress, frustration ?
 * You dont take interest in your subjects.
 * You are setting long targets and at the end u are unable to achieve it, and get frustrated or may be u are not setting your targets.
