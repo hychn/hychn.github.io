@@ -1,5 +1,11 @@
 # Free notes
 
+## Head hurting?
+* What you likely are experiencing is stress and strain resulting from negative thoughts and emotions regarding the difficulty and/or “inconvenience” of studying whatever it is you are trying to learn.
+* Relax and stop beating yourself up for not knowing or learning the material as fast as you think you should.
+* Accept the fact that you must spend time doing the studying and thank yourself for doing the work.
+* Treat yourself with the same respect, tolerance and acceptance that you would show another person.
+
 ## how is math diff from programming
 * math is more about exploring, (sometimes there isn't a goal)
   * Looking at the consequences of something, defining
