@@ -1,5 +1,14 @@
 # Free notes
 
+## Implementation
+* Implement in the simplest way before trying to optimize
+* Simplicity of code is better than faster optimization with more complexity
+
+
+## Health and Focus
+* Need to exercise to keep the blood flowing and keep yourself alert and agile
+* This is something you should not sacrifice
+
 ## Head hurting?
 * eye pain?
 * What you likely are experiencing is stress and strain resulting from negative thoughts and emotions regarding the difficulty and/or inconvenience of studying whatever it is you are trying to learn
