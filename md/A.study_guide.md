@@ -1,6 +1,24 @@
 # Free notes
 
+## Re organize
+* I think at least once a month, I should spend time to reorganize and regroup
+
+
+## Health and thinking
+* Breathe, get that oxygen to your body
+* Take care of yourself, your well-being influences how you can think and perform
+* Adapt evolve be hungry and squeeze every last bit of juice out of life
+* Why do people say, you need to discover or do something in your prime?
+* Maintain/manage the prime
+
 ## Brain tired, overworked, Rest
+* Overworked
+  * I am not sure where this feeling came from...
+    * I think I saw some other people ahead of where I was and I felt like I was falling behind so I wanted to put in this effort to 'catch up'
+    * And so I didn't really take care of myself, because nothing matter more than (getting it done, putting the flag in, and finishing)
+    * But this isn't true in life. Something else will come
+  * Make a promise, that you will never feel like you are behind. and work at your own pace
+
 * DO i need rest?
   * headache
   * Lack of alertness, brain slowing down
@@ -9,6 +27,11 @@
   * You kept ramming at the solution without a constructive approach and really thinking about what it was you were doing
   * Need to create a systematic axiom to manage your thought like in math
   * Like, you are adding things together to create a blend, you need to analyze that and figure out if it holds true... etc
+* Mindset and attitude
+  * Should be towards making something which makes sense and whole
+  * Not towards just making something happen just for the sake of it
+    * This is why you were feeling like you were frustrated because you wanted to finish (without understanding)
+    * You wanted to 'just do it' without really understanding or creating a good system
 * Some of the ideas you came up with were good but they were some general directions, you need to sit down and thik about the core of the problem
   * I kept putting it off
 
