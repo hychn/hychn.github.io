@@ -1,5 +1,18 @@
 # Free notes
 
+## Brain tired, overworked, Rest
+* DO i need rest?
+  * headache
+  * Lack of alertness, brain slowing down
+* I think there is a problem with your approach causing you headaches and tiredness
+* While you do need rest if your conditions are not improving, try to see what caused this issue in the first place.
+  * You kept ramming at the solution without a constructive approach and really thinking about what it was you were doing
+  * Need to create a systematic axiom to manage your thought like in math
+  * Like, you are adding things together to create a blend, you need to analyze that and figure out if it holds true... etc
+* Some of the ideas you came up with were good but they were some general directions, you need to sit down and thik about the core of the problem
+  * I kept putting it off
+
+
 ## Implementation
 * Implement in the simplest way before trying to optimize
 * Simplicity of code is better than faster optimization with more complexity
