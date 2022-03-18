@@ -1,10 +1,15 @@
 # Free notes
 
+
 ## From mess to clarity
 * Mess and mucking around and headaches.. for 4 days
 * Emergence of clarity after finding the right 'mindset' of artist painting
 * Big factor of this was me not group concepts together into functions and instead just applying things randomly in a process
 * **Group concepts together, isolate input and outputs**
+* Also a key idea is that you weren't sure how to create the end effect to begin with
+  * Which means, you needed to experiment more
+    * **But you need to structure your experimentation**
+      * With varied pathways and common processes that will help you cut down on time
 * Math, especially my MAPranaly is similar to program for the mind. 
   * It is a way of grouping concepts together to describe something or see what can come out
   * It is a story, an art
