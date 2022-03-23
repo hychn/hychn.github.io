@@ -14,6 +14,10 @@
   * It is a way of grouping concepts together to describe something or see what can come out
   * It is a story, an art
 
+* Today I dont have a headache
+  * I think a big part is attributed to actually solving the problem
+  * And organizing your ideas so you actually know what you did to solve the problem
+
 ## Re organize
 * I think at least once a month, I should spend time to reorganize and regroup
 

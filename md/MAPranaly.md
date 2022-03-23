@@ -111,15 +111,15 @@ $ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 # 4.2 Limit  Theorems
 * DEF: Operator on functions
 * PRP: Operator on functions and their limits
+
 # 4.3 Some  Extensions of  the  Limit  Concept
 * Different types of sequences from left,right
 * Is there some property regarding the various limits of our function
 * Combination of limits $\lim{x}{a} g(f(x))$
 
-* DEF: Continuos
->! * $ \lim{x}{a} f(x) = lim f(a) $
+* DEF Continuous ~~$ \lim{x}{a} f(x) = lim f(a) $~~
 * ???: Why is Continuity important (it allows us to define derivative)
-* DEF: $\lim{x}{\infty} f(x)
+* DEF: $\lim{x}{\infty} f(x)$
 * DEF: $\lim{x}{a} f(x) = \infty$
 
 # 5.1 Continuous Functions 120
