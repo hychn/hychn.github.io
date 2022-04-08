@@ -684,3 +684,4 @@ A monotone sequence is divergent iff it is unbounded
  * $\sum{x_n}$ divergent -> not monotone or not bounded -> not bounded -> $\sum{y_n}$ is also not bounded -> not convergent
  * Another proof: Is also contrapositive of prior statement
 ## PROP Series, ratio and convergence
+

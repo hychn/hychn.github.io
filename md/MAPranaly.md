@@ -117,10 +117,11 @@ $ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 * Is there some property regarding the various limits of our function
 * Combination of limits $\lim{x}{a} g(f(x))$
 
-* DEF Continuous ~~$ \lim{x}{a} f(x) = lim f(a) $~~
+* DEF: Continuous ~~$ \lim{x}{a} f(x) = lim f(a) $~~
 * ???: Why is Continuity important (it allows us to define derivative)
 * DEF: $\lim{x}{\infty} f(x)$
 * DEF: $\lim{x}{a} f(x) = \infty$
+* ???: What is derivative? Why important?
 
 # 5.1 Continuous Functions 120
 # 5.2 Combinations of Continuous Functions 125

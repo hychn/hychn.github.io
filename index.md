@@ -8,6 +8,7 @@
 * [algebra.html](html/algebra.html)
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
+* [diet.html](html/diet.html)
 * [MAPranaly.html](html/MAPranaly.html)
 * [mathtips.html](html/mathtips.html)
 * [notes.html](html/notes.html)

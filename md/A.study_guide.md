@@ -1,5 +1,7 @@
 # Free notes
 
+## Do you know how you rest prior to lifting
+* And prepare every ounce of your strength
 
 ## From mess to clarity
 * Mess and mucking around and headaches.. for 4 days
