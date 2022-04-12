@@ -1,3 +1,14 @@
+# Passion
+* Strength is in our level of "passion" and really, nothing more than that. If we have high passion and that passion remains high, everything will eventually unfold in the direction we have in mind.
+* I had a passion for developing products that reproduce music that began in high school and became stronger in college and today I'm 73 and a sr tech contributor at Apple…still doing what I love.
+* I'd suggest also having a passion for Goodness* which will keep you on a healthy patt as you move forward.
+* Transcendent love: a free gift of hoping for the virtuous betterment of the inner child-chooser within ourselves and others. It is unconditional with no expectations in return and frees us and others of our fears so we can gain confidence, understanding and skill without being angry or defensive.
+* Virtue: truthful, wise, logical, prudent, fearless, trustworthy, praiseworthy, self-restraint, lacking corruption, forgiving, organized, clean, caring, principled, wisely generous, humble, courageous.
+* Wisdom: allows us to avoid traps and guides us to success using accumulated insights into what works and what doesn't work in life and relationships.
+
+
+# Training
+
 Three words: train your brain. When you develop a strategy for how to do this, the entire learning process becomes less of a chore and more of an exploration of knowledge. And the result? You will feel much more empowered because you’ll be able to retain what you learn so that you can recall it successfully later when you need it.
 
 These 5 tips can help you get started.
