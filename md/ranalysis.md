@@ -319,10 +319,8 @@ If $ab>0$ then $a>0$ $b>0$ or $a<0$ $b<0$
 >! * Uniqueness of Limit 
 
 ## 3.1.4 Uniqueness of Limit
-
 >! I started off with a diagram and realized, hey maybe the distance between the 2 different limits,(A,B), will show that the sequence will have to exist in 2 impossible places 
 >! It came more down to if the sequence is within 1 limit V_e(A), it cannot be in the other V_e(B)
-
 * Let $m$ be the point where $|A-s_m| < e$ and $|B-s_m| < e$ for $e = \dfrac{|B-A|}{2}$
 * $ |B-A| = |B-s_m+s_m-A| \leq |B-s_m| + |A-s_m| < \dfrac{|B-A|}{2} + \dfrac{|B-A|}{2} = |B-A| $
 
@@ -666,16 +664,16 @@ A monotone sequence is divergent iff it is unbounded
 * p series is divergent 0<p<=1
 * alternative harmonic series is convergent
 
-## PROP $\sum{x_n}$ convergent $\rightarrow$ $Lim(x_n)=0$
+## PRP $\sum{x_n}$ convergent $\rightarrow$ $Lim(x_n)=0$
 * It is easy to see this if $x_n$ were all positive because the sum wil be infinite otherwise
 * If a sequence is convergent, the distance between the sequences will converge to zero
  * This is definition of Cauchy 
 * The book proves it by using $s_{n+1} - s_{n} = x_{n+1}$ = $Lim(s_{n+1} - s_{n}) = Lim(x_{n+1}) = Lim(x_n)$
  * I think this is a valuable perspective as well
-## PROP Series is convergent $\iff$ series is bounded (if $(x_n)$ is positive)
+## PRP Series is convergent $\iff$ series is bounded (if $(x_n)$ is positive)
 * Series is convergent -> series is bounded
 * Series is bounded. Series is monotone -> Series is convergent
-## PROP Series, order and convergence
+## PRP Series, order and convergence
 * Suppose $0 =< x_n < y_n$. Then the following is true
  * $\sum{y_n}$ convergent $->$ $\sum{x_n}$ convergent
  * bounded, monotone
@@ -683,5 +681,5 @@ A monotone sequence is divergent iff it is unbounded
 * $\sum{x_n}$ divergent $->$ $\sum{y_n}$ divergent
  * $\sum{x_n}$ divergent -> not monotone or not bounded -> not bounded -> $\sum{y_n}$ is also not bounded -> not convergent
  * Another proof: Is also contrapositive of prior statement
-## PROP Series, ratio and convergence
+## PRP Series, ratio and convergence
 

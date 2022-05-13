@@ -1,5 +1,8 @@
 # Free notes
 
+# My future route, amateur mathematics
+https://mathoverflow.net/questions/422196/is-amateur-research-in-mathematics-viable
+
 ## Do you know how you rest prior to lifting
 * And prepare every ounce of your strength
 
