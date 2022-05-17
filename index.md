@@ -1,5 +1,6 @@
 * ./
 * [A.gymlikestudyplan.html](html/A.gymlikestudyplan.html)
+* [A.huberman.html](html/A.huberman.html)
 * [A.journal.html](html/A.journal.html)
 * [A.objectives.html](html/A.objectives.html)
 * [A.outline.html](html/A.outline.html)
