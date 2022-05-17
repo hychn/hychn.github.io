@@ -5,8 +5,4 @@
 * strategy to maximize memory 
   * increase r and ds/s
       * how to increase ds/s? increase ds, lower s
-  * calm-focused:after allow adrenaline to have effects afterwards
-
-
-
-
+  * calm-focused:after allow adrenaline to have effects afterwards:relax-lower levels back to calm-focused
