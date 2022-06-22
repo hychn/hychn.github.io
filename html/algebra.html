@@ -1,4 +1,361 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
-<h1>Groups</h1>
+<p>\( \def\finv#1{ f^{-1}(#1) }\)</p>
+
+<h1>0 Prereq and Prelim</h1>
+
+<h2>0.1 Logic</h2>
+
+<ul>
+<li>\(A \implies B\)</li>
+</ul>
+
+<h2>0.2 Set and Classes</h2>
+
+<ul>
+<li>2 relation = and membership</li>
+<li>Properties within =
+&gt;!* \(A=A\)
+&gt;!* \(A=B \implies B=A\)
+&gt;!* \(A=B \land B=C \implies A=C\)</li>
+<li>Properties between =,membership
+<ul>
+<li>\(A=B \land x \in A \implies x \in B \)</li>
+</ul></li>
+<li><p>Equivalent condition membership,=</p>
+
+<blockquote onclick="click_spoiler(event)" class="spoiler">
+  <ul>
+  <li>\( (x\inA \iff x\inB) \implies A=B \)</li>
+  <li>What about other direction? Property btw =,membership with reflexivity</li>
+  </ul>
+</blockquote></li>
+<li><p>DEF Set: class A is a set iff \(A \in B\) for class B</p></li>
+<li>REM Set Paradox</li>
+<li>\(M = \{ X | X \not\in X \}\)</li>
+<li>\(M \in M\) or \(M \not\in M\)</li>
+<li>How does the distinction of proper class and set avoid the paradox?</li>
+<li>We are essentially saying, M does not belong in this discussion because it cannot be a member of a set
+<ul>
+<li>M cannot be X</li>
+</ul></li>
+<li>What does that mean for \(M \in M\) or \(M \not\in M\)?
+<ul>
+<li>It says both these are false and, more importantly as a result of \(M \not\in M\), M cannot be in M?
+&gt;!* This seems alot more clearer than it did when I first read it
+&gt;!* Koldobsky, to learn it and forget it
+&gt;!* To approach the problem with a fresh mind, you have no idea how important this is.
+&gt;!* How to get better at forgetting. Don't take yourself too seriously</li>
+</ul></li>
+<li>Notice that this paradox is playing off of the \in to draw a contradiction</li>
+<li><p>The paradox is of the form, \(A \iff \neg A\)</p></li>
+<li><p>\( A \implies \neg A\) This statement is false. Because when hyp is true, the conclusion is false</p></li>
+<li><p>DEF Subclass</p></li>
+<li>Another relation between classes, built around implication and membership</li>
+<li>REL equality and issubclass</li>
+<li>Operation: union, intersection, relative complement
+<ul>
+<li>DEF A union B := \(\{x | x \in A or x \in B\}\)</li>
+<li>DEF A inter B := \(\{x | x \in A and x \in B\}\)</li>
+<li>DEF A minus B := \(\{x | x \in A and not x \in B\}\)</li>
+<li>DEF not A     := G-A</li>
+</ul></li>
+<li>Instance: Null set, family of set, set of all subsets</li>
+<li><p>Adjective: Disjoint</p></li>
+<li><p>not(AUB) = G-(AUB) = {x | x in G and not in (AUB)}</p></li>
+<li><p>?? x not in (AUB) = x in G-(AUB)</p></li>
+<li><p>Ok, we just introduced alot of new names and things</p></li>
+<li>What statements describe their relations and properties?</li>
+<li>Let us first look at what each operation/thing exactly is</li>
+<li><p>How would we go about listing all possible combinations?</p></li>
+<li><p>x@n</p></li>
+<li>x@!x</li>
+<li>!(x@y)</li>
+<li>(x@y)#z</li>
+</ul>
+
+<h2>Sets</h2>
+
+<ul>
+<li>Null        := S</li>
+<li>U,I,-       := SxS -> S</li>
+<li>P           := S -> S</li>
+<li>=           := SxS -> st</li>
+</ul>
+
+<p>Not for sets?</p>
+
+<h2>Binary</h2>
+
+<ul>
+<li>AND,OR,->,= := bxb -> b</li>
+<li>NOT         := b -> b</li>
+</ul>
+
+<p>Statements are algebras of binary variables</p>
+
+<h2>Statements</h2>
+
+<ul>
+<li>AND,OR,->,= := stxst -> st</li>
+<li><p>NOT         := st -> st</p></li>
+<li><p>Examine the relationship between these and set operation.</p></li>
+<li>Construction of Not relationship for sets</li>
+</ul>
+
+<h1>How to organize findings at high level and the work that went in?</h1>
+
+<ul>
+<li>Organize the findings at high level,</li>
+<li>Organize the work patterns at a high level</li>
+<li>And forget it, dont hold on to too much</li>
+</ul>
+
+<h1>Organization of ideas, heuristic</h1>
+
+<ul>
+<li>HEUR What am I looking at, at a very abstract level?</li>
+<li>HEUR Is there a clear way to define all the combinations of things? How big should the combinations be?</li>
+<li>HEUR Negation Consider the negation. a and !a</li>
+<li>HEUR Relations of a,b: a=b, a~b </li>
+<li>NOTE HEALTH&amp;MENTAL I am pretty sure my need to reboot my brain is due to chemical imbalance/reinforced by bad reward loop. Which is why I think the advice of not taking oneself seriously is super important.
+<ul>
+<li>What to do when you find yourself in a bad state? </li>
+<li>Create new state. Formed by the same mechanism that you arrived to the bad state.</li>
+<li>Identify bad feedback loops and stop em in the future.
+<ul>
+<li>Result based reward vs Effort/instrinsic value based reward</li>
+</ul></li>
+</ul></li>
+<li>HEUR Examples</li>
+<li>HEUR Questions
+<ul>
+<li>What do questions and examples do?
+<ul>
+<li>Examples are a bit clear. It is an estimation or a phenomenum. It is a specific thing.
+<ul>
+<li>Focuses attention on specific things.</li>
+</ul></li>
+<li>Questions It asks for an answer. directs attention. Can be more open ended.
+<ul>
+<li>Advance the current attention towards another goal.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>HEUR Consider alternate forms of the same object
+<ul>
+<li>Question-noun, question,ask-verb, questionable-adj</li>
+</ul></li>
+<li>HEUR Negation Example, Negation Question</li>
+<li>HEUR What is the most abstract whay to look at</li>
+<li><p>HEUR What do you want? Specific examples. A model which satistfies the different examples.</p></li>
+<li><p>What I as primarly dealing with was imagination/intuition/examining the properties and consequences</p>
+
+<ul>
+<li>Examine the pros/cons</li>
+</ul></li>
+<li><p>HEUR Goal oriented thinking. </p>
+
+<ul>
+<li>Gives you adrenaline/drive proximity to your goal</li>
+<li>Cannot overdo it. Needs rest.</li>
+</ul></li>
+<li><p>DEF 2 statements are equal. f1(x,y,z) f2(a,b,c)</p>
+
+<ul>
+<li>f1=f2 := f1(x,y,z,a,b,c) = f2(x,y,z,a,b,c)
+<ul>
+<li>In this approach you added more variables</li>
+</ul></li>
+<li>f1=f2 := f1(x,y,z) &lt;-> f2(a,b,c)
+<ul>
+<li>if f1 true then f2 true</li>
+<li>if f2 true then f1 true</li>
+<li>Since !(f1 true) is (f1 false), and using the contrapositives, A&lt;->B !A&lt;->!B</li>
+<li>Does this definition give us the desired properties of equality?</li>
+<li>A=A, A=B->B=A, A=B&amp;B=C->A=C</li>
+</ul></li>
+</ul></li>
+<li><p>Transitive(implication) (A->B,B->C) -> (A->C)</p></li>
+<li>Associative(equality) &amp;,| (A&amp;B)&amp;C=A&amp;(B&amp;C) </li>
+<li>A&amp;B->A,B
+<ul>
+<li>A&amp;B->A, A&amp;B->B</li>
+</ul></li>
+<li>A = T&amp;A,T|A</li>
+<li><p>Knock out</p>
+
+<ul>
+<li>T&amp;B = B</li>
+<li>F&amp;B = F</li>
+<li>T|B = T</li>
+<li>F|B = B</li>
+<li>??? Woah, why is &amp;,| similar
+A B A&amp;B A|B
+T T  T   T
+T F  F   T
+F T  F   T
+F F  F   F</li>
+<li>Its beautiful, the way it just works...</li>
+</ul></li>
+<li><p>Substitution A=B->A@C=B@C</p></li>
+<li><p>F(A) and !A->!F(A). Then A</p>
+
+<ul>
+<li>T=A|!A</li>
+</ul></li>
+<li><p><strong>HEUR</strong> Statement/Argument simple and general as possible</p></li>
+<li><p>DEF Implication Linking. A, as a consequence we get B</p>
+
+<ul>
+<li>A->B</li>
+<li>??? How do we formally formulate this?
+<ul>
+<li>Suppose A, and you find B to be true. Then you can write A->B
+<ul>
+<li>What do you mean by find? 
+<ul>
+<li>(Go back to the LOGIC TABLE representation) 
+<ul>
+<li>Is there a simpler representation instead of a full table? </li>
+<li>(describes some general property of how the table is formed)
+<ul>
+<li>Table has rows, we are interested in values of 1 row, given certain values</li>
+<li>values on each cell can be T or F</li>
+<li>writing A->B could be describing the behavior of the whole table... 
+<ul>
+<li>namely that when A is T, B is T over all the rows in the table</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>(Another functional/mapping representation)
+<ul>
+<li>Do we really need this 'row' can we just work with the variables?</li>
+<li>Well, fundamentally the different variables form a table...?</li>
+<li>well defined: each domain has single output -> the inverse is well defined
+<ul>
+<li>is there a better word? unique</li>
+<li>In your table analogy, the rows have this property
+<ul>
+<li>Good, we isolated this critical property</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>SHOW A&amp;(B|C) = X</p>
+
+<ul>
+<li>->
+<ul>
+<li>APPROACH S1 -> A,B -> S2</li>
+<li>A&amp;(B|C) -> A,(B|C)</li>
+<li>A=T, B=T&amp;B -> B=A&amp;B</li>
+<li>B=A&amp;B, C=A&amp;C -> (B|C) = (A&amp;B)|(A&amp;C) = X</li>
+</ul></li>
+<li>&lt;- (NOTE My guess is that this direction is bit more complex)
+<ul>
+<li>(A&amp;B)|(A&amp;C)</li>
+<li>Suppose !A. Then our statement becomes (F&amp;B)|(F&amp;C) = F|F =F, which cannot be.
+<ul>
+<li>??? Why cannot be and consequently A=T? (Explain this to me again, this is quite fundamental)</li>
+<li>You must make a distinction on what stating A means, ??? Why is it done in this style? what are the consquences of doing it in this style?</li>
+<li>F(A). Suppose !A -> !F(A) ??? so the question is what is the gap that takes us </li>
+<li>contrapositive gives F(A)->A. (Dang really? this -> is really powerful) (Descriptor of LOGIC TABLE?)</li>
+<li>NOTE: there is an alternate argument interpreting F as a mapping. well-defined properties as well
+<ul>
+<li>??? Does it mean these two ideas are related?</li>
+<li>Why ofcourse. The well-defined is what we need to form A->B=!B->!A</li>
+</ul></li>
+</ul></li>
+<li>This means A=T. Then our statement becomes (T&amp;B)|(T&amp;C) = B|C</li>
+<li>So we have A,B|C = A&amp;(B|C)</li>
+</ul></li>
+</ul></li>
+
+<li><p>If you dont follow through what you believe in, and give up when its hard, what trials can you overcome?</p></li>
+<li><p>You will fail many times in life, when working on a difficult thing. </p>
+
+<ul>
+<li>If you stay down and don't get up, you will never improve.</li>
+</ul></li>
+<li><p>Don't loose sight of the forest for the trees</p></li>
+<li><p>Don't take yourself too seriously</p>
+
+<ul>
+<li>Do not compare yourself to others. Focus on What YOU need to do to get to the next level</li>
+</ul></li>
+<li><p>What pleasure do you take? out of thinking about thses things?</p>
+
+<ul>
+<li>Wouldn't you like to understand the motivating thoughts behind Groendick?</li>
+<li>Or what he meant by a house and tools and framework?</li>
+<li>I can only really experience these things when I am able-minded huh...
+<ul>
+<li>It's more of an experience than a achievement...</li>
+</ul></li>
+</ul></li>
+<li><p>HEUR It might be worthwile to write some key motivating examples to guide the thought process</p></li>
+<li>OH, don't i have... the lin alg stuff or alg stuff on a paper somewhere...</li>
+<li>HEUR Organize/Summarize your findings
+<ul>
+<li>I must admit, this is a key area which I have neglected over the years</li>
+</ul></li>
+</ul>
+
+<h1>Functions</h1>
+
+<ul>
+<li>class A,B domain and range</li>
+<li>assignment from domain to range</li>
+<li><p>f:A->B a->f(a)</p></li>
+<li><p>These representations are binary in nature</p></li>
+<li><p>AA, a->a</p></li>
+<li><p>does x->y represent an object?</p></li>
+<li>f(a) does, but this is not binary</li>
+<li>f(f(a))</li>
+<li>??? Consider the notational difference of a->b and f(a)</li>
+<li>x->y->z</li>
+<li>g(f(a))</li>
+<li>operation on functions</li>
+<li><p>commutativity in a restricted system</p></li>
+<li><p>x->y, x&lt;-y</p></li>
+<li>Inverse \(finv{S}\)</li>
+<li><p>\(A \subset B\)</p></li>
+<li><p>HEUR I feel overwhelmed when so many new ideas come and I cannot think of them carefully</p>
+
+<ul>
+<li>It's a familiar feeling, when there is too much to handle</li>
+<li>I just end up rushing through the important stuff</li>
+<li>Often times I have given up... or just had forgetten or repressed. Why does this happen?</li>
+<li>How can I over come?</li>
+<li>Its ok to be wrong or to miss things. 
+<ul>
+<li>Try again and again until satistfactory</li>
+<li>Try in an earnest manner, your heart must be in it.</li>
+<li>Try whole-heartedly, towards a good direction</li>
+</ul></li>
+<li>Be comfortable with an incomplete understanding.
+<ul>
+<li>As a student, you'll run into many abstract definitions: topological spaces, metric spaces, manifolds, the various structures of abstract algebra, and so on. </li>
+<li>In math, a definition is what it is, no more and no less. While it's very good to develop an intuition about these various objects, there's a danger of looking for some deeper meaning that just isnt there.</li>
+<li>John von Neumann once said, In mathematics you don't understand things. You just get used to them.</li>
+<li>I don't advise taking this quote too literally, but I think it reinforces the point of not worrying about understanding everything right away.</li>
+</ul></li>
+</ul></li>
+<li><p>Time pressure</p></li>
+<li>Fall in love with the process</li>
+<li><p>Be mindful of your motivation</p></li>
+<li><p>Two Phase:</p>
+
+<ul>
+<li>On-Hand Chaotic Work Phase</li>
+<li>Relaxed Quiet Review Reminiscence Phase</li>
+</ul></li>
+<li><p>Produce the best work in a chaotic environment?</p></li>
+<li>Aural, visual, kinesis, read, writing, thinking</li>
+<li>visual, kinesis, aural</li>
+</ul>
 
 </div></body> </html>

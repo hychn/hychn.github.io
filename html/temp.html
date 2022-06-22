@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<h1>Logic Operations and Properties</h1>
+
+<ul>
+<li>Properties of individual operations (=,^,V,->)</li>
+<li>reflexive, symmetric, transitivity</li>
+<li>Associative</li>
+<li><p>Knockout</p>
+
+<ul>
+<li>T^A = A</li>
+<li>F^A = F</li>
+<li>TVA = T</li>
+<li>FVA = A</li>
+<li>??? There is some 'flipped' nature here
+A B A&amp;B A|B
+T T  T   T
+T F  F   T
+F T  F   T
+F F  F   F</li>
+</ul></li>
+<li><p>DEF Subsitution A=B -> A@C=B@C</p></li>
+<li>A^B -> A,B</li>
+<li>A^!A = F</li>
+<li>AV!A = T</li>
+</ul>
+
+<p>??? What comes first? sub or eq? also the definition of = uses ->
+= between values
+= between functions
+= between variables
+what are variables?
+a function with variables f(A,B) is a variable (I keep thinking back to the table, its such a concrete way to represent the variable space)</p>
+
+<ul>
+<li>DEF var=var
+<ul>
+<li>A=B means
+<ul>
+<li>If A is true then B is true ^ If B is true then A is true</li>
+<li>This is identical to &lt;-></li>
+<li>Another way is A True means B True, A False then B False</li>
+</ul></li>
+<li>From the defintion, we can see A=A, A=B->B=A, and A=B,B=C->A=C</li>
+</ul></li>
+</ul>
+
+</div></body> </html>

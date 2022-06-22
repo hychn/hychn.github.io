@@ -1,6 +1,20 @@
 # Free notes
 
-# My future route, amateur mathematics
+## As you are going through,
+
+* Consider, what is the barebones that I need to understand the picture that is being laid in front of me.
+* How do I not miss the forest for the trees?
+* Be relaxed, you will revisit the topics again.
+
+## Exercise / Progress
+* Before, I measure my progress/ability based on completition or complete understanding of exercise/theorem
+  * I think I needed to come to internal terms with this value
+* It is very important that your reward and motivation comes from the process of itself, not the destination
+* For process leads to destination and sometimes process maybe long as you travel longer
+* Enjoy the exercise, see what questions arise, see where you are going with the problem
+* Look where you are interested, see the significance of what you do, don't just blindly do it. Be in tune
+
+## My future route, amateur mathematics
 https://mathoverflow.net/questions/422196/is-amateur-research-in-mathematics-viable
 
 ## Do you know how you rest prior to lifting

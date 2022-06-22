@@ -51,4 +51,3 @@
   * Appendix: Ruler and Compass Constructions
 * 2 The Fundamental Theorem
   * Appendix: Symmetric Rational Functions
-
