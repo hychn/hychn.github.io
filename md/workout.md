@@ -119,6 +119,11 @@
 * Side lateral raise
 
 # Squat
+* screw in your feet. toes out and heels in
+* use hips as stabilizer
+* watch the knees
+* warm up with no weight to get used to the movement
+
 * Use the machine to get the feeling
 * Need to lean back
 * Get a comfortable stance (Lock shoudler and place weight on there kinda like the other lifts)
