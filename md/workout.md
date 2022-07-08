@@ -119,6 +119,7 @@
 * Side lateral raise
 
 # Squat
+* bar stays over midfoot
 * screw in your feet. toes out and heels in
 * use hips as stabilizer
 * watch the knees
