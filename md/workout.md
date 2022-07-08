@@ -119,7 +119,7 @@
 * Side lateral raise
 
 # Squat
-* elbows far back
+* bend bar over back/elbows far back
 * bar stays over midfoot
 * screw in your feet. toes out and heels in
 * use hips as stabilizer
