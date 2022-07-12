@@ -123,11 +123,12 @@ def newline_add(L):
 
     out = True
     for l in L:
-        blquote_line = (l[:3]=='>! ')
+
+        blquote_line = (l[:2]=='>!')
         if out and blquote_line: 
             _L.append('')
             out = False
-        elif not out and not blquote_line:  #was inside blquote and encounter a nonblqoute line
+        if not out and not blquote_line:  #was inside blquote and encounter a nonblqoute line
             _L.append('')
             out = True
         _L.append(l)

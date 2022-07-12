@@ -16,7 +16,6 @@ $ \def\finv#1{ f^{-1}(#1) }$
 * Equivalent condition membership,=
 >!* $ (x\inA \iff x\inB) \implies A=B $
 >!* What about other direction? Property btw =,membership with reflexivity
-
 * DEF Set: class A is a set iff $A \in B$ for class B
 * REM Set Paradox
 * $M = \{ X | X \not\in X \}$
@@ -158,21 +157,21 @@ Statements are algebras of binary variables
   * A->B
   * ??? How do we formally formulate this?
     * Suppose A, and you find B to be true. Then you can write A->B
-      * What do you mean by find? 
-        * (Go back to the LOGIC TABLE representation) 
-          * Is there a simpler representation instead of a full table? 
-          * (describes some general property of how the table is formed)
-            * Table has rows, we are interested in values of 1 row, given certain values
-            * values on each cell can be T or F
-            * writing A->B could be describing the behavior of the whole table... 
-              * namely that when A is T, B is T over all the rows in the table
-        * (Another functional/mapping representation)
-          * Do we really need this 'row' can we just work with the variables?
-          * Well, fundamentally the different variables form a table...?
-          * well defined: each domain has single output -> the inverse is well defined
-            * is there a better word? unique
-            * In your table analogy, the rows have this property
-              * Good, we isolated this critical property
+    * What do you mean by find? 
+      * (Go back to the LOGIC TABLE representation) 
+        * Is there a simpler representation instead of a full table? 
+        * (describes some general property of how the table is formed)
+          * Table has rows, we are interested in values of 1 row, given certain values
+          * values on each cell can be T or F
+          * writing A->B could be describing the behavior of the whole table... 
+            * namely that when A is T, B is T over all the rows in the table
+      * (Another functional/mapping representation)
+        * Do we really need this 'row' can we just work with the variables?
+        * Well, fundamentally the different variables form a table...?
+        * well defined: each domain has single output -> the inverse is well defined
+          * is there a better word? unique
+          * In your table analogy, the rows have this property
+            * Good, we isolated this critical property
 
 * SHOW A&(B|C) = X
   * ->
