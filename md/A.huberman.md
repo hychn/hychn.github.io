@@ -1,4 +1,17 @@
+# Design of a system
+* How will you design your study/notes based on these principles?
+  * With specific regards to heuristics.
+  * What do we want to learn, identify/apply heuristic/patterns in thought
+  * It is a skill which needs to be learned
+    * learning to learn a skill
+* Self Oral Exam
+
+
+
+
 # Improving learning by managing stress and repetition
+* LEARNING: Neurological circuits firing under intensity or often
+
 * Stress is good, but it needs to be at the right time
 * System
   * stress = adrenaline, cortisol, ephinepheren
