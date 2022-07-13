@@ -90,7 +90,6 @@ window.onload = function () {
         //window.location.hash = '';
         //window.location.hash = hash;
         save = window.location.href+' ';
-        alert(save)
         //window.location = '';
         window.location = save;
     }
