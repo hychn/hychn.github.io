@@ -1,4 +1,4 @@
-$ \def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
+$\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 
 # 1 Preliminaries
 
