@@ -81,9 +81,11 @@ window.onload = function () {
 
     document.getElementById("toc").innerHTML += toc;
     hash = window.location.href.split('#')[1];
-    window.location.hash = '#'+hash;
-    var url = location.href;               //Saving URL without hash.
-    location.href = "#"+hash;                 //Navigate to the target element.
-    history.replaceState(null,null,url);   //method modifies the current history entry.
+    //window.location.hash = '#'+hash;
+    //var url = location.href;               //Saving URL without hash.
+    //location.href = "#"+hash;                 //Navigate to the target element.
+    //history.replaceState(null,null,url);   //method modifies the current history entry.
+    location.hash = '';
+    location.hash = hash;
 
 };
