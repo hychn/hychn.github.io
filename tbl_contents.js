@@ -45,7 +45,7 @@ window.onload = function () {
 
     var x = document.getElementById("toc_frame");
     x.style.display = "none";
-    x.style.display = "block";
+    //x.style.display = "block";
 
     var toc = "";
     var level = 0;
@@ -70,7 +70,7 @@ window.onload = function () {
                 toc += "<li><a href=\"#" + anchor + "\">" + titleText
                     + "</a></li>";
 
-                return "<h" + openLevel + "><a name=\"" + anchor + "\">"
+                return "<h" + openLevel + "><a id=\"" + anchor + "\">"
                     + titleText + "</a></h" + closeLevel + ">";
             }
         );
