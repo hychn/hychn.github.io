@@ -89,7 +89,7 @@ window.onload = function () {
     {
         //window.location.hash = '';
         //window.location.hash = hash;
-        save = window.location;
+        save = window.location+'';
         window.location = '';
         window.location = save;
     }
