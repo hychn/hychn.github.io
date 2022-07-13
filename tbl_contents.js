@@ -85,10 +85,13 @@ window.onload = function () {
     //var url = location.href;               //Saving URL without hash.
     //location.href = "#"+hash;                 //Navigate to the target element.
     //history.replaceState(null,null,url);   //method modifies the current history entry.
-    window.location.hash = '';
-    window.location.hash = hash;
-    save = window.location;
-    window.location = '';
-    window.location = save;
+    if (hash)
+    {
+        //window.location.hash = '';
+        //window.location.hash = hash;
+        save = window.location;
+        window.location = '';
+        window.location = save;
+    }
 
 };
