@@ -79,5 +79,5 @@ window.onload = function () {
     }
 
     document.getElementById("toc").innerHTML += toc;
-    alert( window.location.href.hash )
+    alert( window.location.href)
 };
