@@ -87,5 +87,8 @@ window.onload = function () {
     //history.replaceState(null,null,url);   //method modifies the current history entry.
     window.location.hash = '';
     window.location.hash = hash;
+    save = window.location;
+    window.location = '';
+    window.location = save;
 
 };
