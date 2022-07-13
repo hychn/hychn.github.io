@@ -80,5 +80,7 @@ window.onload = function () {
 
     document.getElementById("toc").innerHTML += toc;
     hash = window.location.href.split('#')[1];
-    alert(hash)
+    alert(hash);
+    //window.location.hash = '#'+hash;
+    location.href = "#"+hash;    
 };
