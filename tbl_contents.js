@@ -44,7 +44,8 @@ window.onload = function () {
     }*/
 
     var x = document.getElementById("toc_frame");
-    //x.style.display = "none";
+    x.style.display = "none";
+    x.style.display = "block";
 
     var toc = "";
     var level = 0;
