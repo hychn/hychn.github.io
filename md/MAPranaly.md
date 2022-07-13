@@ -21,7 +21,6 @@ $\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 >! * a->b and !b->!a
 >!   *   (a,b) (F,T) (F,F) (T,T)
 >!   * (!a,!b) (T,F) (T,T) (F,F) Almost same except for reversal of (T,F)
-
 # 1.3
 
 # 2 The Real Number
