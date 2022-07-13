@@ -79,7 +79,6 @@ window.onload = function () {
     }
 
     document.getElementById("toc").innerHTML += toc;
-    alert( window.location.href)
-    alert( document.URL)
-    alert( document.URL.hash)
+    hash = window.location.href.split('#')[1];
+    alert(hash)
 };
