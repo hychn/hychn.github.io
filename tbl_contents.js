@@ -44,7 +44,7 @@ window.onload = function () {
     }*/
 
     var x = document.getElementById("toc_frame");
-    x.style.display = "none";
+    //x.style.display = "none";
 
     var toc = "";
     var level = 0;
@@ -80,10 +80,9 @@ window.onload = function () {
 
     document.getElementById("toc").innerHTML += toc;
     hash = window.location.href.split('#')[1];
-    //window.location.hash = '#'+hash;
+    window.location.hash = '#'+hash;
     var url = location.href;               //Saving URL without hash.
     location.href = "#"+hash;                 //Navigate to the target element.
     history.replaceState(null,null,url);   //method modifies the current history entry.
-    $('html,body').animate({scrollTop: $("#"+hash).offset().top},'slow');
 
 };
