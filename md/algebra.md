@@ -14,7 +14,7 @@ $ \def\finv#1{ f^{-1}(#1) }$
 * Properties between =,membership
   * $A=B \land x \in A \implies x \in B $
 * Equivalent condition membership,=
->!* $ (x\inA \iff x\inB) \implies A=B $
+>!* $ (x \in A \iff x \in B) \implies A=B $
 >!* What about other direction? Property btw =,membership with reflexivity
 * DEF Set: class A is a set iff $A \in B$ for class B
 * REM Set Paradox
