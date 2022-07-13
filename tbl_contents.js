@@ -84,4 +84,6 @@ window.onload = function () {
     var url = location.href;               //Saving URL without hash.
     location.href = "#"+hash;                 //Navigate to the target element.
     history.replaceState(null,null,url);   //method modifies the current history entry.
+    $('html,body').animate({scrollTop: $("#"+hash).offset().top},'slow');
+
 };
