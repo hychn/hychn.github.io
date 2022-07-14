@@ -1,4 +1,5 @@
-$ \def\finv#1{ f^{-1}(#1) }$
+$\def\finv#1{ f^{-1}(#1) }$
+
 
 # 0 Prereq and Prelim
 
@@ -6,12 +7,12 @@ $ \def\finv#1{ f^{-1}(#1) }$
 * $A \implies B$
 
 ## 0.2 Set and Classes
-* 2 relation = and membership
-* Properties within =
+* DEF equals, in
+* Statements/Properties/(Things which are true) equals
 >!* $A=A$
 >!* $A=B \implies B=A$
 >!* $A=B \land B=C \implies A=C$
-* Properties between =,membership
+* Properties between equals, in
   * $A=B \land x \in A \implies x \in B $
 * Equivalent condition membership,=
 >!* $ (x \in A \iff x \in B) \implies A=B $
