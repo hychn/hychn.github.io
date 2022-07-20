@@ -9,7 +9,6 @@
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
 * [diet.html](html/diet.html)
-* [gradschoolplan.html](html/gradschoolplan.html)
 * [heuristics.html](html/heuristics.html)
 * [MAPranaly.html](html/MAPranaly.html)
 * [mathtips.html](html/mathtips.html)
@@ -23,3 +22,6 @@
   * [books/alg.html](html/books/alg.html)
   * [books/linalg.html](html/books/linalg.html)
   * [books/ranalysis.html](html/books/ranalysis.html)
+* ./gradschool
+  * [gradschool/compile.html](html/gradschool/compile.html)
+  * [gradschool/plan.html](html/gradschool/plan.html)

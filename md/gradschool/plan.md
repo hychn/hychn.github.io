@@ -29,7 +29,7 @@
 * Go through math book with your new idealogy
 
 * Desired Traits
-  * Learning effectively core
+  * Learning/Mastery effectively core
   * Easy to relearn
 
 * What kinds of skills do we need to learn? (Definition/Combination Graph)
