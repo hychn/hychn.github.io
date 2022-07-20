@@ -12,12 +12,15 @@
     * r
     * pfin
 
+
 * Contact Professor of School (1,2,3)
 * Contact Professor Jan (1,2,4)
 
-* GRE
-* Personal Statement
-* Letter of Recommendations
+
+* Documents
+  * GRE
+  * Personal Statement
+  * Letter of Recommendations (3)
 
 
 

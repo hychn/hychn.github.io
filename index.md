@@ -9,7 +9,6 @@
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
 * [diet.html](html/diet.html)
-* [grad_school_plan.html](html/grad_school_plan.html)
 * [heuristics.html](html/heuristics.html)
 * [MAPranaly.html](html/MAPranaly.html)
 * [mathtips.html](html/mathtips.html)
