@@ -27,22 +27,25 @@
 # Prepare Math Fitness
 
 * Go through math book with your new idealogy
-* ? What is the new idealogy?
-  * Learning efficiently
-  * Easier to relearn
-* What kinds of skills do we need to learn?
-  * Minimal representation
-  * Familiarity with new definition
-  * Combination of minimal representation
 
-  * Would like to take some general notes
-  * Key Idea: 
+* Desired Traits
+  * Learning effectively core
+  * Easy to relearn
+
+* What kinds of skills do we need to learn? (Definition/Combination Graph)
+  * Create minimal definition
+  * Combination of definition
+  * Searching significant definition & combinations
+  * Familiarity with novel definition
+  * Definition Patterns
 
 
-
-
+* Definition Patterns
+  * Negative Inverse
+  * All, Exists
 
     
+* HEUR are like your lifting notes that you can add pointers to your current approach
 
 * HEUR: Examples
 * HEUR: Questions
