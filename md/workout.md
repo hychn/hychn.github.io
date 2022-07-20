@@ -119,6 +119,11 @@
 * Side lateral raise
 
 # Squat
+* Screw feet outward
+* Hip drive from the bottom when going up
+* Place weight over back to avoid knee pain
+* Use hamstring as stabilizer
+
 * bend bar over back/elbows far back
 * bar stays over midfoot
 * screw in your feet. toes out and heels in
@@ -126,7 +131,6 @@
 * watch the knees
 * warm up with no weight to get used to the movement
 
-* Use the machine to get the feeling
 * Need to lean back
 * Get a comfortable stance (Lock shoudler and place weight on there kinda like the other lifts)
 
@@ -141,6 +145,7 @@
 * Hip movement during squat
 
 # Pullup
+* Don't release locked solid movement hinge
 * High Lats
   * Begin in front lat spread
   * Stop when are makes 90 degree with forearm and bicep
