@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<p>\(\def\iZ{\mathbb{Z}}\)</p>
+
+<ul>
+<li>DEF k-simplex: convex hull of k+1 points in general position (no 3 colinear points)</li>
+<li>DEF face: simplex from subset of these points is called the face of the simplex</li>
+<li>DEF simplicial complex: set K of simplexs such that
+<ul>
+<li>face of any simplex in K is in K</li>
+<li>interesection of 2 simplexes is a face in both of them</li>
+</ul></li>
+<li><p>DEF Abstract Simplicial Complex is a set K of a fixed set F</p>
+
+<ul>
+<li>\(K = \{ S | S \subset F \}\)</li>
+<li>For \( A \in K\), \( S \subset A \implies S \in K\)</li>
+</ul></li>
+<li><p>DEF k-chain: vector space over field \(\iZ / 2\iZ\) with basis given by k-simplexs of simplicial complex</p></li>
+<li>DEF K boundary map: \(b_k: C_k \rightarrow C_{k-1}\) given by linear map on basis, if k-1 simplex is a face of the k-simplex</li>
+<li>DEF k-cycles: x, k-chain such that \(b_k(x)=0\)</li>
+<li>DEF k-boundaries: \(x \in IM(b_{k+1})\)</li>
+</ul>
+
+</div></body> </html>

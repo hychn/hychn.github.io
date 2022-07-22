@@ -23,5 +23,7 @@
   * [books/linalg.html](html/books/linalg.html)
   * [books/ranalysis.html](html/books/ranalysis.html)
 * ./gradschool
+  * [gradschool/1.TDASchoolProgram.html](html/gradschool/1.TDASchoolProgram.html)
+  * [gradschool/2.TDABasics.html](html/gradschool/2.TDABasics.html)
   * [gradschool/compile.html](html/gradschool/compile.html)
   * [gradschool/plan.html](html/gradschool/plan.html)
