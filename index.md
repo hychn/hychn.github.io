@@ -1,4 +1,5 @@
 * ./
+* [A.aijournal.html](html/A.aijournal.html)
 * [A.gymlikestudyplan.html](html/A.gymlikestudyplan.html)
 * [A.huberman.html](html/A.huberman.html)
 * [A.journal.html](html/A.journal.html)
