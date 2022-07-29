@@ -1,3 +1,4 @@
+
 * HEUR istics are nice to have
 * Like any theorem, its  nice to see the motivating example or situation
 * Therefore,  I think you should make an effort to collect heuristics with their context

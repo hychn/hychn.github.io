@@ -27,6 +27,7 @@
 # Prepare Math Fitness
 
 * Go through math book with your new idealogy
+* Teach mentality, the number one way to learn
 
 * Desired Traits
   * Learning/Mastery effectively core
@@ -39,14 +40,12 @@
   * Familiarity with novel definition
   * Definition Patterns
 
-
 * Definition Patterns
   * Negative Inverse
   * All, Exists
 
     
 * HEUR are like your lifting notes that you can add pointers to your current approach
-
 * HEUR: Examples
 * HEUR: Questions
 * HEUR: Negation Example, Negation Question
