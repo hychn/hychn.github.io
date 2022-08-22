@@ -15,7 +15,7 @@
 * [mathtips.html](html/mathtips.html)
 * [notes.html](html/notes.html)
 * [ranalysis.html](html/ranalysis.html)
-* [spinningup.html](html/spinningup.html)
+* [RLspinningup.html](html/RLspinningup.html)
 * [surf.html](html/surf.html)
 * [temp.html](html/temp.html)
 * [workout.html](html/workout.html)

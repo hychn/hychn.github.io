@@ -1,0 +1,86 @@
+<!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<p>RAPID UNDERSTANDING AND BOND NEUROPLASCITY FORMING
+  * repeadtly look at it, re look at it (multiple things at once)
+Follow the guide of openai, dont fall down too many rabbit hole
+Why does model only seek to optimize it's ability to win and not defend?</p>
+
+<h1>Introduction</h1>
+
+<h2>ESSAY: Spinning Up as a Deep RL Researcher: https://spinningup.openai.com/en/latest/spinningup/spinningup.html</h2>
+
+<blockquote onclick="click_spoiler(event)" class="spoiler">
+  <h3>The Right Background</h3>
+  
+  <ul>
+  <li>Mathematical background 
+  <ul>
+  <li><strong>random variables, Bayes theorem, chain rule prob, expected value, standard dev, importance sampling</strong></li>
+  </ul></li>
+  <li>RL main concepts and terminology
+  <ul>
+  <li><strong>states, actions, trajectories, policies, reward, value functions, action-value functions</strong></li>
+  <li>[RL Intro] (https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)</li>
+  <li>[Overview] https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html</li>
+  <li><a href="https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf">Classical RL algorithms</a></li>
+  </ul></li>
+  </ul>
+</blockquote>
+
+<ul>
+<li><p>Learn by Doing</p>
+
+<ul>
+<li>core deep RL algos Simplicity</li>
+<li>simplest/smallest implementation first
+<ul>
+<li><a href="https://arxiv.org/abs/1604.06778">Vanilla policy gradient REINFORCE</a>, <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">DQN</a>, <a href="https://blog.openai.com/baselines-acktr-a2c/">A2C</a>, <a href="https://arxiv.org/abs/1707.06347">PPO</a>, <a href="https://arxiv.org/abs/1509.02971">DDPG</a></li>
+</ul></li>
+<li>Focus on understanding: 
+<ul>
+<li>writing working RL code requires clear, detail-oriented understanding of the algorithms.</li>
+<li>This is because broken RL code almost always fails silently.</li>
+</ul></li>
+<li>ablations, intuition for parameters or subroutines have the biggest impact</li>
+<li>Don't overfit</li>
+<li>Iterate fast in simple environments: CartPole-v0, InvertedPendulum-v0, FrozenLake-v0, HalfCheetah-v2 (100-250 steps) OpenAI Gym
+<ul>
+<li>Simplest possible toy task</li>
+</ul></li>
+<li>If it doesn't work, assume there is a bug </li>
+<li>Measure everything, replay of agent's performance now and then</li>
+<li><p>Scale experiments when things work</p>
+
+<h3>Developing a Research Project</h3></li>
+<li><p>Avoid reinventing the wheel</p>
+
+<h3>Doing Rigorous Research in RL</h3></li>
+</ul></li>
+</ul>
+
+<h3>Closing Thoughts</h3>
+
+<h3>PS: Other Resources</h3>
+
+<ul>
+<li>PART 1: a short introduction to RL terminology, kinds of algorithms, and basic theory,</li>
+<li>Key Papers in DeepRL: https://spinningup.openai.com/en/latest/spinningup/keypapers.html</li>
+<li><a href="https://github.com/openai/spinningup">Code repo of key algo</a></li>
+<li><a href="https://spinningup.openai.com/en/latest/spinningup/exercises.html">Excercises</a></li>
+</ul>
+
+<h1>Opportunities</h1>
+
+<ul>
+<li><p>Open AI Scholars https://openai.com/blog/openai-scholars/ scholars@openai.com</p>
+
+<pre><code>  * Nuts and Bolts of deep rl research: http://joschu.net/docs/nuts-and-bolts.pdf
+</code></pre>
+
+<h1>Future (Notable sights)</h1>
+
+<ul>
+<li>monotonic improvement theory (basis of advanced policy gradient algorithms)? http://joschu.net/docs/thesis.pdf</li>
+</ul></li>
+</ul>
+
+</div></body> </html>
