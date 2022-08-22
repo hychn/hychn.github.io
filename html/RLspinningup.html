@@ -6,6 +6,13 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 
 <h1>Introduction</h1>
 
+<ul>
+<li>PART 1: a short introduction to RL terminology, kinds of algorithms, and basic theory,</li>
+<li><a href="https://spinningup.openai.com/en/latest/spinningup/keypapers.html">Key Papers in DeepRL</a></li>
+<li><a href="https://github.com/openai/spinningup">Code repo of key algo</a></li>
+<li><a href="https://spinningup.openai.com/en/latest/spinningup/exercises.html">Excercises</a></li>
+</ul>
+
 <h2>ESSAY: Spinning Up as a Deep RL Researcher: https://spinningup.openai.com/en/latest/spinningup/spinningup.html</h2>
 
 <blockquote onclick="click_spoiler(event)" class="spoiler">
@@ -29,7 +36,11 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
   </ul></li>
   <li>simplest/smallest implementation first
   <ul>
-  <li><a href="https://arxiv.org/abs/1604.06778">Vanilla policy gradient REINFORCE</a>, <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">DQN</a>, <a href="https://blog.openai.com/baselines-acktr-a2c/">A2C</a>, <a href="https://arxiv.org/abs/1707.06347">PPO</a>, <a href="https://arxiv.org/abs/1509.02971">DDPG</a></li>
+  <li><a href="https://arxiv.org/abs/1604.06778">Vanilla policy gradient REINFORCE</a></li>
+  <li><a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">DQN</a></li>
+  <li><a href="https://blog.openai.com/baselines-acktr-a2c/">A2C</a></li>
+  <li><a href="https://arxiv.org/abs/1707.06347">PPO</a></li>
+  <li><a href="https://arxiv.org/abs/1509.02971">DDPG</a></li>
   <li>Focus on understanding: 
   <ul>
   <li>writing working RL code requires clear, detail-oriented understanding of the algorithms.</li>
@@ -53,11 +64,87 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
   </ul>
 </blockquote>
 
+<h2>Installation</h2>
+
 <ul>
-<li>PART 1: a short introduction to RL terminology, kinds of algorithms, and basic theory,</li>
-<li>Key Papers in DeepRL: https://spinningup.openai.com/en/latest/spinningup/keypapers.html</li>
-<li><a href="https://github.com/openai/spinningup">Code repo of key algo</a></li>
-<li><a href="https://spinningup.openai.com/en/latest/spinningup/exercises.html">Excercises</a></li>
+<li>OpenMPI?</li>
+<li>Spinning Up?</li>
+</ul>
+
+<h2>Algorithms</h2>
+
+<ul>
+<li>Vanilla Policy Gradient (VPG)</li>
+<li>Trust Region Policy Optimization (TRPO)</li>
+<li>Deep Deterministic Policy Gradient (DDPG)</li>
+<li>Twin Delayed DDPG (TD3)</li>
+<li>Proximal Policy Optimization (PPO)</li>
+<li>Soft Actor-Critic (SAC)</li>
+</ul>
+
+<h2>Part 1: Key Concepts in RL</h2>
+
+<ul>
+<li>action space: discrete/continuous</li>
+<li>policy deterministic \(a_t = \mu_\theta(s_t)\) stochastic \(a_t ~ \pi_\theta(.|s_t)\)</li>
+</ul>
+
+<h3>On-Policy Algorithms</h3>
+
+<ul>
+<li>VPG -> TRPO -> PPO</li>
+<li>on-policy: 
+<ul>
+<li>don't use old data, weaker on sample efficiency</li>
+<li>directly optimize on bjective, policy performance</li>
+<li>trades stability  for sample efficiency</li>
+</ul></li>
+</ul>
+
+<h3>Off-Policy Algorithms</h3>
+
+<ul>
+<li>Qlearning -> DDPG -> TD3 -> SAC
+<ul>
+<li>Bellman's equation for optimality (Q-function) can be trained to satisfy using any environment iteraction data, as long as there is enough experience from high-reward areas in environment)</li>
+</ul></li>
+<li>sample efficient if it can get the most out of every sample. Humans are very sample efficient. mcst0 is not it needs many examples to learn2play</li>
+<li>Importance sampling is a technique to filter these samples</li>
+</ul>
+
+<h3>Code Format</h3>
+
+<ul>
+<li><p>algorithm: </p>
+
+<ul>
+<li>class definition for experience buffer object, used to store information from agent-environment interactions</li>
+<li>Logger</li>
+<li>Random seed setting</li>
+<li>Constructing actor-critic Pytorch module via the actor_critic function passed to algorithm function</li>
+<li>Instantiate enviroment/experience buffer</li>
+<li>set up loss function/ diagnostic</li>
+<li>main loop
+<ul>
+<li>run agent in environment</li>
+<li>update parameters of agent</li>
+<li>log key performance metrics and save</li>
+</ul></li>
+</ul></li>
+
+
+
+
+
+
+
+
+<li><p>mcst0 doesn't seem to see a move that leads to immediate loss afterwards</p>
+
+<ul>
+<li>which it should if it follows P directly, since our network can consistent make the terminal move</li>
+<li>this indicates somethig is wrong with the preceding step, Nx(MCST search) -> the branching/ubc</li>
+</ul></li>
 </ul>
 
 <h1>Opportunities</h1>
@@ -66,11 +153,8 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <li>Open AI Scholars https://openai.com/blog/openai-scholars/ scholars@openai.com</li>
 <li><p>Nuts and Bolts of deep rl research: http://joschu.net/docs/nuts-and-bolts.pdf</p>
 
-<h1>Future (Notable sights)</h1>
-
-<ul>
-<li>monotonic improvement theory (basis of advanced policy gradient algorithms)? http://joschu.net/docs/thesis.pdf</li>
-</ul></li>
+<h1>Future (Notable sights)</h1></li>
+<li><p>monotonic improvement theory (basis of advanced policy gradient algorithms)? http://joschu.net/docs/thesis.pdf</p></li>
 </ul>
 
 </div></body> </html>

@@ -6,6 +6,11 @@ Why does model only seek to optimize it's ability to win and not defend?
 
 # Introduction
 
+* PART 1: a short introduction to RL terminology, kinds of algorithms, and basic theory,
+* [Key Papers in DeepRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html)
+* [Code repo of key algo](https://github.com/openai/spinningup)
+* [Excercises](https://spinningup.openai.com/en/latest/spinningup/exercises.html)
+
 
 ## ESSAY: Spinning Up as a Deep RL Researcher: https://spinningup.openai.com/en/latest/spinningup/spinningup.html
 >! ### The Right Background
@@ -19,7 +24,11 @@ Why does model only seek to optimize it's ability to win and not defend?
 >!  * Learn by Doing
 >!    * core deep RL algos Simplicity
 >!  * simplest/smallest implementation first
->!    * [Vanilla policy gradient REINFORCE](https://arxiv.org/abs/1604.06778), [DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf), [A2C](https://blog.openai.com/baselines-acktr-a2c/), [PPO](https://arxiv.org/abs/1707.06347), [DDPG](https://arxiv.org/abs/1509.02971)
+>!    * [Vanilla policy gradient REINFORCE](https://arxiv.org/abs/1604.06778)
+>!    * [DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
+>!    * [A2C](https://blog.openai.com/baselines-acktr-a2c/)
+>!    * [PPO](https://arxiv.org/abs/1707.06347)
+>!    * [DDPG](https://arxiv.org/abs/1509.02971)
 >!    * Focus on understanding: 
 >!      * writing working RL code requires clear, detail-oriented understanding of the algorithms.
 >!      * This is because broken RL code almost always fails silently.
@@ -35,14 +44,67 @@ Why does model only seek to optimize it's ability to win and not defend?
 >!  ### Doing Rigorous Research in RL
 >!  ### Closing Thoughts
 >!  ### PS: Other Resources
-* PART 1: a short introduction to RL terminology, kinds of algorithms, and basic theory,
-* Key Papers in DeepRL: https://spinningup.openai.com/en/latest/spinningup/keypapers.html
-* [Code repo of key algo](https://github.com/openai/spinningup)
-* [Excercises](https://spinningup.openai.com/en/latest/spinningup/exercises.html)
+
+## Installation
+* OpenMPI?
+* Spinning Up?
+
+## Algorithms
+* Vanilla Policy Gradient (VPG)
+* Trust Region Policy Optimization (TRPO)
+* Deep Deterministic Policy Gradient (DDPG)
+* Twin Delayed DDPG (TD3)
+* Proximal Policy Optimization (PPO)
+* Soft Actor-Critic (SAC)
+
+## Part 1: Key Concepts in RL
+
+* action space: discrete/continuous
+* policy deterministic $a_t = \mu_\theta(s_t)$ stochastic $a_t ~ \pi_\theta(.|s_t)$
+
+
+### On-Policy Algorithms
+* VPG -> TRPO -> PPO
+* on-policy: 
+  * don't use old data, weaker on sample efficiency
+  * directly optimize on bjective, policy performance
+  * trades stability  for sample efficiency
+
+### Off-Policy Algorithms
+* Qlearning -> DDPG -> TD3 -> SAC
+  * Bellman's equation for optimality (Q-function) can be trained to satisfy using any environment iteraction data, as long as there is enough experience from high-reward areas in environment)
+* sample efficient if it can get the most out of every sample. Humans are very sample efficient. mcst0 is not it needs many examples to learn2play
+* Importance sampling is a technique to filter these samples
+
+### Code Format
+* algorithm: 
+  * class definition for experience buffer object, used to store information from agent-environment interactions
+  * Logger
+  * Random seed setting
+  * Constructing actor-critic Pytorch module via the actor_critic function passed to algorithm function
+  * Instantiate enviroment/experience buffer
+  * set up loss function/ diagnostic
+  * main loop
+    * run agent in environment
+    * update parameters of agent
+    * log key performance metrics and save
+
+
+
+
+
+
+
+
+
+
+* mcst0 doesn't seem to see a move that leads to immediate loss afterwards
+  * which it should if it follows P directly, since our network can consistent make the terminal move
+  * this indicates somethig is wrong with the preceding step, Nx(MCST search) -> the branching/ubc
 
 
 # Opportunities
 * Open AI Scholars https://openai.com/blog/openai-scholars/ scholars@openai.com
 * Nuts and Bolts of deep rl research: http://joschu.net/docs/nuts-and-bolts.pdf
 # Future (Notable sights)
-  * monotonic improvement theory (basis of advanced policy gradient algorithms)? http://joschu.net/docs/thesis.pdf
+* monotonic improvement theory (basis of advanced policy gradient algorithms)? http://joschu.net/docs/thesis.pdf
