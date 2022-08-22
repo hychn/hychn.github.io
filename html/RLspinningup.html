@@ -82,13 +82,6 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <li>Soft Actor-Critic (SAC)</li>
 </ul>
 
-<h2>Part 1: Key Concepts in RL</h2>
-
-<ul>
-<li>action space: discrete/continuous</li>
-<li>policy deterministic \(a_t = \mu_\theta(s_t)\) stochastic \(a_t ~ \pi_\theta(.|s_t)\)</li>
-</ul>
-
 <h3>On-Policy Algorithms</h3>
 
 <ul>
@@ -115,8 +108,7 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <h3>Code Format</h3>
 
 <ul>
-<li><p>algorithm: </p>
-
+<li>algorithm: 
 <ul>
 <li>class definition for experience buffer object, used to store information from agent-environment interactions</li>
 <li>Logger</li>
@@ -131,7 +123,27 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <li>log key performance metrics and save</li>
 </ul></li>
 </ul></li>
+</ul>
 
+<h2>Part 1: Key Concepts in RL</h2>
+
+<ul>
+<li>action space: discrete/continuous</li>
+<li>policy deterministic \(a_t = \mu_\theta(s_t)\) stochastic \(a_t ~ \pi_\theta(.|s_t)\)</li>
+<li>Deterministic Policies</li>
+<li><p>Stochastic Policies</p>
+
+<ul>
+<li>Categorical policy (discrete action space) , similar to Categorical NN model</li>
+<li>Diagonal Guassian policy (continuous action space)
+<ul>
+<li><strong>multivariate diagonal distribution</strong></li>
+<li>where the <strong>cross variance</strong> is a diagonal matrix</li>
+<li>described by mean vector \(\mu\) and convariance matrix \(\sigma\)</li>
+</ul></li>
+</ul></li>
+<li><p>sampling actions from policy</p></li>
+<li><p>computing log likelihoods of particular actions \(log \pi_\theta (a|s)\)</p></li>
 
 
 
@@ -144,6 +156,7 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <ul>
 <li>which it should if it follows P directly, since our network can consistent make the terminal move</li>
 <li>this indicates somethig is wrong with the preceding step, Nx(MCST search) -> the branching/ubc</li>
+<li>maybe the random prob is too much for the numerical stability to apply?</li>
 </ul></li>
 </ul>
 
