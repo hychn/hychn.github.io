@@ -23,43 +23,35 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
   <li>[Overview] https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html</li>
   <li><a href="https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf">Classical RL algorithms</a></li>
   </ul></li>
+  <li>Learn by Doing
+  <ul>
+  <li>core deep RL algos Simplicity</li>
+  </ul></li>
+  <li>simplest/smallest implementation first
+  <ul>
+  <li><a href="https://arxiv.org/abs/1604.06778">Vanilla policy gradient REINFORCE</a>, <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">DQN</a>, <a href="https://blog.openai.com/baselines-acktr-a2c/">A2C</a>, <a href="https://arxiv.org/abs/1707.06347">PPO</a>, <a href="https://arxiv.org/abs/1509.02971">DDPG</a></li>
+  <li>Focus on understanding: 
+  <ul>
+  <li>writing working RL code requires clear, detail-oriented understanding of the algorithms.</li>
+  <li>This is because broken RL code almost always fails silently.</li>
+  </ul></li>
+  <li>ablations, intuition for parameters or subroutines have the biggest impact</li>
+  <li>Don't overfit</li>
+  <li>Iterate fast in simple environments: CartPole-v0, InvertedPendulum-v0, FrozenLake-v0, HalfCheetah-v2 (100-250 steps) OpenAI Gym
+  <ul>
+  <li>Simplest possible toy task</li>
+  </ul></li>
+  <li>If it doesn't work, assume there is a bug </li>
+  <li>Measure everything, replay of agent's performance now and then</li>
+  <li>Scale experiments when things work
+  ### Developing a Research Project</li>
+  <li>Avoid reinventing the wheel
+  ### Doing Rigorous Research in RL
+  ### Closing Thoughts
+  ### PS: Other Resources</li>
+  </ul></li>
   </ul>
 </blockquote>
-
-<ul>
-<li><p>Learn by Doing</p>
-
-<ul>
-<li>core deep RL algos Simplicity</li>
-<li>simplest/smallest implementation first
-<ul>
-<li><a href="https://arxiv.org/abs/1604.06778">Vanilla policy gradient REINFORCE</a>, <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">DQN</a>, <a href="https://blog.openai.com/baselines-acktr-a2c/">A2C</a>, <a href="https://arxiv.org/abs/1707.06347">PPO</a>, <a href="https://arxiv.org/abs/1509.02971">DDPG</a></li>
-</ul></li>
-<li>Focus on understanding: 
-<ul>
-<li>writing working RL code requires clear, detail-oriented understanding of the algorithms.</li>
-<li>This is because broken RL code almost always fails silently.</li>
-</ul></li>
-<li>ablations, intuition for parameters or subroutines have the biggest impact</li>
-<li>Don't overfit</li>
-<li>Iterate fast in simple environments: CartPole-v0, InvertedPendulum-v0, FrozenLake-v0, HalfCheetah-v2 (100-250 steps) OpenAI Gym
-<ul>
-<li>Simplest possible toy task</li>
-</ul></li>
-<li>If it doesn't work, assume there is a bug </li>
-<li>Measure everything, replay of agent's performance now and then</li>
-<li><p>Scale experiments when things work</p>
-
-<h3>Developing a Research Project</h3></li>
-<li><p>Avoid reinventing the wheel</p>
-
-<h3>Doing Rigorous Research in RL</h3></li>
-</ul></li>
-</ul>
-
-<h3>Closing Thoughts</h3>
-
-<h3>PS: Other Resources</h3>
 
 <ul>
 <li>PART 1: a short introduction to RL terminology, kinds of algorithms, and basic theory,</li>
@@ -71,10 +63,8 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <h1>Opportunities</h1>
 
 <ul>
-<li><p>Open AI Scholars https://openai.com/blog/openai-scholars/ scholars@openai.com</p>
-
-<pre><code>  * Nuts and Bolts of deep rl research: http://joschu.net/docs/nuts-and-bolts.pdf
-</code></pre>
+<li>Open AI Scholars https://openai.com/blog/openai-scholars/ scholars@openai.com</li>
+<li><p>Nuts and Bolts of deep rl research: http://joschu.net/docs/nuts-and-bolts.pdf</p>
 
 <h1>Future (Notable sights)</h1>
 
