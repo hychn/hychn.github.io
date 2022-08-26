@@ -1,6 +1,7 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
 <p>RAPID UNDERSTANDING AND BOND NEUROPLASCITY FORMING
   * repeadtly look at it, re look at it (multiple things at once)
+* When I look at different things I feel more motivated. why is this?
 Follow the guide of openai, dont fall down too many rabbit hole
 Why does model only seek to optimize it's ability to win and not defend?</p>
 
@@ -125,14 +126,20 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 </ul></li>
 </ul>
 
-<h2>Part 1: Key Concepts in RL</h2>
+<h2>Part 1: Key Concepts in RL (notations)</h2>
 
 <ul>
+<li>state:\(s\)</li>
+<li>observations:\(o\)</li>
 <li>action space: discrete/continuous</li>
-<li>policy deterministic \(a_t = \mu_\theta(s_t)\) stochastic \(a_t ~ \pi_\theta(.|s_t)\)</li>
-<li>Deterministic Policies</li>
-<li><p>Stochastic Policies</p>
+<li><p>policy deterministic \(a_t = \mu_\theta(s_t)\) stochastic \(a_t ~ \pi_\theta(.|s_t)\)</p>
 
+<ul>
+<li>Deterministic Policies: 
+<ul>
+<li>like NN model</li>
+</ul></li>
+<li>Stochastic Policies:
 <ul>
 <li>Categorical policy (discrete action space) , similar to Categorical NN model</li>
 <li>Diagonal Guassian policy (continuous action space)
@@ -142,22 +149,29 @@ Why does model only seek to optimize it's ability to win and not defend?</p>
 <li>described by mean vector \(\mu\) and convariance matrix \(\sigma\)</li>
 </ul></li>
 </ul></li>
+</ul></li>
 <li><p>sampling actions from policy</p></li>
 <li><p>computing log likelihoods of particular actions \(log \pi_\theta (a|s)\)</p></li>
-
-
-
-
-
-
-
-<li><p>mcst0 doesn't seem to see a move that leads to immediate loss afterwards</p>
+<li><p>Trajectories</p></li>
+<li><p>Reward </p>
 
 <ul>
-<li>which it should if it follows P directly, since our network can consistent make the terminal move</li>
-<li>this indicates somethig is wrong with the preceding step, Nx(MCST search) -> the branching/ubc</li>
-<li>maybe the random prob is too much for the numerical stability to apply?</li>
+<li>finite horizon, infinite horizon discounted return</li>
 </ul></li>
+<li><p>Goal in RL is to select a policy which maximizes expected return when the agent acts according to it</p></li>
+<li><p>\(P(traj|\pi) = \prod_{t=0}^{T-1} p(s_0) p(s_{t+1}| s_t, a_t) \pi(a_t | s_t) \)</p></li>
+<li><p>Value Functions</p></li>
+<li><p>On-Policy Value Function</p></li>
+<li>On-Policy Action-Value Function</li>
+<li>Optimal Value Function</li>
+<li>Optimal Action-Value Function</li>
+</ul>
+
+<p>Link between and Action-Value functions: Taking an action,  why do we need this?</p>
+
+<ul>
+<li>Bellman Equations</li>
+<li>https://en.wikipedia.org/wiki/Bellman_equation</li>
 </ul>
 
 <h1>Opportunities</h1>
