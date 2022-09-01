@@ -24,20 +24,20 @@
 # Uni Alberta
 >! * Opens Oct 1, 2021
 >! * Provides good financial aid
->! 3 References, No Gre, No Lang
->! Read paper little bit more in detail: ask about, opening for student, give your cv and background
+>! * 3 References, No Gre, No Lang
+>! * Read paper little bit more in detail: ask about, opening for student, give your cv and background
 >! 
->! Department of Mathematical and Statistical Sciences
->! [Outline](https://calendar.ualberta.ca/preview_program.php?catoid=34&poid=38524&returnto=10333#tt8301)
->! Candidacy Exam?
+>! * Department of Mathematical and Statistical Sciences
+>! * [Outline](https://calendar.ualberta.ca/preview_program.php?catoid=34&poid=38524&returnto=10333#tt8301)
+>! * Candidacy Exam?
 >! 
->! Statistical Machine Learning (Ph.D.)
+>! * Statistical Machine Learning (Ph.D.)
 >! * statement of purpose (4500 character limit) and an abstract of their M.Sc Thesis in GARS. 
 >! * Your statement of purpose should outline your research goals in relation to the research being done by the Computing Science faculty member(s) listed on your application. 
 >! * [research area](https://www.ualberta.ca/computing-science/research/index.html)
 >! * 3 professors, contact supervisors discuss funding and supervision [contact](https://www.ualberta.ca/computing-science/faculty-and-staff/faculty.html)
 >! 
->! [RL homepage](http://rlai.ualberta.ca/research.html)
+>! * [RL homepage](http://rlai.ualberta.ca/research.html)
 >! * Michale Bowling (games and ml) Focus on first paper
 >!   * [Expert-level artificial intelligence in heads-up no-limit poker](https://arxiv.org/pdf/1701.01724.pdf)
 >!   * [Heads-up limit hold’em poker is solved](ttps://webdocs.cs.ualberta.ca/~bowling/papers/15science.pdff)
@@ -55,9 +55,9 @@
 >!   * Same with these I think I need to finish spinning up terminology. MDP?
 >!   * [Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey](https://jmlr.csail.mit.edu/papers/volume21/20-212/20-212.pdf)
 >!   * [Multi Type Mean Field Reinforcement Learning](https://arxiv.org/pdf/2002.02513.pdf)
->! ----
->! Rupam Mahmood
->! Csaba Szepesvari
+>! * ----
+>! * Rupam Mahmood
+>! * Csaba Szepesvari
 >! 
 >! * http://rlai.ualberta.ca/research.html
 >! 
