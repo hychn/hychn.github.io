@@ -1,3 +1,11 @@
+* TODO: Email Bowling, checklist what to do from nanjiang, explain your 
+
+* CV
+# STATUS
+* ALBERTA: Bowling (50%), Schuurmans (Spinning to get more background, paper)
+* Uni Urban Cham: Nan Jiang
+
+
 * Check what kind of research the professors do, Email professors
 * What I'm looking for. Not too strick guidelines/roals
 * Have faith in God
@@ -12,14 +20,19 @@
 * Intertwined with mathematics
 
 
-
-
-
 # THIS IS A KEY REALIZATION
 * YOU ALREADY HAVE A MASTERS IN MATH YECHANA
 * Alot of what I feel like I wil be doing in Math PhD program is repeating what I have done in MAth MA
   * The only thing you really need is just pass prelim/quals/oral exam etc
 * You just need to go to a decent school (in cs)
+
+* Basic Background info
+  * http://incompleteideas.net/forstudents.html
+
+# Uni of Indiana
+* https://cs.indiana.edu/research/index.html
+* https://cs.indiana.edu/contact/profile/index.html?Roni_Khardon
+  * https://cgi.luddy.indiana.edu/~rkhardon/contact.php
 
 # Uni Alberta
 >! * Opens Oct 1, 2021
@@ -37,10 +50,17 @@
 >! * [research area](https://www.ualberta.ca/computing-science/research/index.html)
 >! * 3 professors, contact supervisors discuss funding and supervision [contact](https://www.ualberta.ca/computing-science/faculty-and-staff/faculty.html)
 >! 
+>! * Marlos C. Machado
+>!   * http://mcmachado.info/?page_id=416
+>! * Adam White (Do not contact)
 >! * [RL homepage](http://rlai.ualberta.ca/research.html)
 >! * Michale Bowling (games and ml) Focus on first paper
 >!   * [Expert-level artificial intelligence in heads-up no-limit poker](https://arxiv.org/pdf/1701.01724.pdf)
 >!   * [Heads-up limit hold’em poker is solved](ttps://webdocs.cs.ualberta.ca/~bowling/papers/15science.pdff)
+>!     * Extensive form game, classical representation of imperfect information setting
+>!     * Normal form game
+>!     * [CFR](https://towardsdatascience.com/counterfactual-regret-minimization-ff4204bf4205)
+>!     * Seq form https://cw.fel.cvut.cz/b191/_media/courses/be4m36mas/6.pdf
 >! * Dale Schuurmans
 >!   * Very Math Heavy
 >!   * FOCUS [Characterizing the Gap Between Actor-Critic and Policy Gradient](https://arxiv.org/pdf/2106.06932.pdf)
