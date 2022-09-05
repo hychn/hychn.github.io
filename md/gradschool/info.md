@@ -34,6 +34,17 @@
 * https://cs.indiana.edu/contact/profile/index.html?Roni_Khardon
   * https://cgi.luddy.indiana.edu/~rkhardon/contact.php
 
+* Adversarially Trained Actor Critic for Offline Reinforcement Learning
+  * Actor Critic
+    * [Policy Gradient Methods](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
+
+* [RL wiki](https://en.wikipedia.org/wiki/Reinforcement_learning)
+* [Markov Decision Process](https://en.wikipedia.org/wiki/Markov_decision_process)
+  * (S,A,P_a,R_a) States, Actions, Pa(sA,sB), Ra(sA,sB)
+  * Goal in Markov decision, find a policy s.t.
+    * $E[\sum_{t=0}^{\inf}]$
+
+
 # Uni Alberta
 >! * Opens Oct 1, 2021
 >! * Provides good financial aid
@@ -85,7 +96,6 @@
 # CMU
 # Uni Florida
 * https://www.cise.ufl.edu/ciseresearch/research-centers-labs/
-
 # Uni Illinois
 * https://nanjiang.cs.illinois.edu/prospective-student/
 * https://math.illinois.edu/research-aiml-and-data-science-illinois
