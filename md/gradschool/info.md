@@ -1,9 +1,24 @@
+* There are things which are outside of my control
+  * Just do as many as you can in the most sound way you can
 * TODO: Email Bowling, checklist what to do from nanjiang, explain your 
+* Do the thing that is the baseline, so you can actually focus on doing things that you really care about
+  * Like for school, dont spend too much time. Get it done. It's not worship or religion you know?
+  * It's just a career move
+  * And for other things as well. Set standards, meet them and improve them.
+* At the end of the day, you should aim to spend your time doing the things that are important to you
+  * and whereever you need to go
+* Focus! Narrow it down
 
 * CV
 # STATUS
 * ALBERTA: Bowling (50%), Schuurmans (Spinning to get more background, paper)
 * Uni Urban Cham: Nan Jiang
+  * https://nanjiang.cs.illinois.edu/prospective-student/
+  * https://rltheorybook.github.io/rltheorybook_AJKS.pdf
+    * Start your email with “I have read the instructions on your website”.
+    * I do research in RL theory, so please keep the description of your empirical and/or non-RL research experience short and concise. Showing that you have some exposure to ML/RL is enough.
+    * [Most Important] Give me a short list of your grades in mathematical courses (in letter or points, whatever your institution’s native scale is), including (1) Calculus, Linear algebra, probability and statistics, etc. (2) Advanced courses that have a significant theoretical/mathematical component, including but not limited to: computational complexity, signal processing, information theory, control theory, optimization, etc. Include relevant ranking information as you like.
+    * Describe your experience in theory research, and which of the research topics I work on attract you
 
 
 * Check what kind of research the professors do, Email professors
@@ -29,6 +44,9 @@
 * Basic Background info
   * http://incompleteideas.net/forstudents.html
 
+# Good list
+  * https://simons.berkeley.edu/programs/rl20
+
 # Uni of Indiana
 * https://cs.indiana.edu/research/index.html
 * https://cs.indiana.edu/contact/profile/index.html?Roni_Khardon
@@ -42,8 +60,12 @@
 * [Markov Decision Process](https://en.wikipedia.org/wiki/Markov_decision_process)
   * (S,A,P_a,R_a) States, Actions, Pa(sA,sB), Ra(sA,sB)
   * Goal in Markov decision, find a policy s.t.
-    * $E[\sum_{t=0}^{\inf}]$
-
+    * $E[\sum_{t=0}^{\infty} \gamma^t R_{a_t}(s_{t},s_{t+1}) ]$ where $a_t=\pi(s_t)$ w/ discount factor gamma
+    * Algorithms to finding optimal MDP
+      * Dynamic Programming approach 
+      * [background info](*https://economics.smu.edu.sg/sites/economics.smu.edu.sg/files/economics/PG_Doc/Math%20Camp_2B_2018.pdf)
+      * [Book Sutton Bartol](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+      * https://en.wikipedia.org/wiki/Bellman_equation
 
 # Uni Alberta
 >! * Opens Oct 1, 2021
