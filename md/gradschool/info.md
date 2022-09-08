@@ -15,10 +15,12 @@
 * Uni Urban Cham: Nan Jiang
   * https://nanjiang.cs.illinois.edu/prospective-student/
   * https://rltheorybook.github.io/rltheorybook_AJKS.pdf
-    * Start your email with “I have read the instructions on your website”.
     * I do research in RL theory, so please keep the description of your empirical and/or non-RL research experience short and concise. Showing that you have some exposure to ML/RL is enough.
     * [Most Important] Give me a short list of your grades in mathematical courses (in letter or points, whatever your institution’s native scale is), including (1) Calculus, Linear algebra, probability and statistics, etc. (2) Advanced courses that have a significant theoretical/mathematical component, including but not limited to: computational complexity, signal processing, information theory, control theory, optimization, etc. Include relevant ranking information as you like.
     * Describe your experience in theory research, and which of the research topics I work on attract you
+    * https://rltheorybook.github.io/
+    * https://wensun.github.io/CS6789_fall_2021.html
+    * http://www.athenasc.com/index.html
 
 
 * Check what kind of research the professors do, Email professors
