@@ -1,3 +1,5 @@
+* https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
+
 * There are things which are outside of my control
   * Just do as many as you can in the most sound way you can
 * TODO: Email Bowling, checklist what to do from nanjiang, explain your 
