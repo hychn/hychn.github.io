@@ -106,7 +106,6 @@
 >!   * [Average-Reward Off-Policy Policy Evaluation with Function Approximation](https://arxiv.org/pdf/2101.02808.pdf)
 >!   * [Learning and Planning in Average-Reward Markov Decision Processes](https://arxiv.org/pdf/2006.16318.pdf)
 >! * Matthew Taylor (Industry)
->!   * [Internship](https://www.borealisai.com/careers/?gh_jid=6240341002)
 >!   * Same with these I think I need to finish spinning up terminology. MDP?
 >!   * [Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey](https://jmlr.csail.mit.edu/papers/volume21/20-212/20-212.pdf)
 >!   * [Multi Type Mean Field Reinforcement Learning](https://arxiv.org/pdf/2002.02513.pdf)
