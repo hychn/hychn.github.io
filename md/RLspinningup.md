@@ -134,3 +134,23 @@ Link between and Action-Value functions: Taking an action,  why do we need this?
 * Nuts and Bolts of deep rl research: http://joschu.net/docs/nuts-and-bolts.pdf
 # Future (Notable sights)
 * monotonic improvement theory (basis of advanced policy gradient algorithms)? http://joschu.net/docs/thesis.pdf
+
+
+* Model vs Model-Free RL
+  * One of the most important branching points in an RL algorithm is the question of whether the agent has access to (or learns) a model of the environment. 
+  * By a model of the environment, we mean a function which predicts state transitions and rewards.
+* Model-Free
+  * Policy Optimization $\pi_\theta(a|s)$
+    * Optimize parameters $\theta$ on objective $J(\pi_\theta)$
+  * Q-learning
+    * Learn approximator $Q_\theta(s,a)$ for optimal action-value function $Q^*(s,a)$, the policy is obtained by the supremum policy $a(s) = argmax_a Q_\theta(s,a)$
+
+* Trade-offs Between Policy Optimization and Q-Learning. The primary strength of policy optimization methods is that they are principled, in the sense that you directly optimize for the thing you want. This tends to make them stable and reliable. By contrast, Q-learning methods only indirectly optimize for agent performance, by training Q_{\theta} to satisfy a self-consistency equation. There are many failure modes for this kind of learning, so it tends to be less stable. [1] But, Q-learning methods gain the advantage of being substantially more *sample efficient* when they do work, because they can reuse data more effectively than policy optimization techniques.
+* Interpolating Between Policy Optimization and Q-Learning. Serendipitously, policy optimization and Q-learning are not incompatible (and under some circumstances, it turns out, equivalent), and there exist a range of algorithms that live in between the two extremes. Algorithms that live on this spectrum are able to carefully trade-off between the strengths and weaknesses of either side. Examples include
+
+# Policy Optimization
+* https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html#id16
+* Policy reward only based on future rewards
+  * https://spinningup.openai.com/en/latest/spinningup/extra_pg_proof1.html
+  * due to the fact that expectation is 0 and this can be formed when t`<t
+* https://spinningup.openai.com/en/latest/spinningup/extra_pg_proof2.html

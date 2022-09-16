@@ -70,6 +70,10 @@
       * [background info](*https://economics.smu.edu.sg/sites/economics.smu.edu.sg/files/economics/PG_Doc/Math%20Camp_2B_2018.pdf)
       * [Book Sutton Bartol](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
       * https://en.wikipedia.org/wiki/Bellman_equation
+# ASU
+* https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd
+* 12/31: letterrec, cv, transcript, statement purpose
+* Financial aid: https://scai.engineering.asu.edu/teaching-research-assistantships-fellowships-awards/
 
 # Uni Alberta
 >! * Opens Oct 1, 2021
