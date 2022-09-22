@@ -1,5 +1,6 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
-<p>\(\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }\)</p>
+<p>\(\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }\)
+\(\def\min#1{ \underset{#1}{min} }\)</p>
 
 <ul>
 <li>http://www.mit.edu/~dimitrib/RLbook.html</li>
@@ -93,6 +94,8 @@
 <ul>
 <li>A truncated optimal solution \(\{*u_0,*u_1,...,*u_{N-1} \}\) is optimal for the sub problem, minimize cost to go from time k</li>
 <li>cost to go from time k: \(J(x_k;...)\)</li>
+<li>\(J^*_k(x_k) = \underset{u_k}{min} g(x_k,uk)+J^*_{k+1}(x_k)\)</li>
+<li>\(J^*_k(x_k) = \min{u_k} g(x_k,uk)+J^*_{k+1}(x_k)\)</li>
 </ul>
 
 <h1>RL SPIN EXAMPLE Understanding</h1>

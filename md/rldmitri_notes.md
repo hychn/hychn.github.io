@@ -1,4 +1,5 @@
 $\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
+$\def\min#1{ \underset{#1}{min} }$
 
 * http://www.mit.edu/~dimitrib/RLbook.html
 * http://web.mit.edu/dimitrib/www/RL_CLASS_NOTES_2022.pdf
@@ -67,6 +68,8 @@ $\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 ### Principle of Optimality
 * A truncated optimal solution $\{*u_0,*u_1,...,*u_{N-1} \}$ is optimal for the sub problem, minimize cost to go from time k
 * cost to go from time k: $J(x_k;...)$
+* $J^*_k(x_k) = \underset{u_k}{min} g(x_k,uk)+J^*_{k+1}(x_k)$
+* $J^*_k(x_k) = \min{u_k} g(x_k,uk)+J^*_{k+1}(x_k)$
 
 
 
