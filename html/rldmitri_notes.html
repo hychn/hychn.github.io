@@ -1,4 +1,6 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<p>\(\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }\)</p>
+
 <ul>
 <li>http://www.mit.edu/~dimitrib/RLbook.html</li>
 <li>http://web.mit.edu/dimitrib/www/RL<em>CLASS</em>NOTES_2022.pdf</li>
@@ -62,11 +64,35 @@
 <li>control/decision variable: \(u_k \in U_k(x_k)\) (control space at k)</li>
 <li>state update: \(f_k(x_k,u_k)=x_{k+1}\)</li>
 <li>cost at time k \(g_k(x_k,u_k)\) </li>
-<li><p>total cost of control: \(J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)\) (why write g_N separate?)</p>
+<li>total cost of control: \(J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)\) (why write g_N separate?)</li>
+</ul>
 
-<h1>Points</h1></li>
-<li><p>minimize \(J\) over \(\{u_0,u_1,...,u_{N-1} \}\)</p></li>
-<li><p>(cost and state update depending on k)</p></li>
+<h1>Points</h1>
+
+<ul>
+<li>minimize \(J\) over \(\{u_0,u_1,...,u_{N-1} \}\)</li>
+<li>\(J^*(x_0) = \underset{ \underset{k=0,..,N-1}{u_k \in U_k(x_k)} }{min} J(x_0; u_0,...,u_{N-1})\)</li>
+<li><p>(cost and state update depending on k)</p>
+
+<h2>Discrete Optimal Control Problems</h2></li>
+<li><p>deterministic finite-state finite-horizon optimal control problems</p>
+
+<ul>
+<li>det: at state \(x_k\), each control \(u_k\) determines 1 next state \(x_{k+1}\)</li>
+<li>finite-state: finite num of {x_k, }</li>
+<li>finite-horizion N is finite</li>
+</ul></li>
+<li>graph, shortest path problem from stage 0 to terminal node</li>
+<li>See [Ber17], Section 2.1, and [Ber91], [Ber98] for extensive accounts of shortest path methods, which connect with our discussion here</li>
+</ul>
+
+<h2>Dynamic Programming Algorithm</h2>
+
+<h3>Principle of Optimality</h3>
+
+<ul>
+<li>A truncated optimal solution \(\{*u_0,*u_1,...,*u_{N-1} \}\) is optimal for the sub problem, minimize cost to go from time k</li>
+<li>cost to go from time k: \(J(x_k;...)\)</li>
 </ul>
 
 <h1>RL SPIN EXAMPLE Understanding</h1>

@@ -1,3 +1,5 @@
+$\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
+
 * http://www.mit.edu/~dimitrib/RLbook.html
 * http://web.mit.edu/dimitrib/www/RL_CLASS_NOTES_2022.pdf
 * https://web.mit.edu/dimitrib/www/RL_Frontmatter-SHORT-INTERNET-POSTED.pdf
@@ -47,10 +49,24 @@
 * state update: $f_k(x_k,u_k)=x_{k+1}$
 * cost at time k $g_k(x_k,u_k)$ 
 * total cost of control: $J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)$ (why write g_N separate?)
-# Points
-* minimize $J$ over $\{u_0,u_1,...,u_{N-1} \}$
 
+# Points
+
+* minimize $J$ over $\{u_0,u_1,...,u_{N-1} \}$
+* $J^*(x_0) = \underset{ \underset{k=0,..,N-1}{u_k \in U_k(x_k)} }{min} J(x_0; u_0,...,u_{N-1})$
 * (cost and state update depending on k)
+## Discrete Optimal Control Problems
+* deterministic finite-state finite-horizon optimal control problems
+  * det: at state $x_k$, each control $u_k$ determines 1 next state $x_{k+1}$
+  * finite-state: finite num of {x_k, }
+  * finite-horizion N is finite
+* graph, shortest path problem from stage 0 to terminal node
+* See [Ber17], Section 2.1, and [Ber91], [Ber98] for extensive accounts of shortest path methods, which connect with our discussion here
+
+## Dynamic Programming Algorithm
+### Principle of Optimality
+* A truncated optimal solution $\{*u_0,*u_1,...,*u_{N-1} \}$ is optimal for the sub problem, minimize cost to go from time k
+* cost to go from time k: $J(x_k;...)$
 
 
 
