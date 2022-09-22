@@ -1,6 +1,7 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
 <p>\(\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }\)
-\(\def\min#1{ \underset{#1}{min} \hspace{.1cm} }\)</p>
+\(\def\min#1{ \underset{#1}{min} \hspace{.1cm} }\)
+\(\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }\)</p>
 
 <ul>
 <li>http://www.mit.edu/~dimitrib/RLbook.html</li>
@@ -95,15 +96,39 @@
 <li>A truncated optimal solution \(\{*u_0,*u_1,...,*u_{N-1} \}\) is optimal for the sub problem, minimize cost to go from time k</li>
 <li>cost to go from time k: \(J(x_k;...)\)</li>
 <li>\(J^*_{k}(x_k) = \min{u_k} g(x_k,u_k)+J^*_{k+1}(x_k)\)</li>
-<li>THM \(J^*_k(x_k)\) is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N
+<li><p>THM \(J^*_k(x_k)\) is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N</p>
+
 <ul>
 <li>induction base: k=N \(J^*_N(x_N) = g_N(x_N)\)</li>
-<li>k=k \(J^*_N(x_k) = \min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) \)</li>
+<li>k=k \(\min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) \)</li>
 <li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k}^{N-1}g_t(x_t,u_t)\)</li>
 <li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k+1}^{N-1}g_t(x_t,u_t) + g_k(x_k,u_k)\)</li>
 <li>\( = \min{(u_k,..,u_N)} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) \)</li>
 <li>\( = \min{u_k} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) \)</li>
+<li>\( = J^*_N(x_k)\)</li>
 </ul></li>
+<li><p>NOTE The cost-to-go \(J^*_k(x_k)\) can be used to construct optimal control sequence</p></li>
+<li>\(u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]\)
+<ul>
+<li>\(J(u^*_k)\)</li>
+</ul></li>
+<li>PRP J(x0;u0,...uN) = J(x0,u0,...uM) + J(xM;uM,...uN)</li>
+<li>Suppose there is different, smaller control sequence v^<em>, take the first difference in the control sequence at t=k
+<ul>
+<li>we can subtract the common component J(x0;u0,...,uk) and consider just J(xk;vk,...vN)&lt;=J(xk,uk,...,uN)</li>
+<li>J(xk;vk,...vN) = g(xk,vk) + g(y<em>{k+1},v</em>{k+1}) + ... + g(y<em>{N},v</em>{N}) &gt;= g(xk,vk) + J<em>(f(xk,vk)) &gt;= g(xk,uk) + J</em>(f(xk,uk)) </li>
+<li>NTS g(xk,uk) + J</em>(f(xk,uk)) = J(xk;uk,...uN)
+<ul>
+<li>This is the center of the argument. We can even let k=0. </li>
+<li>We shoudl show by induction</li>
+</ul></li>
+</ul></li>
+<li>THM the control seq obtained by \(u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]\)  is optimal
+<ul>
+<li>Following the optimal tails gives you the overall optimal</li>
+<li>\([g(x^*_N-1,u_k) + J^*_N( f(x^*_k,u_k)]\)</li>
+</ul></li>
+<li>This is the converse of the principal of optimality</li>
 </ul>
 
 <h1>RL SPIN EXAMPLE Understanding</h1>

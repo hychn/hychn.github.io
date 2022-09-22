@@ -1,5 +1,6 @@
 $\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 $\def\min#1{ \underset{#1}{min} \hspace{.1cm} }$
+$\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }$
 
 * http://www.mit.edu/~dimitrib/RLbook.html
 * http://web.mit.edu/dimitrib/www/RL_CLASS_NOTES_2022.pdf
@@ -71,15 +72,27 @@ $\def\min#1{ \underset{#1}{min} \hspace{.1cm} }$
 * $J^*_{k}(x_k) = \min{u_k} g(x_k,u_k)+J^*_{k+1}(x_k)$
 * THM $J^*_k(x_k)$ is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N
   * induction base: k=N $J^*_N(x_N) = g_N(x_N)$
-  * k=k $J^*_N(x_k) = \min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) $
+  * k=k $\min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) $
   * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k}^{N-1}g_t(x_t,u_t)$
   * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k+1}^{N-1}g_t(x_t,u_t) + g_k(x_k,u_k)$
   * $ = \min{(u_k,..,u_N)} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) $
   * $ = \min{u_k} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) $
+  * $ = J^*_N(x_k)$
 
-
-
-
+* NOTE The cost-to-go $J^*_k(x_k)$ can be used to construct optimal control sequence
+* $u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]$
+  * $J(u^*_k)$
+* PRP J(x0;u0,...uN) = J(x0,u0,...uM) + J(xM;uM,...uN)
+* Suppose there is different, smaller control sequence v^*, take the first difference in the control sequence at t=k
+  * we can subtract the common component J(x0;u0,...,uk) and consider just J(xk;vk,...vN)<=J(xk,uk,...,uN)
+  * J(xk;vk,...vN) = g(xk,vk) + g(y_{k+1},v_{k+1}) + ... + g(y_{N},v_{N}) >= g(xk,vk) + J*(f(xk,vk)) >= g(xk,uk) + J*(f(xk,uk)) 
+  * NTS g(xk,uk) + J*(f(xk,uk)) = J(xk;uk,...uN)
+    * This is the center of the argument. We can even let k=0. 
+    * We shoudl show by induction
+* THM the control seq obtained by $u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]$  is optimal
+  * Following the optimal tails gives you the overall optimal
+  * $[g(x^*_N-1,u_k) + J^*_N( f(x^*_k,u_k)]$
+* This is the converse of the principal of optimality
 
 # RL SPIN EXAMPLE Understanding
 
