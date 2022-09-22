@@ -57,9 +57,16 @@
 <h1>Definitions</h1>
 
 <ul>
-<li>\(k\) time index</li>
-<li>\(x_k\) state of system</li>
-<li>\(u_k\) control/decision variable \(\in U_k(x_k)\)</li>
+<li>\(0 \leq k \leq N\) time index</li>
+<li>state of system: \(x_k\) \(\in\) (state space at k)</li>
+<li>control/decision variable: \(u_k \in U_k(x_k)\) (control space at k)</li>
+<li>state update: \(f_k(x_k,u_k)=x_{k+1}\)</li>
+<li>cost at time k \(g_k(x_k,u_k)\) </li>
+<li><p>total cost of control: \(J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)\) (why write g_N separate?)</p>
+
+<h1>Points</h1></li>
+<li><p>minimize \(J\) over \(\{u_0,u_1,...,u_{N-1} \}\)</p></li>
+<li><p>(cost and state update depending on k)</p></li>
 </ul>
 
 <h1>RL SPIN EXAMPLE Understanding</h1>
