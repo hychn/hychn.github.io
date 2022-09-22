@@ -35,3 +35,4 @@
   * [gradschool/personal_statement.html](html/gradschool/personal_statement.html)
   * [gradschool/plan.html](html/gradschool/plan.html)
   * [gradschool/resume.html](html/gradschool/resume.html)
+  * [gradschool/statement_of_purpose.html](html/gradschool/statement_of_purpose.html)

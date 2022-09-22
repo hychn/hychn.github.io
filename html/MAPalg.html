@@ -7,6 +7,28 @@
 <li>DEF Even/Odd permutation is written in even/odd number of transpositions</li>
 <li>THM A permutation can be just 1 of even or odd</li>
 <li>DEF \(A_n\) set of all even permutations of \(S_n\) where \(n > 2\)</li>
+<li>PRP interesting property of transpositions
+<ul>
+<li>(bx)(ab) = (ab)(ax) [flipping]</li>
+<li>(bx)(ab)(bx) = (ab)(ax)(bx) = (ab)(xab) = (ab)(abx) = (ax) [replacing a number in transposition form xtx]</li>
+<li>(cb) (ab)(ac)(ab)(ac) (cb) = (ab)(ac)(ac)(ab)(ab)(ac) = (ab)(ac)</li>
+<li>(ab) (ab)(ac)(ab)(ac) (ab) = (ac)(bc) = (cab)</li>
+</ul></li>
+<li>THM a 2-cycle in normal subgroup generates all 2-cycles
+<ul>
+<li>Let (ab) our 2 cycle, then multi by</li>
+<li>(bx)(ab)(bx) = (ax)</li>
+</ul></li>
+<li>THM a 3-cycle in normal subgroup generates all 3-cycles
+<ul>
+<li>Let (abc) be our 3 cycle (ab)(ac)</li>
+<li>(cx)(abc)(cx) = (cx)(ab)(ac)(cx) = (ab)(cx)(ac)(cx) = (ab)(ac)(ax)(cx) = (abc)(xac) is in N</li>
+<li>\((abc)^{-1} \in N\) so \((abc)^{-1} (abc)(xac) = (xac) \in N\)</li>
+</ul></li>
+<li>Carefully consider ALL the possibilties of the objects/properties of the objects you are working with. 
+<ul>
+<li>Once you have exhausted, you can explore including additional property/structure/restriction</li>
+</ul></li>
 <li>THM \(A_n\) is normal subgroup of \(S_n\) of index 2 with order \(|S_n|/2\). \(A_n\) is the only subgroup of \(S_n\) of index 2.
 <ul>
 <li>normal is clear</li>

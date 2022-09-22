@@ -6,7 +6,100 @@
 
 <h1>1.2 Deterministic Dynamic Programming</h1></li>
 <li><p>DEF Dynamic Programming: dynamic programming usually refers to simplifying a decision by breaking it down into a sequence of decision steps over time, and using bellman equation</p></li>
-<li>DEF Bellman EQ: V(a<em>0) = v(a</em>0) + b*V(a_1)</li>
+<li><p>DEF Bellman EQ: V(a<em>0) = v(a</em>0) + b*V(a_1)</p></li>
+<li><p>For an auto travel analogy, suppose that the fastest route from Phoenix to Boston passes through St Louis. The principle of optimality translates to the obvious fact that the St Louis to Boston portion of the route is also the fastest route for a trip that starts from St Louis and ends in Boston. The principle of optimality suggests that the optimal cost function can be constructed in piecemeal fashion going backwards: first compute the optimal cost function for the tail subproblem involving the last stage, then solve the tail subproblem involving the last two stages, and continue in this manner until the optimal cost function for the entire problem is constructed.</p></li>
+<li><p>The DP algorithm is based on this idea: it proceeds sequentially, by solving all the tail subproblems of a given time length, using the solution of the tail subproblems of shorter time length. We illustrate the algorithm with the scheduling problem of Example 1.2.1. The calculations are simple but tedious, and may be skipped without loss of continuity. However, they may be worth going over by a reader that has no prior experience in the use of DP.</p></li>
+<li><p>We have noted earlier that discrete deterministic optimization problems, including challenging combinatorial problems, can be typically formulated as DP problems by breaking down each feasible solution into a sequence of decisions/controls, as illustrated with the scheduling Example 1.2.1. This formulation often leads to an intractable DP computation because of an exponential explosion of the number of states as time progresses. However, a DP formulation brings to bear approximate DP methods, such as rollout and others, to be discussed shortly, which can deal with the exponentially increasing size of the state space.</p></li>
+<li><p>NP complete</p></li>
+<li><p>Dynamic Programming: solve tail problem and then solve future problem</p>
+
+<ul>
+<li>ABCD (find the values of 2 paths, 3paths, 4 paths) and</li>
+<li>Suppose A-C is optimal path. Then for any point A<B<C,  A-B,B-C are optimal path from AB,BC
+<ul>
+<li>otherwise A-C would not be optimal</li>
+</ul></li>
+<li>?Why can't we pursue the optimal path from the head? You can. Compute all 2 paths the 3 paths would be considering ABx
+<ul>
+<li>It's no different to pursuing from tail</li>
+</ul></li>
+</ul></li>
+<li><p>Why do people rewrite the D.P problem in terms of Q?</p></li>
+<li><p>Multi-step lookahead vs one-step lookhead</p>
+
+<h1>What is your proposal</h1></li>
+<li><p>Potential Improvements</p>
+
+<ul>
+<li>Mix policy methods, with model methods</li>
+<li>Multi-step </li>
+</ul></li>
+<li>Mathematic Courses</li>
+<li>Intuition/rigor-based experimentation (</li>
 </ul>
+
+<h1>Rollout</h1>
+
+<ul>
+<li><p>The major theoretical property of rollout is 'cost improvement' : the cost obtained by rollout using some base heuristic is less or equal to the corresponding cost of the base heuristic</p></li>
+<li><p>There is quite alot of notation in this book and the declaritive/important statements are just left as sentences</p>
+
+<ul>
+<li>highlight these key points (key definitions)</li>
+<li>There are also quite alot of notation (He does spend a bit of time in the beginning formulating the generic DP problem)</li>
+<li>There are quite alot of equations</li>
+</ul></li>
+<li>rollout heuristic</li>
+<li>Let's write out the key definitions</li>
+<li>This weekend we will work on the purpose proposal and cv and send email to professors on Sun evening</li>
+</ul>
+
+<h1>Definitions</h1>
+
+<ul>
+<li>\(k\) time index</li>
+<li>\(x_k\) state of system</li>
+<li>\(u_k\) control/decision variable \(\in U_k(x_k)\)</li>
+</ul>
+
+<h1>RL SPIN EXAMPLE Understanding</h1>
+
+<p>What is rollout, it is an estimation of J(u0,u1,...,uk-1,uk)? Are you sure. lets read it again.
+What is diff between q-estimiation and optimal policy optimization</p>
+
+<p>Ok so lets go back to the basics
+G()</p>
+
+<p>trajectory \((x_0,u_0,x_1,u_1...)\)
+\(r(x_t,u_t)\) reward
+\(p(x_{t+1} | x_t,u_t)\)</p>
+
+<p>\(V(traj) = E[ R(traj) ]\)
+Goal is to find maximal traj
+which is given by maximal policy \(max_{a_t}( r(x_t,a_t) + \gamma V^*(x_{t+1}) )\)</p>
+
+<p>\(R(\tau) = \sum_{t=0}[\gamma^t r(s_t, a_t)]\)
+\(V(s)   = E_{\tau ~ \pi}[ R(\tau) | s_0=s ]\)
+\(Q(s,a) = E_{\tau ~ \pi}[ R(\tau) | s_0=s, a_0=a ]\)</p>
+
+<ul>
+<li>There are two approaches to solving this problem</li>
+<li>1 find a good estimate of \(V^*\) to create this maximal policy</li>
+<li><p>2 update the policy \(\pi_\theta\) with gradients from \(J\)</p>
+
+<ul>
+<li>\( J(\pi_\theta) = E_{\tau ~ \pi_\theta}[R(\tau)]\)</li>
+<li>\( \Delta_\theta J(\pi_\theta) = E_{\tau ~ \pi_\theta}[\sum_{t=0} \Delta_\theta log(\pi_\theta(a_t|s_t))*R(\tau)]\)
+<ul>
+<li>There is a proof considering the reward \(R(\tau)\), afterward \(t\)</li>
+</ul></li>
+<li>Baselines</li>
+</ul></li>
+<li><p>Model free - model based</p></li>
+<li>One of the most important branching points in an RL algorithm is the question of whether the agent has access to (or learns) a model of the environment. By a model of the environment, we mean a function which predicts state transitions and rewards.</li>
+</ul>
+
+<p>In practice, \(V^{\pi}(s_t)\) cannot be computed exactly, so it has to be approximated.  what is the reason?
+what is Rhat? how can we get R if the model of the enviroment doesn't tell us? (Check the book by dmitri, it  only needs R for the end states)</p>
 
 </div></body> </html>
