@@ -2,6 +2,9 @@ $\def\lim#1#2{ \underset{#1 \rightarrow #2}{lim} }$
 $\def\min#1{ \underset{#1}{min} \hspace{.1cm} }$
 $\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }$
 
+$\def\*J#1{ {J^*_{#1}} }$
+$\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
+
 * http://www.mit.edu/~dimitrib/RLbook.html
 * http://web.mit.edu/dimitrib/www/RL_CLASS_NOTES_2022.pdf
 * https://web.mit.edu/dimitrib/www/RL_Frontmatter-SHORT-INTERNET-POSTED.pdf
@@ -71,6 +74,7 @@ $\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }$
 * cost to go from time k: $J(x_k;...)$
 * $J^*_{k}(x_k) = \min{u_k} g(x_k,u_k)+J^*_{k+1}(x_k)$
 * THM $J^*_k(x_k)$ is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N
+  * This is the converse tothe principal of optimality
   * induction base: k=N $J^*_N(x_N) = g_N(x_N)$
   * k=k $\min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) $
   * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k}^{N-1}g_t(x_t,u_t)$
@@ -92,7 +96,21 @@ $\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }$
 * THM the control seq obtained by $u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]$  is optimal
   * Following the optimal tails gives you the overall optimal
   * $[g(x^*_N-1,u_k) + J^*_N( f(x^*_k,u_k)]$
-* This is the converse of the principal of optimality
+  * This is the converse of the principal of optimality
+  * see earlier theorm
+
+# Q factors and Q learning
+# Approximation in Value Space and Rollout use $\~*J{k} \*J{k}$
+
+* Construct $\~*J{k}$ with off-line training or on-line rollout
+* one-step lookahead 1.13, multistep lookahead
+* major theory of rollout is cost improvement
+  * The cost obtained by rollout using some base heuristic is less or equal to the corresponding cost of the base heuristic
+    * provied base heuristic satisfies some simple conditions
+    * variants of rollout
+  * because you are optimizing $u_k$ over $g_k(x_k,u_k)$ in addition to $\~*J{k}$ it is doing something in addition to just the base heuristic
+    * if you do multi-step and do the (first stage, g_k) multiple times it will improve more than just using base heuristic?
+
 
 # RL SPIN EXAMPLE Understanding
 

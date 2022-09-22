@@ -3,6 +3,9 @@
 \(\def\min#1{ \underset{#1}{min} \hspace{.1cm} }\)
 \(\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }\)</p>
 
+<p>\(\def\*J#1{ {J^*_{#1}} }\)
+\(\def\~*J#1{ \overset{\sim}{J^*_{#1}} }\)</p>
+
 <ul>
 <li>http://www.mit.edu/~dimitrib/RLbook.html</li>
 <li>http://web.mit.edu/dimitrib/www/RL<em>CLASS</em>NOTES_2022.pdf</li>
@@ -99,6 +102,7 @@
 <li><p>THM \(J^*_k(x_k)\) is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N</p>
 
 <ul>
+<li>This is the converse tothe principal of optimality</li>
 <li>induction base: k=N \(J^*_N(x_N) = g_N(x_N)\)</li>
 <li>k=k \(\min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) \)</li>
 <li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k}^{N-1}g_t(x_t,u_t)\)</li>
@@ -127,8 +131,30 @@
 <ul>
 <li>Following the optimal tails gives you the overall optimal</li>
 <li>\([g(x^*_N-1,u_k) + J^*_N( f(x^*_k,u_k)]\)</li>
-</ul></li>
 <li>This is the converse of the principal of optimality</li>
+<li>see earlier theorm</li>
+</ul></li>
+</ul>
+
+<h1>Q factors and Q learning</h1>
+
+<h1>Approximation in Value Space and Rollout use \(\~*J{k} \*J{k}\)</h1>
+
+<ul>
+<li>Construct \(\~*J{k}\) with off-line training or on-line rollout</li>
+<li>one-step lookahead 1.13, multistep lookahead</li>
+<li>major theory of rollout is cost improvement
+<ul>
+<li>The cost obtained by rollout using some base heuristic is less or equal to the corresponding cost of the base heuristic
+<ul>
+<li>provied base heuristic satisfies some simple conditions</li>
+<li>variants of rollout</li>
+</ul></li>
+<li>because you are optimizing \(u_k\) over \(g_k(x_k,u_k)\) in addition to \(\~*J{k}\) it is doing something in addition to just the base heuristic
+<ul>
+<li>if you do multi-step and do the (first stage, g_k) multiple times it will improve more than just using base heuristic?</li>
+</ul></li>
+</ul></li>
 </ul>
 
 <h1>RL SPIN EXAMPLE Understanding</h1>
