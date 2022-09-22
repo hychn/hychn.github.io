@@ -49,7 +49,7 @@ $\def\min#1{ \underset{#1}{min} \hspace{.1cm} }$
 * control/decision variable: $u_k \in U_k(x_k)$ (control space at k)
 * state update: $f_k(x_k,u_k)=x_{k+1}$
 * cost at time k $g_k(x_k,u_k)$ 
-* total cost of control: $J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)$ (why write g_N separate?)
+* total cost of control: $J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{t=0}^{N-1}g_t(x_t,u_t)$ (why write g_N separate?)
 
 # Points
 
@@ -72,8 +72,10 @@ $\def\min#1{ \underset{#1}{min} \hspace{.1cm} }$
 * THM $J^*_k(x_k)$ is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N
   * induction base: k=N $J^*_N(x_N) = g_N(x_N)$
   * k=k $J^*_N(x_k) = \min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) $
-  * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)$
-  * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)$
+  * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k}^{N-1}g_t(x_t,u_t)$
+  * $ = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k+1}^{N-1}g_t(x_t,u_t) + g_k(x_k,u_k)$
+  * $ = \min{(u_k,..,u_N)} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) $
+  * $ = \min{u_k} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) $
 
 
 

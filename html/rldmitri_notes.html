@@ -65,7 +65,7 @@
 <li>control/decision variable: \(u_k \in U_k(x_k)\) (control space at k)</li>
 <li>state update: \(f_k(x_k,u_k)=x_{k+1}\)</li>
 <li>cost at time k \(g_k(x_k,u_k)\) </li>
-<li>total cost of control: \(J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)\) (why write g_N separate?)</li>
+<li>total cost of control: \(J(x_0;u_0, ..., u_{N-1}) = g_N(x_N) + \sum_{t=0}^{N-1}g_t(x_t,u_t)\) (why write g_N separate?)</li>
 </ul>
 
 <h1>Points</h1>
@@ -99,8 +99,10 @@
 <ul>
 <li>induction base: k=N \(J^*_N(x_N) = g_N(x_N)\)</li>
 <li>k=k \(J^*_N(x_k) = \min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) \)</li>
-<li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)\)</li>
-<li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{k=0}^{N-1}g_k(x_k,u_k)\)</li>
+<li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k}^{N-1}g_t(x_t,u_t)\)</li>
+<li>\( = \min{(u_k,..,u_N)}g_N(x_N) + \sum_{t=k+1}^{N-1}g_t(x_t,u_t) + g_k(x_k,u_k)\)</li>
+<li>\( = \min{(u_k,..,u_N)} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) \)</li>
+<li>\( = \min{u_k} g_k(x_k,u_k) + J^*_{k+1}(x_{k+1}) \)</li>
 </ul></li>
 </ul>
 
