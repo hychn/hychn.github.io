@@ -1,3 +1,7 @@
+# MOOD
+* Be happy and thankful
+* Give glory to God
+
 # Anchor points:
 * Use anchors to secure/manage your train of thoughts while thinking/reading a book
 

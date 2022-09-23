@@ -4,6 +4,8 @@ $\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }$
 
 $\def\*J#1{ {J^*_{#1}} }$
 $\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
+$\def\ud#1#2{ \underset{#2}{#1} }$
+
 # Strategy to approaching this book and the author's style
 * There is quite alot of notation in this book and the declaritive/important statements are just left as sentences
   * highlight these key points (key definitions)
@@ -115,9 +117,17 @@ $\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
     * if you do multi-step and do the (first stage, g_k) multiple times it will improve more than just using base heuristic?
 
 * Computation Complexity
-* DEF policy: u:X->U
 
-# RL SPIN EXAMPLE Understanding
+# Stochastic Dynamic Programming
+* DEF disturbance $w_k=P_k(.|x_k,u_k)$
+* DEF next state $x_{k+1} = f(x_k,u_k,w_k), k=0,1,...,N-1$ 
+* DEF cost $g(x_k,u_k,w_k)$
+* DEF policy: $\pi = \{u_0, ..., u_{N-1}\}$ where $u_i:X_i \rightarrow U_i(x_i)$
+* DEF Cost To Go $J_\pi(x_0) = \ud{E}{\ud{w_k}{k=0,...N-1} } \{ g_N(x_N) + \sum_{k=1}^{N-1} g_k(x_k,u_k(x_k), w_k) \}$
+  * ??? What does this mean? where the expected value operation $E{.}$ is taken with respect to the joint distribution of all the random variables $w_k$ and $x_k$
+  * we are optimizing over policy, not over control sequence (since it is Stochastic, we can't gaurantee that a control sequence is valid, if it goes in an incorrect state)
+
+# RL SPIN EXAMPLE Understanding ==========================================================================================================
 
 What is rollout, it is an estimation of J(u0,u1,...,uk-1,uk)? Are you sure. lets read it again.
 What is diff between q-estimiation and optimal policy optimization

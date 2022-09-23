@@ -4,7 +4,8 @@
 \(\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }\)</p>
 
 <p>\(\def\*J#1{ {J^*_{#1}} }\)
-\(\def\~*J#1{ \overset{\sim}{J^*_{#1}} }\)</p>
+\(\def\~*J#1{ \overset{\sim}{J^*_{#1}} }\)
+\(\def\ud#1#2{ \underset{#2}{#1} }\)</p>
 
 <h1>Strategy to approaching this book and the author's style</h1>
 
@@ -167,10 +168,23 @@
 </ul></li>
 </ul></li>
 <li><p>Computation Complexity</p></li>
-<li>DEF policy: u:X->U</li>
 </ul>
 
-<h1>RL SPIN EXAMPLE Understanding</h1>
+<h1>Stochastic Dynamic Programming</h1>
+
+<ul>
+<li>DEF disturbance \(w_k=P_k(.|x_k,u_k)\)</li>
+<li>DEF next state \(x_{k+1} = f(x_k,u_k,w_k), k=0,1,...,N-1\) </li>
+<li>DEF cost \(g(x_k,u_k,w_k)\)</li>
+<li>DEF policy: \(\pi = \{u_0, ..., u_{N-1}\}\) where \(u_i:X_i \rightarrow U_i(x_i)\)</li>
+<li>DEF Cost To Go \(J_\pi(x_0) = \ud{E}{\ud{w_k}{k=0,...N-1} } \{ g_N(x_N) + \sum_{k=1}^{N-1} g_k(x_k,u_k(x_k), w_k) \}\)
+<ul>
+<li>??? What does this mean? where the expected value operation \(E{.}\) is taken with respect to the joint distribution of all the random variables \(w_k\) and \(x_k\)</li>
+<li>we are optimizing over policy, not over control sequence (since it is Stochastic, we can't gaurantee that a control sequence is valid, if it goes in an incorrect state)</li>
+</ul></li>
+</ul>
+
+<h1>RL SPIN EXAMPLE Understanding ==========================================================================================================</h1>
 
 <p>What is rollout, it is an estimation of J(u0,u1,...,uk-1,uk)? Are you sure. lets read it again.
 What is diff between q-estimiation and optimal policy optimization</p>
