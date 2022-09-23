@@ -1,3 +1,6 @@
+# Anchor points:
+* Use anchors to secure/manage your train of thoughts while thinking/reading a book
+
 # Free notes
 
 ## As you are going through,

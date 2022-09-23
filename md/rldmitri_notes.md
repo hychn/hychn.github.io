@@ -4,7 +4,18 @@ $\def\argmin#1{ \underset{#1}{argmin} \hspace{.1cm} }$
 
 $\def\*J#1{ {J^*_{#1}} }$
 $\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
+# Strategy to approaching this book and the author's style
+* There is quite alot of notation in this book and the declaritive/important statements are just left as sentences
+  * highlight these key points (key definitions)
+  * There are also quite alot of notation (He does spend a bit of time in the beginning formulating the generic DP problem)
+  * There are quite alot of equations
+* rollout heuristic
+* Let's write out the key definitions
+* This weekend we will work on the purpose proposal and cv and send email to professors on Sun evening
+* Think simply and not let notations get in the way. 
+  * Ask yourself, what do these notation represent
 
+# LINKS
 * http://www.mit.edu/~dimitrib/RLbook.html
 * http://web.mit.edu/dimitrib/www/RL_CLASS_NOTES_2022.pdf
 * https://web.mit.edu/dimitrib/www/RL_Frontmatter-SHORT-INTERNET-POSTED.pdf
@@ -38,14 +49,6 @@ $\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
 
 # Rollout
 * The major theoretical property of rollout is 'cost improvement' : the cost obtained by rollout using some base heuristic is less or equal to the corresponding cost of the base heuristic
-
-* There is quite alot of notation in this book and the declaritive/important statements are just left as sentences
-  * highlight these key points (key definitions)
-  * There are also quite alot of notation (He does spend a bit of time in the beginning formulating the generic DP problem)
-  * There are quite alot of equations
-* rollout heuristic
-* Let's write out the key definitions
-* This weekend we will work on the purpose proposal and cv and send email to professors on Sun evening
 
 # Definitions
 * $0 \leq k \leq N$ time index
@@ -111,6 +114,8 @@ $\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
   * because you are optimizing $u_k$ over $g_k(x_k,u_k)$ in addition to $\~*J{k}$ it is doing something in addition to just the base heuristic
     * if you do multi-step and do the (first stage, g_k) multiple times it will improve more than just using base heuristic?
 
+* Computation Complexity
+* DEF policy: u:X->U
 
 # RL SPIN EXAMPLE Understanding
 

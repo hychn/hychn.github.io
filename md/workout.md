@@ -6,6 +6,7 @@
 * Tighten it, keep a straight back and lift
 
 ## Benchpress
+* When you descend, pull/row slowly with your back as well to be able to generate the counter forcefrom the
 * Keep a tight chest muscle around shoulder joint and keep shoulder joint locked and stable
 
 # FORM
@@ -65,6 +66,7 @@
   * Gotta lean back so that the weight is on the hips as 
   * Chest out
 * Pullups
+  * How about using the pull idea from benchpress and push your chest out as you pull?
   * Use wider grip
 * Rear Delts and the rotator muscles I think I need to workout
   * see mantaray delt [manta ray back](https://i.imgur.com/yfTNLK1.jpg)
@@ -119,6 +121,7 @@
 * Side lateral raise
 
 # Squat
+* Open up hips while squating by tensing knees outward from hip socket
 * Screw feet outward
 * Hip drive from the bottom when going up
 * Place weight over back to avoid knee pain
