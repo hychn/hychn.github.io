@@ -91,7 +91,7 @@ $\def\ud#1#2{ \underset{#2}{#1} }$
 * NOTE The cost-to-go $J^*_k(x_k)$ can be used to construct optimal control sequence
 * $u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]$
   * $J(u^*_k)$
-* PRP J(x0;u0,...uN) = J(x0,u0,...uM) + J(xM;uM,...uN)
+* PRP $J(x0;u0,...uN) = J(x0,u0,...uM) + J(xM;uM,...uN)$
 * Suppose there is different, smaller control sequence $v^*$, take the first difference in the control sequence at $t=k$
   * we can subtract the common component $J(x0;u0,...,uk)$ and consider just $J(xk;vk,...vN)<=J(xk,uk,...,uN)$
   * $J(xk;vk,...vN) = g(xk,vk) + g(y_{k+1},v_{k+1}) + ... + g(y_{N},v_{N}) >= g(xk,vk) + J*(f(xk,vk)) >= g(xk,uk) + J*(f(xk,uk))$
@@ -129,7 +129,7 @@ $\def\ud#1#2{ \underset{#2}{#1} }$
 
 # RL SPIN EXAMPLE Understanding ==========================================================================================================
 
-What is rollout, it is an estimation of J(u0,u1,...,uk-1,uk)? Are you sure. lets read it again.
+What is rollout, it is an estimation of $J(u0,u1,...,uk-1,uk)$? Are you sure. lets read it again.
 What is diff between q-estimiation and optimal policy optimization
 
 
