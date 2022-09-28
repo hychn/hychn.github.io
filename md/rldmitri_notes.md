@@ -92,11 +92,11 @@ $\def\ud#1#2{ \underset{#2}{#1} }$
 * $u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]$
   * $J(u^*_k)$
 * PRP J(x0;u0,...uN) = J(x0,u0,...uM) + J(xM;uM,...uN)
-* Suppose there is different, smaller control sequence v^*, take the first difference in the control sequence at t=k
-  * we can subtract the common component J(x0;u0,...,uk) and consider just J(xk;vk,...vN)<=J(xk,uk,...,uN)
-  * J(xk;vk,...vN) = g(xk,vk) + g(y_{k+1},v_{k+1}) + ... + g(y_{N},v_{N}) >= g(xk,vk) + J*(f(xk,vk)) >= g(xk,uk) + J*(f(xk,uk)) 
-  * NTS g(xk,uk) + J*(f(xk,uk)) = J(xk;uk,...uN)
-    * This is the center of the argument. We can even let k=0. 
+* Suppose there is different, smaller control sequence $v^*$, take the first difference in the control sequence at $t=k$
+  * we can subtract the common component $J(x0;u0,...,uk)$ and consider just $J(xk;vk,...vN)<=J(xk,uk,...,uN)$
+  * $J(xk;vk,...vN) = g(xk,vk) + g(y_{k+1},v_{k+1}) + ... + g(y_{N},v_{N}) >= g(xk,vk) + J*(f(xk,vk)) >= g(xk,uk) + J*(f(xk,uk))$
+  * NTS $g(xk,uk) + J*(f(xk,uk)) = J(xk;uk,...uN)$
+    * This is the center of the argument. We can even let $k=0$
     * We shoudl show by induction
 * THM the control seq obtained by $u^*_k = \argmin{u_k} [g(x^*_k,u_k) + J^*_k( f(x^*_k,u_k) ]$  is optimal
   * Following the optimal tails gives you the overall optimal
