@@ -17,6 +17,7 @@
 
 
 # HOW WE DISCOVERED PURPOSE
+* Intrest
 * Why I started grduate school and studiedin mathematics and cs
   * I was curious about AI. Had some vague idea of what it was.
   * Application of knowledge after masters. Projects: 
@@ -33,7 +34,8 @@
     * RL is a difficult problem, but can objectively measure.
 * What do you want to learn while doing RL (PURPOSE)
   * Objectively measure if certain optimizations can achieve optimal policy and how quickly
-  * 
+
+
 # WHY THIS PROGRAM: PURPOSE
 * Which Courses, Which Professors, What topic (how you will meet the requirements of the phd degree program) (what topics you wish to pursue)
 * Books
@@ -54,3 +56,31 @@
 * Why This Program section. As you describe everything thats awesome about the school, you'll continually emphasize how each professor, class, or lab will push you one more step on the journey toward building those surgical devices.
 
 * Why Im Qualified section. All of those good grades and research experiences you've been so eager to describe? They're only useful insofar as they prove you'll succeed in achieving your goal of developing those awesome surgical devices.
+
+
+# DISCOVERY OF PURPOSE
+* AI interested me. What is AI to you? (intelligence, creation of a system)
+  * Idea and creating
+  * Understanding why it works, finding new patterns, framework of understanding, connection to other
+* HISTORY: Undergrad -> Work (Interest in AI, wanted to understand it more) -> studied Mathematics/AI -> Implemenation to various fields -> Encountered several key problems
+* KEY PROBLEMS:
+  * Computation intensive
+    * Hyper parameter optimization
+    * Estimation of J*
+  * Difficult problem more approachable/efficient
+    * Alphafold
+    * Alphago
+  * Characterization of ...
+# WHY THIS PROGRAM:
+* Courses, Professors, PhD Program
+* Papers
+# WHY I AM QUALIFIED
+* Strong Interest, self-motivatation, mathematical rigor
+  * How can you back up these statements?
+    * Strong Interest: past history, studies
+    * Mathematical rigor: masters in mathematics
+    * Self-Motivation: github project, self-research of control theory
+# RESTATE PURPOSE
+* win-win for university
+* pursuit/realization/of one's dreams and goals
+* Would really appreciate

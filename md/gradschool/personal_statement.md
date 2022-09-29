@@ -25,9 +25,4 @@ Personal statement explains why you are a right candidate for a program
   * Math difficulties and challenges
   * These are philosphies I am beginning to see, and hope to grow and develop further
 
-* Computation intensive
-  * Hyper parameter optimization
-  * estimation of J*
-* Difficult problem more approachable
-  * Alphafold
-  * Alpahgo
+

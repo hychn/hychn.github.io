@@ -127,6 +127,15 @@ $\def\ud#1#2{ \underset{#2}{#1} }$
   * ??? What does this mean? where the expected value operation $E{.}$ is taken with respect to the joint distribution of all the random variables $w_k$ and $x_k$
   * we are optimizing over policy, not over control sequence (since it is Stochastic, we can't gaurantee that a control sequence is valid, if it goes in an incorrect state)
 
+# TODO: NEED to Review the previous sections
+
+
+
+
+
+
+
+
 # RL SPIN EXAMPLE Understanding ==========================================================================================================
 
 What is rollout, it is an estimation of $J(u0,u1,...,uk-1,uk)$? Are you sure. lets read it again.
