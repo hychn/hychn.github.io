@@ -110,7 +110,7 @@
 <li>A truncated optimal solution \(\{*u_0,*u_1,...,*u_{N-1} \}\) is optimal for the sub problem, minimize cost to go from time k</li>
 <li>cost to go from time k: \(J(x_k;...)\)</li>
 <li>\(J^*_{k}(x_k) = \min{u_k} g(x_k,u_k)+J^*_{k+1}(x_k)\)</li>
-<li><p>THM \(J^*_k(x_k)\) is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N</p>
+<li><p>THM \(J^*_k(x_k)\) is the optimal cost for an (N  k)-stage tail subproblem that starts at state x_k and time k, and ends at time N</p>
 
 <ul>
 <li>This is the converse tothe principal of optimality</li>
@@ -184,7 +184,13 @@
 </ul></li>
 </ul>
 
-<h1>TODO: NEED to Review the previous sections</h1>
+<h1>TODO: NEED to Review the previous sections ----------- and get a high level approximation</h1>
+
+<ul>
+<li>cost-to-go approximation, expected value approximation, and simplified minimization</li>
+<li>Much of the discussion in these notes will revolve around different ways to organize these three approximations</li>
+<li>Another major issue is the mechanism by which the choice of the approximations  Jk affects the cost function J  of the one-step lookahead policy   = { 0,. We wille see later that  \(\overset{\sim}{J}_k\) and \(J_{ \overset{\sim}{\pi}}\)  are connected through a form of Newtons metd </li>
+</ul>
 
 <h1>RL SPIN EXAMPLE Understanding ==========================================================================================================</h1>
 

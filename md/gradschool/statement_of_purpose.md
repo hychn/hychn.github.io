@@ -71,6 +71,7 @@
     * Alphafold
     * Alphago
   * Characterization of ...
+  * Interconnected approximations of [cost-to-go approximation, expected value approximation, simplified minimization]
 # WHY THIS PROGRAM:
 * Courses, Professors, PhD Program
 * Papers
@@ -79,7 +80,7 @@
   * How can you back up these statements?
     * Strong Interest: past history, studies
     * Mathematical rigor: masters in mathematics
-    * Self-Motivation: github project, self-research of control theory
+    * Self-Motivation: github project, self-research of control theory (montecarlo, understanding the basic)
 # RESTATE PURPOSE
 * win-win for university
 * pursuit/realization/of one's dreams and goals

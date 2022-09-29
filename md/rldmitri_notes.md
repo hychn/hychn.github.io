@@ -78,7 +78,7 @@ $\def\ud#1#2{ \underset{#2}{#1} }$
 * A truncated optimal solution $\{*u_0,*u_1,...,*u_{N-1} \}$ is optimal for the sub problem, minimize cost to go from time k
 * cost to go from time k: $J(x_k;...)$
 * $J^*_{k}(x_k) = \min{u_k} g(x_k,u_k)+J^*_{k+1}(x_k)$
-* THM $J^*_k(x_k)$ is the optimal cost for an (N − k)-stage tail subproblem that starts at state x_k and time k, and ends at time N
+* THM $J^*_k(x_k)$ is the optimal cost for an (N  k)-stage tail subproblem that starts at state x_k and time k, and ends at time N
   * This is the converse tothe principal of optimality
   * induction base: k=N $J^*_N(x_N) = g_N(x_N)$
   * k=k $\min{(u_k,..,u_N)} J(x_k;u_k,...,u_N) $
@@ -127,8 +127,11 @@ $\def\ud#1#2{ \underset{#2}{#1} }$
   * ??? What does this mean? where the expected value operation $E{.}$ is taken with respect to the joint distribution of all the random variables $w_k$ and $x_k$
   * we are optimizing over policy, not over control sequence (since it is Stochastic, we can't gaurantee that a control sequence is valid, if it goes in an incorrect state)
 
-# TODO: NEED to Review the previous sections
+# TODO: NEED to Review the previous sections ----------- and get a high level approximation
 
+* cost-to-go approximation, expected value approximation, and simplified minimization
+* Much of the discussion in these notes will revolve around different ways to organize these three approximations
+* Another major issue is the mechanism by which the choice of the approximations  Jk affects the cost function J  of the one-step lookahead policy   = { 0,. We wille see later that  $\overset{\sim}{J}_k$ and $J_{ \overset{\sim}{\pi}}$  are connected through a form of Newtons metd 
 
 
 
