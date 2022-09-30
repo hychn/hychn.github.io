@@ -6,6 +6,10 @@ $\def\*J#1{ {J^*_{#1}} }$
 $\def\~*J#1{ \overset{\sim}{J^*_{#1}} }$
 $\def\ud#1#2{ \underset{#2}{#1} }$
 
+# Clearnotes
+# Determinitcs
+* Principal of Optimality
+
 # Strategy to approaching this book and the author's style
 * There is quite alot of notation in this book and the declaritive/important statements are just left as sentences
   * highlight these key points (key definitions)
