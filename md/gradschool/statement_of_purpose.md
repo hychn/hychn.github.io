@@ -85,3 +85,46 @@
 * win-win for university
 * pursuit/realization/of one's dreams and goals
 * Would really appreciate
+
+
+* Focus on the positives
+
+# DISCOVERY of PURPOSE
+* AI have fascinated me for a long time, I studied and applied it. what question did you have before -> (how does it work, ) ?
+* I have implemented and worked. I have more questions. 
+  * How to optimize without gradient descent
+  * Sampling/efficiency
+  * Newton's method
+  * Optimal Control
+  * Personal Project
+* Interest, statistfaction, process, desire
+* I need to learn more
+* What motivates you. What drives you?
+  * Interest, key questions, and idea coming to fruition. Which grip one's heart, desire, and dedication
+  * Process
+  * Journey
+* I am eager, hungry and ready. Quick on my feet, on solid ground, persistant.
+* What are the KEY QUESTION you want to answer
+  * The loss function
+  * Hyperparameter optimization
+  * Gradient descent
+
+# WHY THIS PROGRAM
+* Learn the strong theoretical background, which courses
+* Collaborate with the professors in specific research areas
+* Lay out a concrete plan of what you plan to do here
+  * Goals, publish
+
+# WHY I AM QUALIFIED
+* I am quick on my feet (implementation) on  steady in theory and design and reorganization
+persistant and stubborn while eager/flexible to new key ideas
+* learned how to pace myself, prepare and lay down the fountdations.
+* develop a cautious optimistic view
+* Learn to limit my anticipation to drown out the distractions and calm oneself and focus on identifying and achieving key objectives
+* Physical mental health, prevent burnout
+* Ever preparing, ever vigilant, with recovery, relentless and recovery
+
+# RESTATE PURPOSE
+* Develop a picture of who you want to become
+* What else would I do but pursue great joy and satistfaction in my heart, and to give back
+* My whole being, I am convicted to study
