@@ -106,8 +106,11 @@
 * I am eager, hungry and ready. Quick on my feet, on solid ground, persistant.
 * What are the KEY QUESTION you want to answer
   * The loss function
-  * Hyperparameter optimization
-  * Gradient descent
+  * Sampling efficiency
+  * EXAMPLE: Landcover, 3DProtein
+    * Hyperparameter optimization (sampling)
+    * Optimize without gradient descent 
+    * Latent space/representation 
 
 # WHY THIS PROGRAM
 * Learn the strong theoretical background, which courses
