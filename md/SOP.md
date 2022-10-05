@@ -7,17 +7,17 @@
   * Encoding inputs into a latent space representation to analyze their distributions and combine them to create new output.
   * Invertible neural networks and finding inputs that can create the similar ouputs.
 * Some of questions that were difficult and are unanswered. (why?, do these tie into a common theme?)
-  * (optimizing without gradient descent) hyper parameter optimization, RL
-  * (Efficiently train) Sample Efficiency of reinforcement Learning/ML
+  * How to optimize parameters that are not differentiable? (hyper parameter optimization (landcover, protein struct losses combined learning rate). Reinforcement Learning)
     * MCST model, what was I doing? adjustments of rollout (prediction of v, rollout using v)
       * iterated rollout
+    * (Efficiently train) Sample Efficiency of reinforcement Learning/ML
   * Estimation of function and achieving guarantees optimal cost bound 
   * Auxillary cost and relationship to true cost?
 * GOAL
   * Study the questions and related ideas. (how?)
   * Explore and combine simple, natural ideas to answer these questions in theory and practice.
   * Discovery new questions and be able to answer them with training
-  * 
+  * ------------------------------------------------------------------------------------------------------
   * I hope to explore these questions, break them down into simpler questions, restrict them under meaningful conditions.
   * I hope to study the ideas and their inter-relationship. related to similar questions.
   * ------------------------------------------------------------------------------------------------------
@@ -36,3 +36,4 @@
 * Work experience: Landcover, Pose Detection, Protein Structure Prediction
 
 # PURPOSE
+* 
