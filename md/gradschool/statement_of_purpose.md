@@ -63,6 +63,7 @@
   * Idea and creating
   * Understanding why it works, finding new patterns, framework of understanding, connection to other
 * HISTORY: Undergrad -> Work (Interest in AI, wanted to understand it more) -> studied Mathematics/AI -> Implemenation to various fields -> Encountered several key problems
+* Convolutions - Kernels - Convolution Neural network
 * KEY PROBLEMS:
   * Computation intensive
     * Hyper parameter optimization
@@ -110,7 +111,8 @@
   * EXAMPLE: Landcover, 3DProtein
     * Hyperparameter optimization (sampling)
     * Optimize without gradient descent 
-    * Latent space/representation 
+    * latent space -> functional output distances
+    * invertable functions
 
 # WHY THIS PROGRAM
 * Learn the strong theoretical background, which courses

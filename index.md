@@ -19,6 +19,7 @@
 * [ranalysis.html](html/ranalysis.html)
 * [rldmitri_notes.html](html/rldmitri_notes.html)
 * [RLspinningup.html](html/RLspinningup.html)
+* [SOP.html](html/SOP.html)
 * [surf.html](html/surf.html)
 * [temp.html](html/temp.html)
 * [workout.html](html/workout.html)
