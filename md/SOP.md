@@ -1,5 +1,18 @@
 * SIMPLE AND TO THE POINT
 
+* Simple, natural ideas that form the answers to difficult, general questions; these are the things that fascinate and bring me great joy.
+* Here are some examples
+* During my time image processing projects
+  * I encountered... with Image processing kernels that can blur, outline, and dialate an image.
+  * Minimizing the loss with respect to these kernels.
+  * Augment kernels to focus on boundary regions loss
+* Breaking down complex input (like an image of an object in various conformations/perspective or protein sequence) into a latent space and applying some rules in this space
+  * Encoding into latent space and performing rotations in image generation
+  * Or building protins out of the latent space
+* How to minimize lost with respect to non-differentiable function
+  * Hyper parameter optimization
+  * Unsatisfying answer: have to try every combination many times
+
 # PURPOSE
 * Provoking questions and simple, natural ideas that form the answers; these are the things that fascinate and bring me great joy.
 * Some of the ideas that I am fond of.
@@ -36,4 +49,4 @@
 * Work experience: Landcover, Pose Detection, Protein Structure Prediction
 
 # PURPOSE
-* 
+ 

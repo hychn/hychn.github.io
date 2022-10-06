@@ -10,6 +10,7 @@
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
 * [couragetobedisliked.html](html/couragetobedisliked.html)
+* [CV.html](html/CV.html)
 * [diet.html](html/diet.html)
 * [heuristics.html](html/heuristics.html)
 * [MAPalg.html](html/MAPalg.html)
