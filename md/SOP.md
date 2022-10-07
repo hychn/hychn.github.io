@@ -1,17 +1,26 @@
 * SIMPLE AND TO THE POINT
 
+# Purpose
 * Simple, natural ideas that form the answers to difficult, general questions; these are the things that fascinate and bring me great joy.
-* Here are some examples
-* During my time image processing projects
-  * I encountered... with Image processing kernels that can blur, outline, and dialate an image.
-  * Minimizing the loss with respect to these kernels.
-  * Augment kernels to focus on boundary regions loss
+* When I was building AI that was dealing with images, I was pleased with how simple ideas led to complex behaviors
+  * A complex function that would take an image and output an image was constructed by linear combinations of 
+    * Simple image processing kernels that can blur, outline, and dialate an image.
+    * Combined with non-linear activations.
+  * When the difference between the output of the function/desired output was minimized, the function optimize
+    * Exhibit complex behaviors such as segment satellite images and identify key points of robotic arm pose from varying perspectives.
+* When I was working with input that required more structure,
 * Breaking down complex input (like an image of an object in various conformations/perspective or protein sequence) into a latent space and applying some rules in this space
   * Encoding into latent space and performing rotations in image generation
   * Or building protins out of the latent space
-* How to minimize lost with respect to non-differentiable function
-  * Hyper parameter optimization
-  * Unsatisfying answer: have to try every combination many times
+* However, while studying there where/was a question which I found difficult to answer
+  * How to minimize lost with respect to non-differentiable function
+    * Hyper parameter optimization
+    * Unsatisfying answer: have to try every combination many times
+    * Wish to formulate a more structured answer
+# SCHOOL ALIGNMENT
+* SELF/GOALS and ALIGNMENT
+# QUALIFICATIONS
+# RESTATE PURPOSE
 
 # PURPOSE
 * Provoking questions and simple, natural ideas that form the answers; these are the things that fascinate and bring me great joy.
@@ -50,3 +59,24 @@
 
 # PURPOSE
  
+# RESUME Ideally, some of these items should also be properly linked with the statement of purpose document.
+# MOTTO: I just need to get in anywhere: The most important thing is how I spend my time preparing and how ready I am and how I study there
+
+# List of SCHOOLS
+* Illinois Urbana Champaign
+* Arizona State
+* UMICH https://micde.umich.edu/methodology/optimization/
+* Northwestern
+* UNIFL https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
+* UNI Indiana https://luddy.indiana.edu/research/research-areas/ai-directory.html
+* UNI KANSAS
+* UNI Wisconsin Madison
+* Ohio
+* Colorado
+* Nebraska
+* UNC
+* Georgia
+* Texas
+* California 
+* Washington
+* UNI Washington Mizou?
