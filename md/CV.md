@@ -4,11 +4,11 @@
 # Education
 
 ## 2016-2019 M.S. Applied Mathematics, Computer Science: University of Missouri
-  * GPA: 3.756
-  * Applied Mathematics Supervisor: Jan Segert
-  * Computer Science Supervisor: Jianlin Cheng
+* GPA: 3.756
+* Applied Mathematics Supervisor: Jan Segert
+* Computer Science Supervisor: Jianlin Cheng
 ## 2011-2014 B.A. Mathematics, Computer Science: DePauw University
-  * GPA: 3.89
+* GPA: 3.89
 
 # Experience
 ## 2021-2022 AI Researcher: Pharmcadd (KR)
