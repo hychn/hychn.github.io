@@ -1,8 +1,9 @@
 * GUIDE: https://www.prepscholar.com/gre/blog/how-to-write-a-cv-for-graduate-school/
 * EXAMPLES: https://grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf
+* Research or Teaching Interests?
+
 # Contact ---
 * Yechan Hong 010-2259-1479 yechanhong@gmail.com github.com/ychnh
-# Research or Teaching Interests
 
 # Education ---
 
@@ -55,7 +56,7 @@
 
 
 # Technical Skills
-  * Python, Pytorch, Tensorflow, OpenCV, Distributed Training, Mixed Precision Training
-  * NLP, Reinforcement Learning, Computer Vision, 3D Projective Spaces, Bioinformatics
-  * Linux/Bash, Github, Jupyter
-  * Algebra, Analysis, Differential Equations, Probability, Statistics
+* Python, Pytorch, Tensorflow, OpenCV, Distributed Training, Mixed Precision Training
+* NLP, Reinforcement Learning, Computer Vision, 3D Projective Spaces, Bioinformatics
+* Linux/Bash, Github, Jupyter
+* Algebra, Analysis, Differential Equations, Probability, Statistics
