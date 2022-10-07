@@ -1,22 +1,27 @@
-# Contact
+* GUIDE: https://www.prepscholar.com/gre/blog/how-to-write-a-cv-for-graduate-school/
+* EXAMPLES: https://grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf
+# Contact ---
 * Yechan Hong 010-2259-1479 yechanhong@gmail.com github.com/ychnh
+# Research or Teaching Interests
 
-# Education
+# Education ---
 
 ## 2016-2019 M.S. Applied Mathematics, Computer Science: University of Missouri
 * GPA: 3.756
 * Applied Mathematics Supervisor: Jan Segert
 * Computer Science Supervisor: Jianlin Cheng
+
 ## 2011-2014 B.A. Mathematics, Computer Science: DePauw University
 * GPA: 3.89
 
-# Experience
-## 2021-2022 AI Researcher: Pharmcadd (KR)
+# Employment ---
+
+## 1.2021-Present AI Researcher: Pharmcadd (Busan, KR)
 * Develop CNN for predicting protein distancemap
 * Develop RNN predict protein 3d structure, 
 * Protein generation with simlar properties solubility
 
-## 2019-2021 AI Researcher: REALTIMETECH (KR)
+## 6.2019-12.2021 AI Researcher: REALTIMETECH (KR)
 * Land Cover and Land Use Classification and Segmentation
   * Read literature and papers published in 2018 DeepGlobe Challenge
   * Develop and benchmark: Conv LSTM, Deeplabv3+, Deep Aggregate Net, Fully Dense Net
@@ -33,8 +38,7 @@
   * Read literature on moving object detection
   * Develop homography network to detect moving objects on car camera
 
-## 2016-2019 Researcher: University of Missouri (US)
-
+## 8.2016-6.2019 Researcher: University of Missouri (US)
 * Masters Thesis: PRO3DCNN
   * Convolutional Neural Network for Mapping Protein Structure into Folds
   * Persistent Homology feature extraction
@@ -44,3 +48,14 @@
   * Simulated Annealing, FASTA
 * Machine Translation
   * BERT, OpenNMT
+
+## 7.2014-2.2016 Research & Development: Epic Systems (US)
+* Managed MyChart, Patient Medical Information Client on iOS and Android
+* Design and Develop Apple Watch MyChart
+
+
+# Technical Skills
+  * Python, Pytorch, Tensorflow, OpenCV, Distributed Training, Mixed Precision Training
+  * NLP, Reinforcement Learning, Computer Vision, 3D Projective Spaces, Bioinformatics
+  * Linux/Bash, Github, Jupyter
+  * Algebra, Analysis, Differential Equations, Probability, Statistics
