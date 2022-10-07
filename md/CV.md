@@ -11,12 +11,10 @@
   * GPA: 3.89
 
 # Experience
-Pharmcadd
-
+## 2021-2022 AI Researcher: Pharmcadd (KR)
 * Develop CNN for predicting protein distancemap
 * Develop RNN predict protein 3d structure, 
-* protein generation with simlar properties solubility
-
+* Protein generation with simlar properties solubility
 
 ## 2019-2021 AI Researcher: REALTIMETECH (KR)
 * Land Cover and Land Use Classification and Segmentation
@@ -35,7 +33,7 @@ Pharmcadd
   * Read literature on moving object detection
   * Develop homography network to detect moving objects on car camera
 
-2016-2019 Researcher: University of Missouri (US)
+## 2016-2019 Researcher: University of Missouri (US)
 * Masters Thesis: PRO3DCNN
   * Convolutional Neural Network for Mapping Protein Structure into Folds
   * Persistent Homology feature extraction
