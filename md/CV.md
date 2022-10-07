@@ -34,6 +34,7 @@
   * Develop homography network to detect moving objects on car camera
 
 ## 2016-2019 Researcher: University of Missouri (US)
+
 * Masters Thesis: PRO3DCNN
   * Convolutional Neural Network for Mapping Protein Structure into Folds
   * Persistent Homology feature extraction
