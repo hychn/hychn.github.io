@@ -13,6 +13,7 @@
 * [CV.html](html/CV.html)
 * [diet.html](html/diet.html)
 * [heuristics.html](html/heuristics.html)
+* [ideas.html](html/ideas.html)
 * [MAPalg.html](html/MAPalg.html)
 * [MAPranaly.html](html/MAPranaly.html)
 * [mathtips.html](html/mathtips.html)

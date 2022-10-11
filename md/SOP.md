@@ -1,13 +1,19 @@
 * SIMPLE AND TO THE POINT
 
 # Purpose
-* Simple, natural ideas that form the answers to difficult, general questions; these are the things that fascinate and bring me great joy.
-* When I was building AI that was dealing with images, I was pleased with how simple ideas led to complex behaviors
-  * A complex function that would take an image and output an image was constructed by linear combinations of 
-    * Simple image processing kernels that can blur, outline, and dialate an image.
-    * Combined with non-linear activations.
-  * When the difference between the output of the function/desired output was minimized, the function optimize
-    * Exhibit complex behaviors such as segment satellite images and identify key points of robotic arm pose from varying perspectives.
+* General questions and simple, natural ideas that form the answer; these things fascinate and bring me great joy.
+* Here are two examples I encountered, while working in the industry for the past three years.
+* First, while classifying and segmenting satellite images for a government project, I explored and combined the following simple ideas: Image kernels that can blur, outline, and dialate an image, nonlinear-activation functions, gradient descent to adjust parameters of kernels.
+* It was very satistfying seeing such simple ideas work together to classify large areas of terrain accurately and much faster than human annotation.
+* Second, when working complex input data with instrinsic structure, I learned to encode the input data to a smaller latent space. Then, the input representation was transformed with respect to the structure. When working with 3D robotic-arm pose in images or 3d structure in 1D protein sequences, these ideas allowed the AI to handle the complex input much more efficiently.
+
+such as 3d structure of protein input sequence and 3d orientation of objects in 2d images.
+;I explored the idea of latent space
+with input/output data that has instrinsic 
+
+
+
+* Exhibit complex behaviors such as segment satellite images and identify key points of robotic arm pose from varying perspectives.
 * When I was working with input that required more structure,
 * Breaking down complex input (like an image of an object in various conformations/perspective or protein sequence) into a latent space and applying some rules in this space
   * Encoding into latent space and performing rotations in image generation
@@ -20,6 +26,8 @@
 # SCHOOL ALIGNMENT
 * SELF/GOALS and ALIGNMENT
 # QUALIFICATIONS
+  * Practice reading applying papers
+  * Implementing
 # RESTATE PURPOSE
 
 # PURPOSE
