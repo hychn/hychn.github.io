@@ -28,12 +28,14 @@
 
 # Why you are qualified (1-3) paragraphs ==============================================================================
 * _Primarily discuss the obstacles youve conquered, those which prove youre ready to succeed in this great new journey._
-* My past experience in academia and industry, I am aware and convicted to take on the difficult challenges and duties of the program.
+* From my past experiences in academia and industry, I am aware and convicted to take on the difficult challenges and duties of the program.
 
 * Strong mathematics background/logical reasoning (curricula)
+
 * Experience with research and solving difficult problems (landcover, pose, protein)
   * Practice reading and applying and implementing papers 
   * Break through and difficult problems
+
 * Self-motivated (gomoku)
 
 # Closing Frame Narrative ==============================================================================================
