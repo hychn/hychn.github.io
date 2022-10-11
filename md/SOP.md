@@ -1,28 +1,63 @@
 * SIMPLE AND TO THE POINT
 
-# Purpose
+# Purpose ===========================================================================================================
 * General questions and simple, natural ideas that form the answer; these things fascinate and bring me great joy.
-* Here are two examples I encountered, while working in the industry for the past three years.
-* First, while classifying and segmenting satellite images for a government project, I explored and combined the following simple ideas: Image kernels that can blur, outline, and dialate an image, nonlinear-activation functions, gradient descent to adjust parameters of kernels.
-* It was very satistfying seeing such simple ideas work together to classify large areas of terrain accurately and much faster than human annotation.
-* Second, when working complex input data with instrinsic structure, I learned to encode the input data to a smaller latent space. Then, the input representation was transformed with respect to the structure. When working with 3D robotic-arm pose in images or 3d structure in 1D protein sequences, these ideas allowed the AI to handle the complex input much more efficiently.
+  * Here are two examples I encountered, while working in the industry for the past three years.
+  * First, while classifying and segmenting satellite images for a government project, I explored and combined the following simple ideas: Image kernels that can blur, outline, and dialate an image, nonlinear-activation functions, gradient descent to adjust parameters of kernels.
+    * It was very satistfying seeing such simple ideas work together to classify large areas of terrain accurately and much faster than human annotation.
+  * Second, when handling complex input data with instrinsic structure, I learned to encode the input data to a smaller latent space. 
+    *Then, the input representation was transformed with respect to the structure. 
+    * When working with 3D robotic-arm pose in images or 3d structure in 1D protein sequences, these ideas allowed the AI to handle the complex input much more efficiently.
 
-such as 3d structure of protein input sequence and 3d orientation of objects in 2d images.
-;I explored the idea of latent space
-with input/output data that has instrinsic 
+* How do you optimize a parameter that has no derivative? Does a local optimum exist at all?
+  * This is a key question that I encountered many times, while finding: 
+    * an optimal model architecture for predicting satellite images, loss function for protein structure prediction, different estimations of cost-to-go function in reinforcement learning.
+* Searching and estimation by sampling are good, natural ideas that could answer this question.
+* However, I was not satisfied with the simple but impractical approach, exhaustive sampling.
+* With more specific questions, I wish to explore this key question in more details:
+  * Does an optimal solution exist? What are it's characteristics?
+  * What different types of sampling and estimation can we form? What are the consequence of using each?
+  * Can we measure the quality of the estimation?
+  * What interesting situations and conditions are there, where stronger conclusions can follow?
+
+# Why this program ===================================================================================================
+* Which Courses, 
+* Which Professors, 
+* What topic (how you will meet the requirements of the phd degree program) (what topics you wish to pursue)
+* Books
+
+# Why you are qualified (1-3) paragraphs ==============================================================================
+* _Primarily discuss the obstacles youve conquered, those which prove youre ready to succeed in this great new journey._
+* Practice reading and applying and implementing papers (landcover, pose, protein)
+* Break through and difficutl problems
+* Strong mathematics background/logical reasoning ()
+* Self-motivated/study
+
+# Closing Frame Narrative ==============================================================================================
+* Firm declaration that MENTORS guidance + HEROs hard work will allow HERO to conquer MONSTERS and give their MAGICAL GIFT to the world
 
 
 
-* Exhibit complex behaviors such as segment satellite images and identify key points of robotic arm pose from varying perspectives.
-* When I was working with input that required more structure,
-* Breaking down complex input (like an image of an object in various conformations/perspective or protein sequence) into a latent space and applying some rules in this space
-  * Encoding into latent space and performing rotations in image generation
-  * Or building protins out of the latent space
-* However, while studying there where/was a question which I found difficult to answer
-  * How to minimize lost with respect to non-differentiable function
-    * Hyper parameter optimization
-    * Unsatisfying answer: have to try every combination many times
-    * Wish to formulate a more structured answer
+
+
+
+
+
+
+# Goals
+* Study the questions and related ideas. (how?)
+* Explore and combine simple, natural ideas to answer these questions in theory and practice.
+* Discovery new questions and be able to answer them with training
+* ------------------------------------------------------------------------------------------------------
+* I hope to explore these questions, break them down into simpler questions, restrict them under meaningful conditions.
+* I hope to study the ideas and their inter-relationship. related to similar questions.
+* ------------------------------------------------------------------------------------------------------
+* Explore, Reframe, break down/restrict these questions, understand, discovery ideas and the relationships between them.
+* And suggest simple, natural ideas that can answer these questions in practice.
+* Theory-Application
+
+
+
 # SCHOOL ALIGNMENT
 * SELF/GOALS and ALIGNMENT
 # QUALIFICATIONS
@@ -43,17 +78,8 @@ with input/output data that has instrinsic
     * (Efficiently train) Sample Efficiency of reinforcement Learning/ML
   * Estimation of function and achieving guarantees optimal cost bound 
   * Auxillary cost and relationship to true cost?
-* GOAL
-  * Study the questions and related ideas. (how?)
-  * Explore and combine simple, natural ideas to answer these questions in theory and practice.
-  * Discovery new questions and be able to answer them with training
-  * ------------------------------------------------------------------------------------------------------
-  * I hope to explore these questions, break them down into simpler questions, restrict them under meaningful conditions.
-  * I hope to study the ideas and their inter-relationship. related to similar questions.
-  * ------------------------------------------------------------------------------------------------------
-  * Explore, Reframe, break down/restrict these questions, understand, discovery ideas and the relationships between them.
-  * And suggest simple, natural ideas that can answer these questions in practice.
-  * Theory-Application
+
+
 
 # THIS PROGRAM
 * How does this program support your goal?
