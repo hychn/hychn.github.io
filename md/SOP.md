@@ -27,7 +27,7 @@
 * Books
 
 # Why you are qualified (1-3) paragraphs ==============================================================================
-* I am know that the program will be a challenging and require me to push beyond my comfort zone.
+* I am know that the program will be a challenging and require me to grow beyond my comfort zone.
 * My experiences of overcoming difficulties in academics and industry makes me well-prepared for this.
 
 * In academdia, 
@@ -42,15 +42,16 @@
   * First, working on segmentation of satellite images gave me opportunity to read, implement from scratch, and benchmarked papers such as U-Net and Deep Aggregate Net.
     * The prototype and analysis data was used to win a major government contract for our company.
   * Second, while developing a semiconductor-robot monitoring prototype for SK hynix, I combined Novel View Synthesis CNN algorithm with pose estimation to track and pose the robot arm.
-    * The prototype was used to automatically extract to extract key details from a complex semiconductor monitoring video: the movement of the robotic arm, the various nozzles attached to the arm, when the nozzle was spraying a solution or not
-  * Finally, working protein structure prediction at our startup company gave me experience of managing a complex project of prediction a 3D structure just from a 1D protein sequence.
+    * The prototype was used to automatically extract to extract key details from a complex semiconductor monitoring video: the position of the robotic arm, the various nozzles attached to the arm, when the nozzle was spraying a solution or not
+  * Finally, predicting 3D structure from 1D protein sequences gave me experience of managing and finishing a complex project.
     * Filter and preprocess large datasets of 25,000 proteins in various formats with missing information.
     * Combined various neural network architectures such as, LSTM, CNNs, and ESM language models embeddings.
     * Research and experiment with distance, dihedral angle, frame-aligned point error functions.
     * Much more stable, consistant, and quickly converging model from the starting baseline, Recurrent Geometric Networks.
-  * In these three cases I learned gained insights that helped me break through when I was stuck:
+  * In these three cases I learned gained common insights that helped me break through challenges:
     * have cautious optimism that a nice-simple solution exists, focus on key objectives, and work at a steady-consistant pace
 
+* Within myself, 
 * I have alot of self-motivation and drive to engage with at solve challenging problems.
   * my interest in reinforcement learning (RL) problem, I self-studied the AlphaGo and AlphaGoZero paper and learned about Monte Carlo Search Trees and policies.
   * Following the AlphaGoZero paper, I implemented a model-based RL to play variations of tic-tac-toe on longer length-to-win and boards.
