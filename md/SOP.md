@@ -37,11 +37,15 @@
   * Futhermore, I found myself enjoying the many hours thinking, meditating, and exploring theoretical concepts and questions.
 
 * Working in the industry gave me valuable experience overcoming difficult problems and producing consistant results.
-  * While working on segmentation of satellite images, I practiced reading, implementing from scratch, and benchmarking various papers such as U-Net and Deep Aggregate Net.
+  * Here are three examples.
+  * First, working on segmentation of satellite images gave me opportunity to read, implement from scratch, and benchmarked papers such as U-Net and Deep Aggregate Net.
     * The prototype and analysis data was used to win a major government contract for our company.
-  * Extend existing paper combine various to produce novel, new solution
-    * Robotic arm pose estimation prototype SK hynix semiconductor
-  * Protein structure prediction prototype startup
+  * Second, while developing a semiconductor-robot monitoring prototype for SK hynix, I combined Novel View Synthesis CNN algorithm with pose estimation to track and pose the robot arm.
+    * The prototype was used to automatically extract to extract key details from a complex semiconductor monitoring video: the movement of the robotic arm, the various nozzles attached to the arm, when the nozzle was spraying a solution or not
+  * Finally, working protein structure prediction at our startup company 
+    * LSTM, positional embedding
+    * angle, distance loss
+    * much more stable, consistant, and quickly converging
 
   * In all of these projects Break through and difficult problems
     * Cautious Optimism assumption that a nice explanation exists
