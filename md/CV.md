@@ -25,7 +25,7 @@
 ## 6.2019-12.2021 AI Researcher: REALTIMETECH (KR)
 * Land Cover and Land Use Classification and Segmentation
   * Read literature and papers published in 2018 DeepGlobe Challenge
-  * Develop and benchmark: Conv LSTM, Deeplabv3+, Deep Aggregate Net, Fully Dense Net
+  * Develop and benchmark: Conv LSTM, Deeplabv3+, Deep Aggregate Net, Fully Dense Net, U-Net
   * Data preprocessing libraries to manage tiff and shp files
   * Distributed, half precision, augmented training
 * Robotic Arm Tracking

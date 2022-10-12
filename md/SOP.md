@@ -3,22 +3,22 @@
 # Purpose ===========================================================================================================
 * General questions and simple, natural ideas that form the answer; these things fascinate and bring me great joy.
   * Here are two examples I encountered, while working in the industry for the past three years.
-  * First, while classifying and segmenting satellite images for a government project, I explored and combined the following simple ideas: Image kernels that can blur, outline, and dialate an image, nonlinear-activation functions, gradient descent to adjust parameters of kernels.
+  * First, while classifying and segmenting satellite images, I explored the simple ideas: Image processing kernels that modifies images(blur,outline,dialate), nonlinear-activation functions, gradient descent to adjust parameters of kernels.
     * It was very satistfying seeing such simple ideas work together to classify large areas of terrain accurately and much faster than human annotation.
   * Second, when handling complex input data with instrinsic structure, I learned to encode the input data to a smaller latent space. 
-    *Then, the input representation was transformed with respect to the structure. 
-    * When working with 3D robotic-arm pose in images or 3d structure in 1D protein sequences, these ideas allowed the AI to handle the complex input much more efficiently.
+    * Then, the input representation was transformed with respect to the structure. 
+    * When working with 3D robotic-arm in images or 3D structure in 1D protein sequences, these ideas allowed the AI to handle the complex input much more efficiently and observe the 3D structure's properties.
 
 * How do you optimize a parameter that has no derivative? Does a local optimum exist at all?
   * This is a key question that I encountered many times, while finding: 
     * an optimal model architecture for predicting satellite images, loss function for protein structure prediction, different estimations of cost-to-go function in reinforcement learning.
 * Searching and estimation by sampling are good, natural ideas that could answer this question.
-* However, I was not satisfied with the simple but impractical approach, exhaustive sampling.
+* However, I was not satisfied with the simple but impractical approach, exhaustive sampling. It took so long!
 * With more specific questions, I wish to explore this key question in more details:
   * Does an optimal solution exist? What are it's characteristics?
-  * What different types of sampling and estimation can we form? What are the consequence of using each?
+  * What different types of sampling and estimation can we form? What are the consequence of using each? Are some better than others?
   * Can we measure the quality of the estimation?
-  * What interesting situations and conditions are there, where stronger conclusions can follow?
+  * What are the meaningful conditions/situations, where stronger conclusions can emerge?
 
 # Why this program ===================================================================================================
 * Which Courses, 
@@ -28,19 +28,35 @@
 
 # Why you are qualified (1-3) paragraphs ==============================================================================
 * _Primarily discuss the obstacles youve conquered, those which prove youre ready to succeed in this great new journey._
-* From my past experiences in academia and industry, I am aware and convicted to take on the difficult challenges and duties of the program.
+* I am know that the program will be a challenging and require me to push beyond my comfort zone.
+* My experiences of overcoming difficulties in academics and industry makes me well-prepared for this.
 
-* Strong mathematics background/logical reasoning (curricula)
+* Applied Mathematics and Computer Science master's degree gives me a strong background for applying logical and theoretical concepts.
+  * Courses such as Linear Algebra, Algebra, Analysis, Operations Research provide a solid background to understand ideas at a fundamental level.
+  * In master's thesis, analyzing protein structure using CNNs and persistant homology, gave me valuable interdisciplinary insight on how math and CS can compliment each other.
+  * Futhermore, I found myself enjoying the many hours thinking, meditating, and exploring theoretical concepts and questions.
 
-* Experience with research and solving difficult problems (landcover, pose, protein)
-  * Practice reading and applying and implementing papers 
-  * Break through and difficult problems
+* Working in the industry gave me valuable experience overcoming difficult problems and producing consistant results.
+  * While working on segmentation of satellite images, I practiced reading, implementing from scratch, and benchmarking various papers such as U-Net and Deep Aggregate Net.
+    * The prototype and analysis data was used to win a major government contract for our company.
+  * Extend existing paper combine various to produce novel, new solution
+    * Robotic arm pose estimation prototype SK hynix semiconductor
+  * Protein structure prediction prototype startup
+
+  * In all of these projects Break through and difficult problems
+    * Cautious Optimism assumption that a nice explanation exists
+    * Drown out the distractions and focus on key objectives
+    * Pace myself and work at a steady, consistant rate
+
 
 * Self-motivated (gomoku)
+  * self learn/research/implement 
 
 # Closing Frame Narrative ==============================================================================================
 * Firm declaration that MENTORS guidance + HEROs hard work will allow HERO to conquer MONSTERS and give their MAGICAL GIFT to the world
-
+* What else would I do but pursue that brings great joy and satisfaction in my heart?
+* My mind, body and heart are ready
+* Ever preparing, vigilant, rested-prepared, relentless.
 
 
 
