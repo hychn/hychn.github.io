@@ -27,7 +27,8 @@
   * Read literature and papers published in 2018 DeepGlobe Challenge
   * Develop and benchmark: Conv LSTM, Deeplabv3+, Deep Aggregate Net, Fully Dense Net, U-Net
   * Data preprocessing libraries to manage tiff and shp files
-  * Distributed, half precision, augmented training
+  * Develop a distributed system utilizing multiple GPUs.
+  * Half precision, augmented training
 * Robotic Arm Tracking
   * Read literature on human pose estimation
   * Develop network for robotic arm detection and pose estimation

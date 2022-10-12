@@ -27,40 +27,48 @@
 * Books
 
 # Why you are qualified (1-3) paragraphs ==============================================================================
-* _Primarily discuss the obstacles youve conquered, those which prove youre ready to succeed in this great new journey._
 * I am know that the program will be a challenging and require me to push beyond my comfort zone.
 * My experiences of overcoming difficulties in academics and industry makes me well-prepared for this.
 
+* In academdia, 
 * Applied Mathematics and Computer Science master's degree gives me a strong background for applying logical and theoretical concepts.
   * Courses such as Linear Algebra, Algebra, Analysis, Operations Research provide a solid background to understand ideas at a fundamental level.
   * In master's thesis, analyzing protein structure using CNNs and persistant homology, gave me valuable interdisciplinary insight on how math and CS can compliment each other.
   * Futhermore, I found myself enjoying the many hours thinking, meditating, and exploring theoretical concepts and questions.
 
+* In the industry,
 * Working in the industry gave me valuable experience overcoming difficult problems and producing consistant results.
   * Here are three examples.
   * First, working on segmentation of satellite images gave me opportunity to read, implement from scratch, and benchmarked papers such as U-Net and Deep Aggregate Net.
     * The prototype and analysis data was used to win a major government contract for our company.
   * Second, while developing a semiconductor-robot monitoring prototype for SK hynix, I combined Novel View Synthesis CNN algorithm with pose estimation to track and pose the robot arm.
     * The prototype was used to automatically extract to extract key details from a complex semiconductor monitoring video: the movement of the robotic arm, the various nozzles attached to the arm, when the nozzle was spraying a solution or not
-  * Finally, working protein structure prediction at our startup company 
-    * LSTM, positional embedding
-    * angle, distance loss
-    * much more stable, consistant, and quickly converging
+  * Finally, working protein structure prediction at our startup company gave me experience of managing a complex project of prediction a 3D structure just from a 1D protein sequence.
+    * Filter and preprocess large datasets of 25,000 proteins in various formats with missing information.
+    * Combined various neural network architectures such as, LSTM, CNNs, and ESM language models embeddings.
+    * Research and experiment with distance, dihedral angle, frame-aligned point error functions.
+    * Much more stable, consistant, and quickly converging model from the starting baseline, Recurrent Geometric Networks.
+  * In these three cases I learned gained insights that helped me break through when I was stuck:
+    * have cautious optimism that a nice-simple solution exists, focus on key objectives, and work at a steady-consistant pace
 
-  * In all of these projects Break through and difficult problems
-    * Cautious Optimism assumption that a nice explanation exists
-    * Drown out the distractions and focus on key objectives
-    * Pace myself and work at a steady, consistant rate
+* I have alot of self-motivation and drive to engage with at solve challenging problems.
+  * my interest in reinforcement learning (RL) problem, I self-studied the AlphaGo and AlphaGoZero paper and learned about Monte Carlo Search Trees and policies.
+  * Following the AlphaGoZero paper, I implemented a model-based RL to play variations of tic-tac-toe on longer length-to-win and boards.
+  * I faced many difficulties in getting the initial prototypes to work on larger variations of the game but found reasonable success with multi-step lookahead of the value estimation model.
+  * Because RL take a long time to train and evaluate, I studied markov decision processes theory to understand RL at a fundamental level.
+  * I found it fascinating and wish to study it in much more depth.
 
 
-* Self-motivated (gomoku)
-  * self learn/research/implement 
 
-# Closing Frame Narrative ==============================================================================================
-* Firm declaration that MENTORS guidance + HEROs hard work will allow HERO to conquer MONSTERS and give their MAGICAL GIFT to the world
-* What else would I do but pursue that brings great joy and satisfaction in my heart?
+# Closing narrative ====================================================================================================
+* In this section, youll briefly (BRIEFLY!) return to the frame narrative from Section 1. One sentence, thats all. Then youll affirm that if they offer you admission, youre going to work hard to make them proud, so that you can then move on to face real monsters, conquer your career, and in the end, make the world just a tiny bit better.
+
+* TODO: I think this needs to tie in with the initial statement better (tie in the questions here)
+
+* _ have a fascniating program
 * My mind, body and heart are ready
 * Ever preparing, vigilant, rested-prepared, relentless.
+* What else would I do but pursue that brings great joy and satisfaction in my heart?
 
 
 
