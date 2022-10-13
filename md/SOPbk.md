@@ -1,3 +1,7 @@
+* SIMPLE AND TO THE POINT
+  * Be sparingly with the words
+  * 1000words~
+
 # Purpose ===========================================================================================================
 * General questions and simple, natural ideas that form the answer; these things fascinate and bring me great joy.
   * Here are two examples I encountered, while working in the industry for the past three years.
@@ -19,6 +23,7 @@
   * What are the meaningful conditions/situations, where stronger conclusions can emerge?
 
 # Why this program ===================================================================================================
+* UIUC 
 * The CS PhD program at UIUC has 3 key characteristics that make it the top choice for me.
   * First, I am very interested in the type theoretical RL research by Professor Nan Jiang.
   * His papers, 'Towards Hyperparameter-free Policy Selection for Offline Reinforcement Learning' and 'A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation'
@@ -27,7 +32,8 @@
   * Finally, I appreciate the guidance of the Artificial Intelligence Qualifying Exam Committee where I will present my research with a background material tutorial really fosters.
   * I am warm-heartedly encouraged by the committee's goals to promote learning, diagnostic, and qualification.
 
-# Why you are qualified  ==============================================================================
+
+# Why you are qualified (1-3) paragraphs ==============================================================================
 * I am know that the program will be a challenging and require me to grow beyond my comfort zone.
 * My experiences of overcoming difficulties in academics, industry, and self-study makes me well-prepared for this.
 
@@ -64,8 +70,69 @@
 * By asking intriguing questions and finding simple, natural answers, I hope to contribute towards a more goal-aware and meaningful AI.
 * Doing this brings great joy and satisfaction in my heart.
 
+* _ have a fascniating program
+* My mind, body and heart are ready
+* Ever preparing, vigilant, rested-prepared, relentless.
+* What else would I do but pursue that brings great joy and satisfaction in my heart?
 
 
+
+
+
+
+
+
+# Goals
+* Study the questions and related ideas. (how?)
+* Explore and combine simple, natural ideas to answer these questions in theory and practice.
+* Discovery new questions and be able to answer them with training
+* ------------------------------------------------------------------------------------------------------
+* I hope to explore these questions, break them down into simpler questions, restrict them under meaningful conditions.
+* I hope to study the ideas and their inter-relationship. related to similar questions.
+* ------------------------------------------------------------------------------------------------------
+* Explore, Reframe, break down/restrict these questions, understand, discovery ideas and the relationships between them.
+* And suggest simple, natural ideas that can answer these questions in practice.
+* Theory-Application
+
+
+
+# SCHOOL ALIGNMENT
+* SELF/GOALS and ALIGNMENT
+# QUALIFICATIONS
+  * Practice reading applying papers
+  * Implementing
+# RESTATE PURPOSE
+
+# PURPOSE
+* Provoking questions and simple, natural ideas that form the answers; these are the things that fascinate and bring me great joy.
+* Some of the ideas that I am fond of.
+  * Minimizing loss w.r.t to convolution kernels (which are typically used for bluring, outline in image processing) gave way to Convolution Neural Networks, an extremly important type of network.
+  * Encoding inputs into a latent space representation to analyze their distributions and combine them to create new output.
+  * Invertible neural networks and finding inputs that can create the similar ouputs.
+* Some of questions that were difficult and are unanswered. (why?, do these tie into a common theme?)
+  * How to optimize parameters that are not differentiable? (hyper parameter optimization (landcover, protein struct losses combined learning rate). Reinforcement Learning)
+    * MCST model, what was I doing? adjustments of rollout (prediction of v, rollout using v)
+      * iterated rollout
+    * (Efficiently train) Sample Efficiency of reinforcement Learning/ML
+  * Estimation of function and achieving guarantees optimal cost bound 
+  * Auxillary cost and relationship to true cost?
+
+
+
+# THIS PROGRAM
+* How does this program support your goal?
+* COURSES, Professor, Plan
+
+# QUALIFICATIONS
+* How to reflect your character through these examples?
+* Personal 
+* Courses I have taken
+* Work experience: Landcover, Pose Detection, Protein Structure Prediction
+
+# PURPOSE
+ 
+# RESUME Ideally, some of these items should also be properly linked with the statement of purpose document.
+# MOTTO: I just need to get in anywhere: The most important thing is how I spend my time preparing and how ready I am and how I study there
 
 # List of SCHOOLS
 * Illinois Urbana Champaign
