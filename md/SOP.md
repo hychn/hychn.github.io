@@ -1,68 +1,31 @@
-# Purpose ===========================================================================================================
-* General questions and simple, natural ideas that form the answer; these things fascinate and bring me great joy.
-  * Here are two examples I encountered, while working in the industry for the past three years.
-  * First, while classifying and segmenting satellite images, I explored the simple ideas: Image processing kernels that modifies images(blur,outline,dialate), nonlinear-activation functions, gradient descent to adjust parameters of kernels.
-    * It was very satistfying seeing such simple ideas work together to classify large areas of terrain accurately and much faster than human annotation.
-  * Second, when handling complex input data with instrinsic structure, I learned to encode the input data to a smaller latent space. 
-    * Then, the input representation was transformed with respect to the structure. 
-    * When working with 3D robotic-arm in images or 3D structure in 1D protein sequences, these ideas allowed the AI to handle the complex input much more efficiently and observe the 3D structure's properties.
+PURPOSE =====================================================================================
+* General questions and simple, natural ideas that form the answer; these things fascinate and bring me great joy. Here are two such examples I encountered in the industry during the past three years.
+* First, while classifying and segmenting satellite images, I explored the simple ideas: Image processing kernels that modifies (blur, outline, dilate) images, nonlinear-activation functions, gradient descent to adjust parameters of the kernels. It was very satisfying seeing such simple ideas work together to classify large areas of terrain accurately and much faster than annotation-by-hand. 
+* Second, when handling complex input data with intrinsic structure, I learned to encode the input data to a latent space. Then, the input representation in the latent space was transformed with respect to the structure. These ideas allowed the AI to handle the complex input much more efficiently and observe the 3D robotic-arm’s and 3D protein’s structural properties when the input was a 2D image or a 1D protein sequence.
 
-* How do you optimize a parameter that has no derivative? Does a local optimum exist at all?
-  * This is a key question that I encountered many times, while finding: 
-    * an optimal model architecture for predicting satellite images, loss function for protein structure prediction, different estimations of cost-to-go function in reinforcement learning.
-* Searching and estimation by sampling are good, natural ideas that could answer this question.
-* However, I was not satisfied with the simple but impractical approach, exhaustive sampling. It took so long!
-* With more specific questions, I wish to explore this key question in more details:
-  * Does an optimal solution exist? What are it's characteristics?
-  * What different types of sampling and estimation can we form? What are the consequence of using each? Are some better than others?
-  * Can we measure the quality of the estimation?
-  * What are the meaningful conditions/situations, where stronger conclusions can emerge?
+* How do you optimize a parameter that has no derivative? Does an optimum even exist? I encountered this key question many times, while finding: optimal model architecture for predicting satellite images, loss function for protein structure prediction, estimations of cost-to-go functions.
+* Search and estimation by sampling are good, natural ideas that could answer this question. However, I was not satisfied with the naive and impractical exhaustive sampling. It took so long! I wish to study this key question in more detail with more specific questions: Does an optimal solution exist? What are its characteristics? What different types of sampling and estimation can we form? What is the consequence of using each? Are some better than others? Can we measure the quality of the estimation? What are the meaningful conditions/situations, where stronger conclusions can emerge?
 
-# Why this program ===================================================================================================
-* The CS PhD program at UIUC has 3 key characteristics that make it the top choice for me.
-  * First, I am very interested in the type theoretical RL research by Professor Nan Jiang.
-  * His papers, 'Towards Hyperparameter-free Policy Selection for Offline Reinforcement Learning' and 'A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation'
-    * provides ideas related to the key questions of optimizing a hyperparameters without a derivative.
-  * Second, the course, 'Statistical Reinforcement Learning', will give me a solid background knowledge and experience with novel theoretical research as part of the final project component.
-  * Finally, I appreciate the guidance of the Artificial Intelligence Qualifying Exam Committee where I will present my research with a background material tutorial really fosters.
-  * I am warm-heartedly encouraged by the committee's goals to promote learning, diagnostic, and qualification.
+WHY THIS PROGRAM =====================================================================================
+* The CS PhD program at UIUC has 3 key characteristics that make it my top choice.
+* First, I am very interested in the theoretical RL research by Professor Nan Jiang. His papers, 'Towards Hyperparameter-free Policy Selection for Offline Reinforcement Learning' and 'A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation' provides ideas related to my key question of optimizing parameters without a derivative.
+* Second, the course, 'Statistical Reinforcement Learning', will give me a solid background knowledge and jumpstart my research when I complete the novel theoretical research final project.
+* Finally, I appreciate the guidance of the Artificial Intelligence Qualifying Exam Committee where I will present my research complemented with a background material tutorial. I heart-warmed by the committee's intent to encourage learning of fundamentals and diagnose weakness in my knowledge.
 
-# Why you are qualified  ==============================================================================
-* I am know that the program will be a challenging and require me to grow beyond my comfort zone.
-* My experiences of overcoming difficulties in academics, industry, and self-study makes me well-prepared for this.
+WHY YOU ARE QUALIFIED ==============================================================================
+* I know that the program will be a challenging and require me to grow beyond my comfort zone. My experiences of overcoming difficulties in academics, industry, and self-study makes me well-prepared for this.
 
-* In academdia, 
-* Applied Mathematics and Computer Science master's degree gives me a strong background for applying logical and theoretical concepts.
-  * Courses such as Linear Algebra, Algebra, Analysis, Operations Research provide a solid background to understand ideas at a fundamental level.
-  * In master's thesis, analyzing protein structure using CNNs and persistant homology, gave me valuable interdisciplinary insight on how math and CS can compliment each other.
-  * Futhermore, I found myself enjoying the many hours thinking, meditating, and exploring theoretical concepts and questions.
+* For Academics, my Applied Mathematics and Computer Science master's degree gave me experience of applying logical and theoretical concepts. Courses such as Linear Algebra, Algebra, Analysis, Operations Research provide a solid background to understand AI ideas at a fundamental level. Analyzing protein structure using CNNs and persistent homology in my thesis, gave me interdisciplinary insight on how math and CS can complement each other. Finally, I really enjoyed the many hours thinking, meditating, and exploring theoretical concepts and questions.
 
-* In the industry,
-* Working in the industry gave me valuable experience overcoming difficult problems and producing consistant results.
-  * Here are three examples.
-  * First, working on segmentation of satellite images gave me opportunity to read, implement from scratch, and benchmarked papers such as U-Net and Deep Aggregate Net.
-    * The prototype and analysis data was used to win a major government contract for our company.
-  * Second, while developing a semiconductor-robot monitoring prototype for SK hynix, I combined Novel View Synthesis CNN algorithm with pose estimation to track and pose the robot arm.
-    * The prototype was used to automatically extract to extract key details from a complex semiconductor monitoring video: the position of the robotic arm, the various nozzles attached to the arm, when the nozzle was spraying a solution or not
-  * Finally, predicting 3D structure from 1D protein sequences gave me experience of managing and finishing a complex project.
-    * Filter and preprocess large datasets of 25,000 proteins in various formats with missing information.
-    * Combined various neural network architectures such as, LSTM, CNNs, and ESM language models embeddings.
-    * Research and experiment with distance, dihedral angle, frame-aligned point error functions.
-    * Much more stable, consistant, and quickly converging model from the starting baseline, Recurrent Geometric Networks.
-  * In these three cases I learned gained common insights that helped me break through challenges:
-    * have cautious optimism that a nice-simple solution exists, focus on key objectives, and work at a steady-consistant pace
+* Working in the industry gave me valuable experience overcoming difficult problems and producing consistent results. Here are three examples.
+  * First, working on segmentation of satellite images gave me the opportunity to read, implement from scratch, and benchmark papers such as U-Net and Deep Aggregate Net. The prototype and data analysis were used to win a major government contract for our company.
+  * Second, while developing a semiconductor-robot monitoring prototype for SK Hynix, I combined Novel View Synthesis CNN algorithm with pose estimation to track and pose the robot arm. From a complex semiconductor monitoring video, the prototype extracted several key details: the positions of the robotic arm, the various nozzles attached to the arm, when the nozzle was spraying a solution or not.
+  * Finally, predicting 3D structures from 1D protein sequences gave me the experience of managing and finishing a complex project. I combined various neural network architectures such as, LSTM, CNNs, and ESM language models embeddings into a single pipeline. Then I researched and experimented with distance, dihedral angle, frame-aligned point error functions. The resulting algorithm was much more stable, consistent, and quickly converging compared to starting baseline, Recurrent Geometric Networks. Over these three cases I gained value insights that helped me break through difficult challenges: have cautious optimism that a nice-simple solution exists, focus on key-measurable objectives, and work at a steady-consistent pace.
 
-* In my self-studies, pursuing challenging independent research interests taught me discipline, self motivation and drive.
-  * Studying the AlphaGoZero paper, I implemented a Monte Carlo Search Tree model-based RL to play variations of tic-tac-toe on longer length-to-win and boards.
-  * It was very challenging to get the initial prototypes to work on larger variations of the game; I carefully and patiently tried many different ideas.
-  * Eventually, reasonable success was found using: multi-step lookahead using model value estimation, augmentation of board inputs using rigid transformations, adjustments on rollout sample size depending on game depth, and many minor changes.
-  * Wanting to underestand the RL the much better, I am studying the fundamentals of studying markov decision process programming and optimal control.
+* Pursuing challenging independent research interests during my self-studies taught me discipline, motivation and persistence. Studying the AlphaGo Zero paper, I implemented a Monte Carlo Search Tree model-based RL to play variations of tic-tac-toe on longer length-to-win and boards. It was very challenging to get the initial prototypes to work on larger variations of the game; I carefully and patiently tried many different ideas. Eventually, reasonable success was found using: multi-step lookahead using model value estimation, augmentation of board inputs using rigid transformations, adjustments on rollout sample size depending on game depth, and many minor changes. Wanting to understand the RL the much better, I am currently studying the fundamentals of markov decision process programming and optimal control.
 
-
-# Closing narrative ====================================================================================================
-* AI is undeniably becoming more prevalent and widely-used in the industry. 
-* By asking intriguing questions and finding simple, natural answers, I hope to contribute towards a more goal-aware and meaningful AI.
-* Doing this brings great joy and satisfaction in my heart.
+CLOSING NARRATIVE =====================================================================================
+* AI is becoming more important and widely-used in the industry. By asking intriguing questions and finding simple, natural answers, I hope to contribute towards a more goal-aware and meaningful AI research. Doing this brings great joy and satisfaction in my heart.
 
 
 
