@@ -1,4 +1,7 @@
 * GUIDE: https://www.prepscholar.com/gre/blog/how-to-write-a-cv-for-graduate-school/
+* https://hwpi.harvard.edu/files/ocs/files/gsas-cvs-and-cover-letters.pdf
+* There are good examples here but lets just keep it simple and get it out. Tonight.
+
 * EXAMPLES: https://grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf
 * Research or Teaching Interests?
 

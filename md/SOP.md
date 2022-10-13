@@ -16,9 +16,9 @@
 
 # WHY YOU ARE QUALIFIED ==============================================================================
 
-* I know that the program will be a challenging and require me to grow beyond my comfort zone. My experiences of overcoming difficulties in academics, industry, and self-study makes me well-prepared for this.
+* I know that the program will be a challenging and require me to grow beyond my comfort zone. My experiences of overcoming difficulties in academics, industry, and self-study makes me well-prepared.
 
-* For Academics, Applied Mathematics and Computer Science master's degree gave me experience of applying logical and theoretical concepts. Courses such as Linear Algebra, Algebra, Analysis, Operations Research provide a solid background to understand AI ideas at a fundamental level. Analyzing protein structure using CNNs and persistent homology in my thesis, gave me interdisciplinary insight on how math and CS can complement each other. Finally, I really enjoyed the many hours thinking, meditating, and exploring theoretical concepts and questions.
+* Completing the master's degree in Applied Mathematics and Computer Science gave me experience of applying logical and theoretical concepts. Courses such as Linear Algebra, Algebra, Analysis, Operations Research provide a solid background to understand AI ideas at a fundamental level. Analyzing protein structure using CNNs and persistent homology in my thesis, gave me interdisciplinary insight on how math and CS complement each other. Finally, I really enjoyed the many hours thinking, meditating, and exploring theoretical concepts and questions.
 
 * Working in the industry gave me valuable experience overcoming difficult problems and producing consistent results. Here are three examples.
   * First, working on segmentation of satellite images gave me the opportunity to read, implement from scratch, and benchmark papers such as U-Net and Deep Aggregate Net. The prototype and data analysis won a major government contract for our company.
