@@ -7,6 +7,7 @@
 * [A.outline.html](html/A.outline.html)
 * [A.study_guide.html](html/A.study_guide.html)
 * [algebra.html](html/algebra.html)
+* [Application.html](html/Application.html)
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
 * [couragetobedisliked.html](html/couragetobedisliked.html)

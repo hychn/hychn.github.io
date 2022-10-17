@@ -134,21 +134,4 @@
 # RESUME Ideally, some of these items should also be properly linked with the statement of purpose document.
 # MOTTO: I just need to get in anywhere: The most important thing is how I spend my time preparing and how ready I am and how I study there
 
-# List of SCHOOLS
-* Illinois Urbana Champaign
-* Arizona State
-* UMICH https://micde.umich.edu/methodology/optimization/
-* Northwestern
-* UNIFL https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
-* UNI Indiana https://luddy.indiana.edu/research/research-areas/ai-directory.html
-* UNI KANSAS
-* UNI Wisconsin Madison
-* Ohio
-* Colorado
-* Nebraska
-* UNC
-* Georgia
-* Texas
-* California 
-* Washington
-* UNI Washington Mizou?
+
