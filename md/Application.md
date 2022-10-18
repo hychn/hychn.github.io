@@ -30,7 +30,7 @@
 * Master's Thesis Supervisor
 * chengji@missouri.edu
 
-* Yoon Ilsang
+* Ilsang Yoon
 * BIORCHESTRA
 * Chief Alliance Officer 
 * Senior Vice President at PharmCADD
@@ -41,7 +41,7 @@
 
 # List of Schools/Deadline
 * [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) Dec 15
-  * Copy of passport
+  * TODO: Copy of passport
   * [Nan Jian](https://nanjiang.cs.illinois.edu/)
   * [Matus Telgarsky](http://mjt.cs.illinois.edu/)
   * [Katie Driggs-Campbell](https://cs.illinois.edu/about/people/faculty/krdc)
@@ -50,28 +50,51 @@
 
 
 * [University of Kansas](https://gograd.ku.edu/apply/)
-  * TODO: Copy of passport/ Textbooks used/ SOP/ list of prof to work with
-  * SOP - papers, courses, research area
+  * TODO: Copy of passport/ Textbooks used
   * Math Phd Applied
   * stats, markov chain [Joonha Park](http://people.ku.edu/~j139p002/)
   * statistics [Zsolt Talata](https://talata.ku.edu/cv.html)
   * CS/AI RL control [Morteza Hashemi](https://hashemi.ku.edu/)
-  * Stochastic Processes, Stochastic Processes II
-  * Applied Mathematics
 
 * [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) Dec 1
-  * https://scai.engineering.asu.edu/faculty/ 
-  * SOP identify two or three ASU faculty with matching research interests. 
+  * TODO: SOP
+  * Faculty, SOP identify two or three ASU faculty with matching research interests. 
+    * [Faculty list](https://scai.engineering.asu.edu/computer-science-and-engineering-faculty)
+    * [Subbarao Kambhampati](https://search.asu.edu/profile/95646)
+      * [web2](https://yochan-lab.github.io/papers/)
+      * Why Did You Do That? Generalizing Causal Link Explanations to Fully Observable Non-Deterministic Planning Problems
+      * Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)
+    * [Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/)
+      * Learning Dynamic Abstract Representations for Sample-Efficient Reinforcement Learning.
     * [Dimitri Bertsekas](https://search.asu.edu/profile/3410924)
-    * [George Runger](https://search.asu.edu/profile/87655)
-    * [Yingzhen Yang](https://search.asu.edu/profile/3520440)
+    * bio informatics [Heewook Lee](https://search.asu.edu/profile/3505050)
+    * bio informatics [Stephanie Forrest](https://search.asu.edu/profile/3182641)
+    * TODO CHECK MORE
+    * Georgios Fainekos
+  * Courses
+    * Bertsekas's courses and course description
+  * Program
+    * [ASU program](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true)
+    * [ASU handbook](https://scai.engineering.asu.edu/wp-content/uploads/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf)
+      * Comprehensive exam, show mastered the knowledge to conduct research in specialization
+      * Proposal exam, mastered the research methods to identify, formulate, and plan research in specialization
+
+  * 'ExpertRNA: A new framework for RNA structure prediction'
+
+* [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?)
+  * id: yechanhong92
+  * Students list faculty names that you have contacted or are interested?
+  * [Faculty](https://cse.osu.edu/research/artificial-intelligence)
+    * [Andrew Perrault](https://aperrault.github.io/publications/)
+    * [Ness B. Shroff](http://newslab.ece.ohio-state.edu/for%20students/index.html)
 
 * [Uni Wisconsin Madison](https://apply.grad.wisc.edu/Account/Login?ReturnUrl=%2f) Dec 15
   * https://www.cs.wisc.edu/graduate/graduate-admissions-faq/
   * faculty
     * RL [Xiaojin Zhu](https://pages.cs.wisc.edu/~jerryzhu/research.html)
-    * statistics: [Miaoyan Wang](https://pages.stat.wisc.edu/~miaoyan/people.html)
     * RL [Josiah Hanna](https://pages.cs.wisc.edu/~jphanna/publications.html)
+
+    * statistics: [Miaoyan Wang](https://pages.stat.wisc.edu/~miaoyan/people.html)
     * bio [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/)
     * [Ilias Diakonikolas](http://www.iliasdiakonikolas.org/)
     * statistics: [Garvesh Raskutti](https://pages.cs.wisc.edu/~raskutti/publication.html)
@@ -91,14 +114,7 @@
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
   * SOP why this school is for you
 
-* [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?)
-  * id: yechanhong92
-  * Students list faculty names that you have contacted or are interested?
-  * [Faculty](https://cse.osu.edu/research/artificial-intelligence)
-    * [Andrew Perrault](https://aperrault.github.io/publications/)
-    * [Ness B. Shroff](http://newslab.ece.ohio-state.edu/for%20students/index.html)
-
-* [UNIFL](https://shibboleth-idp.collegenet.com/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZLLbsIwEEV%2FJfI%2BOAmFIItEorAoEi2I0C66qRxnIJYcO%2FU4Tfn7hleBDTvLHp87c%2Bwx8krVbNK4Uq%2FhuwF03m%2BlNLLjQUIaq5nhKJFpXgEyJ1g2eV2wqBew2hpnhFHEmyCCddLoqdHYVGAzsD9SwPt6kZDSuRoZpW3b9nhdq30LeU%2BYimIp89wocCXN%2Fpc9REMPERFdLbMN8WZdT1LzA%2F3Kul71ZVF3NKVgBxrcEdxt0a65rVRwRq2hkBaEo1m2JN58lpAvCIttX8TFELZxKCAfhNsc8r6ApyIWg2jYlSE2MNfouHYJiYIo8sPAD%2BNNMGLRiPXjT%2BKtzg6epS6k3j0Wlp%2BKkL1sNiv%2FNN4HWDyO1hWQdHzQzo7B9uYhHmP5xT5JL35uPN%2BZ4UKYRjs6pjdBp9SavXXk%2BWxllBR7b6KUaacWuIOEhISmpyv3fyX9Aw%3D%3D&RelayState=https%3A%2F%2Fwww.applyweb.com%2Fshibboleth%2Fgatekeeper%3Fdest%3Dhttps%253A%252F%252Fwww.applyweb.com%252Fcgi-bin%252Fapplymenu%253Finstcode%253Duflgrad) Dec 5
+* [UNIFL](https://www.applyweb.com/cgi-bin/app?s=uflgrad)
   * Faculty: (https://www.ise.ufl.edu/cao/faculty/electrical-computer-engineering/?)
     * [William Hager](https://people.clas.ufl.edu/hager/optimal-control/)
     * SOP 500 words
