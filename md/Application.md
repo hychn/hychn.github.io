@@ -1,6 +1,12 @@
 * Send out all the recommendation letter at the same time for most of the schools
   * It's unrealistic to do it for all
 * Send followup email
+
+* 20 Changseon-Ro 131BEON-Gil
+* Changseon-Myeon, Namhae-Gun
+* South Gyeongsang
+* 52453
+
 * Depauw 8-2010, 5-2014
 * Mizzou 8-2016, 5-2019
 
