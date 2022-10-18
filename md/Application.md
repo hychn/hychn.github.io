@@ -6,28 +6,33 @@
 * Changseon-Myeon, Namhae-Gun
 * South Gyeongsang
 * 52453
+* +1 8201022591479
 
 * Depauw 8-2010, 5-2014
 * Mizzou 8-2016, 5-2019
 
-* City of Birth? gyeongi-do
+* City of Birth: Pocheon/Seoul
 * Copy of Passport
 
 # Future
 * Proof of Funding
 
 # Recommendation
-* Dr. Jan Segert
+* Jan Segert
 * Mathematics Department, University of Missouri
 * Retired
 * Master's Thesis Supervisor
 * segertj@gmail.com
-* Professor Jianlin Cheng
+
+* Jianlin Cheng
 * Department of Electrical Engineering and Computer Science
+* Thompson Missouri Distinguished Professor/Director of Bio-ML Lab
 * Master's Thesis Supervisor
 * chengji@missouri.edu
-* Dr. Yoon Ilsang
-* Chief Alliance Officer BIORCHESTRA
+
+* Yoon Ilsang
+* BIORCHESTRA
+* Chief Alliance Officer 
 * Senior Vice President at PharmCADD
 * isyoon@biorchestra.com
 
@@ -36,6 +41,7 @@
 
 # List of Schools/Deadline
 * [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) Dec 15
+  * Copy of passport
   * [Nan Jian](https://nanjiang.cs.illinois.edu/)
   * [Matus Telgarsky](http://mjt.cs.illinois.edu/)
   * [Katie Driggs-Campbell](https://cs.illinois.edu/about/people/faculty/krdc)
@@ -44,10 +50,12 @@
 
 
 * [University of Kansas](https://gograd.ku.edu/apply/)
+  * TODO: Copy of passport/ Textbooks used/ SOP/ list of prof to work with
+  * SOP - papers, courses, research area
   * Math Phd Applied
-  * RL control math [Bozenna Pasik-Duncan](https://pasik-duncan.ku.edu/ksacg/bpdcourses.html)
+  * stats, markov chain [Joonha Park](http://people.ku.edu/~j139p002/)
+  * statistics [Zsolt Talata](https://talata.ku.edu/cv.html)
   * CS/AI RL control [Morteza Hashemi](https://hashemi.ku.edu/)
-  * RL Stocastic [Tyrone Duncan](https://duncan.ku.edu/TD.Sho.vita.8.16.pdf)
   * Stochastic Processes, Stochastic Processes II
   * Applied Mathematics
 

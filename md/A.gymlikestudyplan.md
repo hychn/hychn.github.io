@@ -1,3 +1,9 @@
+# WHAT IS THE END GOAL
+* Be able to reason and solve questions, even though they may take time, be able to solve them.
+* Solve difficult questions and don't give up
+* Find a way to solve the questions 
+* Reason with questions in the field and solve the questions
+
 # Passion
 * Strength is in our level of "passion" and really, nothing more than that. If we have high passion and that passion remains high, everything will eventually unfold in the direction we have in mind.
 * I had a passion for developing products that reproduce music that began in high school and became stronger in college and today I'm 73 and a sr tech contributor at Apple…still doing what I love.
