@@ -10,6 +10,7 @@
 * [Application.html](html/Application.html)
 * [B.math_log.html](html/B.math_log.html)
 * [B.se3.html](html/B.se3.html)
+* [concise_stats.html](html/concise_stats.html)
 * [couragetobedisliked.html](html/couragetobedisliked.html)
 * [CV.html](html/CV.html)
 * [diet.html](html/diet.html)

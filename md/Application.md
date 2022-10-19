@@ -1,57 +1,44 @@
 # TODO
-* GRE (take at home), PASSPORT, apply to 2-3 phD applied math programs with math letter of recommendations
+* GRE (take at home)
+* PASSPORT
+* Apply to 2-3 phD applied math programs with math letter of recommendations
+* Proof of Funding
 
+# Birth
+* City of Birth: Pocheon/Seoul
+
+# Address Contact
 * 20 Changseon-Ro 131BEON-Gil
 * Changseon-Myeon, Namhae-Gun
 * South Gyeongsang
 * 52453
 * +1 8201022591479
 
+# EDU
 * Depauw 8-2010, 5-2014
 * Mizzou 8-2016, 5-2019
 
-* City of Birth: Pocheon/Seoul
-* Copy of Passport
-
-# Future
-* Proof of Funding
-
 # Recommendation
 * Jan Segert
-* Mathematics Department, University of Missouri
-* Retired
-* Master's Thesis Supervisor
-* segertj@gmail.com
-
+  * Mathematics Department, University of Missouri
+  * professor, retired
+  * Master's Thesis Supervisor
+  * segertj@gmail.com
 * Jianlin Cheng
-* Department of Electrical Engineering and Computer Science
-* Thompson Missouri Distinguished Professor/Director of Bio-ML Lab
-* Master's Thesis Supervisor
-* chengji@missouri.edu
-
+  * Department of Electrical Engineering and Computer Science
+  * Thompson Missouri Distinguished Professor/Director of Bio-ML Lab
+  * Master's Thesis Supervisor
+  * chengji@missouri.edu
 * Ilsang Yoon
-* BIORCHESTRA
-* Chief Alliance Officer 
-* Senior Vice President at PharmCADD
-* isyoon@biorchestra.com
+  * BIORCHESTRA
+  * Chief Alliance Officer 
+  * Senior Vice President at PharmCADD
+  * isyoon@biorchestra.com
 
 
 
 
 # List of Schools/Deadline
-
-
-* [Uni Wisconsin Madison](https://apply.grad.wisc.edu/Account/Login?ReturnUrl=%2f) Dec 15
-  * https://www.cs.wisc.edu/graduate/graduate-admissions-faq/
-  * faculty
-    * RL [Xiaojin Zhu](https://pages.cs.wisc.edu/~jerryzhu/research.html)
-    * RL [Josiah Hanna](https://pages.cs.wisc.edu/~jphanna/publications.html)
-
-    * statistics: [Miaoyan Wang](https://pages.stat.wisc.edu/~miaoyan/people.html)
-    * bio [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/)
-    * [Ilias Diakonikolas](http://www.iliasdiakonikolas.org/)
-    * statistics: [Garvesh Raskutti](https://pages.cs.wisc.edu/~raskutti/publication.html)
-    * SOP why this school is for you
 
 * [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login)
   * recruiting (https://www.colorado.edu/cs/admissions/graduate-admissions/see-who-recruiting-fall-2023)
@@ -73,6 +60,9 @@
     * SOP 500 words
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
+* University of Texas at Austin
+  * Scott Niekum, Peter Stone
+
 
 
 * USC
@@ -81,8 +71,6 @@
 * Nebraska
 * UNC
 * Georgia
-* Texas
-
 
 # DONE  =================================================================
 
@@ -139,4 +127,36 @@
     * new qualifying process, take time to build the basics and faculty research assessment
   * Course
     * STAT 7620 Elements of Statistical Learning, interdisciplinary final project to apply the ideas
+
+* [Uni Wisconsin Madison](https://apply.grad.wisc.edu/Account/Login?ReturnUrl=%2f) Dec 15
+  * https://www.cs.wisc.edu/graduate/graduate-admissions-faq/
+  * faculty
+    * RL [Josiah Hanna](https://pages.cs.wisc.edu/~jphanna/publications.html)
+      * 'Importance Sampling in Reinforcement Learning with an Estimated Behavior Policy'
+        * By replacing behavior policy action probabilities with maximum likelihood estimates from observed data, reduce variance due to sampling error.
+    * RL [Xiaojin Zhu](https://pages.cs.wisc.edu/~jerryzhu/research.html)
+      * 'The Sample Complexity of Teaching-by-Reinforcement on Q-Learning'
+        * characterize the sample complexity of teaching for different constraints in constructing teaching sequence
+        * I raelly like this style of exploring consequences
+    * statistics: [Miaoyan Wang](https://pages.stat.wisc.edu/~miaoyan/people.html)
+    * bio [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/)
+    * [Ilias Diakonikolas](http://www.iliasdiakonikolas.org/)
+    * statistics: [Garvesh Raskutti](https://pages.cs.wisc.edu/~raskutti/publication.html)
+    * Daifeng Wang
+    
+  * TODO: add Robert Nowak
+  * SOP why this school is for you
+    * faculty research
+    * courses
+        * CS761 Mathematical Foundations of Machine Learning
+          * foundations fo statistics, final project to make small contribution to jumpstart the research process.
+    * program characteristic
+      * Well balanced
+      * breadth requirement, take courese, passing qualifying examination
+        * Artificial Intelligence: 532, 534, 540, 545, 731, 760, 761, 766, 769
+        * Bioinformatics: 576,776
+      * depth requirement: preliminary examination
+
+
+
 
