@@ -3,11 +3,12 @@
 * DEF Even/Odd permutation is written in even/odd number of transpositions
 * THM A permutation can be just 1 of even or odd
 * DEF $A_n$ set of all even permutations of $S_n$ where $n>2$
-* PRP interesting property of transpositions
-  * (bx)(ab) = (ab)(ax) [flipping]
-  * (bx)(ab)(bx) = (ab)(ax)(bx) = (ab)(xab) = (ab)(abx) = (ax) [replacing a number in transposition form xtx]
-  * (cb) (ab)(ac)(ab)(ac) (cb) = (ab)(ac)(ac)(ab)(ab)(ac) = (ab)(ac)
-  * (ab) (ab)(ac)(ab)(ac) (ab) = (ac)(bc) = (cab)
+>! * SUB TOPIC FOCUSED ON TRANSPOSITIONS
+>! * PRP interesting property of transpositions
+>!  * (bx)(ab) = (ab)(ax) [flipping]
+>!  * (bx)(ab)(bx) = (ab)(ax)(bx) = (ab)(xab) = (ab)(abx) = (ax) [replacing a number in transposition form xtx]
+>!  * (cb) (ab)(ac)(ab)(ac) (cb) = (ab)(ac)(ac)(ab)(ab)(ac) = (ab)(ac)
+>!  * (ab) (ab)(ac)(ab)(ac) (ab) = (ac)(bc) = (cab)
 * THM a 2-cycle in normal subgroup generates all 2-cycles
   * Let (ab) our 2 cycle, then multi by
   * (bx)(ab)(bx) = (ax)

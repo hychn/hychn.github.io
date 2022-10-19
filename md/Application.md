@@ -1,10 +1,5 @@
 # TODO
-GRE (take at home), PASSPORT
-
-
-* Send out all the recommendation letter at the same time for most of the schools
-  * It's unrealistic to do it for all
-* Send followup email
+* GRE (take at home), PASSPORT, apply to 2-3 phD applied math programs with math letter of recommendations
 
 * 20 Changseon-Ro 131BEON-Gil
 * Changseon-Myeon, Namhae-Gun
@@ -47,10 +42,12 @@ GRE (take at home), PASSPORT
 
 * [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?)
   * id: yechanhong92
-  * Students list faculty names that you have contacted or are interested?
+  * TODO: SOP, faculty names
   * [Faculty](https://cse.osu.edu/research/artificial-intelligence)
     * [Andrew Perrault](https://aperrault.github.io/publications/)
     * [Ness B. Shroff](http://newslab.ece.ohio-state.edu/for%20students/index.html)
+  * Program
+  * Course
 
 * [Uni Wisconsin Madison](https://apply.grad.wisc.edu/Account/Login?ReturnUrl=%2f) Dec 15
   * https://www.cs.wisc.edu/graduate/graduate-admissions-faq/
@@ -123,6 +120,7 @@ GRE (take at home), PASSPORT
     * [Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/)
       * Learning Dynamic Abstract Representations for Sample-Efficient Reinforcement Learning.
     * [Dimitri Bertsekas](https://search.asu.edu/profile/3410924)
+      * 'ExpertRNA: A new framework for RNA structure prediction'
     * bio informatics [Heewook Lee](https://search.asu.edu/profile/3505050)
     * bio informatics [Stephanie Forrest](https://search.asu.edu/profile/3182641)
   * Program
@@ -130,7 +128,3 @@ GRE (take at home), PASSPORT
     * [ASU handbook](https://scai.engineering.asu.edu/wp-content/uploads/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf)
       * Comprehensive exam, show mastered the knowledge to conduct research in specialization
       * Proposal exam, mastered the research methods to identify, formulate, and plan research in specialization
-
-  * 'ExpertRNA: A new framework for RNA structure prediction'
-
-
