@@ -1,3 +1,7 @@
+# TODO
+GRE (take at home), PASSPORT
+
+
 * Send out all the recommendation letter at the same time for most of the schools
   * It's unrealistic to do it for all
 * Send followup email
@@ -40,46 +44,6 @@
 
 
 # List of Schools/Deadline
-* [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) Dec 15
-  * TODO: Copy of passport
-  * [Nan Jian](https://nanjiang.cs.illinois.edu/)
-  * [Matus Telgarsky](http://mjt.cs.illinois.edu/)
-  * [Katie Driggs-Campbell](https://cs.illinois.edu/about/people/faculty/krdc)
-  * [Kris K Hauser](https://cs.illinois.edu/about/people/faculty/kkhauser)
-  * [Jian Peng](https://cs.illinois.edu/about/people/faculty/jianpeng)
-
-
-* [University of Kansas](https://gograd.ku.edu/apply/)
-  * TODO: Copy of passport/ Textbooks used
-  * Math Phd Applied
-  * stats, markov chain [Joonha Park](http://people.ku.edu/~j139p002/)
-  * statistics [Zsolt Talata](https://talata.ku.edu/cv.html)
-  * CS/AI RL control [Morteza Hashemi](https://hashemi.ku.edu/)
-
-* [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) Dec 1
-  * TODO: SOP
-  * Faculty, SOP identify two or three ASU faculty with matching research interests. 
-    * [Faculty list](https://scai.engineering.asu.edu/computer-science-and-engineering-faculty)
-    * [Subbarao Kambhampati](https://search.asu.edu/profile/95646)
-      * [web2](https://yochan-lab.github.io/papers/)
-      * Why Did You Do That? Generalizing Causal Link Explanations to Fully Observable Non-Deterministic Planning Problems
-      * Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)
-    * [Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/)
-      * Learning Dynamic Abstract Representations for Sample-Efficient Reinforcement Learning.
-    * [Dimitri Bertsekas](https://search.asu.edu/profile/3410924)
-    * bio informatics [Heewook Lee](https://search.asu.edu/profile/3505050)
-    * bio informatics [Stephanie Forrest](https://search.asu.edu/profile/3182641)
-    * TODO CHECK MORE
-    * Georgios Fainekos
-  * Courses
-    * Bertsekas's courses and course description
-  * Program
-    * [ASU program](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true)
-    * [ASU handbook](https://scai.engineering.asu.edu/wp-content/uploads/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf)
-      * Comprehensive exam, show mastered the knowledge to conduct research in specialization
-      * Proposal exam, mastered the research methods to identify, formulate, and plan research in specialization
-
-  * 'ExpertRNA: A new framework for RNA structure prediction'
 
 * [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?)
   * id: yechanhong92
@@ -121,6 +85,7 @@
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
 
+
 * USC
 * UMICH https://micde.umich.edu/methodology/optimization/
 * Northwestern
@@ -128,3 +93,44 @@
 * UNC
 * Georgia
 * Texas
+
+
+# DONE  =================================================================
+
+* [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) Dec 15
+  * TODO: Copy of passport
+  * [Nan Jian](https://nanjiang.cs.illinois.edu/)
+  * [Matus Telgarsky](http://mjt.cs.illinois.edu/)
+  * [Katie Driggs-Campbell](https://cs.illinois.edu/about/people/faculty/krdc)
+  * [Kris K Hauser](https://cs.illinois.edu/about/people/faculty/kkhauser)
+  * [Jian Peng](https://cs.illinois.edu/about/people/faculty/jianpeng)
+
+
+* [University of Kansas](https://gograd.ku.edu/apply/)
+  * TODO: Copy of passport/ Textbooks used
+  * Math Phd Applied
+  * stats, markov chain [Joonha Park](http://people.ku.edu/~j139p002/)
+  * statistics [Zsolt Talata](https://talata.ku.edu/cv.html)
+  * CS/AI RL control [Morteza Hashemi](https://hashemi.ku.edu/)
+
+* [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) Dec 1
+  * TODO: SOP
+  * Faculty, SOP identify two or three ASU faculty with matching research interests. 
+    * [Faculty list](https://scai.engineering.asu.edu/computer-science-and-engineering-faculty)
+    * [Subbarao Kambhampati](https://search.asu.edu/profile/95646) [web2](https://yochan-lab.github.io/papers/)
+      * Why Did You Do That? Generalizing Causal Link Explanations to Fully Observable Non-Deterministic Planning Problems
+      * Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)
+    * [Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/)
+      * Learning Dynamic Abstract Representations for Sample-Efficient Reinforcement Learning.
+    * [Dimitri Bertsekas](https://search.asu.edu/profile/3410924)
+    * bio informatics [Heewook Lee](https://search.asu.edu/profile/3505050)
+    * bio informatics [Stephanie Forrest](https://search.asu.edu/profile/3182641)
+  * Program
+    * [ASU program](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true)
+    * [ASU handbook](https://scai.engineering.asu.edu/wp-content/uploads/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf)
+      * Comprehensive exam, show mastered the knowledge to conduct research in specialization
+      * Proposal exam, mastered the research methods to identify, formulate, and plan research in specialization
+
+  * 'ExpertRNA: A new framework for RNA structure prediction'
+
+
