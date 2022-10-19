@@ -1,3 +1,9 @@
+# Use, detailed dump and a outline
+* The note taking structure needs to prune ultimately at the end.
+* How to facilitate this across multiple topics. Like if i'm working through a book
+  * it is kinda claustrophoic to write one file md for the ENTIRE BOOK. I dont like it.
+  * I want to have separate files if I'm being honest with you
+
 # MOOD
 * Be happy and thankful
 * Give glory to God

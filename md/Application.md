@@ -40,14 +40,6 @@
 
 # List of Schools/Deadline
 
-* [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?)
-  * id: yechanhong92
-  * TODO: SOP, faculty names
-  * [Faculty](https://cse.osu.edu/research/artificial-intelligence)
-    * [Andrew Perrault](https://aperrault.github.io/publications/)
-    * [Ness B. Shroff](http://newslab.ece.ohio-state.edu/for%20students/index.html)
-  * Program
-  * Course
 
 * [Uni Wisconsin Madison](https://apply.grad.wisc.edu/Account/Login?ReturnUrl=%2f) Dec 15
   * https://www.cs.wisc.edu/graduate/graduate-admissions-faq/
@@ -128,3 +120,23 @@
     * [ASU handbook](https://scai.engineering.asu.edu/wp-content/uploads/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf)
       * Comprehensive exam, show mastered the knowledge to conduct research in specialization
       * Proposal exam, mastered the research methods to identify, formulate, and plan research in specialization
+
+* [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?) Dec 1
+  * id: yechanhong92
+  * TODO: SOP, faculty names
+  * [Faculty](https://cse.osu.edu/research/artificial-intelligence)
+    * [Andrew Perrault](https://aperrault.github.io/publications/)
+      * 'Normality-Guided Distributional Reinforcement Learning for Continuous Control'
+        * We propose a different idea, leveraging the features of the learned distribution to estimate whether a state is sufficiently visited or not.
+          * Sampling enough
+    * [Ness B. Shroff](http://newslab.ece.ohio-state.edu/for%20students/index.html)
+      * 'Optimal Sampling for Data Freshness: Unreliable Transmissions with Random Two-way Delay'
+        *  optimal sampling strategy that minimizes the long-term average estimation error
+  * Program
+    * Direct PhD track
+    * Coursework (competant and knowledgeable on fundamental principles of cs) 
+    * and research
+    * new qualifying process, take time to build the basics and faculty research assessment
+  * Course
+    * STAT 7620 Elements of Statistical Learning, interdisciplinary final project to apply the ideas
+
