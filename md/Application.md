@@ -51,20 +51,10 @@
   * RL [Lijun Chen](https://spot.colorado.edu/~lich1539/)
   * RL [Ashutosh Trivedi](https://astrivedi.github.io/www/pubs.html)
   * SOP why this school is for you, just list of professors
-    * Majid Zamani, general interest in a control of (stochastic) hybrid systems
-      * Model-Free Reinforcement Learning for Formal Control of Stochastic Systems
-      * Automata-based Controller Synthesis for Stochastic Systems: A Game Framework via Approximate Probabilistic Relations
-    * Lijun Chen
-      * Incentivized Exploration for Multi-Armed Bandits under Reward Drift
-        * UCB, ε-Greedy, and Thompson Sampling  different types of sampling
-      * A Smoothed Analysis of Online Lasso for the Sparse Linear Contextual Bandit Problem
-        * sample inefficiency
-    * Ashutosh Trivedi
-      * Reinforcement Learning and Formal Requirements
-        * limit-reachability
-        * Formal logic provides a foundation for the rigorous and unambiguous requirement specification of learning objectives. However, reinforcement learning algorithms require requirements to be expressed as scalar reward signals. We discuss a recent technique, called limit-reachability, that bridges this gap by faithfully translating logic-based requirements into the scalar reward form needed in model-free reinforcement learning. This technique enables the synthesis of controllers that maximize the probability to 
-      * Omega-Regular Objectives in Model-Free Reinforcement Learning
-
+    * Professor Lijun Chen's research, 'Incentivized Exploration for Multi-Armed Bandits under Reward Drift', provides ideas related to my key question of qualifying different types of sampling; the paper explores a compensation scheme for UCB, e-Greedy, and Thompson sampling algorithms and demonstrates it's effectiveness by show the regret is similar to the compensation. I really appreciated the style of the paper where the theory was backed up with numerical experiments.
+    * Professor Majid Zamani's research, 'Compositional construction of finite MDPs for large-scale stochastic switched systems: A dissipativity approach', constructs an estimation and establishes an upper bound for the error. I am very interested in these types of techniques of simplifying a more complex system and qualifying the simplication.
+    * I am also intrested in the statistical machine learning research from the mathematics department; professor Jem Corcoran's research on using importance sampling to manage rare event probabilities partially answers my key questions on how sampling and computational effectiveness.
+    * I am looking forward to taking required coursework such as Probabilistic Models of Human and Machine Learning mathematical background and plenty of practical experience neccesary to start research.
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
