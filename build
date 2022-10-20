@@ -46,14 +46,17 @@ def requires_compile_md(fp_md):
 def dirname(d):
     return './'+'/'.join( d.split('/')[1:] )
 
-def comp(fp_md, fp_html):
+def comp(fp_md, fp_html, skip_italics_bold=False):
     dirs = '/'.join( fp_html.split('/')[:-1] )
 
     if dirs!='' and not os.path.exists(dirs):
         os.makedirs(dirs)
 
 
-    system('python3 compile '+fp_md+' '+fp_html+' skip_italics_bold')
+    if skip_italics_bold:
+        system('python3 compile '+fp_md+' '+fp_html+' skip_italics_bold')
+    else:
+        system('python3 compile '+fp_md+' '+fp_html)
 
 def md_link_str(name,link):
     return '['+name+']'+'('+link+')'
@@ -81,7 +84,7 @@ def build_index(FP_html):
     print('\n'.join(index_lines) )
     fp_index = 'index.md'
     ytl.writeListToFile(index_lines,fp_index)
-    comp(fp_index, 'index.html')
+    comp(fp_index, 'index.html', skip_italics_bold=True)
 
 
 

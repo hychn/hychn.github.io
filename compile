@@ -151,7 +151,7 @@ for l in L:
 
 mkdownstr = '\n'.join(L_)
 extras = ['spoiler','strike']
-if len(sys.argv)>2 and sys.argv[2]=='skip_italics_bold':
+if len(sys.argv)>3 and sys.argv[3]=='skip_italics_bold':
     extras.append('skip_italics_bold')
 L = markdown2.markdown(mkdownstr, extras=extras).split('\n')
 
