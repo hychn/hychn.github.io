@@ -1150,7 +1150,8 @@ class Markdown(object):
         if "strike" in self.extras:
             text = self._do_strike(text)
 
-        text = self._do_italics_and_bold(text)
+        if not "skip_italics_bold" in self.extras:
+            text = self._do_italics_and_bold(text)
 
         if "smarty-pants" in self.extras:
             text = self._do_smart_punctuation(text)
