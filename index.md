@@ -7,7 +7,7 @@
 * [studyplan_tips.html](html/studyplan_tips.html)
 * [study_guide.html](html/study_guide.html)
 * [surf.html](html/surf.html)
-* [test.html](html/test.html)
+* [test2.html](html/test2.html)
 * [workout.html](html/workout.html)
 * ./algebra
   * [algebra/0prelim.html](html/algebra/0prelim.html)
