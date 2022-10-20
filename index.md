@@ -1,13 +1,12 @@
 * ./
 * [A.objectives.html](html/A.objectives.html)
 * [diet.html](html/diet.html)
-* [heuristics.html](html/heuristics.html)
 * [journal.html](html/journal.html)
+* [old_studyplan_tips.html](html/old_studyplan_tips.html)
+* [old_study_guide.html](html/old_study_guide.html)
 * [stats.html](html/stats.html)
-* [studyplan_tips.html](html/studyplan_tips.html)
 * [study_guide.html](html/study_guide.html)
 * [surf.html](html/surf.html)
-* [test.html](html/test.html)
 * [workout.html](html/workout.html)
 * ./algebra
   * [algebra/0prelim.html](html/algebra/0prelim.html)
