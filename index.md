@@ -8,8 +8,9 @@
 * [workout.html](html/workout.html)
 * ./algebra
   * [algebra/0prelim.html](html/algebra/0prelim.html)
+  * [algebra/1.1.Semigroups_Monoids_Groups.html](html/algebra/1.1.Semigroups_Monoids_Groups.html)
   * [algebra/1.6-1.4old.html](html/algebra/1.6-1.4old.html)
-  * [algebra/MAPalg.html](html/algebra/MAPalg.html)
+  * [algebra/1.6.Symmetric_Alternating_Dihedral_Groups.html](html/algebra/1.6.Symmetric_Alternating_Dihedral_Groups.html)
   * [algebra/outline1.5.html](html/algebra/outline1.5.html)
   * [algebra/TOC.html](html/algebra/TOC.html)
 * ./analysis
