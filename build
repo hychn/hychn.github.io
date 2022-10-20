@@ -53,7 +53,7 @@ def comp(fp_md, fp_html):
         os.makedirs(dirs)
 
 
-    system('python3 compile '+fp_md+' '+fp_html)
+    system('python3 compile '+fp_md+' '+fp_html+' skip_italics_bold')
 
 def md_link_str(name,link):
     return '['+name+']'+'('+link+')'

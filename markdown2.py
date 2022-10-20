@@ -89,6 +89,7 @@ see <https://github.com/trentm/python-markdown2/wiki/Extras> for details):
 * wiki-tables: Google Code Wiki-style tables. See
   <http://code.google.com/p/support/wiki/WikiSyntax#Tables>.
 * xml: Passes one-liner processing instructions and namespaced XML tags.
+* skip_italics_bold: skip italics and bold. useful when _ is used in words often, like index.md for listing file directory
 """
 
 # Dev Notes:

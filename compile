@@ -150,7 +150,10 @@ for l in L:
     codex.update(c)
 
 mkdownstr = '\n'.join(L_)
-L = markdown2.markdown(mkdownstr, extras=['spoiler','strike','skip_italics_bold']).split('\n')
+extras = ['spoiler','strike']
+if len(sys.argv)>2 and sys.argv[2]=='skip_italics_bold':
+    extras.append('skip_italics_bold')
+L = markdown2.markdown(mkdownstr, extras=extras).split('\n')
 
 def codexify(L, codex):
     K = sorted( codex.keys() )
