@@ -1,8 +1,32 @@
+# Design of a system
+* How will you design your study/notes based on these principles?
+  * With specific regards to heuristics.
+  * What do we want to learn, identify/apply heuristic/patterns in thought
+  * It is a skill which needs to be learned
+    * learning to learn a skill
+  * Self Oral Exam
+
 # Use, detailed dump and a outline
 * The note taking structure needs to prune ultimately at the end.
 * How to facilitate this across multiple topics. Like if i'm working through a book
   * it is kinda claustrophoic to write one file md for the ENTIRE BOOK. I dont like it.
   * I want to have separate files if I'm being honest with you
+
+
+# HEUR istics are nice to have
+* Like any theorem, its  nice to see the motivating example or situation
+* Therefore,  I think you should make an effort to collect heuristics with their context
+* You should be precise with how you collect heuristics, to be vague is not really good.
+* HEUR should do a specific, tangible thing. And if not, you shouldn't worry about it.
+* Finally, as the list of HEUR grows, you should take effort in combining them or looking for common themes
+* Perhaps one can form a theory out of them...
+
+# experimental based-research 
+* From this experience of finally getting the AI model to train... What did you realize?
+  * Persistence
+  * Keeping things simple
+  * Trying different things
+
 
 # MOOD
 * Be happy and thankful

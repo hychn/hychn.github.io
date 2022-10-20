@@ -40,21 +40,6 @@
 
 # List of Schools/Deadline
 
-* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login)
-  * [Statement of Purpose](https://www.colorado.edu/cs/admissions/graduate-admissions/how-apply)
-    * Colorado doesn't have a seperate section for indicating interest to program so you need to be really clear in this section.
-    * Section headers
-
-  * [recruiting](https://www.colorado.edu/cs/admissions/graduate-admissions/see-who-recruiting-fall-2023)
-  * [requirements](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy/degree-requirements)
-  * RL Control Systems [Majid Zamani](https://www.hyconsys.com/publications.html)
-  * RL [Lijun Chen](https://spot.colorado.edu/~lich1539/)
-  * RL [Ashutosh Trivedi](https://astrivedi.github.io/www/pubs.html)
-  * SOP why this school is for you, just list of professors
-    * Professor Lijun Chen's research, 'Incentivized Exploration for Multi-Armed Bandits under Reward Drift', provides ideas related to my key question of qualifying different types of sampling; the paper explores a compensation scheme for UCB, e-Greedy, and Thompson sampling algorithms and demonstrates it's effectiveness by show the regret is similar to the compensation. I really appreciated the style of the paper where the theory was backed up with numerical experiments.
-    * Professor Majid Zamani's research, 'Compositional construction of finite MDPs for large-scale stochastic switched systems: A dissipativity approach', constructs an estimation and establishes an upper bound for the error. I am very interested in these types of techniques of simplifying a more complex system and qualifying the simplication.
-    * I am also intrested in the statistical machine learning research from the mathematics department; professor Jem Corcoran's research on using importance sampling to manage rare event probabilities partially answers my key questions on how sampling and computational effectiveness.
-    * I am looking forward to taking required coursework such as Probabilistic Models of Human and Machine Learning mathematical background and plenty of practical experience neccesary to start research.
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
@@ -165,3 +150,21 @@
         * Artificial Intelligence: 532, 534, 540, 545, 731, 760, 761, 766, 769
         * Bioinformatics: 576,776
       * depth requirement: preliminary examination
+
+
+
+* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login)
+  * [Statement of Purpose](https://www.colorado.edu/cs/admissions/graduate-admissions/how-apply)
+    * Colorado doesn't have a seperate section for indicating interest to program so you need to be really clear in this section.
+    * Section headers
+
+  * [recruiting](https://www.colorado.edu/cs/admissions/graduate-admissions/see-who-recruiting-fall-2023)
+  * [requirements](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy/degree-requirements)
+  * RL Control Systems [Majid Zamani](https://www.hyconsys.com/publications.html)
+  * RL [Lijun Chen](https://spot.colorado.edu/~lich1539/)
+  * RL [Ashutosh Trivedi](https://astrivedi.github.io/www/pubs.html)
+  * SOP why this school is for you, just list of professors
+    * Professor Lijun Chen's research, 'Incentivized Exploration for Multi-Armed Bandits under Reward Drift', provides ideas related to my key question of qualifying different types of sampling; the paper explores a compensation scheme for UCB, e-Greedy, and Thompson sampling algorithms and demonstrates it's effectiveness by show the regret is similar to the compensation. I really appreciated the style of the paper where the theory was backed up with numerical experiments.
+    * Professor Majid Zamani's research, 'Compositional construction of finite MDPs for large-scale stochastic switched systems: A dissipativity approach', constructs an estimation and establishes an upper bound for the error. I am very interested in these types of techniques of simplifying a more complex system and qualifying the simplication.
+    * I am also intrested in the statistical machine learning research from the mathematics department; professor Jem Corcoran's research on using importance sampling to manage rare event probabilities partially answers my key questions on how sampling and computational effectiveness.
+    * I am looking forward to taking required coursework such as Probabilistic Models of Human and Machine Learning mathematical background and plenty of practical experience neccesary to start research.

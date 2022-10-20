@@ -34,4 +34,3 @@ a function with variables f(A,B) is a variable (I keep thinking back to the tabl
     * This is identical to <->
     * Another way is A True means B True, A False then B False
   * From the defintion, we can see A=A, A=B->B=A, and A=B,B=C->A=C
-
