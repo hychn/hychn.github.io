@@ -1,4 +1,7 @@
 <!DOCTYPE html><html><head><title>Title</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<p>\(\def\ < ={ \leq }\)
+\(\def\ > ={ \geq }\)</p>
+
 <h1>1.6 Symmetric, Alternating, and Dihedral Groups</h1>
 
 <ul>
@@ -16,8 +19,11 @@
   <li>(bx)(ab)(bx) = (ab)(ax)(bx) = (ab)(xab) = (ab)(abx) = (ax) [replacing a number in transposition form xtx]</li>
   <li>(cb) (ab)(ac)(ab)(ac) (cb) = (ab)(ac)(ac)(ab)(ab)(ac) = (ab)(ac)</li>
   <li>(ab) (ab)(ac)(ab)(ac) (ab) = (ac)(bc) = (cab)</li>
+  <li>(ac)(ab)(ac) (ab) = (ab)(bc) (cb)(ac) = (abc)</li>
   </ul></li>
   </ul>
+  
+  <p>*(ac)(cb)(bc)(ab) = (ac)(ab)</p>
 </blockquote>
 
 <ul>
@@ -36,8 +42,7 @@
 <ul>
 <li>Once you have exhausted, you can explore including additional property/structure/restriction</li>
 </ul></li>
-<li><p>THM \(A_n\) is normal subgroup of \(S_n\) of index 2 with order \(|S_n|/2\). \(A_n\) is the only subgroup of \(S_n\) of index 2.</p>
-
+<li>THM \(A_n\) is normal subgroup of \(S_n\) of index 2 with order \(|S_n|/2\). \(A_n\) is the only subgroup of \(S_n\) of index 2.
 <ul>
 <li>normal is clear</li>
 <li>index 2? is there some way to characterize even vs odd permuation? how about start with small case were we can definitely know n=2
@@ -46,10 +51,25 @@
 <li>\(|S_2|=2\) \(|S_3|=3*2\)</li>
 <li>Alternate notation for \(S_2\): [1,2] [2,1]</li>
 </ul></li>
+<li>A. let's try to show a 3 cycle exists
+<ul>
+<li>well, \(A_n\) cannot consist of all odd cycles, whose size will have index 2, 
+<ul>
+<li>because it would contain all 1 cycles that generates all of \(S_n\)</li>
+<li>so it contains at least 1 even cycle</li>
+<li>B. can we reduce this even cycle into a 3 cycle?</li>
 </ul></li>
-<li><p>DEF Simple group</p></li>
+</ul></li>
+</ul></li>
+<li>DEF Simple group</li>
 <li>THM Approx wording: A_n is simple for n!=4</li>
-<li>DEF Dihedral Groups</li>
+<li><p>DEF Dihedral Groups</p></li>
+<li><p>\(a \ < = b\) and \(b \ < = a\) \(\implies\)</p>
+
+<ul>
+<li>you could look \(\ < =\) as \( < \) or \(=\); and the two statements rule out the possibility of \( < \)</li>
+<li>but a similar statement with sets</li>
+</ul></li>
 </ul>
 
 </div></body> </html>

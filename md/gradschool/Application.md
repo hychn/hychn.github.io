@@ -54,9 +54,17 @@
     * SOP 500 words
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
-* University of Texas at Austin
+* [University of Texas at Austin](https://stat.utexas.edu/academics/phd-statistics)
+  * requires GRE
   * Scott Niekum, Peter Stone
 
+* [University of Rochester](https://www.urmc.rochester.edu/education/graduate/phd/statistics/about-the-program.aspx) Dec 1
+  * A very bio statistical oriented program
+
+* [Oregon State]
+* To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
+
+* [Texas A&M](https://stat.tamu.edu/phd-statistics/stat-phd-admissions/)
 
 
 * USC
@@ -168,3 +176,5 @@
     * Professor Majid Zamani's research, 'Compositional construction of finite MDPs for large-scale stochastic switched systems: A dissipativity approach', constructs an estimation and establishes an upper bound for the error. I am very interested in these types of techniques of simplifying a more complex system and qualifying the simplication.
     * I am also intrested in the statistical machine learning research from the mathematics department; professor Jem Corcoran's research on using importance sampling to manage rare event probabilities partially answers my key questions on how sampling and computational effectiveness.
     * I am looking forward to taking required coursework such as Probabilistic Models of Human and Machine Learning mathematical background and plenty of practical experience neccesary to start research.
+
+
