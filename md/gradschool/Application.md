@@ -47,29 +47,34 @@
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
   * SOP why this school is for you
 
-* [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
-  * requires GRE
-  * Scott Niekum, Peter Stone
-* [Iowa State](Sept 1)
-* [University of Iowa]
-* [University of Minnesota]
-* [University of Nebraska-Lincoln]
-* [Washington University in St. Louis]
 * [Georgia Institute of Technology]
   * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
     * [Florian Schäfer](https://f-t-s.github.io/) CONTACT
       * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
       * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
+
+* [University of Iowa]
+* [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
+  * [Program Info](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
+    * If you join the PhD program at Washington University, one of the courses you take in your first semester is Introduction to Graduate Study in CSE. As part of this course, you will do two one-month rotations in the research groups of faculty members who are recruiting graduate students. 
+    * The rotation model does not preclude students from initiating discussions with faculty whose group they really want to join prior to joining WashU, but it offers the opportunity to be exposed to other research areas and approaches and to interact with potential research advisers before finalizing a commitment.
+  * [Deadlines/info](https://engineering.wustl.edu/academics/graduate-admissions/application-checklist.html)
+  * [Faculty](https://machinelearning.wustl.edu/faculty/)
+    * [William Yeoh](https://sites.wustl.edu/wyeoh/research/)
+    * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
+    * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
+
+* [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
+  * requires GRE
+  * Scott Niekum, Peter Stone
+
+
+* [University of Minnesota]
+* [University of Nebraska-Lincoln]
 * [Oregon State]
   * To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
 * [Texas A&M]
-
-* [UNIFL](https://www.applyweb.com/cgi-bin/app?s=uflgrad)
-  * Faculty: (https://www.ise.ufl.edu/cao/faculty/electrical-computer-engineering/?)
-    * [William Hager](https://people.clas.ufl.edu/hager/optimal-control/)
-    * SOP 500 words
-  * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
 * UMICH https://micde.umich.edu/methodology/optimization/
 * Georgia
