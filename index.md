@@ -11,7 +11,6 @@
   * [algebra/1.1.Semigroups_Monoids_Groups.html](html/algebra/1.1.Semigroups_Monoids_Groups.html)
   * [algebra/1.6-1.4old.html](html/algebra/1.6-1.4old.html)
   * [algebra/1.6.Symmetric_Alternating_Dihedral_Groups.html](html/algebra/1.6.Symmetric_Alternating_Dihedral_Groups.html)
-  * [algebra/1.7.Categories:products_coproducts_freeobjects.html](html/algebra/1.7.Categories:products_coproducts_freeobjects.html)
   * [algebra/outline1.5.html](html/algebra/outline1.5.html)
   * [algebra/TOC.html](html/algebra/TOC.html)
 * ./analysis
