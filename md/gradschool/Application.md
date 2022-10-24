@@ -70,8 +70,13 @@
     * [William Yeoh](https://sites.wustl.edu/wyeoh/research/)
       * Stochastic Goal Recognition Design Problems with Suboptimal Agents
         * Goal Recognition Design (GRD) problems identify the minimum number of environmental modifications aiming to force an interacting agent to reveal its goal as early as possible. 
+          * Extending the stochastic goal recognition design framework by supporting suboptimal agents in cases where an observer has either full or partial observability
+          * Presenting methods to evaluate the ambiguity of the model under these assumptions
     * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
+      * Learning Probably Approximately Complete and Safe Action Models for Stochastic Worlds
     * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
+      * Automated Model Selection with Bayesian Quadrature
+        * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
 
 * [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
   * [EMAILED Asking about GRE requirement](https://ml.gatech.edu/phd/admissions)
