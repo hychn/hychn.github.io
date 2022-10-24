@@ -1,3 +1,5 @@
+* Proofs from THE BOOK
+
 # TODO
 * GRE (take at home)
 * PASSPORT
@@ -35,6 +37,16 @@
   * Senior Vice President at PharmCADD
   * isyoon@biorchestra.com
 
+# STEPS
+* Finish apply, SOP
+* Get supplementary stuff
+  * GRE, DuoLingo
+* Study the RL field more, read the papers of professors
+* Email professors, that request
+  * Asking for guidance on which topics to study
+    * https://arxiv.org/pdf/2203.12139.pdf
+    * Some terms familiar, some terms new
+    * ELBO, KL divergence
 
 # List of Schools/Deadline
 
@@ -42,10 +54,12 @@
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
-  * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs)
-  * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
-  * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
   * SOP why this school is for you
+  * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs)
+    * Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits
+  * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
+    * Approximate Inference for Stochastic Planning in Factored Spaces
+  * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
 
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
   * [Program Info](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
@@ -54,6 +68,8 @@
   * [Deadlines/info](https://engineering.wustl.edu/academics/graduate-admissions/application-checklist.html)
   * [Faculty](https://machinelearning.wustl.edu/faculty/)
     * [William Yeoh](https://sites.wustl.edu/wyeoh/research/)
+      * Stochastic Goal Recognition Design Problems with Suboptimal Agents
+        * Goal Recognition Design (GRD) problems identify the minimum number of environmental modifications aiming to force an interacting agent to reveal its goal as early as possible. 
     * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
     * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
 
@@ -69,17 +85,18 @@
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
       * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
 
-* [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
-  * requires GRE
-  * Scott Niekum, Peter Stone
-
-* [University of Iowa]
-
-* [University of Minnesota]
-* [University of Nebraska-Lincoln]
-* [Oregon State]
-* [Texas A&M]
-
+* [University of Texas at Austin](http://goapplytexas.org/)
+  * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
+  * [Faculty](https://ml.utexas.edu/research-areas/faculty/reinforcement-learning)
+  * [Qiang Liu](https://www.cs.utexas.edu/~lqiang/)
+    * Action-depedent Control Variates for Policy Optimization via Stein's Identity
+      * Motivated by the Stein's identity, our method extends the previous control variate methods used in REINFORCE and advantage actor-critic by introducing more general action-dependent baseline functions. 
+  * [Peter Stone](https://www.cs.utexas.edu/~pstone/students.shtml)
+    * Lucid Dreaming for Experience Replay: Refreshing Past States with the Current Policy
+      * Experience replay (ER) improves the data efficiency of off-policy reinforcement learning (RL) algorithms by allowing an
+      agent to store and reuse its past experiences in a replay buffer. While many techniques have been proposed to enhance ER
+      by biasing how experiences are sampled from the buffer, thus far they have not considered strategies for refreshing
+      experiences inside the buffer
 
 # DONE  =================================================================
 
