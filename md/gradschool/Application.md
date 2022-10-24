@@ -54,17 +54,21 @@
     * SOP 500 words
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
-* [University of Texas at Austin](https://stat.utexas.edu/academics/phd-statistics)
+* [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
   * requires GRE
   * Scott Niekum, Peter Stone
 
-* [University of Rochester](https://www.urmc.rochester.edu/education/graduate/phd/statistics/about-the-program.aspx) Dec 1
-  * A very bio statistical oriented program
+Iowa State
+
+* [University of Rochester](https://www.cs.rochester.edu/graduate/how-to-apply.html) Dec 15
+  * GRE
+  * joint phd
 
 * [Oregon State]
 * To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
 
-* [Texas A&M](https://stat.tamu.edu/phd-statistics/stat-phd-admissions/)
+* [Texas A&M]
+
 
 
 * USC
