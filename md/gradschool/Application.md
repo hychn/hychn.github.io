@@ -47,14 +47,6 @@
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
   * SOP why this school is for you
 
-* [Georgia Institute of Technology]
-  * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
-    * [Florian Schäfer](https://f-t-s.github.io/) CONTACT
-      * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
-    * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
-      * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
-
-* [University of Iowa]
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
   * [Program Info](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
     * If you join the PhD program at Washington University, one of the courses you take in your first semester is Introduction to Graduate Study in CSE. As part of this course, you will do two one-month rotations in the research groups of faculty members who are recruiting graduate students. 
@@ -65,19 +57,29 @@
     * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
     * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
 
+* [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
+  * [EMAILED Asking about GRE requirement](https://ml.gatech.edu/phd/admissions)
+  * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
+    * https://ml.gatech.edu/people/faculty/phdprogramfaculty
+    * [Florian Schäfer](https://f-t-s.github.io/) CONTACT
+      * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
+    * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT
+      * Improved analysis for a proximal algorithm for sampling
+    * [Panagiotis Tsiotras](https://dcsl.gatech.edu/research/autonomous-vehicle-learning.html)
+    * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
+      * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
+
 * [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
   * requires GRE
   * Scott Niekum, Peter Stone
 
+* [University of Iowa]
 
 * [University of Minnesota]
 * [University of Nebraska-Lincoln]
 * [Oregon State]
-  * To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
 * [Texas A&M]
 
-* UMICH https://micde.umich.edu/methodology/optimization/
-* Georgia
 
 # DONE  =================================================================
 
