@@ -36,10 +36,9 @@
   * isyoon@biorchestra.com
 
 
-
-
 # List of Schools/Deadline
 
+* For all these schools, check research, and requirements, and write phd
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
@@ -48,17 +47,21 @@
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
   * SOP why this school is for you
 
+
+* [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
+  * requires GRE
+  * Scott Niekum, Peter Stone
+
+* [Iowa State](Sept 1)
+  * (https://www.cs.iastate.edu/computer-science-graduate-admissions)
+  * 500 words
+
 * [UNIFL](https://www.applyweb.com/cgi-bin/app?s=uflgrad)
   * Faculty: (https://www.ise.ufl.edu/cao/faculty/electrical-computer-engineering/?)
     * [William Hager](https://people.clas.ufl.edu/hager/optimal-control/)
     * SOP 500 words
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
-* [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
-  * requires GRE
-  * Scott Niekum, Peter Stone
-
-Iowa State
 
 * [University of Rochester](https://www.cs.rochester.edu/graduate/how-to-apply.html) Dec 15
   * GRE
