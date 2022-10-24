@@ -182,7 +182,7 @@ def mathjaxL(L, title):
 
 title = fname.split('/')[-1]
 title = title.split('.')[0]
-L = mathjaxL(L, fname)
+L = mathjaxL(L, title)
 
 name = fname[:-3]
 ytl.writeListToFile(L, dest)
