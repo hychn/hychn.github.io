@@ -47,14 +47,18 @@
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
   * SOP why this school is for you
 
-
 * [University of Texas at Austin](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
   * requires GRE
   * Scott Niekum, Peter Stone
-
 * [Iowa State](Sept 1)
-  * (https://www.cs.iastate.edu/computer-science-graduate-admissions)
-  * 500 words
+* [University of Iowa]
+* [University of Minnesota]
+* [University of Nebraska-Lincoln]
+* [Washington University in St. Louis]
+* [Georgia Institute of Technology]
+* [Oregon State]
+  * To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
+* [Texas A&M]
 
 * [UNIFL](https://www.applyweb.com/cgi-bin/app?s=uflgrad)
   * Faculty: (https://www.ise.ufl.edu/cao/faculty/electrical-computer-engineering/?)
@@ -62,12 +66,6 @@
     * SOP 500 words
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
-
-
-* [Oregon State]
-* To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
-
-* [Texas A&M]
 
 
 
