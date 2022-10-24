@@ -63,9 +63,6 @@
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
 
-* [University of Rochester](https://www.cs.rochester.edu/graduate/how-to-apply.html) Dec 15
-  * GRE
-  * joint phd
 
 * [Oregon State]
 * To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
