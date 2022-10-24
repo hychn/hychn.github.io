@@ -56,6 +56,11 @@
 * [University of Nebraska-Lincoln]
 * [Washington University in St. Louis]
 * [Georgia Institute of Technology]
+  * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
+    * [Florian Schäfer](https://f-t-s.github.io/) CONTACT
+      * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
+    * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
+      * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
 * [Oregon State]
   * To be honest though, I think it is more appropriate to get into ML/CS and the take stat course
 * [Texas A&M]
@@ -66,21 +71,14 @@
     * SOP 500 words
   * https://www.eng.ufl.edu/ai-university/projects/foundations-of-ai/
 
-
-
-
-* USC
 * UMICH https://micde.umich.edu/methodology/optimization/
-* Northwestern
-* Nebraska
-* UNC
 * Georgia
 
 # DONE  =================================================================
 
 * [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) Dec 15
   * TODO: Copy of passport
-  * [Nan Jian](https://nanjiang.cs.illinois.edu/)
+  * [Nan Jian](https://nanjiang.cs.illinois.edu/) CONTACT
   * [Matus Telgarsky](http://mjt.cs.illinois.edu/)
   * [Katie Driggs-Campbell](https://cs.illinois.edu/about/people/faculty/krdc)
   * [Kris K Hauser](https://cs.illinois.edu/about/people/faculty/kkhauser)
