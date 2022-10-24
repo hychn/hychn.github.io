@@ -180,6 +180,8 @@ def mathjaxL(L, title):
     L.append(B)
     return L
 
+title = fname.split('/')[-1]
+title = title.split('.')[0]
 L = mathjaxL(L, fname)
 
 name = fname[:-3]
