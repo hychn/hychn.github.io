@@ -1,3 +1,8 @@
+$\def\<={ \leq }$
+$\def\>={ \geq }$
+$\def\->{ \rightarrow}$
+
+
 * Proofs from THE BOOK
 
 # TODO
@@ -79,7 +84,7 @@
         * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
 
 * [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
-  * [EMAILED Asking about GRE requirement](https://ml.gatech.edu/phd/admissions)
+  * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
   * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
     * https://ml.gatech.edu/people/faculty/phdprogramfaculty
     * [Florian Schäfer](https://f-t-s.github.io/) CONTACT
@@ -102,6 +107,29 @@
       agent to store and reuse its past experiences in a replay buffer. While many techniques have been proposed to enhance ER
       by biasing how experiences are sampled from the buffer, thus far they have not considered strategies for refreshing
       experiences inside the buffer
+
+* [Uni of Nebraska Lincoln] Jan 15
+  * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
+  * No gre, no english requirement
+  * Hau Chan
+    * [Monotone k-submodular secretary problems: Cardinality and knapsack constraints](https://www.sciencedirect.com/science/article/abs/pii/S0304397522002079?via%3Dihub)
+    * [background reference](https://arxiv.org/pdf/1409.1399.pdf)
+    * request pdf
+    * DEF submodular $f(S)+f(T)\>= f(S\cap T) + F(S\cup T)$
+      * U be a set, for $S,T \subseteq U$
+      * $f : 2^U \-> \mathbb{R}$
+    * [Adversarial Blocking Bandits](https://proceedings.neurips.cc/paper/2020/file/5cc3749a6e56ef6d656735dff9176074-Paper.pdf)
+      * To complement our result, we show that a greedy algorithm
+      that plays the best available arm at each round provides an approximation guarantee.
+  * Leen-Kiat Soh
+    * [Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems](https://ojs.aaai.org/index.php/AAAI/article/download/6200/6056)
+      * Theoretical analyses establish the
+      number of agents to model in order to achieve acceptable
+      worst case bounds on extrapolation error, as well as regret
+      bounds on the agent’s utility from modeling only some neigh-
+      bors. 
+  * https://cse.unl.edu/~qyao/#opportunity
+
 
 # DONE  =================================================================
 
