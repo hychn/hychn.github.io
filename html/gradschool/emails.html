@@ -1,0 +1,110 @@
+<!DOCTYPE html><html><head><title>emails</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<p>\(\def\ < -{ \leftarrow }\)
+\(\def\- > { \rightarrow}\)</p>
+
+<h1>Nan Jiang</h1>
+
+<ul>
+<li>Title: I have read the instructions on your website</li>
+</ul>
+
+<p>I have read the instructions on your website</p>
+
+<ul>
+<li><p>Hello Professor,</p></li>
+<li><p>Thank you for your time. I am really interested your research.</p></li>
+<li><p>ML projects:</p>
+
+<ul>
+<li>Computer Vision: Satellite image prediction, robotic pose tracking </li>
+<li>Protein contact/structure prediction</li>
+<li>RL gomoku</li>
+</ul></li>
+<li><p>I am very interested in your research sample efficiency</p>
+
+<h1>[A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation}(https://arxiv.org/pdf/2207.08342.pdf)</h1>
+
+<ul>
+<li>A basic starting point which still lacks comprehensive understanding is the case of linear value function approximation, which models value functions as lying in the span of a known d-dimensional feature mapping and asks for methods which have sample complexities that are polynomial only in d, H, and possibly |A|</li>
+<li>optimal value function (or optimal action-value function) is assumed to be linear</li>
+<li>In recent years much has been said about linear value approximation under stronger assumptions
+<ul>
+<li>under determinism</li>
+<li>linear/low-rank MDPs
+<ul>
+* 
+</ul></li>
+<li>Bellman-closedness
+<ul>
+<li>Small bellman error?</li>
+<li>Bellman error \(|| V(x) - (R+E[V(x')]) ||\)
+<ul>
+<li>Bellman backup \(V(x) \ < - r (R+E[V(x')])+(1-r)V(x)\)</li>
+</ul></li>
+</ul></li>
+<li>existence of core states
+<ul>
+<li>Efficient Planning in Large MDPs with Weak Linear Function Approximation
+<ul>
+<li>Core States: There is a set of core states \(S_* \subset S\) (with \(|S_*|=m\)) that are available to the algorithm, and the feature vector of every other state can be written as a positive linear combination of the core state features.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>In this work, we consider an alternative possibility for recovering polynomial sample complexities which do not further restrict the class of MDPs under consideration. That is, we assist the learner with some additional side information about the problem.</p></li>
+<li><p>Under linear-realizability, what is the minimal amount of expert data required for sample/computational-efficient learning, and which algorithm achieves this</p></li>
+<li><p>Under these conditions, our method uses surprisingly few expert queries combined with some modest (polynomial) amount of exploration to recover the expert policy.</p>
+
+<ul>
+<li>Delphi recovers a policy matching which is e-optimal,(with respect to the expert policy)
+<ul>
+<li>O(d log(B/e) ) oracle calls and \(\tilde{O}(\dfrac{d^2 H^5 |A| B^4} {e^4})\)
+<ul>
+<li>B is bound on \(l_2\)-norm of unknown linear paramter</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Assumtpion 2.1 interactive expert</li>
+<li>Assumption 2.2 expert v is linear with bounded features</li>
+<li><p>Assumption 2.3 after experiencing transition (s,a,r,s') in MDP, agent can return to state s</p>
+
+<ul>
+<li>H horizion</li>
+<li>S - state space, A action set, </li>
+<li>R : SxA -> [0,1]     reward distribution</li>
+<li>P : SxA -> [0,1]^|S| transition distribution</li>
+<li>Many potential applications of reinforcement learning (RL) have intractably-large state-spaces.</li>
+<li>sample complexity
+<ul>
+<li>number of training-samples that it needs in order to successfully learn a target function</li>
+</ul></li>
+</ul></li>
+<li><p>I have been reading various resources, hugging face, bersaktas,...</p>
+
+<ul>
+<li>good theoretical text?
+<ul>
+<li>or just need to go through the papers</li>
+<li>with exercises?</li>
+</ul></li>
+</ul></li>
+<li><p>Undegraduate:</p>
+
+<ul>
+<li>Statistical Model Analysis: A-</li>
+<li>Operations Research 1,2: A,A</li>
+</ul></li>
+<li>Graduate math courses:
+<ul>
+<li>Advanced Calculus Single Variable: A-</li>
+<li>Advanced Calculus Multi Variable: A-</li>
+<li>Real Analysis 1, 2: A,A-</li>
+<li>Intro to Abstract Linear Algebra: A-</li>
+<li>Abstract Algebra Intro, 1, 2: A-,B+,B-</li>
+<li>Intro to Complex Variables: A-</li>
+<li>General Topology 1: A</li>
+<li>Adv Ordinary Diff Equations: A+</li>
+</ul></li>
+</ul>
+
+</div></body> </html>

@@ -12,7 +12,7 @@ $\def\->{ \rightarrow}$
 * Proof of Funding
 
 # Birth
-* City of Birth: Pocheon/Seoul
+* City of Birth: Pocheon/Seoul, Gyeonggi
 
 # Address Contact
 * 20 Changseon-Ro 131BEON-Gil
@@ -56,6 +56,7 @@ $\def\->{ \rightarrow}$
 # List of Schools/Deadline
 
 * For all these schools, check research, and requirements, and write phd
+* How about you contact these professors and then see if they have openings in their lab to decide wether to apply or not?
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
@@ -67,6 +68,11 @@ $\def\->{ \rightarrow}$
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
 
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
+  * Dec 15 $75
+    * Letter Rec
+    * SOP
+    * Fellowship essay
+    * Research Experience Contact
   * [Program Info](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
     * If you join the PhD program at Washington University, one of the courses you take in your first semester is Introduction to Graduate Study in CSE. As part of this course, you will do two one-month rotations in the research groups of faculty members who are recruiting graduate students. 
     * The rotation model does not preclude students from initiating discussions with faculty whose group they really want to join prior to joining WashU, but it offers the opportunity to be exposed to other research areas and approaches and to interact with potential research advisers before finalizing a commitment.
@@ -96,6 +102,8 @@ $\def\->{ \rightarrow}$
       * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
 
 * [University of Texas at Austin](http://goapplytexas.org/)
+  *  Additionally, applicants are exempt from the requirement if they possess a bachelor’s degree from a U.S. institution or a qualifying country. 
+  * Letters of Rec, Statement of Purpose
   * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
   * [Faculty](https://ml.utexas.edu/research-areas/faculty/reinforcement-learning)
   * [Qiang Liu](https://www.cs.utexas.edu/~lqiang/)
@@ -129,6 +137,7 @@ $\def\->{ \rightarrow}$
       bounds on the agent’s utility from modeling only some neigh-
       bors. 
   * https://cse.unl.edu/~qyao/#opportunity
+
 
 
 # DONE  =================================================================
