@@ -2,6 +2,10 @@
 * short list of recurring, important, fundamental ideas
 * less is more
 
+# Exercises
+* discourse with author
+  * where you can gain new insights
+
 # Goal
 * be able to reason and solve questions in the field effectively
   * even though they may take some time, ultimately be able to draw conclusions
