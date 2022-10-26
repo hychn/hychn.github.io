@@ -98,7 +98,7 @@ I have read the instructions on your website
 
 ### Optimism
 * Lemma 3.4 $\theta^{\circ}$ not eliminated. With probability $>=  1-\delta$, $\theta^\circ \in \Theta_t$ for all iterations $t \in [E_d+1]$
-* Lemma 3.5 Under the event of 3.4, we have $v_t(s_0) \geq v^{\circ}(s_0)$ for all iterations $\all t \in [E_d]$
+* Lemma 3.5 Under the event of 3.4, we have $v_t(s_0) \geq v^{\circ}(s_0)$ for  $\forall t \in [E_d]$
 
 
 
