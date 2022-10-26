@@ -103,9 +103,13 @@ I have read the instructions on your website
   * By the bounds we established on 3.2,3.3
     * $|<\tilde{\Delta}-\Delta_t, 1 \oplus \theta>| \<= \epsilon$
     * since $< \Delta_t , 1 \oplus \theta^o> = 0 $ 
-      * we get $|<\tilde{\Delta}, 1 \oplus \theta^o>| \<= \epsilon$
+      * we get $|<\tilde{\Delta}, 1 \oplus \theta^o>| \<= \epsilon$ 
+      * which the means $\theta^o \in \Theta_t$
 
 * Lemma 3.5 Under the event of 3.4, we have $v_t(s_0) \geq v^{\circ}(s_0)$ for  $\forall t \in [E_d]$
+  * optimistic update rule?
+  * "the update to $\theta_{t+1}$ will choose the argmax $\theta \in \Theta_t$ for $v_{\theta}(s_o)$
+  * this means $v_{\theta_{t+1}} \geq v_{\theta^o}$ 
 
 
 
