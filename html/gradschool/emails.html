@@ -119,8 +119,7 @@
 <li>In the second case, we derive (cf. Lemma 3.7) that if no inconsistencies are observed for several rollouts, then our “virtual value” vθ is equal to the true value under πθ (i.e., vπθ ). Using the optimistic property, this implies that we are optimal.</li>
 </ul></li>
 <li><p>the policy \(\pi_{\theta_t}\) will play any action \(a\) such that \(v_{\theta_t}\) is consistent with Bellman update for that action, any action \(a\) such that \(v_{\theta_t} = r(s,a) +  < P(s,a),v_{\theta_t}(.) > \)</p></li>
-<li><p>Thus, the parameter θt which is chosen at time t is orthogonal to the previous t − 1 TD vectors which have been generated from interactions with the oracle. (I'm guess the old actions are consistent action, wrt to all θi)</p>
-
+<li>Thus, the parameter θt which is chosen at time t is orthogonal to the previous t − 1 TD vectors which have been generated from interactions with the oracle. (I'm guess the old actions are consistent action, wrt to all θi)
 <ul>
 <li>We pick the optimistic linear parameter which is consistent on the past expert data 
 <ul>
@@ -132,14 +131,20 @@ independent vectors in Rd+1.</li>
 <li>Establishes <strong>COMPLEXITY</strong>
 <h2>LEMMA'S</h2></li>
 </ul></li>
-<li><p>Lemma 3.2 Bounds on distance,  \(\Delta_{s,a} - \hat{\Delta}_{s,a}\)</p></li>
-<li><p>Lemma 3.2 Bounds on distance,  \(\Delta_{s,a} - \tilde{\Delta}_{s,a}\)</p></li>
+</ul>
 
-<li><p>Hoeffding's inequality</p>
+<h3>Concentration Inequalities</h3>
 
 <ul>
-<li>In probability theory, Hoeffding's inequality provides an upper bound on the probability that the sum of bounded independent random variables deviates from its expected value by more than a certain amount</li>
-</ul></li>
+<li>Lemma 3.2 Bounds on distance,  \(\Delta_{s,a} - \hat{\Delta}_{s,a}\)</li>
+<li>Lemma 3.3 Bounds on distance,  \(\Delta_{s,a} - \tilde{\Delta}_{s,a}\)</li>
+<li>Hoeffding's inequality :In probability theory, Hoeffding's inequality provides an upper bound on the probability that the sum of bounded independent random variables deviates from its expected value by more than a certain amount</li>
+</ul>
+
+<h3>Optimism</h3>
+
+<ul>
+<li>Lemma 3.4 \(\Theta^{\dot}\) not eliminated</li>
 </ul>
 
 <h1>Other INFO</h1>
