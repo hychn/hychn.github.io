@@ -1,5 +1,7 @@
 $\def\<-{ \leftarrow }$
 $\def\->{ \rightarrow}$
+$\def\>={ \geq}$
+$\def\<={ \leq}$
 
 
 # Intoduction
@@ -95,7 +97,7 @@ I have read the instructions on your website
 * Hoeffding's inequality :In probability theory, Hoeffding's inequality provides an upper bound on the probability that the sum of bounded independent random variables deviates from its expected value by more than a certain amount
 
 ### Optimism
-* Lemma 3.4 $\Theta^{\circ}$ not eliminated
+* Lemma 3.4 $\theta^{\circ}$ not eliminated. With probability $\>= 1-\delta$, $\theta^\circ \in \Theta_t$
 
 
 
