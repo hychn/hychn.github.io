@@ -66,8 +66,8 @@
 </ul></li>
 <li>Assumtpion 2.1 interactive expert</li>
 <li>Assumption 2.2 expert v is linear with bounded features</li>
-<li><p>Assumption 2.3 after experiencing transition (s,a,r,s') in MDP, agent can return to state s</p>
-
+<li>Assumption 2.3 after experiencing transition (s,a,r,s') in MDP, agent can return to state s</li>
+<li>Definitions
 <ul>
 <li>H horizion</li>
 <li>S - state space, A action set, </li>
@@ -77,6 +77,16 @@
 <li>sample complexity
 <ul>
 <li>number of training-samples that it needs in order to successfully learn a target function</li>
+</ul></li>
+</ul></li>
+<li><p>Delphi</p>
+
+<ul>
+<li>Guess and check</li>
+<li>Pick optimistic linear parameter, \(\theta_t\), which is consistent on past expert data we have seen at iteration t</li>
+<li>Check if this parameter is globally consistent by playing \(n_rollouts\) of length H with policy derived from \(\theta_t\)
+<ul>
+<li>the policy \(\pi_{\theta_t}\) will play any action \(a\) such that \(v_{\theta_t}\) is consistent with Bellman update for that action, any action \(a\) such that \(v_{\theta_t} = r(s,a) +  < P(s,a),v_{\theta_t}(.) > \)</li>
 </ul></li>
 </ul></li>
 <li><p>I have been reading various resources, hugging face, bersaktas,...</p>

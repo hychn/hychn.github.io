@@ -42,8 +42,7 @@ I have read the instructions on your website
 * Assumtpion 2.1 interactive expert
 * Assumption 2.2 expert v is linear with bounded features
 * Assumption 2.3 after experiencing transition (s,a,r,s') in MDP, agent can return to state s
-
-
+* Definitions
   * H horizion
   * S - state space, A action set, 
   * R : SxA -> [0,1]     reward distribution
@@ -51,6 +50,11 @@ I have read the instructions on your website
   * Many potential applications of reinforcement learning (RL) have intractably-large state-spaces.
   * sample complexity
     * number of training-samples that it needs in order to successfully learn a target function
+* Delphi
+  * Guess and check
+  * Pick optimistic linear parameter, $\theta_t$, which is consistent on past expert data we have seen at iteration t
+  * Check if this parameter is globally consistent by playing $n_rollouts$ of length H with policy derived from $\theta_t$
+    * the policy $\pi_{\theta_t}$ will play any action $a$ such that $v_{\theta_t}$ is consistent with Bellman update for that action, any action $a$ such that $v_{\theta_t} = r(s,a) + <P(s,a),v_{\theta_t}(.)>$
 
 * I have been reading various resources, hugging face, bersaktas,...
   * good theoretical text?
@@ -69,3 +73,4 @@ I have read the instructions on your website
   * Intro to Complex Variables: A-
   * General Topology 1: A
   * Adv Ordinary Diff Equations: A+
+
