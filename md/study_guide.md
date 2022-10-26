@@ -18,6 +18,11 @@
 * If uncomfortable/head hurts, reorganize and consider better way
 * Rest, sleep, health, relaxed-alert
 * Be careful of your sources of motivation; internal/external
+* Before, I used to feel proud of myself of my little accomplishments to help me feel better and safer
+  * But now... I can't. I know how little these things mean 
+  * And with more I learn, the more I realize how little I know
+  * I will not boast of works
+  * I will just be happy for the sake of being happy
 
 # Heuristic
 * Anchor points

@@ -101,7 +101,8 @@ I have read the instructions on your website
   * New admissible parameters $\Theta_t$
   * "Let $\delta_t$ be the vector added to $\Theta_t$ at time t"
   * $\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | <\tilde{\Delta}, 1 \oplus \theta>  \}$
-$ 
+  * $|<\tilde{\Delta}-\Delta_t, 1 \oplus \theta>| \<= \epsilon$
+
 * Lemma 3.5 Under the event of 3.4, we have $v_t(s_0) \geq v^{\circ}(s_0)$ for  $\forall t \in [E_d]$
 
 
