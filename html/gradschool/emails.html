@@ -2,7 +2,7 @@
 <p>\(\def\ < -{ \leftarrow }\)
 \(\def\- > { \rightarrow}\)</p>
 
-<h1>Nan Jiang</h1>
+<h1>Intoduction</h1>
 
 <ul>
 <li>Title: I have read the instructions on your website</li>
@@ -12,7 +12,10 @@
 
 <ul>
 <li><p>Hello Professor,</p></li>
-<li><p>Thank you for your time. I am really interested your research.</p></li>
+<li><p>My name is Yechan Hong. </p></li>
+<li>I did my B.A. focused in Computer Science.</li>
+<li>Later, I completed M.S. in Applied Mathematics because of my strong interest for the mathemathics of AI.</li>
+<li><p>I am working in the industry for the past 3 years for my mandatory military service and am planning to return for a doctoral degree in Fall 2023.</p></li>
 <li><p>ML projects:</p>
 
 <ul>
@@ -20,14 +23,32 @@
 <li>Protein contact/structure prediction</li>
 <li>RL gomoku</li>
 </ul></li>
-<li><p>I am very interested in your research sample efficiency</p>
-
-<h1>[A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation}(https://arxiv.org/pdf/2207.08342.pdf)</h1>
+<li><p>Undergraduate:</p>
 
 <ul>
+<li>Statistical Model Analysis: A-</li>
+<li>Operations Research 1,2: A,A</li>
+</ul></li>
+<li><p>Graduate math courses:</p>
+
+<ul>
+<li>Advanced Calculus Single Variable: A-</li>
+<li>Advanced Calculus Multi Variable: A-</li>
+<li>Real Analysis 1, 2: A,A-</li>
+<li>Intro to Abstract Linear Algebra: A-</li>
+<li>Abstract Algebra Intro, 1, 2: A-,B+,B-</li>
+<li>Intro to Complex Variables: A-</li>
+<li>General Topology 1: A</li>
+<li>Adv Ordinary Diff Equations: A+</li>
+</ul></li>
+<li><p>I am very interested in your research sample efficiency</p>
+
+<h1>Paper</h1></li>
+<li><p>[A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation}(https://arxiv.org/pdf/2207.08342.pdf)</p></li>
 <li>A basic starting point which still lacks comprehensive understanding is the case of linear value function approximation, which models value functions as lying in the span of a known d-dimensional feature mapping and asks for methods which have sample complexities that are polynomial only in d, H, and possibly |A|</li>
 <li>optimal value function (or optimal action-value function) is assumed to be linear</li>
-<li>In recent years much has been said about linear value approximation under stronger assumptions
+<li><p>In recent years much has been said about linear value approximation under stronger assumptions</p>
+
 <ul>
 <li>under determinism</li>
 <li>linear/low-rank MDPs
@@ -50,11 +71,14 @@
 </ul></li>
 </ul></li>
 </ul></li>
-</ul></li>
 <li><p>In this work, we consider an alternative possibility for recovering polynomial sample complexities which do not further restrict the class of MDPs under consideration. That is, we assist the learner with some additional side information about the problem.</p></li>
-<li><p>Under linear-realizability, what is the minimal amount of expert data required for sample/computational-efficient learning, and which algorithm achieves this</p></li>
-<li><p>Under these conditions, our method uses surprisingly few expert queries combined with some modest (polynomial) amount of exploration to recover the expert policy.</p>
+<li>Under linear-realizability, what is the minimal amount of expert data required for sample/computational-efficient learning, and which algorithm achieves this</li>
+</ul>
 
+<h2>RESULTS</h2>
+
+<ul>
+<li>Under these conditions, our method uses surprisingly few expert queries combined with some modest (polynomial) amount of exploration to recover the expert policy.
 <ul>
 <li>Delphi recovers a policy matching which is e-optimal,(with respect to the expert policy)
 <ul>
@@ -67,7 +91,8 @@
 <li>Assumtpion 2.1 interactive expert</li>
 <li>Assumption 2.2 expert v is linear with bounded features</li>
 <li>Assumption 2.3 after experiencing transition (s,a,r,s') in MDP, agent can return to state s</li>
-<li>Definitions
+<li><p>Definitions</p>
+
 <ul>
 <li>H horizion</li>
 <li>S - state space, A action set, </li>
@@ -76,44 +101,55 @@
 <li>Many potential applications of reinforcement learning (RL) have intractably-large state-spaces.</li>
 <li>sample complexity
 <ul>
-<li>number of training-samples that it needs in order to successfully learn a target function</li>
+<li>number of training-samples that it needs in order to successfully learn a target function
+<h2>Delphi algorithm</h2></li>
 </ul></li>
 </ul></li>
-<li><p>Delphi</p>
-
-<ul>
-<li>Guess and check</li>
+<li><p>Guess and check</p></li>
 <li>Pick optimistic linear parameter, \(\theta_t\), which is consistent on past expert data we have seen at iteration t</li>
-<li>Check if this parameter is globally consistent by playing \(n_rollouts\) of length H with policy derived from \(\theta_t\)
-<ul>
-<li>the policy \(\pi_{\theta_t}\) will play any action \(a\) such that \(v_{\theta_t}\) is consistent with Bellman update for that action, any action \(a\) such that \(v_{\theta_t} = r(s,a) +  < P(s,a),v_{\theta_t}(.) > \)</li>
-</ul></li>
-</ul></li>
-<li><p>I have been reading various resources, hugging face, bersaktas,...</p>
+<li>Check if this parameter is globally consistent by playing \(n_rollouts\) of length H with policy derived from \(\theta_t\)</li>
+<li><p>After some rollouts</p>
 
+<ul>
+<li>Encounters a state that has no consistent action
+<ul>
+<li>In the first case, we are also inconsistent for the expert action at that state (since all actions are inconsistent)</li>
+</ul></li>
+<li>Only encounter states that have consistent action</li>
+<li>In the second case, we derive (cf. Lemma 3.7) that if no inconsistencies are observed for several rollouts, then our “virtual value” vθ is equal to the true value under πθ (i.e., vπθ ). Using the optimistic property, this implies that we are optimal.</li>
+</ul></li>
+<li><p>the policy \(\pi_{\theta_t}\) will play any action \(a\) such that \(v_{\theta_t}\) is consistent with Bellman update for that action, any action \(a\) such that \(v_{\theta_t} = r(s,a) +  < P(s,a),v_{\theta_t}(.) > \)</p></li>
+<li><p>Thus, the parameter θt which is chosen at time t is orthogonal to the previous t − 1 TD vectors which have been generated from interactions with the oracle. (I'm guess the old actions are consistent action, wrt to all θi)</p>
+
+<ul>
+<li>We pick the optimistic linear parameter which is consistent on the past expert data 
+<ul>
+<li>How do you know it exists?</li>
+</ul></li>
+<li>It follows that the iteration complexity is at most d + 1, since there are at most d + 1 linearly
+independent vectors in Rd+1.</li>
+<li>Use Eluder diension to generalize argument where expectations are estimated</li>
+<li>Establishes <strong>COMPLEXITY</strong>
+<h2>LEMMA'S</h2></li>
+</ul></li>
+<li><p>Lemma 3.2 Bounds on distance btw \(\delta\)</p></li>
+<li><p>Hoeffding's inequality</p>
+
+<ul>
+<li>In probability theory, Hoeffding's inequality provides an upper bound on the probability that the sum of bounded independent random variables deviates from its expected value by more than a certain amount</li>
+</ul></li>
+</ul>
+
+<h1>Other INFO</h1>
+
+<ul>
+<li>I have been reading various resources, hugging face, bersaktas,...
 <ul>
 <li>good theoretical text?
 <ul>
 <li>or just need to go through the papers</li>
 <li>with exercises?</li>
 </ul></li>
-</ul></li>
-<li><p>Undegraduate:</p>
-
-<ul>
-<li>Statistical Model Analysis: A-</li>
-<li>Operations Research 1,2: A,A</li>
-</ul></li>
-<li>Graduate math courses:
-<ul>
-<li>Advanced Calculus Single Variable: A-</li>
-<li>Advanced Calculus Multi Variable: A-</li>
-<li>Real Analysis 1, 2: A,A-</li>
-<li>Intro to Abstract Linear Algebra: A-</li>
-<li>Abstract Algebra Intro, 1, 2: A-,B+,B-</li>
-<li>Intro to Complex Variables: A-</li>
-<li>General Topology 1: A</li>
-<li>Adv Ordinary Diff Equations: A+</li>
 </ul></li>
 </ul>
 
