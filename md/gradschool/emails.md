@@ -88,7 +88,7 @@ I have read the instructions on your website
   * Use Eluder diension to generalize argument where expectations are estimated
   * Establishes __COMPLEXITY__
 ## LEMMA'S
-* Lemma 3.2 Bounds on distance,  $\Delta_{s,a} - \widehat{\Delta_{s,a}}$
+* Lemma 3.2 Bounds on distance,  $\Delta_{s,a} - \wedge{\Delta_{s,a}}$
 
 
 * Hoeffding's inequality
