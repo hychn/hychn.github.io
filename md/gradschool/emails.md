@@ -112,6 +112,18 @@ I have read the instructions on your website
   * "the update to $\theta_{t+1}$ will choose the argmax $\theta \in \Theta_t$ for $v_{\theta}(s_o)$
   * this means $v_{\theta_{t+1}} \geq v_{\theta^o}$ 
 
+* Notes on Eluder dim:
+  * The same sequence cannot be used to extend
+    * Namely, the new point at the end
+  * is eluder dim well defined?, yes by the term 'maximal'
+  * How can you show that a sequence is maximal? (show that the Eluder dim is n)
+  * Well Lemma A.2 gives us the upper bound for Eluder dimension given restrictions on $||\theta||$ and $||x||$
+  * Lemma 3.6
+    * The algorithm forms a Eluder sequence 
+    * hence dimension of the sequence produced by algorithm is bounded by A.2
+      * which means it can be solved within complexity given by the bound
+  * $\hat{\delta}$ is estimated TD Vectors obtained with $n_eval$ samples
+  * $\tilde{\delta}$ is refined data estimated with $4 E_d n_eval$
 
 ### Iteration Complexity
 * 3.6 iteration bound
@@ -121,7 +133,9 @@ I have read the instructions on your website
     * longest sequence possible $[(x_1,f_1), ...(x_n,f_n)]$ st
     * $ \forall i |f_i(x_i) - f^*(x_i)|>e $ and $\Sigma_{j<i} (f_j(x_j)-f^*(x_j))^2 <= e^2$
   * Eluder dimension bound for linear function class, $F = \{f_\theta(x)=\theta^T x\}$
-    * dim_E(F,e)
+    * $dim_E(F,e)$ <= O(d ln(B/e) )$
+  * Finally, produce an e that satistfies the conditions.
+  * Smaller epislon implies the dimension is smaller? so this will give us a bound on the dimension
 
 * 3.7 Consistency =⇒ accurate prediction
   * if number of rollouts without observing a consistency break, then estimated value must be roughly equal to true value

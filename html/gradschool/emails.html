@@ -172,6 +172,27 @@ independent vectors in Rd+1.</li>
 <li>"the update to \(\theta_{t+1}\) will choose the argmax \(\theta \in \Theta_t\) for \(v_{\theta}(s_o)\)</li>
 <li>this means \(v_{\theta_{t+1}} \geq v_{\theta^o}\) </li>
 </ul></li>
+<li><p>Notes on Eluder dim:</p>
+
+<ul>
+<li>The same sequence cannot be used to extend
+<ul>
+<li>Namely, the new point at the end</li>
+</ul></li>
+<li>is eluder dim well defined?, yes by the term 'maximal'</li>
+<li>How can you show that a sequence is maximal? (show that the Eluder dim is n)</li>
+<li>Well Lemma A.2 gives us the upper bound for Eluder dimension given restrictions on \(||\theta||\) and \(||x||\)</li>
+<li>Lemma 3.6
+<ul>
+<li>The algorithm forms a Eluder sequence </li>
+<li>hence dimension of the sequence produced by algorithm is bounded by A.2
+<ul>
+<li>which means it can be solved within complexity given by the bound</li>
+</ul></li>
+</ul></li>
+<li>\(\hat{\delta}\) is estimated TD Vectors obtained with \(n_eval\) samples</li>
+<li>\(\tilde{\delta}\) is refined data estimated with \(4 E_d n_eval\)</li>
+</ul></li>
 </ul>
 
 <h3>Iteration Complexity</h3>
@@ -191,8 +212,10 @@ independent vectors in Rd+1.</li>
 </ul></li>
 <li>Eluder dimension bound for linear function class, \(F = \{f_\theta(x)=\theta^T x\}\)
 <ul>
-<li>dim_E(F,e)</li>
+<li>\(dim_E(F,e)\) &lt;= O(d ln(B/e) )</li>
 </ul></li>
+<li>Finally, produce an e that satistfies the conditions.</li>
+<li>Smaller epislon implies the dimension is smaller? so this will give us a bound on the dimension</li>
 </ul></li>
 <li><p>3.7 Consistency =⇒ accurate prediction</p>
 

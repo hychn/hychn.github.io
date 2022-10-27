@@ -19,3 +19,9 @@
 │   │   │   │   │   │
 ├───┽───┽───┽───┽───┤
 │   │   │   │   │   │
+
+
+circle: r, angle, origin
+cylinder: dirvector, r, origin
+
+
