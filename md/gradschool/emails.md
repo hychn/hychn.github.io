@@ -36,7 +36,7 @@ I have read the instructions on your website
 
 * I am very interested in your research sample efficiency
 # Paper
-* [A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation}(https://arxiv.org/pdf/2207.08342.pdf)
+* [A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation](https://arxiv.org/pdf/2207.08342.pdf)
 * A basic starting point which still lacks comprehensive understanding is the case of linear value function approximation, which models value functions as lying in the span of a known d-dimensional feature mapping and asks for methods which have sample complexities that are polynomial only in d, H, and possibly |A|
 * optimal value function (or optimal action-value function) is assumed to be linear
 * In recent years much has been said about linear value approximation under stronger assumptions
@@ -57,7 +57,8 @@ I have read the instructions on your website
 ## RESULTS
 * Under these conditions, our method uses surprisingly few expert queries combined with some modest (polynomial) amount of exploration to recover the expert policy.
   * Delphi recovers a policy matching which is e-optimal,(with respect to the expert policy)
-    * O(d log(B/e) ) oracle calls and $\tilde{O}(\dfrac{d^2 H^5 |A| B^4} {e^4})$
+    * 1. $O(d log(B/e) )$ oracle calls 
+    * 2. $\tilde{O}(\dfrac{d^2 H^5 |A| B^4} {e^4})$
       * B is bound on $l_2$-norm of unknown linear paramter
 * Assumtpion 2.1 interactive expert
 * Assumption 2.2 expert v is linear with bounded features
@@ -78,7 +79,7 @@ I have read the instructions on your website
   * Encounters a state that has no consistent action
     * In the first case, we are also inconsistent for the expert action at that state (since all actions are inconsistent)
   * Only encounter states that have consistent action
-  *  In the second case, we derive (cf. Lemma 3.7) that if no inconsistencies are observed for several rollouts, then our “virtual value” vθ is equal to the true value under πθ (i.e., vπθ ). Using the optimistic property, this implies that we are optimal.
+  * In the second case, we derive (cf. Lemma 3.7) that if no inconsistencies are observed for several rollouts, then our “virtual value” vθ is equal to the true value under πθ (i.e., vπθ ). Using the optimistic property, this implies that we are optimal.
 
 * the policy $\pi_{\theta_t}$ will play any action $a$ such that $v_{\theta_t}$ is consistent with Bellman update for that action, any action $a$ such that $v_{\theta_t} = r(s,a) + <P(s,a),v_{\theta_t}(.)>$
 * Thus, the parameter θt which is chosen at time t is orthogonal to the previous t − 1 TD vectors which have been generated from interactions with the oracle. (I'm guess the old actions are consistent action, wrt to all θi)
@@ -110,6 +111,21 @@ I have read the instructions on your website
   * optimistic update rule?
   * "the update to $\theta_{t+1}$ will choose the argmax $\theta \in \Theta_t$ for $v_{\theta}(s_o)$
   * this means $v_{\theta_{t+1}} \geq v_{\theta^o}$ 
+
+
+### Iteration Complexity
+* 3.6 iteration bound
+  * Bind the iteration complexity of the algorithm, Ulder dimension
+    * maximum length of sequence of points (x_i) such that there exists functions differing from the target function on x_i but fit correctly on x1,...,x_{i-1}
+  * Eluder dim for $f^*$, $e$
+    * longest sequence possible $[(x_1,f_1), ...(x_n,f_n)]$ st
+    * $ \forall i f_1  |f_i(x_i) - f^*(x_i)|>e and \Sigma_{j<i} (f_j(x_j)-f^*(x_j))^2 <= e^2$
+  * Eluder dimension bound for linear function class, $F = \{f_\theta(x)=\theta^T x\}$
+    * dim_E(F,e)
+
+* 3.7 Consistency =⇒ accurate prediction
+  * if number of rollouts without observing a consistency break, then estimated value must be roughly equal to true value
+* Theorem 3.1 combines all ingridients to conclude
 
 
 

@@ -151,7 +151,7 @@ $\def\->{ \rightarrow}$
   * [Jian Peng](https://cs.illinois.edu/about/people/faculty/jianpeng)
 
 
-* [University of Kansas](https://gograd.ku.edu/apply/)
+* [University of Kansas](https://gograd.ku.edu/apply/) Jan 5
   * TODO: Copy of passport/ Textbooks used
   * Math Phd Applied
   * stats, markov chain [Joonha Park](http://people.ku.edu/~j139p002/)
@@ -227,7 +227,7 @@ $\def\->{ \rightarrow}$
 
 
 
-* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login)
+* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login) Dec 15
   * [Statement of Purpose](https://www.colorado.edu/cs/admissions/graduate-admissions/how-apply)
     * Colorado doesn't have a seperate section for indicating interest to program so you need to be really clear in this section.
     * Section headers
