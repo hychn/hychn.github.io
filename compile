@@ -180,7 +180,9 @@ def mathjaxL(L, title):
     L.append(B)
     return L
 
+from os import path
 name = fname[:-3]
+name = path.basename(fname[:-3] )
 L = mathjaxL(L, name)
 
 ytl.writeListToFile(L, dest)
