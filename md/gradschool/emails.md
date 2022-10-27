@@ -116,10 +116,10 @@ I have read the instructions on your website
 ### Iteration Complexity
 * 3.6 iteration bound
   * Bind the iteration complexity of the algorithm, Ulder dimension
-    * maximum length of sequence of points (x_i) such that there exists functions differing from the target function on x_i but fit correctly on x1,...,x_{i-1}
+    * maximum length of sequence of points $(x_i)$ such that there exists functions differing from the target function on $x_i$ but fit correctly on $x1,...,x_{i-1}$
   * Eluder dim for $f^*$, $e$
     * longest sequence possible $[(x_1,f_1), ...(x_n,f_n)]$ st
-    * $ \forall i f_1  |f_i(x_i) - f^*(x_i)|>e and \Sigma_{j<i} (f_j(x_j)-f^*(x_j))^2 <= e^2$
+    * $ \forall i |f_i(x_i) - f^*(x_i)|>e $ and $\Sigma_{j<i} (f_j(x_j)-f^*(x_j))^2 <= e^2$
   * Eluder dimension bound for linear function class, $F = \{f_\theta(x)=\theta^T x\}$
     * dim_E(F,e)
 
