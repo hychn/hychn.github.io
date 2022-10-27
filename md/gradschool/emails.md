@@ -32,11 +32,15 @@ I have read the instructions on your website
   * Intro to Complex Variables: A-
   * General Topology 1: A
   * Adv Ordinary Diff Equations: A+
+* NOTE: I had some difficulties when I was taking the later Algebra courses. During this time I was taking a heavy courseload fufilling requirements for a dual master's degree in Applied Mathematics and Computer Science.
 
 
-* I am very interested in your research sample efficiency
+I am very interested in your research on sample efficiency, complexity, and accuracy for RL algorithms under intersting conditions (like linearity of value function). I am also open and flexible to researching variety of theoretical RL topics which I may not be aware. In particular, I enjoyed reading through the paper "A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation". It was exciting to see how iterative searching of linear model parameters based around upper bounds of Hoeffding and Eluder dimension, could produce an algorithm with the properties: iteration complexity is small, requires fewer expert queries, and is accurate if consistent. I appreciated the clear and detailed proofs and hope to follow in similar footsteps.
+
 # Paper
 * [A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation](https://arxiv.org/pdf/2207.08342.pdf)
+
+
 * A basic starting point which still lacks comprehensive understanding is the case of linear value function approximation, which models value functions as lying in the span of a known d-dimensional feature mapping and asks for methods which have sample complexities that are polynomial only in d, H, and possibly |A|
 * optimal value function (or optimal action-value function) is assumed to be linear
 * In recent years much has been said about linear value approximation under stronger assumptions
@@ -100,7 +104,7 @@ I have read the instructions on your website
 * Lemma 3.4 $\theta^{\circ}$ not eliminated. With probability $>=  1-\delta$, $\theta^\circ \in \Theta_t$ for all iterations $t \in [E_d+1]$
   * New admissible parameters $\Theta_t$
   * "Let $\delta_t$ be the vector added to $\Theta_t$ at time t"
-  * $\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | <\tilde{\Delta}, 1 \oplus \theta> \leq e \}$
+  * $\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | |<\tilde{\Delta}, 1 \oplus \theta>| \leq e \}$
   * By the bounds we established on 3.2,3.3
     * $|<\tilde{\Delta}-\Delta_t, 1 \oplus \theta>| \leq \epsilon$
     * since $< \Delta_t , 1 \oplus \theta^o> = 0 $ 
@@ -123,22 +127,22 @@ I have read the instructions on your website
     * hence dimension of the sequence produced by algorithm is bounded by A.2
       * which means it can be solved within complexity given by the bound
       * The 2nd condition, that the sum of the difference in $f$ and $f^*$ be less than $e^2$ is met because we chose the contraints on new parameters to be less than $~ \dfrac{e}{sqrt{E_d}}$
-      * and we have shown (3.4) optimal parameter must also obey this contrain since
+      * and we have shown (3.4) optimal parameter must also obey this contraint
   * $\hat{\delta}$ is estimated TD Vectors obtained with $n_{eval}$ samples
   * $\tilde{\delta}$ is refined data estimated with $4 E_d n_{eval}$
 
-* OK so how do we contrain using E_d if we do not know what it is?
+* How was hyperparameter E_d set? by lemma A.2
 
 ### Iteration Complexity
 * 3.6 iteration bound
   * Bind the iteration complexity of the algorithm, Ulder dimension
     * maximum length of sequence of points $(x_i)$ such that there exists functions differing from the target function on $x_i$ but fit correctly on $x1,...,x_{i-1}$
-  * Eluder dim for $f^*$, $e$
+  * DEF Eluder dim for $f^*$, $e$
     * longest sequence possible $[(x_1,f_1), ...(x_n,f_n)]$ st
     * $ \forall i |f_i(x_i) - f^*(x_i)|>e $ and $\Sigma_{j<i} (f_j(x_j)-f^*(x_j))^2 <= e^2$
-  * Eluder dimension bound for linear function class, $F = \{f_\theta(x)=\theta^T x\}$
+  * THM Eluder dimension bound for linear function class, $F = \{f_\theta(x)=\theta^T x\}$
     * $dim_E(F,e)$ <= O(d ln(B/e) )$
-  * Finally, produce an e that satistfies the conditions.
+  * THM We show that the sequence produced in the algorithm is Eluder sequence, under our choice of e. thus it follows from the previous theorem that the Eluder dimension is bounded.
   * Smaller epislon implies the dimension is smaller? so this will give us a bound on the dimension
 
 * 3.7 Consistency =⇒ accurate prediction

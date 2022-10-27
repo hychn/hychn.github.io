@@ -31,8 +31,7 @@
 <li>Statistical Model Analysis: A-</li>
 <li>Operations Research 1,2: A,A</li>
 </ul></li>
-<li><p>Graduate math courses:</p>
-
+<li>Graduate math courses:
 <ul>
 <li>Advanced Calculus Single Variable: A-</li>
 <li>Advanced Calculus Multi Variable: A-</li>
@@ -43,11 +42,16 @@
 <li>General Topology 1: A</li>
 <li>Adv Ordinary Diff Equations: A+</li>
 </ul></li>
-<li><p>I am very interested in your research sample efficiency</p>
+<li>NOTE: I had some difficulties when I was taking the later Algebra courses. During this time I was taking a heavy courseload fufilling requirements for a dual master's degree in Applied Mathematics and Computer Science.</li>
+</ul>
 
-<h1>Paper</h1></li>
+<p>I am very interested in your research on sample efficiency, complexity, and accuracy for RL algorithms under intersting conditions (like linearity of value function). I am also open and flexible to researching variety of theoretical RL topics which I may not be aware. In particular, I enjoyed reading through the paper "A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation". It was exciting to see how iterative searching of linear model parameters based around upper bounds of Hoeffding and Eluder dimension, could produce an algorithm with the properties: iteration complexity is small, requires fewer expert queries, and is accurate if consistent. I appreciated the clear and detailed proofs and hope to follow in similar footsteps.</p>
+
+<h1>Paper</h1>
+
+<ul>
 <li><p><a href="https://arxiv.org/pdf/2207.08342.pdf">A Few Expert Queries Suffices for Sample-Efficient RL with Resets and Linear Value Approximation</a></p></li>
-<li>A basic starting point which still lacks comprehensive understanding is the case of linear value function approximation, which models value functions as lying in the span of a known d-dimensional feature mapping and asks for methods which have sample complexities that are polynomial only in d, H, and possibly |A|</li>
+<li><p>A basic starting point which still lacks comprehensive understanding is the case of linear value function approximation, which models value functions as lying in the span of a known d-dimensional feature mapping and asks for methods which have sample complexities that are polynomial only in d, H, and possibly |A|</p></li>
 <li>optimal value function (or optimal action-value function) is assumed to be linear</li>
 <li><p>In recent years much has been said about linear value approximation under stronger assumptions</p>
 
@@ -154,7 +158,7 @@ independent vectors in Rd+1.</li>
 <ul>
 <li>New admissible parameters \(\Theta_t\)</li>
 <li>"Let \(\delta_t\) be the vector added to \(\Theta_t\) at time t"</li>
-<li>\(\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta |  < \tilde{\Delta}, 1 \oplus \theta >  \leq e \}\)</li>
+<li>\(\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | | < \tilde{\Delta}, 1 \oplus \theta > | \leq e \}\)</li>
 <li>By the bounds we established on 3.2,3.3
 <ul>
 <li>\(| < \tilde{\Delta}-\Delta_t, 1 \oplus \theta > | \leq \epsilon\)</li>
@@ -189,13 +193,13 @@ independent vectors in Rd+1.</li>
 <ul>
 <li>which means it can be solved within complexity given by the bound</li>
 <li>The 2nd condition, that the sum of the difference in \(f\) and \(f^*\) be less than \(e^2\) is met because we chose the contraints on new parameters to be less than \(~ \dfrac{e}{sqrt{E_d}}\)</li>
-<li>and we have shown (3.4) optimal parameter must also obey this contrain since</li>
+<li>and we have shown (3.4) optimal parameter must also obey this contraint</li>
 </ul></li>
 </ul></li>
 <li>\(\hat{\delta}\) is estimated TD Vectors obtained with \(n_{eval}\) samples</li>
 <li>\(\tilde{\delta}\) is refined data estimated with \(4 E_d n_{eval}\)</li>
 </ul></li>
-<li><p>OK so how do we contrain using E_d if we do not know what it is?</p></li>
+<li><p>How was hyperparameter E_d set? by lemma A.2</p></li>
 </ul>
 
 <h3>Iteration Complexity</h3>
@@ -208,16 +212,16 @@ independent vectors in Rd+1.</li>
 <ul>
 <li>maximum length of sequence of points \((x_i)\) such that there exists functions differing from the target function on \(x_i\) but fit correctly on \(x1,...,x_{i-1}\)</li>
 </ul></li>
-<li>Eluder dim for \(f^*\), \(e\)
+<li>DEF Eluder dim for \(f^*\), \(e\)
 <ul>
 <li>longest sequence possible \([(x_1,f_1), ...(x_n,f_n)]\) st</li>
 <li>\( \forall i |f_i(x_i) - f^*(x_i)| > e \) and \(\Sigma_{j < i} (f_j(x_j)-f^*(x_j))^2  < = e^2\)</li>
 </ul></li>
-<li>Eluder dimension bound for linear function class, \(F = \{f_\theta(x)=\theta^T x\}\)
+<li>THM Eluder dimension bound for linear function class, \(F = \{f_\theta(x)=\theta^T x\}\)
 <ul>
 <li>\(dim_E(F,e)\) &lt;= O(d ln(B/e) )</li>
 </ul></li>
-<li>Finally, produce an e that satistfies the conditions.</li>
+<li>THM We show that the sequence produced in the algorithm is Eluder sequence, under our choice of e. thus it follows from the previous theorem that the Eluder dimension is bounded.</li>
 <li>Smaller epislon implies the dimension is smaller? so this will give us a bound on the dimension</li>
 </ul></li>
 <li><p>3.7 Consistency =⇒ accurate prediction</p>
