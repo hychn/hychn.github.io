@@ -157,10 +157,10 @@ independent vectors in Rd+1.</li>
 <li>\(\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta |  < \tilde{\Delta}, 1 \oplus \theta >   \}\)</li>
 <li>By the bounds we established on 3.2,3.3
 <ul>
-<li>\(| < \tilde{\Delta}-\Delta_t, 1 \oplus \theta > | \ < = \epsilon\)</li>
+<li>\(| < \tilde{\Delta}-\Delta_t, 1 \oplus \theta > | \leq \epsilon\)</li>
 <li>since \( <  \Delta_t , 1 \oplus \theta^o >  = 0 \) 
 <ul>
-<li>we get \(| < \tilde{\Delta}, 1 \oplus \theta^o > | \ < = \epsilon\) </li>
+<li>we get \(| < \tilde{\Delta}, 1 \oplus \theta^o > | \leq \epsilon\) </li>
 <li>which the means \(\theta^o \in \Theta_t\)</li>
 </ul></li>
 </ul></li>
@@ -188,11 +188,14 @@ independent vectors in Rd+1.</li>
 <li>hence dimension of the sequence produced by algorithm is bounded by A.2
 <ul>
 <li>which means it can be solved within complexity given by the bound</li>
+<li>The 2nd condition, that the sum of the difference in \(f\) and \(f^*\) be less than \(e^2\) is met because we chose the contraints on new parameters to be less than \(~ \dfrac{e}{sqrt{E_d}}\)</li>
+<li>and we have shown (3.4) optimal parameter must also obey this contrain since</li>
 </ul></li>
 </ul></li>
-<li>\(\hat{\delta}\) is estimated TD Vectors obtained with \(n_eval\) samples</li>
-<li>\(\tilde{\delta}\) is refined data estimated with \(4 E_d n_eval\)</li>
+<li>\(\hat{\delta}\) is estimated TD Vectors obtained with \(n_{eval}\) samples</li>
+<li>\(\tilde{\delta}\) is refined data estimated with \(4 E_d n_{eval}\)</li>
 </ul></li>
+<li><p>OK so how do we contrain using E_d if we do not know what it is?</p></li>
 </ul>
 
 <h3>Iteration Complexity</h3>

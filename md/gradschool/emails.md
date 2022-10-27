@@ -102,9 +102,9 @@ I have read the instructions on your website
   * "Let $\delta_t$ be the vector added to $\Theta_t$ at time t"
   * $\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | <\tilde{\Delta}, 1 \oplus \theta>  \}$
   * By the bounds we established on 3.2,3.3
-    * $|<\tilde{\Delta}-\Delta_t, 1 \oplus \theta>| \<= \epsilon$
+    * $|<\tilde{\Delta}-\Delta_t, 1 \oplus \theta>| \leq \epsilon$
     * since $< \Delta_t , 1 \oplus \theta^o> = 0 $ 
-      * we get $|<\tilde{\Delta}, 1 \oplus \theta^o>| \<= \epsilon$ 
+      * we get $|<\tilde{\Delta}, 1 \oplus \theta^o>| \leq \epsilon$ 
       * which the means $\theta^o \in \Theta_t$
 
 * Lemma 3.5 Under the event of 3.4, we have $v_t(s_0) \geq v^{\circ}(s_0)$ for  $\forall t \in [E_d]$
@@ -122,8 +122,12 @@ I have read the instructions on your website
     * The algorithm forms a Eluder sequence 
     * hence dimension of the sequence produced by algorithm is bounded by A.2
       * which means it can be solved within complexity given by the bound
-  * $\hat{\delta}$ is estimated TD Vectors obtained with $n_eval$ samples
-  * $\tilde{\delta}$ is refined data estimated with $4 E_d n_eval$
+      * The 2nd condition, that the sum of the difference in $f$ and $f^*$ be less than $e^2$ is met because we chose the contraints on new parameters to be less than $~ \dfrac{e}{sqrt{E_d}}$
+      * and we have shown (3.4) optimal parameter must also obey this contrain since
+  * $\hat{\delta}$ is estimated TD Vectors obtained with $n_{eval}$ samples
+  * $\tilde{\delta}$ is refined data estimated with $4 E_d n_{eval}$
+
+* OK so how do we contrain using E_d if we do not know what it is?
 
 ### Iteration Complexity
 * 3.6 iteration bound
