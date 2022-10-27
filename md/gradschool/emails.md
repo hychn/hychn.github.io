@@ -100,7 +100,7 @@ I have read the instructions on your website
 * Lemma 3.4 $\theta^{\circ}$ not eliminated. With probability $>=  1-\delta$, $\theta^\circ \in \Theta_t$ for all iterations $t \in [E_d+1]$
   * New admissible parameters $\Theta_t$
   * "Let $\delta_t$ be the vector added to $\Theta_t$ at time t"
-  * $\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | <\tilde{\Delta}, 1 \oplus \theta>  \}$
+  * $\Theta_t \rightarrow \Theta_{t-1} \cap \{\theta | <\tilde{\Delta}, 1 \oplus \theta> \leq e \}$
   * By the bounds we established on 3.2,3.3
     * $|<\tilde{\Delta}-\Delta_t, 1 \oplus \theta>| \leq \epsilon$
     * since $< \Delta_t , 1 \oplus \theta^o> = 0 $ 
