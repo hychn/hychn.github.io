@@ -61,11 +61,34 @@ $\def\->{ \rightarrow}$
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
   * SOP why this school is for you
-  * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs)
-    * Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits
+  * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs) CONTACT
+    * [Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits](https://homes.luddy.indiana.edu/qzhangcs/papers/dist-bandits-full.pdf)
+      * Distributed system, improve sampling by using multiple agents 
+      * making leanring scalable
+      * Contributions
+        * ??? It is very hard to understand these, let me read the paper
+        * Almost tight round-speedup tradeoffs for fixed-time
   * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
-    * Approximate Inference for Stochastic Planning in Factored Spaces
+    * [Approximate Inference for Stochastic Planning in Factored Spaces](https://arxiv.org/pdf/2203.12139.pdf)
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
+
+* [Uni of Nebraska Lincoln] Jan 15
+  * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
+  * No gre, no english requirement
+  * Hau Chan
+    * [Monotone k-submodular secretary problems: Cardinality and knapsack constraints](https://www.sciencedirect.com/science/article/abs/pii/S0304397522002079?via%3Dihub)
+    * [background reference](https://arxiv.org/pdf/1409.1399.pdf)
+    * request pdf
+    * DEF submodular $f(S)+f(T)\>= f(S\cap T) + F(S\cup T)$
+      * U be a set, for $S,T \subseteq U$
+      * $f : 2^U \-> \mathbb{R}$
+    * [Adversarial Blocking Bandits](https://proceedings.neurips.cc/paper/2020/file/5cc3749a6e56ef6d656735dff9176074-Paper.pdf)
+      * To complement our result, we show that a greedy algorithm
+      that plays the best available arm at each round provides an approximation guarantee.
+  * Leen-Kiat Soh
+    * [Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems](https://ojs.aaai.org/index.php/AAAI/article/download/6200/6056)
+      * Theoretical analyses establish the number of agents to model in order to achieve acceptable worst case bounds on extrapolation error, as well as regret bounds on the agent’s utility from modeling only some neighbors. 
+  * https://cse.unl.edu/~qyao/#opportunity
 
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
   * Dec 15 $75
@@ -100,28 +123,6 @@ $\def\->{ \rightarrow}$
     * [Panagiotis Tsiotras](https://dcsl.gatech.edu/research/autonomous-vehicle-learning.html)
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
       * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
-
-* [Uni of Nebraska Lincoln] Jan 15
-  * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
-  * No gre, no english requirement
-  * Hau Chan
-    * [Monotone k-submodular secretary problems: Cardinality and knapsack constraints](https://www.sciencedirect.com/science/article/abs/pii/S0304397522002079?via%3Dihub)
-    * [background reference](https://arxiv.org/pdf/1409.1399.pdf)
-    * request pdf
-    * DEF submodular $f(S)+f(T)\>= f(S\cap T) + F(S\cup T)$
-      * U be a set, for $S,T \subseteq U$
-      * $f : 2^U \-> \mathbb{R}$
-    * [Adversarial Blocking Bandits](https://proceedings.neurips.cc/paper/2020/file/5cc3749a6e56ef6d656735dff9176074-Paper.pdf)
-      * To complement our result, we show that a greedy algorithm
-      that plays the best available arm at each round provides an approximation guarantee.
-  * Leen-Kiat Soh
-    * [Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems](https://ojs.aaai.org/index.php/AAAI/article/download/6200/6056)
-      * Theoretical analyses establish the
-      number of agents to model in order to achieve acceptable
-      worst case bounds on extrapolation error, as well as regret
-      bounds on the agent’s utility from modeling only some neigh-
-      bors. 
-  * https://cse.unl.edu/~qyao/#opportunity
 
 # SOP DONE ========================================================
 
