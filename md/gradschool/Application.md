@@ -75,7 +75,7 @@ $\def\->{ \rightarrow}$
 * [Uni of Nebraska Lincoln] Jan 15
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
-  * Hau Chan
+  * Hau Chan, I don think this professor fits well TBH
     * [Monotone k-submodular secretary problems: Cardinality and knapsack constraints](https://www.sciencedirect.com/science/article/abs/pii/S0304397522002079?via%3Dihub)
     * [background reference](https://arxiv.org/pdf/1409.1399.pdf)
     * request pdf
