@@ -1,5 +1,3 @@
-$\def\<-{ \leftarrow }$
-$\def\->{ \rightarrow}$
 
 # Probability
 * $P(A) = u(A)$
@@ -19,4 +17,7 @@ $\def\->{ \rightarrow}$
   * event := set of outcomes
   * $\Omega$ := set of all outcomes
   * $F$ := set of all events, a sigma algebra
+
+$\def\->{ \rightarrow}$
+
   * $P$ Measure on $P: F \-> [0,1]$
