@@ -10,7 +10,8 @@
 * Expand sample size of higher up nodes?
   * tried (N*.2)**2*100
 
-$\newcommand{\->}{ \rightarrow}$
+$\newcommand{\tes}{ \rightarrow}$
+
 
 # Prob Basics
 * Probability Space $(\Omega, F, P)$
@@ -20,4 +21,4 @@ $\newcommand{\->}{ \rightarrow}$
   * $F$ := set of all events, a sigma algebra
 
 
-  * $P$ Measure on $P: F \-> [0,1]$
+  * $P$ Measure on $P: F \tes [0,1]$
