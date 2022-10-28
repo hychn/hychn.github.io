@@ -5,6 +5,7 @@
 * [stats.html](html/stats.html)
 * [study_guide.html](html/study_guide.html)
 * [surf.html](html/surf.html)
+* [todo.html](html/todo.html)
 * [UI.html](html/UI.html)
 * [workout.html](html/workout.html)
 * ./algebra

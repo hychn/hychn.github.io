@@ -1,3 +1,9 @@
+# CMT MECHANIC
+circle: r, angle, origin
+cylinder: dirvector, r, origin
+
+# UI
+
 ┌───┬───┬───┐
 │WPN│HLM│OFF│
 ├───┽───┽───┤
@@ -21,7 +27,11 @@
 │   │   │   │   │   │
 
 
-circle: r, angle, origin
-cylinder: dirvector, r, origin
 
+# Bindings
 
+* Lt,Lb qe offhand
+* Rt,rb M1M2 rhand
+* 1234 <^> Consm
+* wxyz rfvshift Lg, Bck, waist, hand
+* L3   space

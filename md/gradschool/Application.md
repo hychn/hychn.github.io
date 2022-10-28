@@ -109,13 +109,16 @@ $\def\->{ \rightarrow}$
   * Importance sampling: monte carlo method for evaluating properties of a particular distribution
   * [Qiang Liu](https://www.cs.utexas.edu/~lqiang/)
     * [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://arxiv.org/pdf/1810.12429.pdf)
-    * Drug discovery
+    * [Diffusion-based Molecule Generation with Informative Prior Bridges](https://arxiv.org/pdf/2209.00865.pdf)
+      * Applications of mathematics and AI to generate high-quality and realistic molecules that respect prior information.
   * [Peter Stone](https://www.cs.utexas.edu/~pstone/students.shtml)
-    * Lucid Dreaming for Experience Replay: Refreshing Past States with the Current Policy
-      * Experience replay (ER) improves the data efficiency of off-policy reinforcement learning (RL) algorithms by allowing an
-      agent to store and reuse its past experiences in a replay buffer. While many techniques have been proposed to enhance ER
-      by biasing how experiences are sampled from the buffer, thus far they have not considered strategies for refreshing
-      experiences inside the buffer
+    * [Lucid Dreaming for Experience Replay: Refreshing Past States with the Current Policy](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/NCAA21-Du.pdf)
+      * Experience replay (ER) improves the data efficiency of off-policy reinforcement learning (RL) algorithms by allowing an agent to store and reuse its past experiences in a replay buffer. While many techniques have been proposed to enhance ER by biasing how experiences are sampled from the buffer, thus far they have not considered strategies for refreshing experiences inside the buffer
+      * LIiDER algorithm (we could try this for gomoku to make it less data hungry)
+        * 1 Lider moves agent back to a past state
+        * 2 Lider lets agent follow its current policy
+        * 3 stores and reuses new experience if it turned out better
+      * how to sample experiences
 
 * [Uni of Nebraska Lincoln] Jan 15
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
