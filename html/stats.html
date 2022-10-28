@@ -1,6 +1,7 @@
 <!DOCTYPE html><html><head><title>stats</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
 <p>\(\def\rarrow{ \rightarrow}\)
-\(\def\R{\mathbb{R}}\)</p>
+\(\def\R{\mathbb{R}}\)
+\(\def\finv{f^{-1}}\)</p>
 
 <h1>Probability</h1>
 
@@ -33,7 +34,7 @@
 </ul></li>
 <li><p>measurable function: function between two underlying sets of two measurable spaces that preserve structure of two spaces
   * let \((\Omega, \Sigma)\) \((R,B)\) be measurable spaces Set of outcomes and Set of all events, sigma algebra
-  * \(f: \Omega \rarrow R\) is measurable if for every \(E \in B f^{-1}(E) \in \Sigma\)</p></li>
+  * \(f: \Omega \rarrow R\) is measurable if for every \(E \in B\), \(\finv(E) \in \Sigma\)</p></li>
 <li><p>Random variable</p>
 
 <ul>
