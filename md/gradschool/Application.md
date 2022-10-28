@@ -6,7 +6,7 @@ $\def\->{ \rightarrow}$
 * Proofs from THE BOOK
 
 # TODO
-* GRE (take at home)
+* Duolingo
 * PASSPORT
 * Apply to 2-3 phD applied math programs with math letter of recommendations
 * Proof of Funding
@@ -101,14 +101,15 @@ $\def\->{ \rightarrow}$
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
       * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
 
-* [University of Texas at Austin](http://goapplytexas.org/)
+* [University of Texas at Austin](http://goapplytexas.org/) Dec 15
   *  Additionally, applicants are exempt from the requirement if they possess a bachelor’s degree from a U.S. institution or a qualifying country. 
   * Letters of Rec, Statement of Purpose
-  * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply) Dec 15
+  * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply)
   * [Faculty](https://ml.utexas.edu/research-areas/faculty/reinforcement-learning)
+  * Importance sampling: monte carlo method for evaluating properties of a particular distribution
   * [Qiang Liu](https://www.cs.utexas.edu/~lqiang/)
-    * Action-depedent Control Variates for Policy Optimization via Stein's Identity
-      * Motivated by the Stein's identity, our method extends the previous control variate methods used in REINFORCE and advantage actor-critic by introducing more general action-dependent baseline functions. 
+    * [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://arxiv.org/pdf/1810.12429.pdf)
+    * Drug discovery
   * [Peter Stone](https://www.cs.utexas.edu/~pstone/students.shtml)
     * Lucid Dreaming for Experience Replay: Refreshing Past States with the Current Policy
       * Experience replay (ER) improves the data efficiency of off-policy reinforcement learning (RL) algorithms by allowing an
@@ -152,7 +153,7 @@ $\def\->{ \rightarrow}$
 
 
 * [University of Kansas](https://gograd.ku.edu/apply/) Jan 5
-  * TODO: Copy of passport/ Textbooks used
+  * TODO: Copy of passport
   * Math Phd Applied
   * stats, markov chain [Joonha Park](http://people.ku.edu/~j139p002/)
   * statistics [Zsolt Talata](https://talata.ku.edu/cv.html)

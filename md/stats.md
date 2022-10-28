@@ -1,3 +1,6 @@
+$\def\<-{ \leftarrow }$
+$\def\->{ \rightarrow}$
+
 # Probability
 * $P(A) = u(A)$
 * $P(A \cup B)$, when $A,B$ disjoint, is $u(A)+u(B)$
@@ -10,3 +13,10 @@
   * tried (N*.2)**2*100
 
 
+# Prob Basics
+* Probability Space $(\Omega, F, P)$
+  * outcome :=  a single result from a single experiment run
+  * event := set of outcomes
+  * $\Omega$ := set of all outcomes
+  * $F$ := set of all events, a sigma algebra
+  * $P$ Measure on $P: F \-> [0,1]$
