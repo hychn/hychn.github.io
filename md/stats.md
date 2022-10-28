@@ -10,7 +10,7 @@
 * Expand sample size of higher up nodes?
   * tried (N*.2)**2*100
 
-$\def\->{ \rightarrow}$
+$\def ->{ \rightarrow}$
 
 # Prob Basics
 * Probability Space $(\Omega, F, P)$
