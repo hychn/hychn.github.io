@@ -1,3 +1,7 @@
+# posture and sitting
+* sit in squat position, with quad, hamstring, core muscles supporting weight
+  * If you lean back, your stomach/organs will bear the weight
+
 # Muscle Activation
 * You need to really focus  keeping tight tension and understanding which muscles are being activated 
 
