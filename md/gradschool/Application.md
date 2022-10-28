@@ -101,25 +101,6 @@ $\def\->{ \rightarrow}$
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
       * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
 
-* [University of Texas at Austin](http://goapplytexas.org/) Dec 15
-  *  Additionally, applicants are exempt from the requirement if they possess a bachelor’s degree from a U.S. institution or a qualifying country. 
-  * Letters of Rec, Statement of Purpose
-  * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply)
-  * [Faculty](https://ml.utexas.edu/research-areas/faculty/reinforcement-learning)
-  * Importance sampling: monte carlo method for evaluating properties of a particular distribution
-  * [Qiang Liu](https://www.cs.utexas.edu/~lqiang/)
-    * [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://arxiv.org/pdf/1810.12429.pdf)
-    * [Diffusion-based Molecule Generation with Informative Prior Bridges](https://arxiv.org/pdf/2209.00865.pdf)
-      * Applications of mathematics and AI to generate high-quality and realistic molecules that respect prior information.
-  * [Peter Stone](https://www.cs.utexas.edu/~pstone/students.shtml)
-    * [Lucid Dreaming for Experience Replay: Refreshing Past States with the Current Policy](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/NCAA21-Du.pdf)
-      * Experience replay (ER) improves the data efficiency of off-policy reinforcement learning (RL) algorithms by allowing an agent to store and reuse its past experiences in a replay buffer. While many techniques have been proposed to enhance ER by biasing how experiences are sampled from the buffer, thus far they have not considered strategies for refreshing experiences inside the buffer
-      * LIiDER algorithm (we could try this for gomoku to make it less data hungry)
-        * 1 Lider moves agent back to a past state
-        * 2 Lider lets agent follow its current policy
-        * 3 stores and reuses new experience if it turned out better
-      * how to sample experiences
-
 * [Uni of Nebraska Lincoln] Jan 15
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
@@ -141,6 +122,36 @@ $\def\->{ \rightarrow}$
       bounds on the agent’s utility from modeling only some neigh-
       bors. 
   * https://cse.unl.edu/~qyao/#opportunity
+
+# SOP DONE ========================================================
+
+* [University of Texas at Austin](http://goapplytexas.org/) Dec 15
+  * SOP DONE
+  *  Additionally, applicants are exempt from the requirement if they possess a bachelor’s degree from a U.S. institution or a qualifying country. 
+  * Letters of Rec, Statement of Purpose
+  * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply)
+  * [Faculty](https://ml.utexas.edu/research-areas/faculty/reinforcement-learning)
+  * Importance sampling: monte carlo method for evaluating properties of a particular distribution
+  * [Qiang Liu](https://www.cs.utexas.edu/~lqiang/)
+    * [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://arxiv.org/pdf/1810.12429.pdf)
+    * [Diffusion-based Molecule Generation with Informative Prior Bridges](https://arxiv.org/pdf/2209.00865.pdf)
+      * Applications of mathematics and AI to generate high-quality and realistic molecules that respect prior information.
+  * [Peter Stone](https://www.cs.utexas.edu/~pstone/students.shtml)
+    * [Lucid Dreaming for Experience Replay: Refreshing Past States with the Current Policy](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/NCAA21-Du.pdf)
+      * Experience replay (ER) improves the data efficiency of off-policy reinforcement learning (RL) algorithms by allowing an agent to store and reuse its past experiences in a replay buffer. While many techniques have been proposed to enhance ER by biasing how experiences are sampled from the buffer, thus far they have not considered strategies for refreshing experiences inside the buffer
+      * LIiDER algorithm (we could try this for gomoku to make it less data hungry)
+        * 1 Lider moves agent back to a past state
+        * 2 Lider lets agent follow its current policy
+        * 3 stores and reuses new experience if it turned out better
+      * how to sample experiences
+  * Program
+    * Emphasis and encouragement focus on research
+      * First semester Research Course
+      * Find advisor during the first year
+    * C S 364M. Principles of Machine Learning II.
+    * C S 394R. Reinforcement Learning: Theory and Practice.
+    * C S 383D. Numerical Analysis: Interpolation, Approximation, Quadrature, and Differential Equations.
+    * C S 388J. Optimization.
 
 
 
