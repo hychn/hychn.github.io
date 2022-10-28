@@ -16,15 +16,16 @@ $\def\finv{f^{-1}}$
 
 
 # Prob Basics
-* Probability Space $(\Omega, F, P)$
+* DEF Probability Space $(\Omega, F, P)$
   * outcome :=  a single result from a single experiment run
   * event := set of outcomes
   * $\Omega$ := set of all outcomes
   * $F$ := set of all events, a sigma algebra
   * $P$ Measure on $P: F \rarrow [0,1]$
-* measurable function: function between two underlying sets of two measurable spaces that preserve structure of two spaces
-    * let $(\Omega, \Sigma)$ $(R,B)$ be measurable spaces Set of outcomes and Set of all events, sigma algebra
-    * $f: \Omega \rarrow R$ is measurable if for every $E \in B$, $\finv(E) \in \Sigma$
+* DEF Measurable function: 
+  * function between two underlying sets of two measurable spaces that preserve structure of two spaces
+  * let $(\Omega, \Sigma)$ $(R,B)$ be measurable spaces Set of outcomes and Set of all events, sigma algebra
+  * $f: \Omega \rarrow R$ is measurable if for every $E \in B$, $\finv(E) \in \Sigma$
 
 * Random variable
   * is a measurable function from probability space to measure space, (called sample space)
