@@ -69,6 +69,7 @@ $\def\->{ \rightarrow}$
         * ??? It is very hard to understand these, let me read the paper
         * Almost tight round-speedup tradeoffs for fixed-time
   * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
+    * [Direct Loss Minimization for Sparse Gaussian Processes](https://cgi.luddy.indiana.edu/~rkhardon/PUB/aistats2021-DLMsGP.pdf)
     * [Approximate Inference for Stochastic Planning in Factored Spaces](https://arxiv.org/pdf/2203.12139.pdf)
       * Belief Propagation
         * Motivation: Find marginal distributions $p_{X_i}(x_i)a = \sum$
