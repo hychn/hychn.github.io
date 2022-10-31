@@ -70,10 +70,20 @@ $\def\->{ \rightarrow}$
         * Almost tight round-speedup tradeoffs for fixed-time
   * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
     * [Direct Loss Minimization for Sparse Gaussian Processes](https://cgi.luddy.indiana.edu/~rkhardon/PUB/aistats2021-DLMsGP.pdf)
+      * Bayesian posterior $p(\theta |x) = \dfrac{p(x|\theta)}{p(x)} p(\theta)$ parameter given evidence
+        * where $p(x) = \int p(x|\theta) p(\theta) d\theta$
+      * [Variational inference](https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf)
+      * [Bayesian Network and Message Passing](http://mi.eng.cam.ac.uk/~mjfg/local/4F10.old/lect10.pdf)
+        * Message Passing
+          * Trees where each node has one parent
+      * [Neuro-Dynamic Programming Bertsekas DP Tsitskilis
     * [Approximate Inference for Stochastic Planning in Factored Spaces](https://arxiv.org/pdf/2203.12139.pdf)
       * Belief Propagation
         * Motivation: Find marginal distributions $p_{X_i}(x_i)a = \sum$
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
+    * [Decision-Making Among Bounded Rational Agents](https://arxiv.org/pdf/2210.08672.pdf)
+      * Computational constraints during the modeling process
+      * Naturally reason about sub-optimal behaviors
 
 * [Uni of Nebraska Lincoln] Jan 15
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
