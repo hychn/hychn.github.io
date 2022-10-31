@@ -58,33 +58,6 @@ $\def\->{ \rightarrow}$
 * For all these schools, check research, and requirements, and write phd
 * How about you contact these professors and then see if they have openings in their lab to decide wether to apply or not?
 
-* [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
-  * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
-  * SOP why this school is for you
-  * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs) CONTACT
-    * [Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits](https://homes.luddy.indiana.edu/qzhangcs/papers/dist-bandits-full.pdf)
-      * Distributed system, improve sampling by using multiple agents 
-      * making leanring scalable
-      * Contributions
-        * ??? It is very hard to understand these, let me read the paper
-        * Almost tight round-speedup tradeoffs for fixed-time
-  * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
-    * [Direct Loss Minimization for Sparse Gaussian Processes](https://cgi.luddy.indiana.edu/~rkhardon/PUB/aistats2021-DLMsGP.pdf)
-      * Bayesian posterior $p(\theta |x) = \dfrac{p(x|\theta)}{p(x)} p(\theta)$ parameter given evidence
-        * where $p(x) = \int p(x|\theta) p(\theta) d\theta$
-      * [Variational inference](https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf)
-      * [Bayesian Network and Message Passing](http://mi.eng.cam.ac.uk/~mjfg/local/4F10.old/lect10.pdf)
-        * Message Passing
-          * Trees where each node has one parent
-      * [Neuro-Dynamic Programming Bertsekas DP Tsitskilis
-    * [Approximate Inference for Stochastic Planning in Factored Spaces](https://arxiv.org/pdf/2203.12139.pdf)
-      * Belief Propagation
-        * Motivation: Find marginal distributions $p_{X_i}(x_i)a = \sum$
-  * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
-    * [Decision-Making Among Bounded Rational Agents](https://arxiv.org/pdf/2210.08672.pdf)
-      * Computational constraints during the modeling process
-      * Naturally reason about sub-optimal behaviors
-
 * [Uni of Nebraska Lincoln] Jan 15
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
@@ -100,7 +73,7 @@ $\def\->{ \rightarrow}$
       that plays the best available arm at each round provides an approximation guarantee.
   * Leen-Kiat Soh
     * [Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems](https://ojs.aaai.org/index.php/AAAI/article/download/6200/6056)
-      * Theoretical analyses establish the number of agents to model in order to achieve acceptable worst case bounds on extrapolation error, as well as regret bounds on the agent’s utility from modeling only some neighbors. 
+      * Theoretical analyses establish the number of agents to model in order to achieve acceptable worst case bounds on extrapolation error, as well as regret bounds on the agents utility from modeling only some neighbors. 
   * https://cse.unl.edu/~qyao/#opportunity
 
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
@@ -129,7 +102,7 @@ $\def\->{ \rightarrow}$
   * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
   * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
     * https://ml.gatech.edu/people/faculty/phdprogramfaculty
-    * [Florian Schäfer](https://f-t-s.github.io/) CONTACT
+    * [Florian Schfer](https://f-t-s.github.io/) CONTACT
       * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
     * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT
       * Improved analysis for a proximal algorithm for sampling
@@ -139,9 +112,37 @@ $\def\->{ \rightarrow}$
 
 # SOP DONE ========================================================
 
+* [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
+  * [requirements](https://bulletins.iu.edu/iu/gradschool/2020-2021/programs/bloomington/computer-science/index.shtml)
+  * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
+  * SOP why this school is for you
+  * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs) CONTACT
+    * [Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits](https://homes.luddy.indiana.edu/qzhangcs/papers/dist-bandits-full.pdf)
+      * Distributed system, improve sampling by using multiple agents 
+      * making leanring scalable
+      * Contributions
+        * ??? It is very hard to understand these, let me read the paper
+        * Almost tight round-speedup tradeoffs for fixed-time
+  * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
+    * [Direct Loss Minimization for Sparse Gaussian Processes](https://cgi.luddy.indiana.edu/~rkhardon/PUB/aistats2021-DLMsGP.pdf)
+      * Bayesian posterior $p(\theta |x) = \dfrac{p(x|\theta)}{p(x)} p(\theta)$ parameter given evidence
+        * where $p(x) = \int p(x|\theta) p(\theta) d\theta$
+      * [Variational inference](https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf)
+      * [Bayesian Network and Message Passing](http://mi.eng.cam.ac.uk/~mjfg/local/4F10.old/lect10.pdf)
+        * Message Passing
+          * Trees where each node has one parent
+      * [Neuro-Dynamic Programming Bertsekas DP Tsitskilis
+    * [Approximate Inference for Stochastic Planning in Factored Spaces](https://arxiv.org/pdf/2203.12139.pdf)
+      * Belief Propagation
+        * Motivation: Find marginal distributions $p_{X_i}(x_i)a = \sum$
+  * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
+    * [Decision-Making Among Bounded Rational Agents](https://arxiv.org/pdf/2210.08672.pdf)
+      * Computational constraints during the modeling process
+      * Naturally reason about sub-optimal behaviors
+
 * [University of Texas at Austin](http://goapplytexas.org/) Dec 15
   * SOP DONE
-  *  Additionally, applicants are exempt from the requirement if they possess a bachelor’s degree from a U.S. institution or a qualifying country. 
+  *  Additionally, applicants are exempt from the requirement if they possess a bachelors degree from a U.S. institution or a qualifying country. 
   * Letters of Rec, Statement of Purpose
   * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply)
   * [Faculty](https://ml.utexas.edu/research-areas/faculty/reinforcement-learning)
