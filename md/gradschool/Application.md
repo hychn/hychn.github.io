@@ -70,6 +70,8 @@ $\def\->{ \rightarrow}$
         * Almost tight round-speedup tradeoffs for fixed-time
   * RL [Roni Khardon](https://cgi.luddy.indiana.edu/~rkhardon/publications.php)
     * [Approximate Inference for Stochastic Planning in Factored Spaces](https://arxiv.org/pdf/2203.12139.pdf)
+      * Belief Propagation
+        * Motivation: Find marginal distributions $p_{X_i}(x_i)a = \sum$
   * RL Robots [Lantao Liu](https://vail.sice.indiana.edu/index.html)
 
 * [Uni of Nebraska Lincoln] Jan 15
