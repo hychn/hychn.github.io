@@ -107,8 +107,14 @@ $\def\->{ \rightarrow}$
     * https://ml.gatech.edu/people/faculty/phdprogramfaculty
     * [Florian Schfer](https://f-t-s.github.io/) CONTACT
       * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
-    * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT
+    * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT, DONE
       * [Improved analysis for a proximal algorithm for sampling](https://arxiv.org/pdf/2202.06386.pdf)
+      * [A Proximal Algorithm for Sampling from Non-convex Potentials](https://arxiv.org/pdf/2205.10188.pdf)
+        * Alternating Sampling Framework (ASF)
+        * develop an efficient sampling scheme of Restricted Gaussian Oracle (RGO) for non-convex semi-smooth potentials and
+         bound its complexity with a novel technique.
+        * to develop a sampling algorithm that can sample from non-convex and semi-smooth potentials.
+        * challenging task of sampling from potentials that are neither convex nor smooth
     * [Panagiotis Tsiotras](https://dcsl.gatech.edu/research/autonomous-vehicle-learning.html)
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
       * [ECNet is an evolutionary context-integrated deep learning framework for protein engineering](https://www.nature.com/articles/s41467-021-25976-8.pdf)
