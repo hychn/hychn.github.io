@@ -101,7 +101,10 @@ $\def\->{ \rightarrow}$
       * Automated Model Selection with Bayesian Quadrature
         * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
 
+# SOP DONE ========================================================
+
 * [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
+  * SOP DONE
   * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
   * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
     * https://ml.gatech.edu/people/faculty/phdprogramfaculty
@@ -120,8 +123,16 @@ $\def\->{ \rightarrow}$
       * [ECNet is an evolutionary context-integrated deep learning framework for protein engineering](https://www.nature.com/articles/s41467-021-25976-8.pdf)
         * Protein language model, Multiple Sequence Alignment
         * ECNet, evolutionary context to prediction functional fitness,  sequence - function relationship 
+  * Program:
+    * [Info](https://www.cc.gatech.edu/sites/default/files/documents/2022/202205%20Computer%20Science%20PhD%20Handbook.pdf)
+    * Qualifying exam, 
+      * knowledge : depth of knowledge in chosen area
+      * creativity compoments: research deliverable evaluate creative and research ability
+    * PhD Review
+  * ECE 6254: Statistical Machine Learning - Mark A. Davenport
+    * introduction to the theory of statistical learning and practical machine learning algorithm
 
-# SOP DONE ========================================================
+
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [requirements](https://bulletins.iu.edu/iu/gradschool/2020-2021/programs/bloomington/computer-science/index.shtml)
