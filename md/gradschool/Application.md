@@ -6,6 +6,7 @@ $\def\->{ \rightarrow}$
 
 * Proofs from THE BOOK
 
+
 # TODO
 * Duolingo
 * PASSPORT
@@ -107,10 +108,12 @@ $\def\->{ \rightarrow}$
     * [Florian Schfer](https://f-t-s.github.io/) CONTACT
       * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
     * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT
-      * Improved analysis for a proximal algorithm for sampling
+      * [Improved analysis for a proximal algorithm for sampling](https://arxiv.org/pdf/2202.06386.pdf)
     * [Panagiotis Tsiotras](https://dcsl.gatech.edu/research/autonomous-vehicle-learning.html)
     * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
-      * ECNet is an evolutionary context-integrated deep learning framework for protein engineering
+      * [ECNet is an evolutionary context-integrated deep learning framework for protein engineering](https://www.nature.com/articles/s41467-021-25976-8.pdf)
+        * Protein language model, Multiple Sequence Alignment
+        * ECNet, evolutionary context to prediction functional fitness,  sequence - function relationship 
 
 # SOP DONE ========================================================
 
