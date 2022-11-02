@@ -1,6 +1,8 @@
 # Study guide
 * short list of recurring, important, fundamental ideas
 * less is more
+* Time, time to grow
+
 
 # Exercises
 * discourse with author

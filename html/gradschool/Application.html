@@ -1,4 +1,8 @@
 <!DOCTYPE html><html><head><title>Application</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<ul>
+<li>What information do you need? capture and store?</li>
+</ul>
+
 <p>\(\def\ < ={ \leq }\)
 \(\def\ > ={ \geq }\)
 \(\def\- > { \rightarrow}\)</p>
@@ -98,12 +102,33 @@
 <li>No gre, no english requirement</li>
 <li><a href="https://liuqiang12040913.github.io/research.html">LiuQuian</a>
 <ul>
-<li><a href="https://arxiv.org/abs/2207.14766">DeepSlicing: Deep Reinforcement Learning Assisted Resource Allocation for Network Slicing</a></li>
+<li><a href="https://arxiv.org/pdf/2111.01616.pdf">OnSlicing: Online End-to-End Network Slicing with Reinforcement Learning</a>
+<ul>
+<li>poor policy at early stage, require lots of compute resources
+<ul>
+<li>imitate baseline policy</li>
+<li>baseline switching, estimate baseline policy cost and use baseline</li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><a href="https://cse.unl.edu/~vinod/">Vinodchandran Variyam</a>
 <ul>
 <li>Sample Efficiency in Learning and Testing: Learning distributions from observation is a fundamental problem in machine learning. We investigate the necessity and sufficiency of number of observations  needed for learning distributions.</li>
-<li><a href="https://proceedings.mlr.press/v151/bhattacharyya22a.html">Efficient interventional distribution learning in the PAC framework</a></li>
+<li><a href="https://proceedings.mlr.press/v151/bhattacharyya22a.html">Efficient interventional distribution learning in the PAC framework</a>
+<ul>
+<li>We consider the problem of efficiently inferring interventional distributions in a causal Bayesian network from a finite number of observations. </li>
+<li>PAC Probably Approximately Correct</li>
+<li>ID aglorithm, identification algorithm</li>
+<li>Results
+<ul>
+<li>Algorithm on Bayes net to learn a distribution with \(d_{TV}(P,\hat{P}) \leq \epsilon\), total variation distance
+<ul>
+<li>with constant proability</li>
+</ul></li>
+<li>What is bayesian network and how it is used in this paper?</li>
+<li>algorithm uses m samples and O time </li>
+</ul></li>
+</ul></li>
 <li><a href="https://dl.acm.org/doi/10.1145/3406325.3451066">Near-optimal learning of tree-structured distributions by Chow-Liu</a></li>
 <li><a href="http://proceedings.mlr.press/v119/bhattacharyya20a.html">Learning and Sampling of Atomic Interventions from Observations</a></li>
 </ul></li>

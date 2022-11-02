@@ -1,3 +1,5 @@
+* What information do you need? capture and store?
+
 $\def\<={ \leq }$
 $\def\>={ \geq }$
 $\def\->{ \rightarrow}$
@@ -64,10 +66,21 @@ $\def\->{ \rightarrow}$
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
   * [LiuQuian](https://liuqiang12040913.github.io/research.html)
-    * [DeepSlicing: Deep Reinforcement Learning Assisted Resource Allocation for Network Slicing](https://arxiv.org/abs/2207.14766)
+    * [OnSlicing: Online End-to-End Network Slicing with Reinforcement Learning](https://arxiv.org/pdf/2111.01616.pdf)
+      * poor policy at early stage, require lots of compute resources
+        * imitate baseline policy
+        * baseline switching, estimate baseline policy cost and use baseline
   * [Vinodchandran Variyam](https://cse.unl.edu/~vinod/)
     * Sample Efficiency in Learning and Testing: Learning distributions from observation is a fundamental problem in machine learning. We investigate the necessity and sufficiency of number of observations  needed for learning distributions.
     * [Efficient interventional distribution learning in the PAC framework](https://proceedings.mlr.press/v151/bhattacharyya22a.html)
+      * We consider the problem of efficiently inferring interventional distributions in a causal Bayesian network from a finite number of observations. 
+      * PAC Probably Approximately Correct
+      * ID aglorithm, identification algorithm
+      * Results
+        * Algorithm on Bayes net to learn a distribution with $d_{TV}(P,\hat{P}) \leq \epsilon$, total variation distance
+          * with constant proability
+        * What is bayesian network and how it is used in this paper?
+        * algorithm uses m samples and O time 
     * [Near-optimal learning of tree-structured distributions by Chow-Liu](https://dl.acm.org/doi/10.1145/3406325.3451066)
     * [Learning and Sampling of Atomic Interventions from Observations](http://proceedings.mlr.press/v119/bhattacharyya20a.html)
 >!  * Hau Chan, CONTACT
