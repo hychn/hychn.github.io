@@ -63,21 +63,30 @@ $\def\->{ \rightarrow}$
 * [Uni of Nebraska Lincoln] Jan 15
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
-  * [Mohmmad Hasan](https://engineering.unl.edu/hasan/publications/)
-  * Hau Chan, I don think this professor fits well TBH
-    * [Monotone k-submodular secretary problems: Cardinality and knapsack constraints](https://www.sciencedirect.com/science/article/abs/pii/S0304397522002079?via%3Dihub)
-    * [background reference](https://arxiv.org/pdf/1409.1399.pdf)
-    * request pdf
-    * DEF submodular $f(S)+f(T)\>= f(S\cap T) + F(S\cup T)$
-      * U be a set, for $S,T \subseteq U$
-      * $f : 2^U \-> \mathbb{R}$
-    * [Adversarial Blocking Bandits](https://proceedings.neurips.cc/paper/2020/file/5cc3749a6e56ef6d656735dff9176074-Paper.pdf)
-      * To complement our result, we show that a greedy algorithm
-      that plays the best available arm at each round provides an approximation guarantee.
-  * Leen-Kiat Soh
-    * [Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems](https://ojs.aaai.org/index.php/AAAI/article/download/6200/6056)
-      * Theoretical analyses establish the number of agents to model in order to achieve acceptable worst case bounds on extrapolation error, as well as regret bounds on the agents utility from modeling only some neighbors. 
-  * https://cse.unl.edu/~qyao/#opportunity
+  * [LiuQuian](https://liuqiang12040913.github.io/research.html)
+    * [DeepSlicing: Deep Reinforcement Learning Assisted Resource Allocation for Network Slicing](https://arxiv.org/abs/2207.14766)
+  * [Vinodchandran Variyam](https://cse.unl.edu/~vinod/)
+    * Sample Efficiency in Learning and Testing: Learning distributions from observation is a fundamental problem in machine learning. We investigate the necessity and sufficiency of number of observations  needed for learning distributions.
+    * [Efficient interventional distribution learning in the PAC framework](https://proceedings.mlr.press/v151/bhattacharyya22a.html)
+    * [Near-optimal learning of tree-structured distributions by Chow-Liu](https://dl.acm.org/doi/10.1145/3406325.3451066)
+    * [Learning and Sampling of Atomic Interventions from Observations](http://proceedings.mlr.press/v119/bhattacharyya20a.html)
+>!  * Hau Chan, CONTACT
+>!    * [ Learning Game-theoretic Models from Aggregate Behavioral Data with Applications to Vaccination Rates in Public Health ]
+>!    * [Multi-Robot Task Allocation—Complexity and Approximation](https://arxiv.org/pdf/2103.12370.pdf)
+>!    * [Monotone k-submodular secretary problems: Cardinality and knapsack constraints](https://www.sciencedirect.com/science/article/abs/pii/S0304397522002079?via%3Dihub)
+>!    * [background reference](https://arxiv.org/pdf/1409.1399.pdf)
+>!    * request pdf
+>!    * DEF submodular $f(S)+f(T)\>= f(S\cap T) + F(S\cup T)$
+>!      * U be a set, for $S,T \subseteq U$
+>!      * $f : 2^U \-> \mathbb{R}$
+>!    * [Adversarial Blocking Bandits](https://proceedings.neurips.cc/paper/2020/file/5cc3749a6e56ef6d656735dff9176074-Paper.pdf)
+>!      * To complement our result, we show that a greedy algorithm
+>!      that plays the best available arm at each round provides an approximation guarantee.
+>!  * Leen-Kiat Soh
+>!    * [Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems](https://ojs.aaai.org/index.php/AAAI/article/download/6200/6056)
+>!      * Theoretical analyses establish the number of agents to model in order to achieve acceptable worst case bounds on extrapolation error, as well as regret bounds on the agents utility from modeling only some neighbors. 
+>!  * [Mohmmad Hasan](https://engineering.unl.edu/hasan/publications/)
+>!  * https://cse.unl.edu/~qyao/#opportunity
 
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
   * Dec 15 $75
