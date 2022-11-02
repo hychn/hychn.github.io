@@ -1,3 +1,12 @@
+# TODO
+* Submit all the applications tomorrow including letters of rec
+* Send out email to professor, follow up/check up
+* Contact professors for PhD position
+* Study bayesian inference for Wash U
+* Duolingo
+
+# Other
+
 * What information do you need? capture and store?
 
 $\def\<={ \leq }$
@@ -10,7 +19,6 @@ $\def\->{ \rightarrow}$
 
 
 # TODO
-* Duolingo
 * PASSPORT
 * Apply to 2-3 phD applied math programs with math letter of recommendations
 * Proof of Funding
@@ -62,10 +70,40 @@ $\def\->{ \rightarrow}$
 * For all these schools, check research, and requirements, and write phd
 * How about you contact these professors and then see if they have openings in their lab to decide wether to apply or not?
 
+
+* [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
+  * Dec 15 $75
+    * Letter Rec
+    * SOP
+    * Fellowship essay
+    * Research Experience Contact
+  * [Program Info](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
+    * If you join the PhD program at Washington University, one of the courses you take in your first semester is Introduction to Graduate Study in CSE. As part of this course, you will do two one-month rotations in the research groups of faculty members who are recruiting graduate students. 
+    * The rotation model does not preclude students from initiating discussions with faculty whose group they really want to join prior to joining WashU, but it offers the opportunity to be exposed to other research areas and approaches and to interact with potential research advisers before finalizing a commitment.
+  * [Deadlines/info](https://engineering.wustl.edu/academics/graduate-admissions/application-checklist.html)
+  * [Faculty](https://machinelearning.wustl.edu/faculty/)
+    * [William Yeoh](https://sites.wustl.edu/wyeoh/research/)
+      * Stochastic Goal Recognition Design Problems with Suboptimal Agents
+        * Goal Recognition Design (GRD) problems identify the minimum number of environmental modifications aiming to force an interacting agent to reveal its goal as early as possible. 
+          * Extending the stochastic goal recognition design framework by supporting suboptimal agents in cases where an observer has either full or partial observability
+          * Presenting methods to evaluate the ambiguity of the model under these assumptions
+    * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
+      * Polynomial Time Reinforcement Learning in Factored State MDPs with Linear Value Functions
+        * Factored MDP
+    * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
+      * Bayesian optimization
+      * Automated Model Selection with Bayesian Quadrature
+        * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
+    * [Course: CSE 515T – Bayesian Methods in Machine Learning](https://www.cse.wustl.edu/~garnett/cse515t/fall_2019/)
+      * This is actually a pretty good learning resource
+
+# SOP DONE ========================================================
+
 * [Uni of Nebraska Lincoln] Jan 15
+  * SOP DONE
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
-  * [LiuQuian](https://liuqiang12040913.github.io/research.html)
+  * [LiuQuian](https://liuqiang12040913.github.io/research.html) CONTACT
     * [OnSlicing: Online End-to-End Network Slicing with Reinforcement Learning](https://arxiv.org/pdf/2111.01616.pdf)
       * poor policy at early stage, require lots of compute resources
         * imitate baseline policy
@@ -100,30 +138,6 @@ $\def\->{ \rightarrow}$
 >!      * Theoretical analyses establish the number of agents to model in order to achieve acceptable worst case bounds on extrapolation error, as well as regret bounds on the agents utility from modeling only some neighbors. 
 >!  * [Mohmmad Hasan](https://engineering.unl.edu/hasan/publications/)
 >!  * https://cse.unl.edu/~qyao/#opportunity
-
-* [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
-  * Dec 15 $75
-    * Letter Rec
-    * SOP
-    * Fellowship essay
-    * Research Experience Contact
-  * [Program Info](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
-    * If you join the PhD program at Washington University, one of the courses you take in your first semester is Introduction to Graduate Study in CSE. As part of this course, you will do two one-month rotations in the research groups of faculty members who are recruiting graduate students. 
-    * The rotation model does not preclude students from initiating discussions with faculty whose group they really want to join prior to joining WashU, but it offers the opportunity to be exposed to other research areas and approaches and to interact with potential research advisers before finalizing a commitment.
-  * [Deadlines/info](https://engineering.wustl.edu/academics/graduate-admissions/application-checklist.html)
-  * [Faculty](https://machinelearning.wustl.edu/faculty/)
-    * [William Yeoh](https://sites.wustl.edu/wyeoh/research/)
-      * Stochastic Goal Recognition Design Problems with Suboptimal Agents
-        * Goal Recognition Design (GRD) problems identify the minimum number of environmental modifications aiming to force an interacting agent to reveal its goal as early as possible. 
-          * Extending the stochastic goal recognition design framework by supporting suboptimal agents in cases where an observer has either full or partial observability
-          * Presenting methods to evaluate the ambiguity of the model under these assumptions
-    * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
-      * Learning Probably Approximately Complete and Safe Action Models for Stochastic Worlds
-    * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
-      * Automated Model Selection with Bayesian Quadrature
-        * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
-
-# SOP DONE ========================================================
 
 * [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
   * SOP DONE
