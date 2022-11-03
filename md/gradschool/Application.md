@@ -198,8 +198,11 @@ $\def\->{ \rightarrow}$
       * Computational constraints during the modeling process
       * Naturally reason about sub-optimal behaviors
 
+
+# DONE  =================================================================
+
 * [University of Texas at Austin](http://goapplytexas.org/) Dec 15
-  * SOP DONE
+  * PW: same but without !
   *  Additionally, applicants are exempt from the requirement if they possess a bachelors degree from a U.S. institution or a qualifying country. 
   * Letters of Rec, Statement of Purpose
   * [Info](https://www.cs.utexas.edu/graduate/prospective-students/apply)
@@ -228,7 +231,6 @@ $\def\->{ \rightarrow}$
 
 
 
-# DONE  =================================================================
 
 * [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) Dec 15
   * TODO: Copy of passport
