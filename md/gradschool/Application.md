@@ -98,8 +98,13 @@ $\def\->{ \rightarrow}$
       * This is actually a pretty good learning resource
 
 
+
+
+
+# DONE  =================================================================
+
 * [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
-  * SOP DONE
+  * TODO: Computing - PhD section
   * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
   * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
     * https://ml.gatech.edu/people/faculty/phdprogramfaculty
@@ -128,9 +133,6 @@ $\def\->{ \rightarrow}$
     * introduction to the theory of statistical learning and practical machine learning algorithm
 
 
-
-
-# DONE  =================================================================
 
 * [Uni of Nebraska Lincoln](https://go.unl.edu/gradapp) Jan 15
   * SOP DONE
