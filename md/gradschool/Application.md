@@ -97,6 +97,41 @@ $\def\->{ \rightarrow}$
     * [Course: CSE 515T – Bayesian Methods in Machine Learning](https://www.cse.wustl.edu/~garnett/cse515t/fall_2019/)
       * This is actually a pretty good learning resource
 
+
+* [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
+  * SOP DONE
+  * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
+  * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
+    * https://ml.gatech.edu/people/faculty/phdprogramfaculty
+    * [Florian Schfer](https://f-t-s.github.io/) CONTACT
+      * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
+    * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT, DONE
+      * [Improved analysis for a proximal algorithm for sampling](https://arxiv.org/pdf/2202.06386.pdf)
+      * [A Proximal Algorithm for Sampling from Non-convex Potentials](https://arxiv.org/pdf/2205.10188.pdf)
+        * Alternating Sampling Framework (ASF)
+        * develop an efficient sampling scheme of Restricted Gaussian Oracle (RGO) for non-convex semi-smooth potentials and
+         bound its complexity with a novel technique.
+        * to develop a sampling algorithm that can sample from non-convex and semi-smooth potentials.
+        * challenging task of sampling from potentials that are neither convex nor smooth
+    * [Panagiotis Tsiotras](https://dcsl.gatech.edu/research/autonomous-vehicle-learning.html)
+    * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
+      * [ECNet is an evolutionary context-integrated deep learning framework for protein engineering](https://www.nature.com/articles/s41467-021-25976-8.pdf)
+        * Protein language model, Multiple Sequence Alignment
+        * ECNet, evolutionary context to prediction functional fitness,  sequence - function relationship 
+  * Program:
+    * [Info](https://www.cc.gatech.edu/sites/default/files/documents/2022/202205%20Computer%20Science%20PhD%20Handbook.pdf)
+    * Qualifying exam, 
+      * knowledge : depth of knowledge in chosen area
+      * creativity compoments: research deliverable evaluate creative and research ability
+    * PhD Review
+  * ECE 6254: Statistical Machine Learning - Mark A. Davenport
+    * introduction to the theory of statistical learning and practical machine learning algorithm
+
+
+
+
+# DONE  =================================================================
+
 * [Uni of Nebraska Lincoln](https://go.unl.edu/gradapp) Jan 15
   * SOP DONE
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
@@ -137,39 +172,6 @@ $\def\->{ \rightarrow}$
 >!  * [Mohmmad Hasan](https://engineering.unl.edu/hasan/publications/)
 >!  * https://cse.unl.edu/~qyao/#opportunity
 
-* [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) Dec 15
-  * SOP DONE
-  * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
-  * [Faculty](https://cse.gatech.edu/content/artificial-intelligence-and-machine-learning)
-    * https://ml.gatech.edu/people/faculty/phdprogramfaculty
-    * [Florian Schfer](https://f-t-s.github.io/) CONTACT
-      * Robust Reinforcement Learning: A Constrained Game-theoretic Approach
-    * [Yongxin Chen](https://yongxin.ae.gatech.edu/) CONTACT, DONE
-      * [Improved analysis for a proximal algorithm for sampling](https://arxiv.org/pdf/2202.06386.pdf)
-      * [A Proximal Algorithm for Sampling from Non-convex Potentials](https://arxiv.org/pdf/2205.10188.pdf)
-        * Alternating Sampling Framework (ASF)
-        * develop an efficient sampling scheme of Restricted Gaussian Oracle (RGO) for non-convex semi-smooth potentials and
-         bound its complexity with a novel technique.
-        * to develop a sampling algorithm that can sample from non-convex and semi-smooth potentials.
-        * challenging task of sampling from potentials that are neither convex nor smooth
-    * [Panagiotis Tsiotras](https://dcsl.gatech.edu/research/autonomous-vehicle-learning.html)
-    * [Yunan Luo](https://faculty.cc.gatech.edu/~yunan/)
-      * [ECNet is an evolutionary context-integrated deep learning framework for protein engineering](https://www.nature.com/articles/s41467-021-25976-8.pdf)
-        * Protein language model, Multiple Sequence Alignment
-        * ECNet, evolutionary context to prediction functional fitness,  sequence - function relationship 
-  * Program:
-    * [Info](https://www.cc.gatech.edu/sites/default/files/documents/2022/202205%20Computer%20Science%20PhD%20Handbook.pdf)
-    * Qualifying exam, 
-      * knowledge : depth of knowledge in chosen area
-      * creativity compoments: research deliverable evaluate creative and research ability
-    * PhD Review
-  * ECE 6254: Statistical Machine Learning - Mark A. Davenport
-    * introduction to the theory of statistical learning and practical machine learning algorithm
-
-
-
-
-# DONE  =================================================================
 
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [requirements](https://bulletins.iu.edu/iu/gradschool/2020-2021/programs/bloomington/computer-science/index.shtml)
