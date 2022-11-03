@@ -99,7 +99,7 @@ $\def\->{ \rightarrow}$
 
 # SOP DONE ========================================================
 
-* [Uni of Nebraska Lincoln] Jan 15
+* [Uni of Nebraska Lincoln](https://go.unl.edu/gradapp) Jan 15
   * SOP DONE
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
   * No gre, no english requirement
