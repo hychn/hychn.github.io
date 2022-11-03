@@ -97,8 +97,6 @@ $\def\->{ \rightarrow}$
     * [Course: CSE 515T – Bayesian Methods in Machine Learning](https://www.cse.wustl.edu/~garnett/cse515t/fall_2019/)
       * This is actually a pretty good learning resource
 
-# SOP DONE ========================================================
-
 * [Uni of Nebraska Lincoln](https://go.unl.edu/gradapp) Jan 15
   * SOP DONE
   * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
@@ -170,10 +168,12 @@ $\def\->{ \rightarrow}$
 
 
 
+
+# DONE  =================================================================
+
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) Dec 15
   * [requirements](https://bulletins.iu.edu/iu/gradschool/2020-2021/programs/bloomington/computer-science/index.shtml)
   * [faculty](https://luddy.indiana.edu/research/research-areas/ai-directory.html)
-  * SOP why this school is for you
   * RL [Qin Zhang](https://homes.luddy.indiana.edu/qzhangcs) CONTACT
     * [Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits](https://homes.luddy.indiana.edu/qzhangcs/papers/dist-bandits-full.pdf)
       * Distributed system, improve sampling by using multiple agents 
@@ -199,7 +199,6 @@ $\def\->{ \rightarrow}$
       * Naturally reason about sub-optimal behaviors
 
 
-# DONE  =================================================================
 
 * [University of Texas at Austin](http://goapplytexas.org/) Dec 15
   * PW: same but without !
