@@ -5,6 +5,9 @@
 * Study bayesian inference for Wash U
 * Duolingo
 
+* UTA MyStatus upload transcript
+* Princeton do SOP and mentor
+
 # Other
 
 * What information do you need? capture and store?
@@ -96,6 +99,17 @@ $\def\->{ \rightarrow}$
         * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
     * [Course: CSE 515T – Bayesian Methods in Machine Learning](https://www.cse.wustl.edu/~garnett/cse515t/fall_2019/)
       * This is actually a pretty good learning resource
+
+
+* [Princeton](https://www.cs.princeton.edu/research/areas)
+  * [Control Meets Learning Seminar by Elad Hazan](https://www.youtube.com/watch?v=dmWXHmjVxcI)
+  * [Rayn P Adams](https://www.cs.princeton.edu/~rpa/)
+  * [Pre-application mentoring](https://tinyurl.com/princetonappsupport)
+    * Need SOP and CV
+    * gives fee waiver
+  * [SEAS workshop](https://www.eventbrite.com/e/unpacking-the-hidden-curriculum-of-applying-to-graduate-school-in-stem-tickets-429373386357) 11/14
+    * gives fee waiver
+  * https://sites.google.com/view/online-nonstochastic-control/home
 
 
 
@@ -205,6 +219,7 @@ $\def\->{ \rightarrow}$
 
 
 * [University of Texas at Austin](http://goapplytexas.org/) Dec 15
+  * MyStatus
   * PW: same but without !
   *  Additionally, applicants are exempt from the requirement if they possess a bachelors degree from a U.S. institution or a qualifying country. 
   * Letters of Rec, Statement of Purpose
