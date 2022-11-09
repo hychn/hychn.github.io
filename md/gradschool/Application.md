@@ -15,6 +15,7 @@
 $\def\<={ \leq }$
 $\def\>={ \geq }$
 $\def\->{ \rightarrow}$
+$\def\R{ \mathbb{R}}$
 
 * [ML News](https://groups.google.com/g/ml-news)
 
@@ -102,14 +103,41 @@ $\def\->{ \rightarrow}$
 
 
 * [Princeton](https://www.cs.princeton.edu/research/areas)
+  * Seems like we dont really need to send out an email, just get accepted
+  * [Introduction to Online Nonstochastic Control](https://sites.google.com/view/online-nonstochastic-control/home)
   * [Control Meets Learning Seminar by Elad Hazan](https://www.youtube.com/watch?v=dmWXHmjVxcI)
-  * [Rayn P Adams](https://www.cs.princeton.edu/~rpa/)
   * [Pre-application mentoring](https://tinyurl.com/princetonappsupport)
     * Need SOP and CV
     * gives fee waiver
   * [SEAS workshop](https://www.eventbrite.com/e/unpacking-the-hidden-curriculum-of-applying-to-graduate-school-in-stem-tickets-429373386357) 11/14
     * gives fee waiver
   * https://sites.google.com/view/online-nonstochastic-control/home
+  * POMDP - partially observable markov decision processes
+  * [Rayn P Adams](https://www.cs.princeton.edu/~rpa/)
+    * [SUMO: UNBIASED ESTIMATION OF LOG MARGINAL PROBABILITY FOR LATENT VARIABLE MODELS](https://openreview.net/attachment?id=SylkYeHtwr&name=original_pdf)
+  * [Elad Hazan](https://www.ehazan.com/)
+  * [Tom Griffiths](https://cocosci.princeton.edu/index.php)
+    * [Optimal nudging for cognitively bounded agents: A framework for modeling, predicting, and controlling the ects of choice architectures](https://psyarxiv.com/7ahdc/)
+  * [Adji Bousso Dieng](https://scholar.google.com/citations?hl=en&user=ZCniP_MAAAAJ&view_op=list_works&sortby=pubdate)
+    * [Markov Chain Score Ascent: A Unifying Framework of Variational Inference with Markovian Gradients](https://arxiv.org/pdf/2206.06295)
+  * [Sanjeev Arora]
+    * [Implicit Regularization in Deep Matrix Factorization](https://arxiv.org/pdf/1905.13655.pdf)
+  * [Ellen Zhong](https://www.cs.princeton.edu/people/profile/zhonge)
+    * [CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf)
+      * learn a neural model of a distribution of 3D structures on real heterogeneous cryo-EM data
+      * search algorithms from the traditional cryo-EM literature, and describe the optimizations and design choices required to make such a search procedure computationally tractable in the neural model setting
+      * CryoDRGN parameterizes cryo-EM volumes using a coordinate-based MLP with parameters to directly approximate the continuous density function
+      *  cryo-EM images (i.e. integral projections) are 2D central slices of the model whose orientation is determined from the image pose
+      * GOAL: $V_{\theta}: \R^3 \rightarrow \R $ estimate a coordinate-based volume densitiy function
+      * INPUTS: input pose $SO(3) x \R^2$
+      * Model coordinates specified in Hartley Space
+      * In heterogeneous reconstruction, the volume representation is augmented with a latent variable that is learned using amortized variational inference in the framework of variational autoencoder
+      * 5D pose search
+        * stimated using a hierarchical search procedure over multiresolution grids on the space of rotations and in-plane translations. 
+          * begin with an exhaustive search in the 5-D space of rotations and in-plane translations at some base resolution
+          * ollowed by an iterative refinement of the K most likely candidate poses by binary search at successively higher resolution grids
+          * interpolation accurate on smooth, smooth functions in fourier space statisfied if model output is centered and contained in the box
+          * Computed without additional model evaluations
 
 
 

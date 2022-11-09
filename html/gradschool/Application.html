@@ -19,7 +19,8 @@
 
 <p>\(\def\ < ={ \leq }\)
 \(\def\ > ={ \geq }\)
-\(\def\- > { \rightarrow}\)</p>
+\(\def\- > { \rightarrow}\)
+\(\def\R{ \mathbb{R}}\)</p>
 
 <ul>
 <li><p><a href="https://groups.google.com/g/ml-news">ML News</a></p></li>
@@ -161,8 +162,9 @@
 <li><p><a href="https://www.cs.princeton.edu/research/areas">Princeton</a></p>
 
 <ul>
+<li>Seems like we dont really need to send out an email, just get accepted</li>
+<li><a href="https://sites.google.com/view/online-nonstochastic-control/home">Introduction to Online Nonstochastic Control</a></li>
 <li><a href="https://www.youtube.com/watch?v=dmWXHmjVxcI">Control Meets Learning Seminar by Elad Hazan</a></li>
-<li><a href="https://www.cs.princeton.edu/~rpa/">Rayn P Adams</a></li>
 <li><a href="https://tinyurl.com/princetonappsupport">Pre-application mentoring</a>
 <ul>
 <li>Need SOP and CV</li>
@@ -173,6 +175,48 @@
 <li>gives fee waiver</li>
 </ul></li>
 <li>https://sites.google.com/view/online-nonstochastic-control/home</li>
+<li>POMDP - partially observable markov decision processes</li>
+<li><a href="https://www.cs.princeton.edu/~rpa/">Rayn P Adams</a>
+<ul>
+<li><a href="https://openreview.net/attachment?id=SylkYeHtwr&amp;name=original_pdf">SUMO: UNBIASED ESTIMATION OF LOG MARGINAL PROBABILITY FOR LATENT VARIABLE MODELS</a></li>
+</ul></li>
+<li><a href="https://www.ehazan.com/">Elad Hazan</a></li>
+<li><a href="https://cocosci.princeton.edu/index.php">Tom Griffiths</a>
+<ul>
+<li><a href="https://psyarxiv.com/7ahdc/">Optimal nudging for cognitively bounded agents: A framework for modeling, predicting, and controlling the ects of choice architectures</a></li>
+</ul></li>
+<li><a href="https://scholar.google.com/citations?hl=en&amp;user=ZCniP_MAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Adji Bousso Dieng</a>
+<ul>
+<li><a href="https://arxiv.org/pdf/2206.06295">Markov Chain Score Ascent: A Unifying Framework of Variational Inference with Markovian Gradients</a></li>
+</ul></li>
+<li>[Sanjeev Arora]
+<ul>
+<li><a href="https://arxiv.org/pdf/1905.13655.pdf">Implicit Regularization in Deep Matrix Factorization</a></li>
+</ul></li>
+<li><a href="https://www.cs.princeton.edu/people/profile/zhonge">Ellen Zhong</a>
+<ul>
+<li><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf">CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images</a>
+<ul>
+<li>learn a neural model of a distribution of 3D structures on real heterogeneous cryo-EM data</li>
+<li>search algorithms from the traditional cryo-EM literature, and describe the optimizations and design choices required to make such a search procedure computationally tractable in the neural model setting</li>
+<li>CryoDRGN parameterizes cryo-EM volumes using a coordinate-based MLP with parameters to directly approximate the continuous density function</li>
+<li>cryo-EM images (i.e. integral projections) are 2D central slices of the model whose orientation is determined from the image pose</li>
+<li>GOAL: \(V_{\theta}: \R^3 \rightarrow \R \) estimate a coordinate-based volume densitiy function</li>
+<li>INPUTS: input pose \(SO(3) x \R^2\)</li>
+<li>Model coordinates specified in Hartley Space</li>
+<li>In heterogeneous reconstruction, the volume representation is augmented with a latent variable that is learned using amortized variational inference in the framework of variational autoencoder</li>
+<li>5D pose search
+<ul>
+<li>stimated using a hierarchical search procedure over multiresolution grids on the space of rotations and in-plane translations. 
+<ul>
+<li>begin with an exhaustive search in the 5-D space of rotations and in-plane translations at some base resolution</li>
+<li>ollowed by an iterative refinement of the K most likely candidate poses by binary search at successively higher resolution grids</li>
+<li>interpolation accurate on smooth, smooth functions in fourier space statisfied if model output is centered and contained in the box</li>
+<li>Computed without additional model evaluations</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
 </ul></li>
 </ul>
 
