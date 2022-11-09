@@ -1,12 +1,20 @@
 # TODO
-* Submit all the applications tomorrow including letters of rec
-* Send out email to professor, follow up/check up
-* Contact professors for PhD position
-* Study bayesian inference for Wash U
-* Duolingo
+* Create princeton application
+* Send out email to professor, follow up/check up, Yoon & Jan & Jianlin
+* Contact professors for PhD position, cv simple
+* End of next week-11/18 We should be done with all
 
-* UTA MyStatus upload transcript
-* Princeton do SOP and mentor
+* Take time and study well the papers and the topics, Finish by next week
+  * Princeton SOP
+  * Washington SOP
+    * Study bayesian inference for Wash U
+* Washington Fellowship
+
+* Check missing stuff on all applications
+  * Duolingo, Colorado Boulder
+  * UTA MyStatus upload transcript
+
+
 
 # Other
 
@@ -106,22 +114,24 @@ $\def\R{ \mathbb{R}}$
   * Seems like we dont really need to send out an email, just get accepted
   * [Introduction to Online Nonstochastic Control](https://sites.google.com/view/online-nonstochastic-control/home)
   * [Control Meets Learning Seminar by Elad Hazan](https://www.youtube.com/watch?v=dmWXHmjVxcI)
-  * [Pre-application mentoring](https://tinyurl.com/princetonappsupport)
-    * Need SOP and CV
-    * gives fee waiver
-  * [SEAS workshop](https://www.eventbrite.com/e/unpacking-the-hidden-curriculum-of-applying-to-graduate-school-in-stem-tickets-429373386357) 11/14
-    * gives fee waiver
-  * https://sites.google.com/view/online-nonstochastic-control/home
-  * POMDP - partially observable markov decision processes
+  * __QUESTIONS__
+    * POMDP - partially observable markov decision processes
+    * Bayesian inference I still dont get this, check Adji's paper
+  * [Elad Hazan](https://www.ehazan.com/)
+    * [Nonstochastic Control](https://sites.google.com/view/online-nonstochastic-control/home)
   * [Rayn P Adams](https://www.cs.princeton.edu/~rpa/)
     * [SUMO: UNBIASED ESTIMATION OF LOG MARGINAL PROBABILITY FOR LATENT VARIABLE MODELS](https://openreview.net/attachment?id=SylkYeHtwr&name=original_pdf)
-  * [Elad Hazan](https://www.ehazan.com/)
   * [Tom Griffiths](https://cocosci.princeton.edu/index.php)
     * [Optimal nudging for cognitively bounded agents: A framework for modeling, predicting, and controlling the ects of choice architectures](https://psyarxiv.com/7ahdc/)
   * [Adji Bousso Dieng](https://scholar.google.com/citations?hl=en&user=ZCniP_MAAAAJ&view_op=list_works&sortby=pubdate)
     * [Markov Chain Score Ascent: A Unifying Framework of Variational Inference with Markovian Gradients](https://arxiv.org/pdf/2206.06295)
   * [Sanjeev Arora]
     * [Implicit Regularization in Deep Matrix Factorization](https://arxiv.org/pdf/1905.13655.pdf)
+      * Task: matrix completition, a model referred to as deep matrix factorization
+        * adding depth enhances an implicit tendency towards low-rank solutions
+        * Leading to more accurate discovery
+      * Our first finding, supported by theory and experiments, is that adding depth to a matrix factorization enhances an implicit tendency towards low-rank solutions, oftentimes leading to more accurate recovery
+      * Secondly, we present theoretical and empirical arguments questioning a nascent view by which implicit regularization in matrix factorization can be captured using simple mathematical norms.
   * [Ellen Zhong](https://www.cs.princeton.edu/people/profile/zhonge)
     * [CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf)
       * learn a neural model of a distribution of 3D structures on real heterogeneous cryo-EM data
@@ -138,6 +148,12 @@ $\def\R{ \mathbb{R}}$
           * ollowed by an iterative refinement of the K most likely candidate poses by binary search at successively higher resolution grids
           * interpolation accurate on smooth, smooth functions in fourier space statisfied if model output is centered and contained in the box
           * Computed without additional model evaluations
+          * translations in real space map to multiplication by an exponential function in Fourier spac
+      * Algorithm and background
+        * generative process for image in fourier domain 
+          * image(x,y) = f(V,x,y)
+        * from this generative process we can form P(X|R,t,V) (pose R,t) and the goal is to optimize this statistical model
+      * I think the use of properties of Fourier Space are nice.
 
 
 
