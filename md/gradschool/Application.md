@@ -5,13 +5,13 @@
 * Contact professors for PhD position, cv simple
 * End of next week-11/18 We should be done with all
 
-* Hello Dr. Yoon, 
-* I hope that you and your family are doing well.
-* Thank you for submitting the letters of recommendations. I am thankful and grateful for your support.
-* I have finished last remaining applications and they an email requesting for the letter.
-* I would appreciate it if they could be submitted by Nov 31.
-* Respectfully,
-* Yechan Hong
+Hello Dr. Yoon, 
+I hope that you and your family are doing well.
+Thank you for submitting the letters of recommendations. I am thankful and grateful for your support.
+I have finished last remaining applications and they an email requesting for the letter.
+I would appreciate it if they could be submitted by Nov 31.
+Respectfully,
+Yechan Hong
 
 * Hello Profess Cheng,
 * Hope that you and your family are doing well.
