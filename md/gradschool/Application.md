@@ -1,8 +1,9 @@
 # TODO
-* Create princeton application
+* Read the abstracts/papers
 * Send out email to professor, follow up/check up, Yoon & Jan & Jianlin
 * Contact professors for PhD position, cv simple
 * End of next week-11/18 We should be done with all
+* Next week Thur 1am WUSTL Zoom session
 
 * Take time and study well the papers and the topics, Finish by next week
   * Princeton SOP
@@ -110,7 +111,9 @@ $\def\R{ \mathbb{R}}$
       * This is actually a pretty good learning resource
 
 
-* [Princeton](https://www.cs.princeton.edu/research/areas)
+* [Princeton](https://graduate-apply.princeton.edu/apply)
+  * [research](https://www.cs.princeton.edu/research/areas)
+  * [requirements](https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science)
   * Seems like we dont really need to send out an email, just get accepted
   * [Introduction to Online Nonstochastic Control](https://sites.google.com/view/online-nonstochastic-control/home)
   * [Control Meets Learning Seminar by Elad Hazan](https://www.youtube.com/watch?v=dmWXHmjVxcI)
