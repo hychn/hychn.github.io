@@ -1,21 +1,10 @@
 # TODO
-* Send out email to professor, follow up/check up, Yoon & Jan & Jianlin
-* Read the abstracts/papers
-* Next week Thur 1am WUSTL Zoom session
 * Contact professors for PhD position, cv simple
+  * https://first-gen-guide.com/2020/07/24/phd-admissions-emailing-potential-advisors/
+
+* Read the abstracts/papers
 * End of next week-11/18 We should be done with all
-
-
-Hello Professor Cheng,
-
-Hope that you are doing well.
-I have finished my applications for graduate school and they an email requesting for the letter.
-Would it be possible to have the letters submitted by Nov 31?
-I am thankful and grateful for your support.
-
-Respectfully,
-Yechan Hong
-PS: Attached is my CV, which may be useful. Please feel free to let me know if you need anything else.
+* DuoLingo
 
 * Take time and study well the papers and the topics, Finish by next week
   * Princeton SOP
@@ -123,9 +112,7 @@ $\def\R{ \mathbb{R}}$
       * This is actually a pretty good learning resource
 
 
-* [Princeton](https://graduate-apply.princeton.edu/apply)
-  * [research](https://www.cs.princeton.edu/research/areas)
-  * [requirements](https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science)
+* [Princeton](https://www.cs.princeton.edu/research/areas)
   * Seems like we dont really need to send out an email, just get accepted
   * [Introduction to Online Nonstochastic Control](https://sites.google.com/view/online-nonstochastic-control/home)
   * [Control Meets Learning Seminar by Elad Hazan](https://www.youtube.com/watch?v=dmWXHmjVxcI)
