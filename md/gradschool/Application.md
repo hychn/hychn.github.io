@@ -1,10 +1,8 @@
 # TODO
+* Dec 1: prince, arizona state, ohio state
+  * Read the abstracts/papers
 * Contact professors for PhD position, cv simple
-  * https://first-gen-guide.com/2020/07/24/phd-admissions-emailing-potential-advisors/
-
-* Read the abstracts/papers
 * End of next week-11/18 We should be done with all
-* DuoLingo
 
 * Take time and study well the papers and the topics, Finish by next week
   * Princeton SOP
