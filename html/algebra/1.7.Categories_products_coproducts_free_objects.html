@@ -2,8 +2,7 @@
 <p>\(\def\C{ \mathbf{C} }\)
 \(\def\cat#1{ \mathbf{#1} }\)
 \(\def\domain#1{ \mathrm{dom}(#1) }\)
-\(\def\r- > { \rightarrow }\)
-\(\def\- > {{ \rightarrow }}\)</p>
+\(\def\o{\circ}\)</p>
 
 <h1>1.7 CATEGORIES: PRODUCTS, COPRODUCTS, AND FREE OBJECT</h1>
 
@@ -15,11 +14,28 @@
 <ul>
 <li>(i) class of disjoint sets, \(hom(A,B)\), one for each pair of objects in \(\cat{C}\)
 <ul>
-<li>morphism is \(f \in hom(A,B)\)  \(f:A- > B\)</li>
+<li>morphism: is \(f \in hom(A,B)\)  \(f:A- > B\)</li>
 </ul></li>
 <li>(ii) for each triple \((A,B,C)\) from \(\cat{C}\) a function
 <ul>
-<li>\(hom(B,C) \times hom(A,B) - >  hom(A,C)\) </li>
+<li>composition of morphism: \(hom(B,C) \times hom(A,B) - >  hom(A,C)\) 
+<ul>
+<li>\(f:A- > B\), \(g:B- > C\) \(g \circ f\)</li>
+</ul></li>
+<li>subject to axioms, 
+<ul>
+<li>Associative: for  \(f,g, h:C- > D\) 
+<ul>
+<li>\(h \o ( g \o f ) = (h \o g) \o f \)</li>
+</ul></li>
+<li>Identity: for each B of \(\cat{C}\) there exists morphism \(1_B:B- > B\) s.t.
+<ul>
+<li>for any \(f:A- > B g:B- > A\), 
+<ul>
+<li>\(1_B \o f = f\) and \(g \o 1_B = g\)</li>
+</ul></li>
+</ul></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
