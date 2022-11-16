@@ -22,6 +22,9 @@
   * [TOC.html](html/analysis/TOC.html)
 * ./books
   * [courage_to_be_disliked.html](html/books/courage_to_be_disliked.html)
+* ./euclid
+  * [book1.html](html/euclid/book1.html)
+  * [mathematicianbook.html](html/euclid/mathematicianbook.html)
 * ./gradschool
   * [1.TDASchoolProgram.html](html/gradschool/1.TDASchoolProgram.html)
   * [2.TDABasics.html](html/gradschool/2.TDABasics.html)
