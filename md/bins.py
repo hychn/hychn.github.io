@@ -5,9 +5,12 @@ def bin_nbhd( x,y,z, binL, R):
     bx,by,bz =  x//binL*binL, y//binL*binL, z//binL*binL
 
     N = math.ceil(R/binL)
-    for i,j,k in product(range(N), range(N), range(N) ):
-        print(i,j,k)
+    N = range(-N,N+1)
+
+    #return set( (binL*i, binL*j, binL*k) for i,j,k in product(N, N, N) )
+    return [ (binL*i, binL*j, binL*k) for i,j,k in product(N, N, N) ]
 
 
-#bin_nbhd(0,0,0,2,10)
-print( list(range(-1,1) )
+x = bin_nbhd(0,0,0,5,10)
+print(x)
+#print( list(range(-1,1+1) ) )
