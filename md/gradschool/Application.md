@@ -1,3 +1,4 @@
+
 # TODO
 * Dec 1: prince, arizona state, ohio state
   * Read the abstracts/papers
@@ -134,6 +135,10 @@ $\def\R{ \mathbb{R}}$
       * Secondly, we present theoretical and empirical arguments questioning a nascent view by which implicit regularization in matrix factorization can be captured using simple mathematical norms.
   * [Ellen Zhong](https://www.cs.princeton.edu/people/profile/zhonge)
     * [CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf)
+      * utilizing interpolation and smoothness of Fourier space to effectively sample poses and resolutions when evaluting the strcuture density model.
+      * model evaluation ˆV(k)of coordinate k (which corresponds to a Fourier coefficient of an image’s pixel)
+      * search over multi resolution grids on the space of rotations and in-plane translations
+      * how is it searcing effectively? how is it doing the effective searching (interpolation, smoothness in fourier space)
       * learn a neural model of a distribution of 3D structures on real heterogeneous cryo-EM data
       * search algorithms from the traditional cryo-EM literature, and describe the optimizations and design choices required to make such a search procedure computationally tractable in the neural model setting
       * CryoDRGN parameterizes cryo-EM volumes using a coordinate-based MLP with parameters to directly approximate the continuous density function
@@ -154,6 +159,15 @@ $\def\R{ \mathbb{R}}$
           * image(x,y) = f(V,x,y)
         * from this generative process we can form P(X|R,t,V) (pose R,t) and the goal is to optimize this statistical model
       * I think the use of properties of Fourier Space are nice.
+        * Speeding up exhaustive search by interpolation
+        * Interpolation is only accurate if the underlying function is smooth.
+        * Smoothness in Fourier space corresponds to the function being flat at large r in real space, which is satisfied as long as the model output is centered and smaller than the box size
+
+    * Optimal Control Theory by Professor Elad Hazan
+      * Need for a new theory to get the best of both worlds
+      * Optimal control theory, which exactly assumes this zero-mean noise, is therefore overly optimistic and inaccurate for our problem.
+      * The designer might resort to robust control theory to account for all possible wind conditions, but this is overly pessimistic. What if we encounter a bright sunny day after all? Planning for the worst case would mean slow and fuel-inefficient flight. 
+      * We would like an adaptive control theory which allows us to attain the best of both worlds: an efficient and fast flight when the weather permits, and a careful drone maneuver when this is required by the conditions. Can we design a control theory that will allow us to take into account the spe- cific instance perturbations and miss-specifications, and give us finite time provable guarantees? This is the subject of online non-stochastic control!
 
 
 
