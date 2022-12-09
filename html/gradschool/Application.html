@@ -1,7 +1,19 @@
 <!DOCTYPE html><html><head><title>Application</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<ul>
+<li>Go through all
+<ul>
+<li>check missing/duo lingo, Arizona</li>
+<li>submit application </li>
+</ul></li>
+</ul>
+
 <h1>TODO</h1>
 
 <ul>
+<li>https://mila.quebec/en/research-programs/
+<ul>
+<li>McGill university Dec15</li>
+</ul></li>
 <li>Dec 1: prince, arizona state, ohio state
 <ul>
 <li>Read the abstracts/papers</li>
@@ -140,7 +152,8 @@
 <li>The rotation model does not preclude students from initiating discussions with faculty whose group they really want to join prior to joining WashU, but it offers the opportunity to be exposed to other research areas and approaches and to interact with potential research advisers before finalizing a commitment.</li>
 </ul></li>
 <li><a href="https://engineering.wustl.edu/academics/graduate-admissions/application-checklist.html">Deadlines/info</a></li>
-<li><a href="https://machinelearning.wustl.edu/faculty/">Faculty</a>
+<li><p><a href="https://machinelearning.wustl.edu/faculty/">Faculty</a></p>
+
 <ul>
 <li><a href="https://sites.wustl.edu/wyeoh/research/">William Yeoh</a>
 <ul>
@@ -153,14 +166,53 @@
 </ul></li>
 </ul></li>
 </ul></li>
-<li><a href="https://www.cse.wustl.edu/~bjuba/papers/index.html">Brendan Juba</a>
+<li><p><a href="https://www.cse.wustl.edu/~bjuba/papers/index.html">Brendan Juba</a></p>
+
 <ul>
-<li>Polynomial Time Reinforcement Learning in Factored State MDPs with Linear Value Functions
+<li><a href="https://www.cse.wustl.edu/~bjuba/papers/fmdp-aistats.pdf">Polynomial Time Reinforcement Learning in Factored State MDPs with Linear Value Functions</a>
 <ul>
-<li>Factored MDP</li>
+<li>Many reinforcement learning (RL) environments in practice feature enormous state spaces that may be described compactly by a “factored” structure, that may be modeled by Factored Markov Decision Processes</li>
+<li>We present the first polynomial-time algorithm for RL in Factored State MDPs (generalizing FMDPs) that neither relies on an oracle planner nor requires a linear transition model; it only requires a linear value function with a suitable local basis with respect to the factorization, permitting efficient variable elimination</li>
+</ul></li>
+<li>S,A,R,P: State, Action, Reward SxA->real, TransitionProb SxSxA->real P(s'|s,a)</li>
+<li>t,p: time horizon, initial distribution over S</li>
+<li>deterministic policy</li>
+<li>value function of policy, expected sum of reward from initial to horizon following the policy</li>
+<li>optimal policy for M: u^M</li>
+<li>episode?</li>
+<li>Ht history (s1,a1,r1,s2,a2,r2,...st-1,at-1,rt-1)</li>
+<li>An RL algorithm outputs a sequence of functions \({\pi_k | k=1,2..}\), each mapping H<em>{t</em>k} to a probability distribution \pi<em>k(H</em>{t_k}) over policies which the agent will employ in episode k. (Selector of policies over depending on the input history)</li>
+<li>M* latent in the environment</li>
+<li>regret: 
+<ul>
+<li>Regret(T,\pi, M<em>) = sum( k=1,T/t, regretofepisodek)</li>
+<li>regretofepisodek = E(s~p)[V(u</em>, s)-V(uk, s)]</li>
+<li>where u* is optimal policy for M*</li>
+<li>and uk ~ pi<em>k(H</em>{t_k})</li>
+* 
+</ul></li>
+<li>Factored spaces
+<ul>
+<li>Transition from one factored state to another factored state only depends on the current scope</li>
+</ul></li>
+<li>Factored rewards
+<ul>
+<li>the reward of a complete space is equal to the sum of the reward in the factored states</li>
+</ul></li>
+<li>Factored linear value function class
+<ul>
+<li>I thought value depended on policy where is policy here? We are assuming this holds for all policies, specifically the optimal policy</li>
+<li>Based on the factored linear value functions, the bellman operator can also be factored linearly</li>
+</ul></li>
+<li>What is the big point of the paper?
+<ul>
+<li>Many important application domains of Reinforcement learning (RL) – such as resource allocation or complex games – feature large state spaces, for which existing theoretical guarantees are unsatisfactory. But, many of these domains are believed to be captured by a small dynamic Bayesian network (DBN) on factored state variables.</li>
+<li>efficiently representing space with factored states</li>
+<li>assumptions on factored reward functions and factored linear value functions</li>
 </ul></li>
 </ul></li>
-<li><a href="https://www.cse.wustl.edu/~garnett/">Roman Garnett</a>
+<li><p><a href="https://www.cse.wustl.edu/~garnett/">Roman Garnett</a></p>
+
 <ul>
 <li>Bayesian optimization</li>
 <li>Automated Model Selection with Bayesian Quadrature
@@ -171,6 +223,11 @@
 <li><a href="https://www.cse.wustl.edu/~garnett/cse515t/fall_2019/">Course: CSE 515T – Bayesian Methods in Machine Learning</a>
 <ul>
 <li>This is actually a pretty good learning resource</li>
+<li><a href="https://www.sarem-seitz.com/when-is-bayesian-machine-learning-actually-useful/">What is Bayesian Methods?</a></li>
+<li>Maximum a-posteriori estimation, P(D|m) p(m)/P(D)
+<ul>
+<li>apparently this is equivalent to regularized MSE</li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -207,18 +264,20 @@
 <ul>
 <li>Task: matrix completition, a model referred to as deep matrix factorization
 <ul>
-<li>adding depth enhances an implicit tendency towards low-rank solutions</li>
 <li>Leading to more accurate discovery</li>
 </ul></li>
 <li>Our first finding, supported by theory and experiments, is that adding depth to a matrix factorization enhances an implicit tendency towards low-rank solutions, oftentimes leading to more accurate recovery</li>
 <li>Secondly, we present theoretical and empirical arguments questioning a nascent view by which implicit regularization in matrix factorization can be captured using simple mathematical norms.</li>
-</ul></li>
-</ul></li>
-<li><p><a href="https://www.cs.princeton.edu/people/profile/zhonge">Ellen Zhong</a></p>
-
+<li>Task: Deep matrix factorization, matrix completion and sensing</li>
+<li>regularization process that changes the result to be simpler
 <ul>
-<li><p><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf">CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images</a></p>
-
+<li>adding depth enhances an implicit tendency towards low-rank solutions</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="https://www.cs.princeton.edu/people/profile/zhonge">Ellen Zhong</a>
+<ul>
+<li><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf">CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images</a>
 <ul>
 <li>utilizing interpolation and smoothness of Fourier space to effectively sample poses and resolutions when evaluting the strcuture density model.</li>
 <li>model evaluation ˆV(k)of coordinate k (which corresponds to a Fourier coefficient of an image’s pixel)</li>
@@ -258,13 +317,25 @@
 <li>Smoothness in Fourier space corresponds to the function being flat at large r in real space, which is satisfied as long as the model output is centered and smaller than the box size</li>
 </ul></li>
 </ul></li>
-<li><p>Optimal Control Theory by Professor Elad Hazan</p>
-
+<li>Online Nonstochastic Control by Professor Elad Hazan
 <ul>
 <li>Need for a new theory to get the best of both worlds</li>
 <li>Optimal control theory, which exactly assumes this zero-mean noise, is therefore overly optimistic and inaccurate for our problem.</li>
 <li>The designer might resort to robust control theory to account for all possible wind conditions, but this is overly pessimistic. What if we encounter a bright sunny day after all? Planning for the worst case would mean slow and fuel-inefficient flight. </li>
 <li>We would like an adaptive control theory which allows us to attain the best of both worlds: an efficient and fast flight when the weather permits, and a careful drone maneuver when this is required by the conditions. Can we design a control theory that will allow us to take into account the spe- cific instance perturbations and miss-specifications, and give us finite time provable guarantees? This is the subject of online non-stochastic control!</li>
+</ul></li>
+<li>General examination, year 2
+<ul>
+<li>Research seminar </li>
+<li>in-depth oral examination on contents of seminar and associated general area of research</li>
+<li>original research results do not have to be presented, but problems whose solution may lead to a thesis should be discussed</li>
+<li>In many cases the student's thesis is in the same area as the reserach semianr, but this is not reuqired</li>
+<li>What do you like about this?
+<ul>
+<li>Fanatasy opportunity and goal to prepare</li>
+<li>Scope is not to specific but also just right, careful balance</li>
+<li>Specialization and expansion</li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -517,9 +588,10 @@ bound its complexity with a novel technique.</li>
 <li>statistics <a href="https://talata.ku.edu/cv.html">Zsolt Talata</a></li>
 <li>CS/AI RL control <a href="https://hashemi.ku.edu/">Morteza Hashemi</a></li>
 </ul></li>
-<li><p><a href="https://webapp4.asu.edu/dgsadmissions/logout">Arizona State</a> Dec 1</p>
+<li><p><a href="https://webapp4.asu.edu/dgsadmissions/logout">Arizona State</a> Dec 31</p>
 
 <ul>
+<li>ID:yhong64</li>
 <li>TODO: SOP</li>
 <li>Faculty, SOP identify two or three ASU faculty with matching research interests. 
 <ul>

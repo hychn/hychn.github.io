@@ -1,5 +1,10 @@
+* Go through all
+  * check missing/duo lingo, Arizona
+  * submit application 
 
 # TODO
+* https://mila.quebec/en/research-programs/
+  * McGill university Dec15
 * Dec 1: prince, arizona state, ohio state
   * Read the abstracts/papers
 * Contact professors for PhD position, cv simple
@@ -101,14 +106,46 @@ $\def\R{ \mathbb{R}}$
           * Extending the stochastic goal recognition design framework by supporting suboptimal agents in cases where an observer has either full or partial observability
           * Presenting methods to evaluate the ambiguity of the model under these assumptions
     * [Brendan Juba](https://www.cse.wustl.edu/~bjuba/papers/index.html)
-      * Polynomial Time Reinforcement Learning in Factored State MDPs with Linear Value Functions
-        * Factored MDP
+      * [Polynomial Time Reinforcement Learning in Factored State MDPs with Linear Value Functions](https://www.cse.wustl.edu/~bjuba/papers/fmdp-aistats.pdf)
+        * Many reinforcement learning (RL) environments in practice feature enormous state spaces that may be described compactly by a “factored” structure, that may be modeled by Factored Markov Decision Processes
+        * We present the first polynomial-time algorithm for RL in Factored State MDPs (generalizing FMDPs) that neither relies on an oracle planner nor requires a linear transition model; it only requires a linear value function with a suitable local basis with respect to the factorization, permitting efficient variable elimination
+      * S,A,R,P: State, Action, Reward SxA->real, TransitionProb SxSxA->real P(s'|s,a)
+      * t,p: time horizon, initial distribution over S
+      * deterministic policy
+      * value function of policy, expected sum of reward from initial to horizon following the policy
+      * optimal policy for M: u^M
+      * episode?
+      * Ht history (s1,a1,r1,s2,a2,r2,...st-1,at-1,rt-1)
+      * An RL algorithm outputs a sequence of functions ${\pi_k | k=1,2..}$, each mapping H_{t_k} to a probability distribution \pi_k(H_{t_k}) over policies which the agent will employ in episode k. (Selector of policies over depending on the input history)
+      * M* latent in the environment
+      * regret: 
+        * Regret(T,\pi, M*) = sum( k=1,T/t, regretofepisodek)
+        * regretofepisodek = E(s~p)[V(u*, s)-V(uk, s)]
+        * where u* is optimal policy for M*
+        * and uk ~ pi_k(H_{t_k})
+        * 
+      * Factored spaces
+        * Transition from one factored state to another factored state only depends on the current scope
+      * Factored rewards
+        * the reward of a complete space is equal to the sum of the reward in the factored states
+      * Factored linear value function class
+        * I thought value depended on policy where is policy here? We are assuming this holds for all policies, specifically the optimal policy
+        * Based on the factored linear value functions, the bellman operator can also be factored linearly
+      * What is the big point of the paper?
+        * Many important application domains of Reinforcement learning (RL) – such as resource allocation or complex games – feature large state spaces, for which existing theoretical guarantees are unsatisfactory. But, many of these domains are believed to be captured by a small dynamic Bayesian network (DBN) on factored state variables.
+        * efficiently representing space with factored states
+        * assumptions on factored reward functions and factored linear value functions
+
+
     * [Roman Garnett](https://www.cse.wustl.edu/~garnett/)
       * Bayesian optimization
       * Automated Model Selection with Bayesian Quadrature
         * We present a novel technique for tailoring Bayesian quadrature (BQ) to model selection. The state-of-the-art for comparing the evidence of multiple models relies on Monte Carlo methods, which converge slowly and are unreliable for com- putationally expensive models. Although previ- ous research has shown that BQ offers sample efficiency superior to Monte Carlo in computing the evidence of an individual model, applying BQ directly to model comparison may waste computa- tion producing an overly-accurate estimate for the evidence of a clearly poor model. 
     * [Course: CSE 515T – Bayesian Methods in Machine Learning](https://www.cse.wustl.edu/~garnett/cse515t/fall_2019/)
       * This is actually a pretty good learning resource
+      * [What is Bayesian Methods?](https://www.sarem-seitz.com/when-is-bayesian-machine-learning-actually-useful/)
+      * Maximum a-posteriori estimation, P(D|m) p(m)/P(D)
+        * apparently this is equivalent to regularized MSE
 
 
 * [Princeton](https://www.cs.princeton.edu/research/areas)
@@ -129,10 +166,12 @@ $\def\R{ \mathbb{R}}$
   * [Sanjeev Arora]
     * [Implicit Regularization in Deep Matrix Factorization](https://arxiv.org/pdf/1905.13655.pdf)
       * Task: matrix completition, a model referred to as deep matrix factorization
-        * adding depth enhances an implicit tendency towards low-rank solutions
         * Leading to more accurate discovery
       * Our first finding, supported by theory and experiments, is that adding depth to a matrix factorization enhances an implicit tendency towards low-rank solutions, oftentimes leading to more accurate recovery
       * Secondly, we present theoretical and empirical arguments questioning a nascent view by which implicit regularization in matrix factorization can be captured using simple mathematical norms.
+      * Task: Deep matrix factorization, matrix completion and sensing
+      * regularization process that changes the result to be simpler
+        * adding depth enhances an implicit tendency towards low-rank solutions
   * [Ellen Zhong](https://www.cs.princeton.edu/people/profile/zhonge)
     * [CryoDRGN2: Ab initio neural reconstruction of 3D protein structures from real cryo-EM images](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhong_CryoDRGN2_Ab_Initio_Neural_Reconstruction_of_3D_Protein_Structures_From_ICCV_2021_paper.pdf)
       * utilizing interpolation and smoothness of Fourier space to effectively sample poses and resolutions when evaluting the strcuture density model.
@@ -162,12 +201,20 @@ $\def\R{ \mathbb{R}}$
         * Speeding up exhaustive search by interpolation
         * Interpolation is only accurate if the underlying function is smooth.
         * Smoothness in Fourier space corresponds to the function being flat at large r in real space, which is satisfied as long as the model output is centered and smaller than the box size
-
-    * Optimal Control Theory by Professor Elad Hazan
+    * Online Nonstochastic Control by Professor Elad Hazan
       * Need for a new theory to get the best of both worlds
       * Optimal control theory, which exactly assumes this zero-mean noise, is therefore overly optimistic and inaccurate for our problem.
       * The designer might resort to robust control theory to account for all possible wind conditions, but this is overly pessimistic. What if we encounter a bright sunny day after all? Planning for the worst case would mean slow and fuel-inefficient flight. 
       * We would like an adaptive control theory which allows us to attain the best of both worlds: an efficient and fast flight when the weather permits, and a careful drone maneuver when this is required by the conditions. Can we design a control theory that will allow us to take into account the spe- cific instance perturbations and miss-specifications, and give us finite time provable guarantees? This is the subject of online non-stochastic control!
+    * General examination, year 2
+      * Research seminar 
+      * in-depth oral examination on contents of seminar and associated general area of research
+      * original research results do not have to be presented, but problems whose solution may lead to a thesis should be discussed
+      * In many cases the student's thesis is in the same area as the reserach semianr, but this is not reuqired
+      * What do you like about this?
+        * Fanatasy opportunity and goal to prepare
+        * Scope is not to specific but also just right, careful balance
+        * Specialization and expansion
 
 
 
@@ -324,7 +371,8 @@ $\def\R{ \mathbb{R}}$
   * statistics [Zsolt Talata](https://talata.ku.edu/cv.html)
   * CS/AI RL control [Morteza Hashemi](https://hashemi.ku.edu/)
 
-* [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) Dec 1
+* [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) Dec 31
+  * ID:yhong64
   * TODO: SOP
   * Faculty, SOP identify two or three ASU faculty with matching research interests. 
     * [Faculty list](https://scai.engineering.asu.edu/computer-science-and-engineering-faculty)

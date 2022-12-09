@@ -1,5 +1,6 @@
 * ./
 * [A.objectives.html](html/A.objectives.html)
+* [Check.html](html/Check.html)
 * [diet.html](html/diet.html)
 * [GOALS.html](html/GOALS.html)
 * [jobs.html](html/jobs.html)
