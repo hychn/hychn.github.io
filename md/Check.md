@@ -1,11 +1,3 @@
-
-* [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
-  * Dec 15
-  * Contact Prof Roman, add to profs contacted
-  * Review CV/SOP and submit
-
-
-
 * [University of Texas at Austin](https://utdirect.utexas.edu/apps/adm/mystatus)
   * Wait for transcripts pdf and send
   * Just buy the new e-transcripts, start with DPU, then MIZZOU
@@ -45,6 +37,14 @@
 * Uni of florida?
 
 # DONE
+
+* [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
+  * Dec 15
+  * Contact Prof Roman, add to profs contacted
+  * Review CV/SOP and submit
+
+
+
 * [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) 
   * DONE
   * Dec 15
