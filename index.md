@@ -1,54 +1,56 @@
 * ./
-* [A.objectives.html](html/A.objectives.html)
+* [study_guide.html](html/study_guide.html)
+* [jobs.html](html/jobs.html)
 * [Check.html](html/Check.html)
 * [diet.html](html/diet.html)
-* [GOALS.html](html/GOALS.html)
-* [jobs.html](html/jobs.html)
-* [journal.html](html/journal.html)
+* [A.objectives.html](html/A.objectives.html)
 * [stats.html](html/stats.html)
-* [study_guide.html](html/study_guide.html)
-* [surf.html](html/surf.html)
+* [GOALS.html](html/GOALS.html)
 * [todo.html](html/todo.html)
-* [UI.html](html/UI.html)
 * [workout.html](html/workout.html)
-* ./algebra
-  * [0prelim.html](html/algebra/0prelim.html)
-  * [1.1.Semigroups_Monoids_Groups.html](html/algebra/1.1.Semigroups_Monoids_Groups.html)
-  * [1.6-1.4old.html](html/algebra/1.6-1.4old.html)
-  * [1.6.Symmetric_Alternating_Dihedral_Groups.html](html/algebra/1.6.Symmetric_Alternating_Dihedral_Groups.html)
-  * [1.7.Categories_products_coproducts_free_objects.html](html/algebra/1.7.Categories_products_coproducts_free_objects.html)
-  * [outline1.5.html](html/algebra/outline1.5.html)
-  * [TOC.html](html/algebra/TOC.html)
-* ./analysis
-  * [MAPranaly.html](html/analysis/MAPranaly.html)
-  * [ranalysis.html](html/analysis/ranalysis.html)
-  * [TOC.html](html/analysis/TOC.html)
-* ./books
-  * [courage_to_be_disliked.html](html/books/courage_to_be_disliked.html)
-* ./euclid
-  * [book1.html](html/euclid/book1.html)
-  * [mathematicianbook.html](html/euclid/mathematicianbook.html)
-* ./gradschool
-  * [1.TDASchoolProgram.html](html/gradschool/1.TDASchoolProgram.html)
-  * [2.TDABasics.html](html/gradschool/2.TDABasics.html)
-  * [Application.html](html/gradschool/Application.html)
-  * [compile.html](html/gradschool/compile.html)
-  * [CV.html](html/gradschool/CV.html)
-  * [emails.html](html/gradschool/emails.html)
-  * [info.html](html/gradschool/info.html)
-  * [personal_statement.html](html/gradschool/personal_statement.html)
-  * [plan.html](html/gradschool/plan.html)
-  * [resume.html](html/gradschool/resume.html)
-  * [SOP.html](html/gradschool/SOP.html)
-  * [SOPbk.html](html/gradschool/SOPbk.html)
-  * [statement_of_purpose.html](html/gradschool/statement_of_purpose.html)
-* ./linear_algebra
-  * [linalg.html](html/linear_algebra/linalg.html)
-* ./logic
-  * [logical_operations.html](html/logic/logical_operations.html)
+* [journal.html](html/journal.html)
+* [UI.html](html/UI.html)
+* [surf.html](html/surf.html)
 * ./math_journal
   * [mathtips.html](html/math_journal/mathtips.html)
+* ./gradschool
+  * [SOP.html](html/gradschool/SOP.html)
+  * [resume.html](html/gradschool/resume.html)
+  * [1.TDASchoolProgram.html](html/gradschool/1.TDASchoolProgram.html)
+  * [Application.html](html/gradschool/Application.html)
+  * [personal_statement.html](html/gradschool/personal_statement.html)
+  * [SOPbk.html](html/gradschool/SOPbk.html)
+  * [compile.html](html/gradschool/compile.html)
+  * [emails.html](html/gradschool/emails.html)
+  * [2.TDABasics.html](html/gradschool/2.TDABasics.html)
+  * [statement_of_purpose.html](html/gradschool/statement_of_purpose.html)
+  * [plan.html](html/gradschool/plan.html)
+  * [CV.html](html/gradschool/CV.html)
+  * [info.html](html/gradschool/info.html)
+* ./network
+  * [RL.html](html/network/RL.html)
+* ./logic
+  * [logical_operations.html](html/logic/logical_operations.html)
+* ./euclid
+  * [mathematicianbook.html](html/euclid/mathematicianbook.html)
+  * [book1.html](html/euclid/book1.html)
+* ./analysis
+  * [MAPranaly.html](html/analysis/MAPranaly.html)
+  * [TOC.html](html/analysis/TOC.html)
+  * [ranalysis.html](html/analysis/ranalysis.html)
+* ./linear_algebra
+  * [linalg.html](html/linear_algebra/linalg.html)
+* ./books
+  * [courage_to_be_disliked.html](html/books/courage_to_be_disliked.html)
 * ./RL
   * [concise_stats.html](html/RL/concise_stats.html)
   * [rldmitri_notes.html](html/RL/rldmitri_notes.html)
   * [RLspinningup.html](html/RL/RLspinningup.html)
+* ./algebra
+  * [1.1.Semigroups_Monoids_Groups.html](html/algebra/1.1.Semigroups_Monoids_Groups.html)
+  * [0prelim.html](html/algebra/0prelim.html)
+  * [1.7.Categories_products_coproducts_free_objects.html](html/algebra/1.7.Categories_products_coproducts_free_objects.html)
+  * [outline1.5.html](html/algebra/outline1.5.html)
+  * [1.6-1.4old.html](html/algebra/1.6-1.4old.html)
+  * [1.6.Symmetric_Alternating_Dihedral_Groups.html](html/algebra/1.6.Symmetric_Alternating_Dihedral_Groups.html)
+  * [TOC.html](html/algebra/TOC.html)
