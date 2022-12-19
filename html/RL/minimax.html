@@ -1,0 +1,82 @@
+<!DOCTYPE html><html><head><title>minimax</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<ul>
+<li>DEF maximin value: highest value that the player can be sure to get without knowing the actions of other players</li>
+<li>\(\displaystyle \min{a_{-i}}\)</li>
+<li><p>\(\underset{ a_{-i} }{min}\)</p></li>
+<li><p>The min max algorithm uses maxmin</p></li>
+<li><p>Which move you would make as a maximizing player considering that your opponent also plays optimally?</p></li>
+<li><p>Suppose I am max. when would i not want to branch?</p>
+
+<ul>
+<li>when the branching option is less than (the max options from this node)</li>
+</ul></li>
+<li><p>suppose I am min. when would i not want to branch?</p>
+
+<ul>
+<li>when the branching option is greater than (the min options from this node)</li>
+</ul></li>
+<li><p>how about expanding the min/max options from this node to above this node?</p></li>
+<li>because if there are better options availble above, we dont need to consider going down, even if the options are better in the current node</li>
+</ul>
+
+<p>Ok then from the perspectiveof max, min, we keep track of the best options avaiable for each player
+maxbest, minbest</p>
+
+<h1>Condition A</h1>
+
+<ul>
+<li>so, when the next option is not better than maxbest/minbest we dont need to go</li>
+</ul>
+
+<h1>Condition B</h1>
+
+<ul>
+<li>also there is another place we dont need to look, where we can drop entire tree</li>
+<li>suppose we find a value that is (better, lower) than maxbest
+<ul>
+<li>then, the max will never choose the node we are on</li>
+</ul></li>
+<li>suppose we find a value that is (better, higher) than minbest
+<ul>
+<li>then min will never choose the node we are on</li>
+</ul></li>
+</ul>
+
+<h1>Does condition B imply condition A</h1>
+
+<ul>
+<li>suppose next option is not better the maxbest but we go there</li>
+<li><p>then this value is lower then maxbest </p>
+
+<ul>
+<li>then, max will never choose this node so it is doing the same thing</li>
+</ul></li>
+<li><p>if the next value is less than maxbest, (drop what do you mean drop?)</p></li>
+<li><p>if the next value is greater than minbest, (drop what do you mean drop?)</p></li>
+<li><p>What is relationship btw maxbest minbest?</p></li>
+<li>maxbest of current node comes from the collection of minbests in the next nodes</li>
+<li><p>minbest of current node comes from the collection of maxbests in the next nodes</p></li>
+<li><p>Pass the torch</p></li>
+<li><p>Lets go through it once more and think about how to optimizeit</p></li>
+<li><p>if we get a better maxbest then replace it as we go down</p></li>
+<li><p>Can we propagate this maxbest back up? yes as we return the values</p></li>
+<li><p>way to use different agents </p>
+
+<ul>
+<li>some agents require a tree, how to handle this?</li>
+</ul></li>
+<li><p>forced move</p></li>
+<li>minmax/BestMax, BestMin pruning</li>
+<li>transposition, not towards depth of tree
+<ul>
+<li>hashing for larger keys</li>
+<li>Transposition doesn't work for MCST?</li>
+</ul></li>
+<li><p>is there a way to combine MCST with </p></li>
+<li><p>Alof of these topics are related to how can we reduce the search tree</p></li>
+<li><p>mainly, because we don't have alot of time to spend iterating over</p></li>
+<li><p>What does AB-pruning do for tic tac, what are it's disadvantages</p></li>
+<li>Transpositions do work for MCST, you just can't  preserve </li>
+</ul>
+
+</div></body> </html>
