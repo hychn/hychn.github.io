@@ -1,4 +1,12 @@
 # Study guide
+* Ask questions as you go and answer them
+* Active Learning Mapping Exercise
+  * Identify each component in the definition
+    * See what the extremes of this component along various dimensions (length, other characteristic)
+    * Can/How other properties component affect/interact with the definition? (It almost certainly will)
+  * Ask questions about new description
+  * What essential informations is being captured from the definition? Why this definition?
+
 * short list of recurring, important, fundamental ideas
 * less is more
 * Time, time to grow

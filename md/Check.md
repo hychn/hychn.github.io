@@ -9,6 +9,10 @@
   * MyStatus, wasn't there a separate thing to upload documents?
   * Check make sure transcript has been finished reviewed.
 
+* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login) 
+  * Duolingo
+  * Dec 15
+
 
 * [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) 
   * Check MyASU and make sure status is updated
@@ -30,11 +34,6 @@
   * [ASU program](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true)
 
 
-* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login) 
-  * Duolingo
-  * Dec 15
-
-* Uni of florida?
 
 # DONE
 

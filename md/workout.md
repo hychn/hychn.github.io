@@ -156,6 +156,7 @@
 * High Lats
   * Begin in front lat spread
   * Stop when are makes 90 degree with forearm and bicep
+  * I think this is injured, teres minor
 * Mid Lats
   * Medium grip
   * Triceps face back at the end of the motion
@@ -165,6 +166,9 @@
 
 * Lift with your back
 * Negative lifts to get the feel
+* Lats are attached to top of upper arm, you need to pull that point backwards
+* weight needs to be in front of bar to do this movement right
+  * because lats do rows not pulldowns
 
 
 # Biceps, Triceps
