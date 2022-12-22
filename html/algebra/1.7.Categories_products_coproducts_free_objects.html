@@ -17,7 +17,8 @@
 <ul>
 <li>morphism: is \(f \in hom(A,B)\)  \(f:A- > B\)</li>
 </ul></li>
-<li>(ii) for each triple \((A,B,C)\) from \(\cat{C}\) a function
+<li><p>(ii) for each triple \((A,B,C)\) from \(\cat{C}\) a function</p>
+
 <ul>
 <li>composition of morphism: \(hom(B,C) \times hom(A,B) - >  hom(A,C)\) 
 <ul>
@@ -36,6 +37,12 @@
 </ul></li>
 </ul></li>
 </ul></li>
+<li><p>NOTES:</p>
+
+<ul>
+<li>The morphism defines some relationship that must be preserved transitively</li>
+<li>The morphism also forms the basis for defining equivalence</li>
+</ul></li>
 </ul></li>
 <li><p>DEF a morphism \(f\) is <strong>equivalence</strong> if there is \(g\) such that \(g \cmp f=1_A\) and \(f \cmp  g=1_B\)</p>
 
@@ -49,9 +56,59 @@
 <li>is it the same as an atypical identity? or  are there some restrictions?</li>
 </ul></li>
 <li><p>these symbols are kind of frustrating me haha</p></li>
-<li>Why is the ordering of the hom(A,B) and but the composition is written the other way?
+<li><p>Why is the ordering of the hom(A,B) and but the composition is written the other way?</p>
+
 <ul>
 <li>hom read right, composition read left</li>
+</ul></li>
+
+<li><p>DEF Product: Given a family of objects \(\{A_i | i\in I\}\) a product, \(P\), is an object with \(\pi_i : P \rightarrow A_i\) </p>
+
+<ul>
+<li>so that for any other object, \(B\), with mappings to the family \(\psi_i: B \rightarrow A_i\) </li>
+<li>there is unique \(f: B \rightarrow A\) with \(\pi_i \circ f = \psi_i\)</li>
+</ul></li>
+<li>THM two product of the same family are equivalent
+<ul>
+<li>consider two products P,B and \(f:B \rightarrow A\)</li>
+<li>we need to show \(f \circ g = 1\) and \(g \circ f = 1\) 
+<ul>
+<li>\(f \circ g\) and \(1\) both satisfy link function of commuting the family mapping from P to P
+<ul>
+<li>since the link function is unique, they are equal. This means f is inverse of g</li>
+<li>so the two products are equivalent</li>
+</ul></li>
+</ul></li>
+<li>draw out the diagram, it is quite interesting how you can put the two \(P \rightarrow A_i \leftarrow B\) maps together to form </li>
+</ul></li>
+<li>DEF Coproduct/Sum: Same definition as Product except the mappings to family and link mapping are reversed
+<ul>
+<li>\(C \leftarrow A_i \rightarrow B\)</li>
+<li>what examples are there?</li>
+<li>The direct sum definition in linear algebra says that the sum must have unique representation or sum of vector subspaces whose intersection is zero</li>
+</ul></li>
+<li><p>THM two co products of same family are equivaqlent</p></li>
+<li><p>What does it mean for comm diagram to commute?</p></li>
+</ul>
+
+<h1>Questions</h1>
+
+<ul>
+<li>What is the definition of category
+<ul>
+<li>what is the homomorphisms</li>
+<li>transitive</li>
+<li>equivalence</li>
+<li>identity?</li>
+<li>What is the point of this defintion, what is it trying to capture?</li>
+</ul></li>
+<li>??? What are products in a category?
+<ul>
+<li>Could you find an example of one for sets?</li>
+<li>What is coproduct</li>
+<li>What are free objects?</li>
+<li>What are initial/terminal objects?</li>
+<li>What is the relationship between product/coproduct/free/initial/terminal objects</li>
 </ul></li>
 </ul>
 

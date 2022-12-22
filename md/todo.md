@@ -1,10 +1,25 @@
+# Alg
+* Category 
+* Examples of Initial/Terminal
+* Category Exercises
+
+# Lin Alg
+* Linear independence between two vectors
+* What about for linear maps and their representation?
+  * What would the LI of columns vs rows indicate?
+* Determinant
+
+# Real Analysis
+* Review
+* Continuity, why is it important?
+
+
+
 * Need to learn the classical algorithms like A3C
   * [RL The book](http://www.incompleteideas.net/book/ebook/the-book.html)
   * spinningup 
 * All of Statistics: A Concise Course in Statistical Inference
 * Proofs from THE BOOK
-
-
 
 # RL Questions
 * On policy vs Off Policy meaning?

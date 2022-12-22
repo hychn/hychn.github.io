@@ -1,3 +1,10 @@
+# CONTACT
+
+* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login) 
+  * Dec 15
+  * CONTACT: Lijun Chen
+
+
 * [University of Texas at Austin](https://utdirect.utexas.edu/apps/adm/mystatus)
   * Wait for transcripts pdf and send
   * Just buy the new e-transcripts, start with DPU, then MIZZOU
@@ -8,10 +15,6 @@
   * Dec 15
   * MyStatus, wasn't there a separate thing to upload documents?
   * Check make sure transcript has been finished reviewed.
-
-* [University of Colorado Boulder](https://grad.apply.colorado.edu/account/login) 
-  * Duolingo
-  * Dec 15
 
 
 * [Arizona State](https://webapp4.asu.edu/dgsadmissions/logout) 
@@ -33,40 +36,15 @@
   * ID:yhong64
   * [ASU program](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true)
 
-
-
-# DONE
-
 * [Washington University in St. Louis](https://gradadmit.wustl.edu/apply/?sr=4503835c-76a0-44d8-b086-00f19e2bb810)
   * Dec 15
   * Contact Prof Roman, add to profs contacted
   * Review CV/SOP and submit
 
 
-
-* [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) 
-  * DONE
-  * Dec 15
-  * TODO: Computing - PhD section
-  * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
-
-
-* [Uni of Nebraska Lincoln](https://go.unl.edu/gradapp) 
-  * Jan 15
-  * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
-  * No gre, no english requirement
-
 * [UNI Indiana](https://iugraduate2023.liaisoncas.com/applicant-ux/#/login) 
   * Dec 15
   * [requirements](https://bulletins.iu.edu/iu/gradschool/2020-2021/programs/bloomington/computer-science/index.shtml)
-
-* [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) 
-  * Dec 15
-  * TODO: Copy of passport
-
-* [University of Kansas](https://gograd.ku.edu/apply/) 
-  * Jan 5
-  * TODO: Copy of passport
 
 * [Ohio State](https://delegated.osu.edu/psp/csosuda/EMPLOYEE/CAMP/c/OAD_GEA.OAD_GEA_NUR_APL.GBL?) 
   * http://go.osu.edu/LOR
@@ -95,5 +73,28 @@
     * During my Master's degree, I was a teaching assistant for College Algebra (Math 1100) and Calculus for Social and Life Sciences I (Math 1400). I was responsible for lecturing, creating quizzes, proctoring,  exams,  grading exams,  and holding office hours. The lectures were 50 minutes, three times a week. Each lecture consisted of explanations and applications of key concepts and theorems. Quizzes were conducted bi-weekly and were designed to evaluate students' understanding of key concepts. When I was preparing for lectures and quizzes, I placed emphasis to teach in a way that would encourage students to grow into independent, critical thinkers. Each key concept was presented in its simplest form. Then, the class was encouraged to decide and provide a reason for which key concepts to apply for each problem.
   * Teaching experience, describe a specific instance when you helped your student/students overcome a misunderstanding or understand a difficult concept. If you do not have any teaching experience, describe an oral presentation or talk you gave that explains a particularly difficult concept. 250 words max.
     * The derivative of a function is a difficult and foreign concept to understand. First, the motivations behind the definition of the derivative are explained in terms of knowledge that students are already familiar with. Students are familiar with the definition of points and slope, so we say: the derivative is the slope of two function points, that are very close to each other on the x-axis. Second, a specific, concrete example is demonstrated. We take f(x)=x*x and observe how the slope of two closer function points centered at x=0 converge towards the slope of the tangent line at x=0. We do the same for x=2,  x=-3, and other values. Third, we apply the definition of the derivative to f(x)=x*x and evaluate the derivative, 2x. Although students are not familiar with the formal definition of limits, they understand that the limit will make the two function points closer to each other on the x-axis. The derivative value 2x is verified to be consistent with the concrete examples we solved in the previous step.
+
+# DONE
+
+* [University of Kansas](https://gograd.ku.edu/apply/) 
+  * Jan 5
+  * TODO: Copy of passport
+
+* [Illinois Urbana Champaign](https://choose.illinois.edu/apply/) 
+  * Dec 15
+  * TODO: Copy of passport
+
+* [Uni of Nebraska Lincoln](https://go.unl.edu/gradapp) 
+  * Jan 15
+  * [Requirements](https://computing.unl.edu/graduate-admission-requirements/)
+  * No gre, no english requirement
+
+* [Georgia Institute of Technology](https://grad.gatech.edu/preparing-your-application) 
+  * DONE
+  * Dec 15
+  * TODO: Computing - PhD section
+  * [Requirements](https://www.cc.gatech.edu/phd-cs-admissions-requirements)
+  * CONTACT
+    * Schafer: https://f-t-s.github.io/projects/cgd/
 
 

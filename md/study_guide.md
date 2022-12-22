@@ -1,4 +1,23 @@
 # Study guide
+
+* Problem solving is a loop process
+  * Define problem (impact what do we need to know, what are the key elements of problem? what are the issues?
+  * Where should we spend our time? Analysis what are we trying to prove/disprove?
+  * So what, what implications does our findings have?
+  * potential solution: what should we do?
+  * next iteration
+
+* 4 phases of solution
+  * understanding of problem
+    * incomplete understanding, lack of concentration
+  * devise a plan
+    * rush into calclation and construction without any plan or general idea
+    * wait clumsily for some idea to come and cannot do anythign that would accelerate its coming
+  * Carrying out the plan 
+    * carelessness, lack of patience checking each steap
+  * Check the result
+    * failure to check result
+* Create questions whose answer will allow you to retrace the development of the ideas
 * Ask questions as you go and answer them
 * Active Learning Mapping Exercise
   * Identify each component in the definition
