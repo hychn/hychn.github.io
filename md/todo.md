@@ -13,6 +13,11 @@
 * Review
 * Continuity, why is it important?
 
+# RL
+* Lets try our own improvement for tictactoe
+  * Look at this example see how it does, why it works well, why it doesn't
+  * [example](https://github.com/fdasilva59/Udacity-Deep-Reinforcement-Learning-Nanodegree)
+* [RL for classic games](https://github.com/deepmind/open_spiel)
 
 
 * Need to learn the classical algorithms like A3C

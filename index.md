@@ -3,7 +3,7 @@
 * [Check.html](html/Check.html)
 * [diet.html](html/diet.html)
 * [GOALS.html](html/GOALS.html)
-* [Holotypecomm.html](html/Holotypecomm.html)
+* [holotypecomm.html](html/holotypecomm.html)
 * [jobs.html](html/jobs.html)
 * [journal.html](html/journal.html)
 * [stats.html](html/stats.html)
