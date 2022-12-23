@@ -45,6 +45,7 @@
   * [statement_of_purpose.html](html/gradschool/statement_of_purpose.html)
 * ./linear_algebra
   * [linalg.html](html/linear_algebra/linalg.html)
+  * [summary.html](html/linear_algebra/summary.html)
 * ./logic
   * [logical_operations.html](html/logic/logical_operations.html)
 * ./math_journal
