@@ -40,8 +40,28 @@
 
 >! * Key ideas from above: Basis of subspace is LI in superspace
 >! * Extension of existing LI elements to new basis allows us to draw powerful conclusions because we can infer additional properties 
+>! * ??? Is there some general way to capture the relationship between, LI, LD elements instead of doing this case-by-case check?
 
 
+# Matrices and Linear maps
+* Change of Basis
+* linear map as matrix 1-1 relationship?
+
+# !!! let G generate V, then $|G|>=dim(V)$
+* Interesting way to prove by contradiction of $|G|<dim(V)$
+  * $G={g_1}$ with $V={v_1, v_2}$
+    * $v1=a_1*g1$
+    * $v2=a_2*g1$
+    * then $k*v1+k*v2=0$
+  * $G={g_1, g_2}$ with $V={v_1, v_2, v_3}$
+    * $v_1=a_1*g_1 + b_1*g_2$
+    * $v_2=a_2*g_1 + b_2*g_2$
+    * $v_3=a_3*g_1 + b_3*g_2$
+    * do Guassian elimination and we get
+    * $a*v_1-a*v_2 = g_2$
+    * $b*v_2-b*v_3 = g_2$
+    * from here we get LD
+  * the Gaussian elim idea is also kinda used in determinants
 
 # Determinant
 * Determinants? A nice way to compare and see the linear dependence/independence of vectors
