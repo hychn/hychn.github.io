@@ -1,5 +1,25 @@
 # Study guide
 
+
+* When a student is exasperatingly slow, the trouble is almost always the same
+  * he has no desire at all to solve the problem,
+  * even no desire to understand it properly
+    * a lack of concentration, wait clumsily for some idea to come and connot do anythign that would accelerate it's coming
+    * rush into calculations or constructions without any plan or general idea
+  * so stir up his curiosity, give him some desire to solve the problem
+  * allow some time to the student to make his mind, to settle down to his task
+* Teaching to solve problems is education of the will
+  * Solving problems which are not too easy for him, the student learns to 
+    * persevere through unsuccess,
+    * to appreciate small advances,
+    * to wait for the essential idea
+    * to concentrate with all his might when it appears
+    * familiarize with the varying emotions of the struggle for the solution
+
+* anchor points are an extremely strong tool, to anchor your thoughts and thought directions
+  * They can be questions, key properties, objectives
+  * Without anchor points, your mind can wander and you can feel naseous
+
 * Problem solving is a loop process
   * Define problem (impact what do we need to know, what are the key elements of problem? what are the issues?
   * Where should we spend our time? Analysis what are we trying to prove/disprove?
