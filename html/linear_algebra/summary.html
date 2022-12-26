@@ -1,30 +1,43 @@
 <!DOCTYPE html><html><head><title>summary</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="scroll_bottom()">GOTO END</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<ul>
+<li>DEF Product Space</li>
+<li>DEF DirectSum/OuterProduct Space</li>
+</ul>
+
 <h1>Dimension</h1>
 
 <ul>
 <li>THM the maximal LI elements generate a vector space</li>
 <li>THM for a finte vector space number of maximal LI elements is unique. We call this the dimension of the vector space</li>
+</ul>
+
+<h1>Basis</h1>
+
+<ul>
+<li>Given a group of LI elements \( <  Dim(V)\), you can extend this group up to \(Dim(V)\) elements</li>
+</ul>
+
+<h1>Subspaces</h1>
+
+<ul>
+<li>The basis of a subspace is LI in the superspace</li>
 <li>EX A vector subspace may not share the same basis as the containing set. Consider \(\mathbb{R}^2\) whose basis is \((1,0), and (0,1)\) and subspace \(k(1,1)\)</li>
 </ul>
 
 <h1>Linear map</h1>
 
 <ul>
-<li><p>THM There is a 1-1 mapping between every linear map and space of matrices (Are you sure it's one to one?)</p></li>
-<li><p>\(dim(V) = dim(Kerf) + dim(Imf)\)</p></li>
-<li>if \(kerf={0}\) then the basis of domain coincides with basis of image due to the LI being linked across f
+<li><p>THM \(dim(V) = dim(Kerf) + dim(Imf)\)</p>
+
+<ul>
+<li>IDEA: if \(kerf={0}\) then the basis of domain coincides with basis of image due to the LI being linked across f
 <ul>
 <li>\(0 = k_1*f(b_1) + ... + k_n*f(b_n) = f(k_1*b_1 + ... + k_n*b_n) \leftrightarrow k_1*b_1 + ... + k_n*b_n=0 \)</li>
 </ul></li>
 <li>So the objective is to take f and construct a quotient space where the the \(kerf={0}\)</li>
-<li><p>\(V/W\) Quotient Vector Spaces is indeed a vector space</p></li>
-<li><p>LI in \(V\) and not in \(W\) means LI in \(V/W\)</p>
-
-<ul>
-<li>suppose it was not LI then \(k*b_1+k\)</li>
 </ul></li>
-<li><p>LI in \(V/W\) means LI in \(V\)</p></li>
-<li><p>claim: \(dim(V) = dim(V/W) + dim(W)\)</p></li>
+<li><p>DEF Quotient Vector Spaces \(V/W\) is a vector space</p></li>
+<li>THM \(dim(V) = dim(V/W) + dim(W)\)</li>
 </ul>
 
 <blockquote onclick="click_spoiler(event)" class="spoiler">
@@ -32,8 +45,7 @@
   <li>let \(dim(V)=n\)</li>
   <li>let \(w_1 ... w_m\) be the basis of \(W\)</li>
   <li>since the basis of \(W\) is also LI we can extend it to n elements \(w_1 ... w_m, b_{m+1}, ..., b_n\)</li>
-  <li><p>now we will show that \(b_{m+1}, ..., b_n\) is the basis of \(V/W\)</p>
-  
+  <li>now we will show that \(b_{m+1}, ..., b_n\) is the basis of \(V/W\)
   <ul>
   <li>first \(b_{m+1}, ..., b_n\) is LI in \(V/W\) because it is LI with the basis of W 
   <ul>
@@ -59,8 +71,7 @@
   </ul></li>
   <li>This means length of basis for \(V/W\) must be equal to \(b_{m+1}, ..., b_n\), giving us \(dim(V) = dim(V/W) + dim(W)\)</li>
   </ul></li>
-  
-  <li><p>Key ideas from above: Basis of subspace is LI in superspace</p></li>
+  <li>Key ideas from above: Basis of subspace is LI in superspace</li>
   <li>Extension of existing LI elements to new basis allows us to draw powerful conclusions because we can infer additional properties </li>
   <li>??? Is there some general way to capture the relationship between, LI, LD elements instead of doing this case-by-case check?</li>
   </ul>
@@ -69,34 +80,40 @@
 <h1>Matrices and Linear maps</h1>
 
 <ul>
-<li>Change of Basis</li>
-<li>linear map as matrix 1-1 relationship?</li>
+<li>Matrices/Linear maps induce a change of basis</li>
+<li>THM There is a 1-1 mapping between every linear map and space of matrices (Are you sure it's one to one?)</li>
 </ul>
 
-<h1>!!! let G generate V, then \(|G| > =dim(V)\)</h1>
+<h1>Gaussian Elimination</h1>
 
 <ul>
-<li>Interesting way to prove by contradiction of \(|G| < dim(V)\)
-<ul>
-<li>\(G={g_1}\) with \(V={v_1, v_2}\)
-<ul>
-<li>\(v1=a_1*g1\)</li>
-<li>\(v2=a_2*g1\)</li>
-<li>then \(k*v1+k*v2=0\)</li>
-</ul></li>
-<li>\(G={g_1, g_2}\) with \(V={v_1, v_2, v_3}\)
-<ul>
-<li>\(v_1=a_1*g_1 + b_1*g_2\)</li>
-<li>\(v_2=a_2*g_1 + b_2*g_2\)</li>
-<li>\(v_3=a_3*g_1 + b_3*g_2\)</li>
-<li>do Guassian elimination and we get</li>
-<li>\(a*v_1-a*v_2 = g_2\)</li>
-<li>\(b*v_2-b*v_3 = g_2\)</li>
-<li>from here we get LD</li>
-</ul></li>
-<li>the Gaussian elim idea is also kinda used in determinants</li>
-</ul></li>
+<li>THM Let G generate V, then \(|G| > = dim(V)\)</li>
 </ul>
+
+<blockquote onclick="click_spoiler(event)" class="spoiler">
+  <ul>
+  <li>Interesting way to prove by contradiction of \(|G| < dim(V)\)
+  <ul>
+  <li>\(G={g_1}\) with \(V={v_1, v_2}\)
+  <ul>
+  <li>\(v1=a_1*g1\)</li>
+  <li>\(v2=a_2*g1\)</li>
+  <li>then \(k*v1+k*v2=0\)</li>
+  </ul></li>
+  <li>\(G={g_1, g_2}\) with \(V={v_1, v_2, v_3}\)
+  <ul>
+  <li>\(v_1=a_1*g_1 + b_1*g_2\)</li>
+  <li>\(v_2=a_2*g_1 + b_2*g_2\)</li>
+  <li>\(v_3=a_3*g_1 + b_3*g_2\)</li>
+  <li>do Guassian elimination and we get</li>
+  <li>\(a*v_1-a*v_2 = g_2\)</li>
+  <li>\(b*v_2-b*v_3 = g_2\)</li>
+  <li>from here we get LD</li>
+  </ul></li>
+  <li>the Gaussian elim idea is also kinda used in determinants</li>
+  </ul></li>
+  </ul>
+</blockquote>
 
 <h1>Determinant</h1>
 

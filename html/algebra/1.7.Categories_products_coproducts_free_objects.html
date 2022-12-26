@@ -66,30 +66,49 @@
 
 <ul>
 <li>so that for any other object, \(B\), with mappings to the family \(\psi_i: B \rightarrow A_i\) </li>
-<li>there is unique \(f: B \rightarrow A\) with \(\pi_i \circ f = \psi_i\)</li>
+<li>there is unique \(f: B \rightarrow P\) with \(\pi_i \circ f = \psi_i\)</li>
+<li>\(P \rightarrow A_i \leftarrow B\)</li>
+<li>\(f:B \rightarrow P\)</li>
 </ul></li>
-<li>THM two product of the same family are equivalent
+<li><p>THM two product of the same family are equivalent</p></li>
+</ul>
+
+<blockquote onclick="click_spoiler(event)" class="spoiler">
+  <ul>
+  <li>consider two products P,B and \(f:B \rightarrow A\)</li>
+  <li>we need to show \(f \circ g = 1\) and \(g \circ f = 1\) 
+  <ul>
+  <li>\(f \circ g\) and \(1\) both satisfy link function of commuting the family mapping from P to P
+  <ul>
+  <li>since the link function is unique, they are equal. This means f is inverse of g</li>
+  <li>so the two products are equivalent</li>
+  </ul></li>
+  </ul></li>
+  <li>draw out the diagram, it is quite interesting how you can put the two \(P \rightarrow A_i \leftarrow B\) maps together to form </li>
+  <li>??? What does it mean for comm diagram to commute?</li>
+  </ul>
+</blockquote>
+
 <ul>
-<li>consider two products P,B and \(f:B \rightarrow A\)</li>
-<li>we need to show \(f \circ g = 1\) and \(g \circ f = 1\) 
-<ul>
-<li>\(f \circ g\) and \(1\) both satisfy link function of commuting the family mapping from P to P
-<ul>
-<li>since the link function is unique, they are equal. This means f is inverse of g</li>
-<li>so the two products are equivalent</li>
-</ul></li>
-</ul></li>
-<li>draw out the diagram, it is quite interesting how you can put the two \(P \rightarrow A_i \leftarrow B\) maps together to form </li>
-</ul></li>
 <li>DEF Coproduct/Sum: Same definition as Product except the mappings to family and link mapping are reversed
 <ul>
-<li>\(C \leftarrow A_i \rightarrow B\)</li>
-<li>what examples are there?</li>
+<li>\(S \leftarrow A_i \rightarrow B\)</li>
+<li>with unique \(f:S \rightarrow B\)</li>
+<li>examples:
+<ul>
 <li>The direct sum definition in linear algebra says that the sum must have unique representation or sum of vector subspaces whose intersection is zero</li>
 </ul></li>
+</ul></li>
+<li>DEF F is Free on X if 
+<ul>
+<li>\(F \leftarrow X \rightarrow B\)</li>
+<li>with unique \(f:S \rightarrow B\)</li>
+</ul></li>
 <li>THM two co products of same family are equivalent</li>
-<li><p>DEF initial element: Let \(I\) be an initial element, then for any other object \(O\), there is unique morphism from \(I \rightarrow O\)</p></li>
-<li><p>EXAMPLE: </p>
+<li>DEF initial element: Let \(I\) be an initial element, then for any other object \(O\), there is unique morphism from \(I \rightarrow O\)</li>
+<li>DEF terminal element</li>
+<li><p>initial/terminal property is what you need to say any two initial/terminal objects are equivalent</p></li>
+<li><p>EXAMPLE Deconstruction of Free object into an initial object</p>
 
 <ul>
 <li>The morphism from \(f:F \rightarrow O\) such that \(f \circ i = j\) is unique</li>
@@ -99,7 +118,38 @@
 <li>I like it becaause its making the more complex space simpler (a morphism in our new space means the commute relationship must hold automatically)</li>
 </ul></li>
 </ul></li>
-<li><p>What does it mean for comm diagram to commute?</p></li>
+<li>EXAMPLE Deconstruction of Product into an initial object</li>
+<li>Can you build something similar for Products and Coproducts</li>
+</ul>
+
+<h1>Exercises</h1>
+
+<ul>
+<li>??? Are there any interesting exercises in particular? that illustrates an interesting point?</li>
+<li>DEF pointed sets</li>
+<li><ol>
+<li>Inverse of equivalent morphism is unique</li>
+</ol></li>
+<li><ol>
+<li>Deriving a unique morphism for product of group</li>
+<li>we describe f that commutes \(\pi_i \circ f = f_i\)</li>
+<li>is f a morphism of groups? is it unique?</li>
+</ol></li>
+<li><ol>
+<li>Same as #3 but for coproduct of group</li>
+</ol></li>
+<li><ol>
+<li>Construct a coproduct of sets</li>
+</ol></li>
+<li><ol>
+<li>Construct a </li>
+<li>product for pointed sets</li>
+<li>coproduct for pointed sets</li>
+</ol></li>
+<li><ol>
+<li>The properties of a Free object can force i to be injective because it is linked to the other object</li>
+</ol></li>
+<li>8.</li>
 </ul>
 
 <h1>Questions To Teach</h1>
