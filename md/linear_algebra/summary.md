@@ -4,8 +4,9 @@
 * EX A vector subspace may not share the same basis as the containing set. Consider $\mathbb{R}^2$ whose basis is $(1,0), and (0,1)$ and subspace $k(1,1)$
 
 # Linear map
+* THM There is a 1-1 mapping between every linear map and space of matrices (Are you sure it's one to one?)
+
 * $dim(V) = dim(Kerf) + dim(Imf)$
-* For every linear map there is a matrix which represents it
 * if $kerf={0}$ then the basis of domain coincides with basis of image due to the LI being linked across f
   * $0 = k_1*f(b_1) + ... + k_n*f(b_n) = f(k_1*b_1 + ... + k_n*b_n) \leftrightarrow k_1*b_1 + ... + k_n*b_n=0 $
 * So the objective is to take f and construct a quotient space where the the $kerf={0}$
