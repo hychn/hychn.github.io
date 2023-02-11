@@ -97,7 +97,7 @@ def get_fphtml(fpmd):
     return fp_html
 
 
-exclude = ['.git', '.ipynb_checkpoints','__pycache__', 'ytil', 'ignore']
+exclude = ['.git', '.ipynb_checkpoints','__pycache__', 'ytil', '.ignore']
 
 
 for root, dirs, files in os.walk(MD, topdown=True):

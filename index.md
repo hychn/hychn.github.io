@@ -1,17 +1,6 @@
 * ./
-* [A.objectives.html](html/A.objectives.html)
-* [Check.html](html/Check.html)
-* [diet.html](html/diet.html)
 * [GOALS.html](html/GOALS.html)
-* [holotypecomm.html](html/holotypecomm.html)
-* [jobs.html](html/jobs.html)
-* [journal.html](html/journal.html)
-* [stats.html](html/stats.html)
 * [study_guide.html](html/study_guide.html)
-* [surf.html](html/surf.html)
-* [todo.html](html/todo.html)
-* [UI.html](html/UI.html)
-* [workout.html](html/workout.html)
 * ./algebra
   * [0prelim.html](html/algebra/0prelim.html)
   * [1.1.Semigroups_Monoids_Groups.html](html/algebra/1.1.Semigroups_Monoids_Groups.html)
@@ -24,36 +13,38 @@
   * [MAPranaly.html](html/analysis/MAPranaly.html)
   * [ranalysis.html](html/analysis/ranalysis.html)
   * [TOC.html](html/analysis/TOC.html)
-* ./books
-  * [courage_to_be_disliked.html](html/books/courage_to_be_disliked.html)
-* ./euclid
-  * [book1.html](html/euclid/book1.html)
-  * [mathematicianbook.html](html/euclid/mathematicianbook.html)
-* ./gradschool
-  * [1.TDASchoolProgram.html](html/gradschool/1.TDASchoolProgram.html)
-  * [2.TDABasics.html](html/gradschool/2.TDABasics.html)
-  * [Application.html](html/gradschool/Application.html)
-  * [compile.html](html/gradschool/compile.html)
-  * [CV.html](html/gradschool/CV.html)
-  * [emails.html](html/gradschool/emails.html)
-  * [info.html](html/gradschool/info.html)
-  * [personal_statement.html](html/gradschool/personal_statement.html)
-  * [plan.html](html/gradschool/plan.html)
-  * [resume.html](html/gradschool/resume.html)
-  * [SOP.html](html/gradschool/SOP.html)
-  * [SOPbk.html](html/gradschool/SOPbk.html)
-  * [statement_of_purpose.html](html/gradschool/statement_of_purpose.html)
-* ./linear_algebra
-  * [linalg.html](html/linear_algebra/linalg.html)
-  * [summary.html](html/linear_algebra/summary.html)
-* ./logic
-  * [logical_operations.html](html/logic/logical_operations.html)
+* ./linalg
+  * [linalg.html](html/linalg/linalg.html)
+  * [summary.html](html/linalg/summary.html)
 * ./math_journal
+  * [euclid.html](html/math_journal/euclid.html)
+  * [journal.html](html/math_journal/journal.html)
+  * [logic.html](html/math_journal/logic.html)
   * [mathtips.html](html/math_journal/mathtips.html)
-* ./network
-  * [RL.html](html/network/RL.html)
-* ./RL
-  * [concise_stats.html](html/RL/concise_stats.html)
-  * [minimax.html](html/RL/minimax.html)
-  * [rldmitri_notes.html](html/RL/rldmitri_notes.html)
-  * [RLspinningup.html](html/RL/RLspinningup.html)
+  * [stats.html](html/math_journal/stats.html)
+* ./zdesktop
+  * [diet.html](html/zdesktop/diet.html)
+  * [UI.html](html/zdesktop/UI.html)
+  * [workout.html](html/zdesktop/workout.html)
+  * ./zdesktop/gradschool
+    * [1.TDASchoolProgram.html](html/zdesktop/gradschool/1.TDASchoolProgram.html)
+    * [2.TDABasics.html](html/zdesktop/gradschool/2.TDABasics.html)
+    * [Application.html](html/zdesktop/gradschool/Application.html)
+    * [Check.html](html/zdesktop/gradschool/Check.html)
+    * [compile.html](html/zdesktop/gradschool/compile.html)
+    * [CV.html](html/zdesktop/gradschool/CV.html)
+    * [emails.html](html/zdesktop/gradschool/emails.html)
+    * [info.html](html/zdesktop/gradschool/info.html)
+    * [personal_statement.html](html/zdesktop/gradschool/personal_statement.html)
+    * [plan.html](html/zdesktop/gradschool/plan.html)
+    * [resume.html](html/zdesktop/gradschool/resume.html)
+    * [SOP.html](html/zdesktop/gradschool/SOP.html)
+    * [SOPbk.html](html/zdesktop/gradschool/SOPbk.html)
+    * [statement_of_purpose.html](html/zdesktop/gradschool/statement_of_purpose.html)
+  * ./zdesktop/novels
+    * [courage_to_be_disliked.html](html/zdesktop/novels/courage_to_be_disliked.html)
+  * ./zdesktop/RL
+    * [concise_stats.html](html/zdesktop/RL/concise_stats.html)
+    * [minimax.html](html/zdesktop/RL/minimax.html)
+    * [rldmitri_notes.html](html/zdesktop/RL/rldmitri_notes.html)
+    * [RLspinningup.html](html/zdesktop/RL/RLspinningup.html)

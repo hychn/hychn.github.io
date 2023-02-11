@@ -92,6 +92,10 @@
     * Consider the variations in the defintion?
     * intra and inter relationship of definition
 
+  * When learning set of new objects X Y
+    * XRY -> YRX
+    * XRY -> X~Y
+
 # Notes
 * sectioned, modular pairings of (details, outline)
   * details: notes, proofs, insights
