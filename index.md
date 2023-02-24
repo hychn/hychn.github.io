@@ -1,5 +1,6 @@
 * ./
 * [GOALS.html](html/GOALS.html)
+* [plangrad.html](html/plangrad.html)
 * [study_guide.html](html/study_guide.html)
 * ./algebra
   * [0prelim.html](html/algebra/0prelim.html)
