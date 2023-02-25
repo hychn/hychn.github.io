@@ -20,9 +20,12 @@
 * ./math_journal
   * [euclid.html](html/math_journal/euclid.html)
   * [journal.html](html/math_journal/journal.html)
+  * [key_theorems_basics.html](html/math_journal/key_theorems_basics.html)
   * [logic.html](html/math_journal/logic.html)
   * [mathtips.html](html/math_journal/mathtips.html)
   * [stats.html](html/math_journal/stats.html)
+* ./RL
+  * [rl.html](html/RL/rl.html)
 * ./zdesktop
   * [diet.html](html/zdesktop/diet.html)
   * [UI.html](html/zdesktop/UI.html)
