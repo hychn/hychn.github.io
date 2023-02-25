@@ -1,3 +1,27 @@
+# Next step
+* Refresh what PPO is
+* See how it is implemented in the connect 4 example
+* https://towardsdatascience.com/proximal-policy-optimization-ppo-explained-abed1952457b
+* Apply it to your own mcst algo (can it be applied to mcst?)
+  * Yes, it is possible to apply the Proximal Policy Optimization (PPO) algorithm to a Monte Carlo Tree Search (MCTS) model-based algorithm. However, it's important to note that MCTS is already a model-based algorithm that uses simulations to construct a tree of possible future states and actions, whereas PPO is a model-free reinforcement learning algorithm that learns a policy directly from experience.
+  * In this hybrid approach, the MCTS algorithm is used to simulate the environment and estimate the value of each state, while PPO is used to learn a policy that optimizes the agent's actions in each state. The policy learned by PPO can be used to guide the MCTS search and improve its efficiency and effectiveness.
+  * One approach to combining PPO with MCTS is to use PPO to train a neural network that takes as input the state of the game and outputs a probability distribution over actions. This network can then be used to guide the MCTS search by biasing the selection of actions towards those with higher probabilities. The MCTS algorithm can also be used to generate additional training data for the PPO algorithm by simulating the environment and collecting state-action pairs.
+  * Overall, combining PPO with MCTS can be an effective way to leverage the strengths of both model-based and model-free reinforcement learning algorithms. However, the specific details of how to combine these algorithms will depend on the particular problem and environment being studied.
+
+
+# Loss of example
+* A = log(predp)*p
+* B = torch.where(p>0, p*log(p),0)
+* loss = B-A
+* looks like normalization of entropy or something
+* This is -plog(pred_p) for p≤0 and plog(p)-plog(pred_p)=plog(p/pred_p) for p>0. This sort of looks like one of the surrogates for PPO. Where is this from?
+
+
+# What was the definition of entropy?
+# What was the motivation behind KL divergence?
+* encoding passing information in bits
+
+
 # on policy vs off policy
 * An off-policy learner learns the value of the optimal policy independently of the agent's actions. Q-learning is an off-policy learner. An on-policy learner learns the value of the policy being carried out by the agent including the exploration steps."
 * The reason that Q-learning is off-policy is that it updates its Q-values using the Q-value of the next state s′s′ and the greedy action a′a′. In other words, it estimates the return (total discounted future reward) for state-action pairs assuming a greedy policy were followed despite the fact that it's not following a greedy policy.

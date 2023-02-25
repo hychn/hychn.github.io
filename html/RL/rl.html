@@ -1,4 +1,37 @@
 <!DOCTYPE html><html><head><title>rl</title><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><link rel = "stylesheet" type = "text/css" href = "https://hychn.github.io/style.css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script src="https://hychn.github.io/tbl_contents.js"></script> </head> <body style="background-color:white;"> <div class="top"><button onclick="toggle_show()">Table of Contents</button> <button onclick="toggle_show_spoiler()">Toggle Spoiler</button>  <button onclick="toggle_hide_spoiler()">Toggle Hide</button> <div id="toc_frame"> <div id="toc"></div> </div> </div>   <div id="contents">
+<h1>Next step</h1>
+
+<ul>
+<li>Refresh what PPO is</li>
+<li>See how it is implemented in the connect 4 example</li>
+<li>https://towardsdatascience.com/proximal-policy-optimization-ppo-explained-abed1952457b</li>
+<li>Apply it to your own mcst algo (can it be applied to mcst?)
+<ul>
+<li>Yes, it is possible to apply the Proximal Policy Optimization (PPO) algorithm to a Monte Carlo Tree Search (MCTS) model-based algorithm. However, it's important to note that MCTS is already a model-based algorithm that uses simulations to construct a tree of possible future states and actions, whereas PPO is a model-free reinforcement learning algorithm that learns a policy directly from experience.</li>
+<li>In this hybrid approach, the MCTS algorithm is used to simulate the environment and estimate the value of each state, while PPO is used to learn a policy that optimizes the agent's actions in each state. The policy learned by PPO can be used to guide the MCTS search and improve its efficiency and effectiveness.</li>
+<li>One approach to combining PPO with MCTS is to use PPO to train a neural network that takes as input the state of the game and outputs a probability distribution over actions. This network can then be used to guide the MCTS search by biasing the selection of actions towards those with higher probabilities. The MCTS algorithm can also be used to generate additional training data for the PPO algorithm by simulating the environment and collecting state-action pairs.</li>
+<li>Overall, combining PPO with MCTS can be an effective way to leverage the strengths of both model-based and model-free reinforcement learning algorithms. However, the specific details of how to combine these algorithms will depend on the particular problem and environment being studied.</li>
+</ul></li>
+</ul>
+
+<h1>Loss of example</h1>
+
+<ul>
+<li>A = log(predp)*p</li>
+<li>B = torch.where(p>0, p*log(p),0)</li>
+<li>loss = B-A</li>
+<li>looks like normalization of entropy or something</li>
+<li>This is -plog(pred<em>p) for p≤0 and plog(p)-plog(pred</em>p)=plog(p/pred_p) for p>0. This sort of looks like one of the surrogates for PPO. Where is this from?</li>
+</ul>
+
+<h1>What was the definition of entropy?</h1>
+
+<h1>What was the motivation behind KL divergence?</h1>
+
+<ul>
+<li>encoding passing information in bits</li>
+</ul>
+
 <h1>on policy vs off policy</h1>
 
 <ul>
