@@ -1,17 +1,30 @@
+# on policy vs off policy
+* An off-policy learner learns the value of the optimal policy independently of the agent's actions. Q-learning is an off-policy learner. An on-policy learner learns the value of the policy being carried out by the agent including the exploration steps."
+* The reason that Q-learning is off-policy is that it updates its Q-values using the Q-value of the next state s′s′ and the greedy action a′a′. In other words, it estimates the return (total discounted future reward) for state-action pairs assuming a greedy policy were followed despite the fact that it's not following a greedy policy.
+
+
 # Stable baselines and how can we use this?
 * https://github.com/DLR-RM/stable-baselines3
+* KL-divergence
+
+* Advantage: represents how much better or worse an action is compared to the average action in a given state, taking into account the expected reward and the current policy.
 
 # PPO
-The Proximal Policy Optimization (PPO) algorithm is a popular reinforcement learning algorithm used to train agents to perform tasks in complex environments. It is based on the policy gradient algorithm, which aims to optimize a policy function that maps observations to actions.
-PPO introduces two key concepts: the clipped surrogate objective and the trust region constraint. The clipped surrogate objective is a modification to the standard policy gradient objective that limits the change in the policy update. This is done to prevent large changes to the policy that could lead to instability during training.
-The trust region constraint ensures that the updated policy is close to the old policy, which also helps to prevent instability during training. The idea is to constrain the size of the policy update so that it does not deviate too far from the current policy.
-PPO operates by iteratively collecting data from the environment using the current policy, and then using that data to update the policy. Each iteration involves the following steps:
-Collect data: The agent interacts with the environment using the current policy to generate a batch of observations and actions.
-Compute advantages: The advantages of each action are estimated using a value function or other method.
-Compute surrogate objective: The clipped surrogate objective is computed using the current and updated policies and the advantages.
-Update policy: The policy is updated using an optimization algorithm that minimizes the surrogate objective subject to the trust region constraint.
-Repeat: The process is repeated for a fixed number of iterations or until convergence.
-Overall, PPO is a powerful and effective algorithm for training agents to perform tasks in complex environments, and it has been used to achieve state-of-the-art performance in a variety of applications.
+* The main idea behind ppo is 
+  * Select the best parameter for expected advantage 
+  * bound the advantange of new parameter to be epsilon close advantange of previous parameter
+
+* https://spinningup.openai.com/en/latest/algorithms/ppo.html
+* The Proximal Policy Optimization (PPO) algorithm is a popular reinforcement learning algorithm used to train agents to perform tasks in complex environments. It is based on the policy gradient algorithm, which aims to optimize a policy function that maps observations to actions.
+* PPO introduces two key concepts: the clipped surrogate objective and the trust region constraint. The clipped surrogate objective is a modification to the standard policy gradient objective that limits the change in the policy update. This is done to prevent large changes to the policy that could lead to instability during training.
+* The trust region constraint ensures that the updated policy is close to the old policy, which also helps to prevent instability during training. The idea is to constrain the size of the policy update so that it does not deviate too far from the current policy.
+* PPO operates by iteratively collecting data from the environment using the current policy, and then using that data to update the policy. Each iteration involves the following steps:
+* Collect data: The agent interacts with the environment using the current policy to generate a batch of observations and actions.
+* Compute advantages: The advantages of each action are estimated using a value function or other method.
+* Compute surrogate objective: The clipped surrogate objective is computed using the current and updated policies and the advantages.
+* Update policy: The policy is updated using an optimization algorithm that minimizes the surrogate objective subject to the trust region constraint.
+* Repeat: The process is repeated for a fixed number of iterations or until convergence.
+* Overall, PPO is a powerful and effective algorithm for training agents to perform tasks in complex environments, and it has been used to achieve state-of-the-art performance in a variety of applications.
 
 
 # Different types of RL algorithms 

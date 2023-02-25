@@ -28,6 +28,7 @@
   * [rl.html](html/RL/rl.html)
 * ./zdesktop
   * [diet.html](html/zdesktop/diet.html)
+  * [gamedev.html](html/zdesktop/gamedev.html)
   * [UI.html](html/zdesktop/UI.html)
   * [workout.html](html/zdesktop/workout.html)
   * ./zdesktop/gradschool
