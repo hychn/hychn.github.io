@@ -4,7 +4,12 @@
 
 
 # Stable baselines and how can we use this?
+* https://github.com/laserany/snake-ai-model
+
+
+* https://github.com/deepmind/open_spiel
 * https://github.com/DLR-RM/stable-baselines3
+* https://github.com/Farama-Foundation/Minigrid
 * KL-divergence
 
 * Advantage: represents how much better or worse an action is compared to the average action in a given state, taking into account the expected reward and the current policy.
