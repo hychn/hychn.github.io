@@ -25,8 +25,10 @@
   * B's probabilities are $q_n$
   * A events are bit encoded to minimize the bits expressed probabilistically. $1/2^n = 11..(n-1)..1110$ 
     * this means a event with probability $1/2^n$ uses nbits to encode the event
+  * So entryopy is $\sum log_2(1/p_n)*p_n$
+* What is KL divergence
   * Expected number of bits for B using A's encoding
-    * $KL(A,B) = \sum log_2(p_n)*q_n$
+  * So entryopy is $\sum log_2(q_n/p_n)*q_n$
 
 
 # on policy vs off policy
