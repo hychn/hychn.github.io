@@ -29,7 +29,20 @@
 <h1>What was the motivation behind KL divergence?</h1>
 
 <ul>
-<li>encoding passing information in bits</li>
+<li>encoding passing information in bits
+<ul>
+<li>say there are a set of events observed with different probabilities for A and B</li>
+<li>A's probabilties are split by \(p_n=1/2^n\)</li>
+<li>B's probabilities are \(q_n\)</li>
+<li>A events are bit encoded to minimize the bits expressed probabilistically. \(1/2^n = 11..(n-1)..1110\) 
+<ul>
+<li>this means a event with probability \(1/2^n\) uses nbits to encode the event</li>
+</ul></li>
+<li>Expected number of bits for B using A's encoding
+<ul>
+<li>\(KL(A,B) = \sum log_2(p_n)*q_n\)</li>
+</ul></li>
+</ul></li>
 </ul>
 
 <h1>on policy vs off policy</h1>

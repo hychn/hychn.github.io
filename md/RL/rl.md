@@ -20,6 +20,13 @@
 # What was the definition of entropy?
 # What was the motivation behind KL divergence?
 * encoding passing information in bits
+  * say there are a set of events observed with different probabilities for A and B
+  * A's probabilties are split by $p_n=1/2^n$
+  * B's probabilities are $q_n$
+  * A events are bit encoded to minimize the bits expressed probabilistically. $1/2^n = 11..(n-1)..1110$ 
+    * this means a event with probability $1/2^n$ uses nbits to encode the event
+  * Expected number of bits for B using A's encoding
+    * $KL(A,B) = \sum log_2(p_n)*q_n$
 
 
 # on policy vs off policy
